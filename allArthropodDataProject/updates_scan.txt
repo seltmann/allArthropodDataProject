@@ -1,0 +1,50 @@
+##normalizing updates for scan and AEC combined data run before analysis
+#run like source updates_scan.txt
+
+update omoccurrences set infraspecificEpithet=NULL where infraspecificEpithet='';
+update omoccurrences set specificEpithet=NULL where specificEpithet='';
+update omoccurrences set family=NULL where family='';
+update omoccurrences set sciname=scientificName where sciname is NULL;
+update omoccurrences set eventDate=NULL where eventDate = '0000-00-00';
+update omoccurrences set taxonRank='subspecies' where infraspecificEpithet is not NULL and taxonRank is NULL;
+update omoccurrences set taxonRank='species' where infraspecificEpithet is NULL and specificEpithet is not NULL and taxonRank is NULL;
+update omoccurrences set taxonRank='genus' where infraspecificEpithet is NULL and specificEpithet is NULL and genus is not NULL and taxonRank is NULL;
+update omoccurrences set taxonRank='family' where family is not NULL and family=scientificName and infraspecificEpithet is NULL and specificEpithet is NULL and genus is NULL;
+update omoccurrences set taxonRank='unknown' where family is NULL and infraspecificEpithet is NULL and specificEpithet is NULL and genus is NULL;
+update omoccurrences set year=NULL where year='0';
+update omoccurrences set day=NULL where day='0';
+update omoccurrences set month=NULL where month='0';
+update omoccurrences set coordinateUncertaintyInMeters=NULL where coordinateUncertaintyInMeters='0';
+
+
+#normalize country names and delete all that is not USA and Canada
+UPDATE omoccurrences set country='USA' where country="Uited States";
+UPDATE omoccurrences set country='USA' where country="United sa";
+UPDATE omoccurrences set country='USA' where country="United Sates of America";
+UPDATE omoccurrences set country='USA' where country="United Staes";
+UPDATE omoccurrences set country='USA' where country="United States";
+UPDATE omoccurrences set country='USA' where country="United States ?";
+UPDATE omoccurrences set country='USA' where country="United States of Amercia";
+UPDATE omoccurrences set country='USA' where country="United States of Ameriaca";
+UPDATE omoccurrences set country='USA' where country="United States of America";
+UPDATE omoccurrences set country='USA' where country="United States of America ; États-Unis ; Verenigde Staten van Am";
+UPDATE omoccurrences set country='USA' where country="United States of Americal";
+UPDATE omoccurrences set country='USA' where country="United Stats";
+UPDATE omoccurrences set country='USA' where country="United_States";
+UPDATE omoccurrences set country='USA' where country="Unites States";
+UPDATE omoccurrences set country='USA' where country="Unuted States";
+UPDATE omoccurrences set country='USA' where country="USA ?";
+UPDATE omoccurrences set country='USA' where country="USA?";
+UPDATE omoccurrences set country='USA' where country="Uited States";
+UPDATE omoccurrences set country='USA' where country="[U.S.A.]";
+UPDATE omoccurrences set country='USA' where country="[USA]";
+UPDATE omoccurrences set country='USA' where country="U S A";
+UPDATE omoccurrences set country='USA' where country="U. S. A";
+UPDATE omoccurrences set country='USA' where country="U. S. A,";
+UPDATE omoccurrences set country='USA' where country="U. S. A.";
+UPDATE omoccurrences set country='USA' where country="U.S.A";
+UPDATE omoccurrences set country='Canada' where country="[Canada]";
+UPDATE omoccurrences set country='Canada' where country="Canad??";
+UPDATE omoccurrences set country='Canada' where country="Canada ?";
+#delete from omoccurrences where country !='Canada' and country !='USA';   
+      
