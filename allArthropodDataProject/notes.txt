@@ -1,0 +1,29 @@
+## notes from last version of allArthropodProject; outline to start this version
+
+5824999: all before editing countries
+1284560: AEC before editing countries
+
+Data issues - 
+1. both 0000-00-00 and NULL in db for eventDate with no date
+2. scientificName includes author but not year
+3. lots of stuff ended up in sciname that are not in scientificName. Creating 519,909 records with NULL in scientificName
+4. 93,300 records have no determination. This includes in family, sciname or ScientificName fields.
+5. over 3 million records do not have taxon rank filled out (cannot figure out higher taxonomy for those not determined to genus and below)
+6. sciname and scientific name??
+
+The limits are:
+1. determined to species
+2. number of species per family bins of <30, >30, >100 distinct collecting events that are georeferenced
+
+family, number <30, number >30, >100, >500, >1000
+
+select family,count(*) from sums2 where georeferenced < 30 group by family;
+select family,count(*) from sums2 where georeferenced >= 30 group by family;
+select family,count(*) from sums2 where georeferenced >= 100 group by family;
+select family,count(*) from sums2 where georeferenced >= 500 group by family;
+select family,count(*) from sums2 where georeferenced >= 1000 group by family;
+
+
+echo "select distinct institutionCode from omoccurrences;" | mysql -u root -p -D symbscan > institutionCode_echo.tsv
+
+

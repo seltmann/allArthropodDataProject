@@ -1,0 +1,7 @@
+update omoccurrences set locality=trim(locality);
+update omoccurrences set family=trim(family);
+update omoccurrences set genus=trim(genus);
+update omoccurrences set specificEpithet=trim(specificEpithet);
+update omoccurrences set stateProvince=trim(stateProvince);
+update omoccurrences set municipality=trim(municipality);
+update omoccurrences set county=trim(county);

@@ -1,0 +1,14 @@
+update omoccurrences set family='UNKNOWN_NULL' where family is NULL;
+update omoccurrences set genus='UNKNOWN_NULL' where genus is NULL;
+update omoccurrences set specificEpithet='UNKNOWN_NULL' where specificEpithet is NULL;
+update omoccurrences set municipality='UNKNOWN_NULL' where municipality is NULL;
+update omoccurrences set locality='UNKNOWN_NULL' where locality is NULL;
+update omoccurrences set stateProvince='UNKNOWN_NULL' where stateProvince is NULL;
+update omoccurrences set country='UNKNOWN_NULL' where country is NULL;
+update omoccurrences set county='UNKNOWN_NULL' where county is NULL;
+update omoccurrences set decimalLatitude='0.0000' where decimalLatitude is NULL;
+update omoccurrences set decimalLongitude='0.0000' where decimalLongitude is NULL;
+update omoccurrences set year='0000' where year is NULL;
+update omoccurrences set month='00' where month is NULL;
+update omoccurrences set day='00' where day is NULL;
+
