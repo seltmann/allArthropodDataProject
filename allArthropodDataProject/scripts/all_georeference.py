@@ -12,7 +12,7 @@ now = date.today()
 
 #connection information from mysql
 #main database
-connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="" )
+connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="allArthropod" )
 
 #test database
 #connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="" )
