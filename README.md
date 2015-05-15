@@ -1,4 +1,4 @@
-# allArthropodDataProject
+# allArthropodDataProject github code. Whats in this folder is the same stuff that is on the github site.
 
 The goal of this project is to evaluate all known arthropod data as of May 2015 to see where our community has research ready data. The limits of research ready data are:
 
@@ -14,3 +14,4 @@ Data quality and normalization. Past known issues include:
 2) taxon rank not filled out
 3) normalization of country codes
 4) normalization of NULL values
+
