@@ -1,17 +1,22 @@
-# allArthropodDataProject github code. Whats in this folder is the same stuff that is on the github site.
+# allArthropodDataProject
 
-The goal of this project is to evaluate all known arthropod data as of May 2015 to see where our community has research ready data. The limits of research ready data are:
+The goal of this project is to evaluate all known arthropod data as of May 2015 to see where our community has research ready data. 
 
-1. specimens determined to species
-2. number of species per family bins of <30, >30, >100, >500, >1000 distinct collecting events that are georeferenced
+# May 14 2015
+select count(*) from omoccurrences; just scan data = 3943069 records (prior to adding AEC and GBIf)
 
-These will be broken down by functional groups of arthroods including pollinators, predators, and parasitoids.
+	TODO: add a flag to the data for its origin
 
+	DONE: added dataSource column to table
 
-Additional evaluation for data issues:
-Data quality and normalization. Past known issues include:
-1) lack of determination in scientificName
-2) taxon rank not filled out
-3) normalization of country codes
-4) normalization of NULL values
+	TIME: 20 min for mysql to create new column or restore SCAN from source.
+	
+Downloading data from symbiota2.symbscan.occurrences table to upload on different server for merging with GBIF and AEC data
+
+Renamed table to omo
+
+#May 18 2015
+created an import for AEC data to match new SCAN table structure
+
+exporting all NA data from AEC
 
