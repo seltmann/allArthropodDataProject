@@ -11,5 +11,12 @@ Downloading data from symbiota2.symbscan.occurrences table to upload on differen
 
 Renamed table to omo
 
+#May 18 2015
+created an import for AEC data to match new SCAN table structure
+
+exporting all NA data from AEC
+
+
+
 
 
