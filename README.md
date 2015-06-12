@@ -20,3 +20,7 @@ created an import for AEC data to match new SCAN table structure
 
 exporting all NA data from AEC
 
+#May 20 2015
+import into symbscan database AEC data using Load Data
+create GBIF database from occurrence.txt files
+

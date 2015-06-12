@@ -1,3 +1,8 @@
+2015
+https://www.percona.com/blog/2014/01/07/increasing-slow-query-performance-with-parallel-query-execution/
+
+
+
 ----notes below from 2014 version of data---
 ## notes from last version of allArthropodProject; outline to start this version
 

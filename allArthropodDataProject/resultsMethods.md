@@ -1,5 +1,6 @@
 # May 14 2015
 
+##SCAN and BasisofRecord
 select count(*) from omoccurrences; just scan data = 3943069 records (prior to adding AEC and GBIf)
 
 of those records 3908568 are known as preserved specimens. 7641 are observations of some sort, 1301 are fossil specimens, 4 are living specimens, 165 are literature records, 27 are material samples.
@@ -7,6 +8,12 @@ of those records 3908568 are known as preserved specimens. 7641 are observations
 22146 are UNKNOWN
 
 4518 records are in error (non sensical text strings in basisofrecord)
+
+
+##AEC data
+
+first count 1204924 records that have catalog numbers so will go in dataset as PreservedSpecimens
+
 
 
 
