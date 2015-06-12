@@ -7,7 +7,7 @@ of those records 3908568 are known as preserved specimens. 7641 are observations
 
 22146 are UNKNOWN
 
-4518 records are in error (non sensical text strings in basisofrecord)
+4518 records are in error (nonsense text strings in basisofrecord)
 
 
 ##AEC data
