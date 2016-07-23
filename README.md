@@ -24,3 +24,6 @@ exporting all NA data from AEC
 import into symbscan database AEC data using Load Data
 create GBIF database from occurrence.txt files
 
+#July 23 2016
+new cleaned data from GBIF and SCAN DB from Ben Brandt.
+
