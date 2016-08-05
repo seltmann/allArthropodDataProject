@@ -1,0 +1,1 @@
+select scientificName, count(distinct(concat(decimalLatitude,decimalLongitude))) as unique_geo from omoccurrences group by scientificName order by scientificName;

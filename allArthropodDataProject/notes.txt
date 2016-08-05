@@ -1,35 +1,138 @@
-2015
-https://www.percona.com/blog/2014/01/07/increasing-slow-query-performance-with-parallel-query-execution/
+### New notes file for 2016 analysis of arthropod biodiversity data
 
+- initial download and cleaning of GBIF and SCAN data done by Ben Brandt. 
 
+- source mysql took about 2 hours
 
-----notes below from 2014 version of data---
-## notes from last version of allArthropodProject; outline to start this version
+- MariaDB [scandata]> show warnings;
+Empty set (0.00 sec)
 
-5824999: all before editing countries
-1284560: AEC before editing countries
+- count all records (8,115,245)
 
-Data issues - 
-1. both 0000-00-00 and NULL in db for eventDate with no date
-2. scientificName includes author but not year
-3. lots of stuff ended up in sciname that are not in scientificName. Creating 519,909 records with NULL in scientificName
-4. 93,300 records have no determination. This includes in family, sciname or ScientificName fields.
-5. over 3 million records do not have taxon rank filled out (cannot figure out higher taxonomy for those not determined to genus and below)
-6. sciname and scientific name??
+- 391 states
 
-The limits are:
-1. determined to species
-2. number of species per family bins of <30, >30, >100 distinct collecting events that are georeferenced
+- echo "select distinct basisOfRecord from omoccurrences;" | mysql -u seltmann -p -D scandata > basisOfRecord.tsv
 
-family, number <30, number >30, >100, >500, >1000
+- echo "select distinct institutionCode from omoccurrences;" | mysql -u seltmann -p -D scandata > institutionCode.tsv
 
-select family,count(*) from sums2 where georeferenced < 30 group by family;
-select family,count(*) from sums2 where georeferenced >= 30 group by family;
-select family,count(*) from sums2 where georeferenced >= 100 group by family;
-select family,count(*) from sums2 where georeferenced >= 500 group by family;
-select family,count(*) from sums2 where georeferenced >= 1000 group by family;
+- echo "select distinct family from omoccurrences;" | mysql -u seltmann -p -D scandata > family.tsv
 
+- echo "select distinct country from omoccurrences;" | mysql -u seltmann -p -D scandata > country.tsv
 
-echo "select distinct institutionCode from omoccurrences;" | mysql -u root -p -D symbscan > institutionCode_echo.tsv
+- echo "select distinct stateProvince from omoccurrences;" | mysql -u seltmann -p -D scandata > stateProvince.tsv
 
+- echo "select distinct year from omoccurrences;" | mysql -u seltmann -p -D scandata > year.tsv
 
+- mysql -u root pbi_locality < TTD_TCN_idigbio_export.sql -p > test.txt
+
+- echo "select scientificName, count(distinct(concat(decimalLatitude,decimalLongitude))) as unique_geo from omoccurrences group by scientificName order by scientificName;" | mysql -u seltmann -p -D scandata > scientificNameCounts.tsv
+"
+
+MariaDB [scandata]> describe omoccurrences;
++--------------------------------+------------------+------+-----+-------------------+-----------------------------+
+| Field                          | Type             | Null | Key | Default           | Extra                       |
++--------------------------------+------------------+------+-----+-------------------+-----------------------------+
+| occid                          | int(10) unsigned | NO   | PRI | NULL              | auto_increment              |
+| collid                         | int(10) unsigned | YES  | MUL | NULL              |                             |
+| dbpk                           | varchar(150)     | YES  |     | NULL              |                             |
+| basisOfRecord                  | varchar(32)      | YES  |     | PreservedSpecimen |                             |
+| occurrenceID                   | varchar(255)     | YES  | MUL | NULL              |                             |
+| catalogNumber                  | varchar(32)      | YES  | MUL | NULL              |                             |
+| otherCatalogNumbers            | varchar(255)     | YES  | MUL | NULL              |                             |
+| ownerInstitutionCode           | varchar(32)      | YES  | MUL | NULL              |                             |
+| institutionID                  | varchar(255)     | YES  |     | NULL              |                             |
+| collectionID                   | varchar(255)     | YES  |     | NULL              |                             |
+| datasetID                      | varchar(255)     | YES  |     | NULL              |                             |
+| institutionCode                | varchar(64)      | YES  |     | NULL              |                             |
+| collectionCode                 | varchar(64)      | YES  |     | NULL              |                             |
+| family                         | varchar(255)     | YES  | MUL | NULL              |                             |
+| scientificName                 | varchar(255)     | YES  |     | NULL              |                             |
+| sciname                        | varchar(255)     | YES  | MUL | NULL              |                             |
+| tidinterpreted                 | int(10) unsigned | YES  | MUL | NULL              |                             |
+| genus                          | varchar(255)     | YES  |     | NULL              |                             |
+| specificEpithet                | varchar(255)     | YES  |     | NULL              |                             |
+| taxonRank                      | varchar(32)      | YES  |     | NULL              |                             |
+| infraspecificEpithet           | varchar(255)     | YES  |     | NULL              |                             |
+| scientificNameAuthorship       | varchar(255)     | YES  |     | NULL              |                             |
+| taxonRemarks                   | text             | YES  |     | NULL              |                             |
+| identifiedBy                   | varchar(255)     | YES  |     | NULL              |                             |
+| dateIdentified                 | varchar(45)      | YES  |     | NULL              |                             |
+| identificationReferences       | text             | YES  |     | NULL              |                             |
+| identificationRemarks          | text             | YES  |     | NULL              |                             |
+| identificationQualifier        | varchar(255)     | YES  |     | NULL              |                             |
+| typeStatus                     | varchar(255)     | YES  | MUL | NULL              |                             |
+| recordedBy                     | varchar(255)     | YES  | MUL | NULL              |                             |
+| recordNumber                   | varchar(45)      | YES  | MUL | NULL              |                             |
+| recordedbyid                   | bigint(20)       | YES  | MUL | NULL              |                             |
+| associatedCollectors           | varchar(255)     | YES  |     | NULL              |                             |
+| eventDate                      | date             | YES  | MUL | NULL              |                             |
+| year                           | int(10)          | YES  |     | NULL              |                             |
+| month                          | int(10)          | YES  |     | NULL              |                             |
+| day                            | int(10)          | YES  |     | NULL              |                             |
+| startDayOfYear                 | int(10)          | YES  |     | NULL              |                             |
+| endDayOfYear                   | int(10)          | YES  |     | NULL              |                             |
+| verbatimEventDate              | varchar(255)     | YES  |     | NULL              |                             |
+| habitat                        | text             | YES  |     | NULL              |                             |
+| substrate                      | varchar(500)     | YES  |     | NULL              |                             |
+| fieldNotes                     | text             | YES  |     | NULL              |                             |
+| fieldnumber                    | varchar(45)      | YES  |     | NULL              |                             |
+| occurrenceRemarks              | text             | YES  |     | NULL              |                             |
+| informationWithheld            | varchar(250)     | YES  |     | NULL              |                             |
+| dataGeneralizations            | varchar(250)     | YES  |     | NULL              |                             |
+| associatedOccurrences          | text             | YES  |     | NULL              |                             |
+| associatedTaxa                 | text             | YES  |     | NULL              |                             |
+| dynamicProperties              | text             | YES  |     | NULL              |                             |
+| verbatimAttributes             | text             | YES  |     | NULL              |                             |
+| behavior                       | varchar(500)     | YES  |     | NULL              |                             |
+| attributes                     | text             | YES  |     | NULL              |                             |
+| reproductiveCondition          | varchar(255)     | YES  |     | NULL              |                             |
+| cultivationStatus              | int(10)          | YES  | MUL | NULL              |                             |
+| establishmentMeans             | varchar(45)      | YES  |     | NULL              |                             |
+| lifeStage                      | varchar(45)      | YES  |     | NULL              |                             |
+| sex                            | varchar(45)      | YES  |     | NULL              |                             |
+| individualCount                | varchar(45)      | YES  |     | NULL              |                             |
+| samplingProtocol               | varchar(100)     | YES  |     | NULL              |                             |
+| samplingEffort                 | varchar(100)     | YES  |     | NULL              |                             |
+| preparations                   | varchar(100)     | YES  |     | NULL              |                             |
+| country                        | varchar(64)      | YES  | MUL | NULL              |                             |
+| stateProvince                  | varchar(255)     | YES  | MUL | NULL              |                             |
+| county                         | varchar(255)     | YES  | MUL | NULL              |                             |
+| municipality                   | varchar(255)     | YES  | MUL | NULL              |                             |
+| locality                       | text             | YES  | MUL | NULL              |                             |
+| localitySecurity               | int(10)          | YES  |     | 0                 |                             |
+| localitySecurityReason         | varchar(100)     | YES  |     | NULL              |                             |
+| decimalLatitude                | double           | YES  |     | NULL              |                             |
+| decimalLongitude               | double           | YES  |     | NULL              |                             |
+| geodeticDatum                  | varchar(255)     | YES  |     | NULL              |                             |
+| coordinateUncertaintyInMeters  | int(10) unsigned | YES  |     | NULL              |                             |
+| footprintWKT                   | text             | YES  |     | NULL              |                             |
+| coordinatePrecision            | decimal(9,7)     | YES  |     | NULL              |                             |
+| locationRemarks                | text             | YES  |     | NULL              |                             |
+| verbatimCoordinates            | varchar(255)     | YES  |     | NULL              |                             |
+| verbatimCoordinateSystem       | varchar(255)     | YES  |     | NULL              |                             |
+| georeferencedBy                | varchar(255)     | YES  |     | NULL              |                             |
+| georeferenceProtocol           | varchar(255)     | YES  |     | NULL              |                             |
+| georeferenceSources            | varchar(255)     | YES  |     | NULL              |                             |
+| georeferenceVerificationStatus | varchar(32)      | YES  |     | NULL              |                             |
+| georeferenceRemarks            | varchar(255)     | YES  |     | NULL              |                             |
+| minimumElevationInMeters       | int(6)           | YES  | MUL | NULL              |                             |
+| maximumElevationInMeters       | int(6)           | YES  | MUL | NULL              |                             |
+| verbatimElevation              | varchar(255)     | YES  |     | NULL              |                             |
+| minimumDepthInMeters           | int(11)          | YES  |     | NULL              |                             |
+| maximumDepthInMeters           | int(11)          | YES  |     | NULL              |                             |
+| verbatimDepth                  | varchar(50)      | YES  |     | NULL              |                             |
+| previousIdentifications        | text             | YES  |     | NULL              |                             |
+| disposition                    | varchar(100)     | YES  |     | NULL              |                             |
+| storageLocation                | varchar(100)     | YES  |     | NULL              |                             |
+| genericcolumn1                 | varchar(100)     | YES  |     | NULL              |                             |
+| genericcolumn2                 | varchar(100)     | YES  |     | NULL              |                             |
+| modified                       | datetime         | YES  |     | NULL              |                             |
+| language                       | varchar(20)      | YES  |     | NULL              |                             |
+| observeruid                    | int(10) unsigned | YES  | MUL | NULL              |                             |
+| processingstatus               | varchar(45)      | YES  | MUL | NULL              |                             |
+| recordEnteredBy                | varchar(250)     | YES  | MUL | NULL              |                             |
+| duplicateQuantity              | int(10) unsigned | YES  |     | NULL              |                             |
+| labelProject                   | varchar(50)      | YES  |     | NULL              |                             |
+| dateEntered                    | datetime         | YES  | MUL | NULL              |                             |
+| dateLastModified               | timestamp        | NO   | MUL | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP |
++--------------------------------+------------------+------+-----+-------------------+-----------------------------+

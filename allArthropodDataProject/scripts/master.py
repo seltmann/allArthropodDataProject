@@ -20,7 +20,7 @@ connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="" )
 cursor = connect.cursor ()
 
 #define an outfile
-outfilename = "yearsLatLong_%s.tsv" % now
+outfilename = "scientificNameCounts_%s.tsv" % now
 outfile = open(outfilename, 'w')
 
 #function to execute mysql commands one at a time
@@ -37,7 +37,7 @@ def ExecuteMysql(line):
 		outfile.write('\n')
 	
 #open and iterate through commands, can add to this list
-infilename = 'years.txt'
+infilename = 'mysql.txt'
 infile = open(infilename, 'r')
 	
 for line in infile:
