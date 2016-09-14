@@ -25,7 +25,7 @@ Empty set (0.00 sec)
 
 - mysql -u root pbi_locality < TTD_TCN_idigbio_export.sql -p > test.txt
 
-- echo "select scientificName, count(distinct(concat(decimalLatitude,decimalLongitude))) as unique_geo from omoccurrences group by scientificName order by scientificName;" | mysql -u seltmann -p -D scandata > scientificNameCounts.tsv
+- echo "select concat(genus,' ',specificEpithet) as concat_scientificName, count(distinct(concat(decimalLatitude,decimalLongitude))) as unique_geo from omoccurrences where decimalLongitude != 0 group by concat(genus,' ',specificEpithet) order by unique_geo;" | mysql -u seltmann -p -D scandata > scientificNameCounts_v4.tsv
 "
 
 MariaDB [scandata]> describe omoccurrences;

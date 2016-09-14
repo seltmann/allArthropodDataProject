@@ -1,0 +1,280 @@
+#continued updates from 2016 by Benjamin Brandt
+
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="Preserved specimen";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="PRESERVED_SPECIMEN";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="Pinned material, also, 1 unsexed";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="PresvervedSpecimne";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="Pinned Specimen";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="Paratype";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord LIKE "Banks.%";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="Dodds and Hisaw 1925";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="Hanson. 1942.";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="McCafferty et al. 1993";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="Ross. 1938.";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="Ward and Berner. 1980.";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="Zloty. 1996.";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="MATERIAL_SAMPLE";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="None";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where basisOfRecord="Occurrence";
+Update omoccurrences set basisOfRecord="PreservedSpecimen" where ISNULL(basisOfRecord);
+Update omoccurrences set basisOfRecord="FossilSpecimen" where basisOfRecord="FOSSIL_SPECIMEN";
+Update omoccurrences set basisOfRecord="LivingSpecimen" where basisOfRecord="LIVING_SPECIMEN";
+Update omoccurrences set basisOfRecord="Observation" where basisOfRecord="HUMAN_OBSERVATION";
+Update omoccurrences set basisOfRecord="Observation" where basisOfRecord="MACHINE_OBSERVATION";
+Update omoccurrences set basisOfRecord="Observation" where basisOfRecord="OBSERVATION";
+Update omoccurrences set basisOfRecord="Observation" where basisOfRecord="LITERATURE";
+
+Update omoccurrences set country="UNKNOWN_NULL" where country="Canada/United States";
+Update omoccurrences set country="UNKNOWN_NULL" where country="Mexico/United States";
+Update omoccurrences set country="UNKNOWN_NULL" where country="United States/Canada";
+
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="AB or BC";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="AB or SK";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince LIKE "%/%";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Arizona, Connecticut";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Arizona,Washington,California";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="AZ, OR, VA, WV, CA, GA, AK, WA, CT";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="BakeL.";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="BC; Alberta";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="British Colombia,Nova Scotia,Ontario,Quebec";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="British Columbia, Alberta";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="British Columbia,Ontario";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="California, Oregon";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="California, Pennsylvania";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="California,Florida";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Camer";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Colorado, Connecticut";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Connecticut, California, Pennsylvania";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Connecticut, Illinois";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Connecticut, New York";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Connecticut, New York, Pennsylvania";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Connecticut, New York, West Virginia";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Connecticut, Pennsylvania";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Connecticut, Pennsylvania, New York";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Connecticut, Virginia";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Connecticut,West Virginia";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Hudson Bay";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Idaho, Utah";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Illinois, Iowa";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Illinois,Connecticut, New York";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Illinois,Virginia";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Illinos, Iowa";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Maryland,Washington,California";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Montana, Idaho, Washington";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Montana, Washington";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Namer";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="NB or NS";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="New Hampshire,West Virginia";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="New Mexico,Vermont,Virginia";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="New York, Connecticut";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="New York,Connecticut,Ohio";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="North Carolina, Connecticut, New York";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="North Carolina,Virginia,California,";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Nova Scotia,Ontario";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Nova Scotia,Quebec";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Oaxaca or San Luis Potosí";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Ohio, Ottawa";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Ontario, Quebec";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Ontario,Quebec";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Oregon,Calofornia,Washington";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Pennsylvania, Connecticut, New York";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Pennsylvania, New York, Connecticut";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Quebec, Ontario";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Quebec,Ontario";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Rocky Mountains";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Several";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="South Dakota, Arizona";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Tres Ritos";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="USA";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="Virginia, New York, Connecticut";
+Update omoccurrences set stateProvince="UNKNOWN_NULL" where stateProvince="West Virginia, Pennsylvania";
+
+Update omoccurrences set stateProvince="New York" where stateProvince="Adirondack";
+Update omoccurrences set stateProvince="Northwest Territories" where stateProvince="Aklavik";
+Update omoccurrences set stateProvince="Alberta" where stateProvince="alt";
+Update omoccurrences set stateProvince="Alberta" where stateProvince="Alta";
+Update omoccurrences set stateProvince="Alberta" where stateProvince="Alta.";
+Update omoccurrences set stateProvince="Arizona" where stateProvince="ar";
+Update omoccurrences set stateProvince="Chiapas" where stateProvince="Arriaga";
+Update omoccurrences set stateProvince="Nunavut" where stateProvince="Baffin Island";
+Update omoccurrences set stateProvince="Guerrero" where stateProvince="Bahia de Acapulco";
+Update omoccurrences set stateProvince="Baja California" where stateProvince="Basse Californie";
+Update omoccurrences set stateProvince="Oregon" where stateProvince="Benton";
+Update omoccurrences set stateProvince="Maryland" where stateProvince="Blakistan Island";
+Update omoccurrences set stateProvince="Guerrero" where stateProvince="Cacahuamilpa";
+Update omoccurrences set stateProvince="Michoacan" where stateProvince="Capul";
+Update omoccurrences set stateProvince="Michoacan" where stateProvince="Capula";
+Update omoccurrences set stateProvince="South Carolina" where stateProvince="Charleston";
+Update omoccurrences set stateProvince="Yucatan" where stateProvince="Chichen Itza";
+Update omoccurrences set stateProvince="Veracruz" where stateProvince="Chiconquiaco";
+Update omoccurrences set stateProvince="Oaxaca" where stateProvince="Chiltepex";
+Update omoccurrences set stateProvince="Chiapas" where stateProvince="Chis.";
+Update omoccurrences set stateProvince="Sinaloa" where stateProvince="Ciopala";
+Update omoccurrences set stateProvince="Chihuahua" where stateProvince="Ciudad Camargo";
+Update omoccurrences set stateProvince="Distrito Federal" where stateProvince="Ciudad de MÃ©xico";
+Update omoccurrences set stateProvince="Colorado" where stateProvince="Co";
+Update omoccurrences set stateProvince="Florida" where stateProvince="Collier";
+Update omoccurrences set stateProvince="Colorado" where stateProvince="Colombia";
+Update omoccurrences set stateProvince="Queretaro" where stateProvince="Colon";
+Update omoccurrences set stateProvince="Oklahoma" where stateProvince="Comanche";
+Update omoccurrences set stateProvince="Northern Mariana Islands" where stateProvince="Commonwealth of the Northern Mariana Islands";
+Update omoccurrences set stateProvince="Connecticut" where stateProvince="Conecuh";
+Update omoccurrences set stateProvince="Veracruz" where stateProvince="Coradoba";
+Update omoccurrences set stateProvince="Puebla" where stateProvince="Cuarzalan";
+Update omoccurrences set stateProvince="Durango" where stateProvince="Cuencame";
+Update omoccurrences set stateProvince="Morelos" where stateProvince="Cuernavaca";
+Update omoccurrences set stateProvince="New York" where stateProvince="Custer";
+Update omoccurrences set stateProvince="Virginia" where stateProvince="Dickenson";
+Update omoccurrences set stateProvince="Nunavut" where stateProvince="District of Franklin";
+Update omoccurrences set stateProvince="Durango" where stateProvince="Durgango";
+Update omoccurrences set stateProvince="Durango" where stateProvince="Durham";
+Update omoccurrences set stateProvince="Chihuahua" where stateProvince="El Salto";
+Update omoccurrences set stateProvince="Chihuahua" where stateProvince="El Sueca";
+Update omoccurrences set stateProvince="Georgia" where stateProvince="Geo";
+Update omoccurrences set stateProvince="US Virgin Islands" where stateProvince="Hassel Island";
+Update omoccurrences set stateProvince="Nayarit" where stateProvince="Islas Marias";
+Update omoccurrences set stateProvince="Distrito Federal" where stateProvince="Ixtapaluca";
+Update omoccurrences set stateProvince="Veracruz" where stateProvince="Jalapa";
+Update omoccurrences set stateProvince="Ontario" where stateProvince="Kenora";
+Update omoccurrences set stateProvince="Nuevo Leon" where stateProvince="Linares";
+Update omoccurrences set stateProvince="Louisiana" where stateProvince="Louisana, Avery Island";
+Update omoccurrences set stateProvince="Northwest Territories" where stateProvince="Mackenzie Delta";
+Update omoccurrences set stateProvince="Chiapas" where stateProvince="Malpaso";
+Update omoccurrences set stateProvince="Jalisco" where stateProvince="Manatlea";
+Update omoccurrences set stateProvince="Northern Mariana Islands" where stateProvince="Mariana Islands";
+Update omoccurrences set stateProvince="Northern Mariana Islands" where stateProvince="Marianas Islands";
+Update omoccurrences set stateProvince="Puerto Rico" where stateProvince="Maricao";
+Update omoccurrences set stateProvince="Sinaloa" where stateProvince="Mazatlan";
+Update omoccurrences set stateProvince="Yucatan" where stateProvince="Merida";
+Update omoccurrences set stateProvince="Baja California Sur" where stateProvince="Miraflores";
+Update omoccurrences set stateProvince="Chihuahua" where stateProvince="Misiones";
+Update omoccurrences set stateProvince="Arizona" where stateProvince="Mohave";
+Update omoccurrences set stateProvince="Nuevo Leon" where stateProvince="Montemor";
+Update omoccurrences set stateProvince="Nuevo Leon" where stateProvince="Monterrey";
+Update omoccurrences set stateProvince="Chiapas" where stateProvince="Motozintla:";
+Update omoccurrences set stateProvince="Hawaii" where stateProvince="Nassariidae";
+Update omoccurrences set stateProvince="Sonora" where stateProvince="Navajoa";
+Update omoccurrences set stateProvince="New Mexico" where stateProvince="New Mexico, Sierra Blanca";
+Update omoccurrences set stateProvince="Hidalgo" where stateProvince="Nogales";
+Update omoccurrences set stateProvince="New Hampshire" where stateProvince="Noord-Holland";
+Update omoccurrences set stateProvince="Labrador" where stateProvince="Nord Labrador";
+Update omoccurrences set stateProvince="Northwest Territories" where stateProvince="North West Territories";
+Update omoccurrences set stateProvince="Guerrero" where stateProvince="Np";
+Update omoccurrences set stateProvince="Tamaulipas" where stateProvince="Nuevo Laredo";
+Update omoccurrences set stateProvince="California" where stateProvince="Oceana";
+Update omoccurrences set stateProvince="Palmyra Atoll" where stateProvince="Office of Insular Affairs";
+Update omoccurrences set stateProvince="Zacatecas" where stateProvince="Ojacaliente";
+Update omoccurrences set stateProvince="Mississippi" where stateProvince="Oxford";
+Update omoccurrences set stateProvince="Guerrero" where stateProvince="Pacific coast";
+Update omoccurrences set stateProvince="Queretaro" where stateProvince LIKE "Quer%";
+Update omoccurrences set stateProvince="Quintana Roo" where stateProvince="Quita";
+Update omoccurrences set stateProvince="Sonora" where stateProvince="Rancho de Tascara";
+Update omoccurrences set stateProvince="Tamaulipas" where stateProvince="Reynosa";
+Update omoccurrences set stateProvince="US Virgin Islands" where stateProvince="Saint Croix";
+Update omoccurrences set stateProvince="US Virgin Islands" where stateProvince="Saint John";
+Update omoccurrences set stateProvince="US Virgin Islands" where stateProvince="Saint Thomas";
+Update omoccurrences set stateProvince="Jalisco" where stateProvince="Salisco";
+Update omoccurrences set stateProvince="Coahuila" where stateProvince="Saltillo";
+Update omoccurrences set stateProvince="Nayarit" where stateProvince="San Blas";
+Update omoccurrences set stateProvince="Nuevo Leon" where stateProvince="Santiago";
+Update omoccurrences set stateProvince="Hidalgo" where stateProvince="Santuario";
+Update omoccurrences set stateProvince="Coahuila" where stateProvince="Sierra de Guacamayas";
+Update omoccurrences set stateProvince="US Virgin Islands" where stateProvince="St Croix Island";
+Update omoccurrences set stateProvince="US Virgin Islands" where stateProvince="St. Croix";
+Update omoccurrences set stateProvince="US Virgin Islands" where stateProvince="St. John";
+Update omoccurrences set stateProvince="US Virgin Islands" where stateProvince="St. John, Virgin Islands";
+Update omoccurrences set stateProvince="US Virgin Islands" where stateProvince="St. Thomas";
+Update omoccurrences set stateProvince="US Virgin Islands" where stateProvince="St.Thomas";
+Update omoccurrences set stateProvince="Oaxaca" where stateProvince="Sto Domingo";
+Update omoccurrences set stateProvince="Baja California Sur" where stateProvince="Sur";
+Update omoccurrences set stateProvince="British Columbia" where stateProvince="Surrey";
+Update omoccurrences set stateProvince="Durango" where stateProvince="Tamazula";
+Update omoccurrences set stateProvince="Tamaulipas" where stateProvince="Tampico";
+Update omoccurrences set stateProvince="Tamaulipas" where stateProvince="Tamps";
+Update omoccurrences set stateProvince="Guerrero" where stateProvince="Taxco";
+Update omoccurrences set stateProvince="Baja California Norte" where stateProvince="Tijuana";
+Update omoccurrences set stateProvince="Yucatan" where stateProvince="Tinum";
+Update omoccurrences set stateProvince="Distrito Federal" where stateProvince="Tlahuac";
+Update omoccurrences set stateProvince="Distrito Federal" where stateProvince="Toluca";
+Update omoccurrences set stateProvince="Nayarit" where stateProvince="Tres Marias";
+Update omoccurrences set stateProvince="Hidalgo" where stateProvince="Tulancalco";
+Update omoccurrences set stateProvince="US Virgin Islands" where stateProvince="Västerbottens län";
+Update omoccurrences set stateProvince="Colima" where stateProvince="Venture Capital";
+Update omoccurrences set stateProvince="Michoacan" where stateProvince="Villa Madero";
+Update omoccurrences set stateProvince="Virginia" where stateProvince="Virginia, Pukaski Co.";
+Update omoccurrences set stateProvince="Washington" where stateProvince="Washiington";
+Update omoccurrences set stateProvince="Washington" where stateProvince="Washinton";
+Update omoccurrences set stateProvince="North Carolina" where stateProvince="Watauga";
+Update omoccurrences set stateProvince="Puerto Rico" where stateProvince="Yauco";
+Update omoccurrences set stateProvince="Zacatecas" where stateProvince="Zaea";
+Update omoccurrences set stateProvince="Chihuahua" where stateProvince="Zaragosa";
+
+DELETE FROM omoccurrences where stateProvince="Cuba";
+DELETE FROM omoccurrences where stateProvince="Foreign Country";
+DELETE FROM omoccurrences where stateProvince="Haiti";
+DELETE FROM omoccurrences where stateProvince="Mahajanga";
+DELETE FROM omoccurrences where stateProvince="Morobe";
+DELETE FROM omoccurrences where stateProvince="Osorna";
+DELETE FROM omoccurrences where stateProvince="Panama Canal Zone";
+DELETE FROM omoccurrences where stateProvince="PanamÃ¡";
+DELETE FROM omoccurrences where stateProvince="Saratov Region";
+DELETE FROM omoccurrences where stateProvince="Vaud Canton";
+
+UPDATE omoccurrences
+set decimalLatitude=null, decimalLongitude=null
+where decimalLatitude = 0 or decimalLongitude=0;
+
+UPDATE omoccurrences
+set sciname = family
+where (family <> '' or family <> 'UNKNOWN_NULL') and sciname = '';
+
+update omoccurrences
+set sciname = scientificName
+where sciname = 'UNKNOWN_NULL' and scientificName is not null;
+
+
+#Load sql dump files before the next scripts
+
+UPDATE sciname_conv as s left join omoccurrences as o on s.nameToChange = o.sciname
+set o.scientificName = o.sciname;
+
+UPDATE sciname_conv as s left join omoccurrences as o on s.nameToChange = o.sciname
+set o.sciname = s.changeTo;
+
+update omoccurrences as o left join omcollections as c on o.collid = c.collid
+set o.institutionCode = c.InstitutionCode, o.collectionCode = c.CollectionCode
+where o.collid is not null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
