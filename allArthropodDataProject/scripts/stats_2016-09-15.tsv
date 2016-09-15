@@ -1,0 +1,7222 @@
+Executed: select count(*) from omoccurrences;
+8376162
+
+Executed: # null values where from GBIF, not scan
+
+Executed: select count(*) from omoccurrences where collid is null;
+2455869
+
+Executed: select count(*) from omoccurrences where collid is not null;
+5920293
+
+Executed: select count(*) from omoccurrences where decimalLatitude !='0.0000';
+7121499
+
+Executed: select count(distinct locality,county,stateProvince,municipality,decimalLatitude,decimalLongitude) as localities from omoccurrences;
+556753
+
+Executed: select count(distinct decimalLatitude,decimalLongitude) as localities from omoccurrences where decimalLatitude != '0.0000';
+302076
+
+Executed: select count(occid) from omoccurrences where decimalLatitude = '0.0000' and locality = 'UNKNOWN_NULL' and county = 'UNKNOWN_NULL' and stateProvince = 'UNKNOWN_NULL' and county = 'UNKNOWN_NULL' and municipality = 'UNKNOWN_NULL';
+3895
+
+Executed: select count(occid) from omoccurrences where decimalLatitude != '0.0000' and locality = 'UNKNOWN_NULL' and county = 'UNKNOWN_NULL' and stateProvince ='UNKNOWN_NULL' and county ='UNKNOWN_NULL' and municipality = 'UNKNOWN_NULL';
+8900
+
+Executed: select count(distinct family) from omoccurrences;
+2858
+
+Executed: select count(*) from omoccurrences where family = 'UNKNOWN_NULL';
+390668
+
+Executed: select family,count(occid) from omoccurrences group by family order by family;
+1 Rhopaliasidae, 2 Diplostomidae	 1
+1 Strigeidae/ 2 Threskiornithidae	 1
+Abacionidae	 310
+Acalaphidae	 5
+Acanaloniidae	 3960
+Acanloniidae	 1
+Acanthametropodidae	 4
+Acanthaspidiidae	 11
+Acanthochitonidae	 2
+Acantholeberidae	 1
+Acanthopidae	 2
+Acanthopteroctetidae	 17
+Acanthosomatidae	 1727
+Acanthotelsonidae	 28
+Acanthuridae	 4
+Acardae	 1
+Acaridae	 184
+Acartiidae	 340
+Acartophthalmidae	 48
+Acastidae	 6
+Aceraceae	 2
+Acerentomidae	 10
+Acertentomidae	 1
+Achatinellidae	 10
+Achilidae	 2566
+Achipteriidae	 89
+Achiridae	 72
+Aclerdidae	 23
+Acmaeidae	 18
+Acmaeoblattidae	 1
+Acolothripidae	 2
+Acridadae	 1
+Acrididae	 129264
+Acrididaehttp://symbiota4.acis.ufl.edu/scan/portal	 1
+Acroceridae	 86
+Acrolepiidae	 64
+Acrolophidae	 127
+Acropsopilionidae	 1
+Actaletidae	 1
+Acteonidae	 1
+Acuariidae	 105
+Adelgidae	 705
+Adelidae	 305
+Aderidae	 2236
+Aderidae?	 3
+Adrenidae	 3
+Aegeriidae	 1
+Aegialiidae	 30
+Aegidae	 59
+Aeginellidae	 1
+Aeglidae	 1
+Aegyrtidae	 60
+Aenictopecheidae	 1
+Aeolothripidae	 1032
+Aeroglyphidae	 9
+Aeshnidae	 10275
+Aetalionidae	 47
+Aethridae	 125
+Aetideidae	 727
+Agaonidae	 213
+Agathotanaidae	 27
+Agelendae	 1
+Agelenidae	 3230
+Aglycyderidae	 156
+Agnostidae	 69
+Agonoxenidae	 23
+Agostocarididae	 2
+Agraulidae	 66
+Agriolomacidae	 2
+Agrionidae	 11
+Agromyzidae	 4811
+Agromyziidae	 1
+Agyrtidae	 328
+Aididae	 3
+Akanthophoreidae	 39
+Albuneidae	 36
+Alexiidae	 1
+Aleyrodidae	 4366
+Algophagidae	 8
+Alicorhagiidae	 1
+Alleculidae	 119
+Allocreadiidae	 11
+Allopocockiidae	 2
+Alloptidae	 10
+Allopyragraphoridae	 1
+Alokistocaridae	 333
+Alpheidae	 2295
+Alucitidae	 98
+Alvinocarididae	 10
+Alycidae	 8
+Alydidae	 6735
+Amabiliidae	 6
+Amaurobiidae	 1651
+Amaurobiidae?	 1
+Amblyopsidae	 1
+Ameiridae	 34
+Ameletidae	 889
+Ameronothridae	 12
+Ameronothriidae	 3
+Ameroseiidae	 34
+Ametropodidae	 14
+Ametroproctidae	 30
+Ammotheidae	 73
+Ammotrechidae	 338
+Ammoxenidae	 1
+Amorphoscelidae	 2
+Ampeliscidae	 4233
+Amphientomidae	 9
+Amphilochidae	 259
+Amphinectidae	 17
+Amphinemurinae	 98
+Amphipoda	 36
+Amphipsocidae	 57
+Amphisbatidae	 8
+Amphithoidae	 3
+Amphizoidae	 459
+Ampithoidae	 503
+Ampulicidae	 100
+Ampullariidae	 3
+Amynilyspedidae	 1
+Analgesidae	 3
+Analgidae	 5
+Anapidae	 54
+Anarhichadidae	 1
+Anarthruridae	 9
+Anarthuridae	 1
+Anaxyelidae	 2
+Ancinidae	 52
+Ancorabolidae	 12
+Ancylidae	 47
+Ancylostomatidae	 551
+Ancyracanthidae	 29
+Anderemaeidae	 3
+Andrena vidae	 2
+Andrenidae	 351707
+Andrognathidae	 86
+Angiodictylidae	 1
+Anguillidae	 271
+Angusticaecidae	 4
+Anisakidae	 43
+Anisembiidae	 2
+Anisogammaridae	 69
+Anisolabididae	 278
+Anisopodidae	 591
+Annulariidae	 2
+Anobiidae	 2966
+Anoetidae	 1
+Anomalocarididae	 4
+Anomalogrammatidae	 1
+Anomiidae	 9
+Anomocaridae	 13
+Anoplocephalidae	 269
+Anoplogastridae	 27
+Anostostomatidae	 2
+Anotopteridae	 3
+Antarcturidae	 2
+Antennariidae	 38
+Antheluridae	 2
+Anthicidae	 10704
+Anthicidae?	 2
+Anthocoridae	 3053
+Anthocoridea	 2
+Anthomyiidae	 26306
+Anthomyzidae	 771
+Anthophoridae	 10762
+Anthribidae	 1332
+Anthroleucosomatidae	 1
+Anthuridae	 1607
+Antrodiaetidae	 182
+Anyphaenidae	 583
+Anysidae	 11
+Anystidae	 1631
+Aoridae	 3670
+Aparchitidae	 5
+Apataniidae	 415
+Apatelodidae	 80
+Apaturidae	 11
+Aphalaridae	 1926
+Aphelaspididae	 10
+Aphelidesmidae	 58
+Aphelinidae	 12926
+Apheloneuridae	 61
+Aphidae	 1
+Aphididae	 116321
+Aphidiidae	 249
+Aphidiinae	 55
+Aphodiidae	 1395
+Aphodiinae	 1
+Aphrophoridae	 8930
+Aphrophorinae	 49
+Apidae	 590903
+Apidea	 4
+Apidiae	 344
+Apioceridae	 399
+Apionacaridae	 5
+Apionidae	 291
+Aplustridae	 4
+Aplysiidae	 1
+Apoidea	 155
+Apseudidae	 415
+Apsilocephalidae	 3
+Aradidae	 3474
+Araneidae	 10685
+Araneidae, Thomisidae	 1
+Archaeobalanidae	 124
+Archaeocrypticidae	 1
+Archeocrypticidae	 718
+Archescytinidae	 63
+Archimylacridae	 1
+Archipsocidae	 1
+Architarbidae	 1
+Architectonicidae	 6
+Arcidae	 21
+Arctiidae	 11278
+Arctopsychidae	 126
+Arcturidae	 9
+Argasidae	 208
+Argestidae	 22
+Argidae	 3555
+Argiopidae	 3
+Argissidae	 131
+Argomyzidae	 1
+Argulidae	 34
+Argyresthiidae	 53
+Arietellidae	 1
+Ariommidae	 1
+Arionidae	 1
+Aristaeidae	 4
+Aristeidae	 45
+Armadillidae	 2048
+Armadillidiidae	 73
+Arrenuridae	 203
+Arrhopalitidae	 151
+Artematopidae	 1
+Artematopodidae	 135
+Artemiidae	 12
+Artheneidae	 276
+Arthrolycosidae	 5
+Arthropleidae	 10
+Asaphidae	 991
+Asaphiscidae	 20
+Ascalaphidae	 150
+Ascaridae	 11
+Ascarididae	 281
+Ascidae	 112
+Asellidae	 386
+Asilidae	 14792
+Asparagaceae	 6
+Aspidogastridae	 8
+Astacidae	 63
+Astartidae	 1
+Asteiidae	 843
+Asteraceae	 12
+Asterocheridae	 2
+Asterolecaniidae	 353
+Asthenohymenidae	 244
+Astronesthidae	 56
+Atelecyclidae	 628
+Ateleopodidae	 1
+Atelestidae	 1
+Atemnidae	 33
+Athericidae	 19
+Atopetholidae	 65
+Atopomelidae	 26
+Attelabidae	 529
+Attidae	 2
+Aturidae	 3
+Atyidae	 557
+Atypidae	 121
+Augaptilidae	 24
+Aulacidae	 53
+Aulacigastridae	 430
+Autognetidae	 1
+Autostichidae	 44
+Avenzoariidae	 5
+Aviculariidae	 2
+Axiidae	 218
+Axymyiidae	 2
+Azygiidae	 21
+Babyloniidae	 1
+Bacillaceae	 64
+Baetidae	 8451
+Baetiscidae	 387
+Bairdiidae	 292
+Balanidae	 848
+Balistidae	 1
+Barbouriidae	 2
+Barleeidae	 1
+Barychelidae	 3
+Bateidae	 548
+Bathycheilidae	 71
+Bathygadidae	 12
+Bathylagidae	 93
+Bathynellidae	 1
+Bathynotidae	 4
+Bathypontiidae	 29
+Bathypteroidae	 36
+Bathyuridae	 30
+Batillariidae	 1
+Batocrinidae	 2
+Batrachedridae	 79
+Bdellidae	 123
+Bdellouridae	 2
+Bedelliidae	 55
+Behningiidae	 10
+Belidae	 45
+Bellostomatidae	 9
+Belonidae	 2
+Belostomatidae	 4169
+Benthesicymidae	 117
+Bentheuphausiidae	 13
+Beraeidae	 13
+Berothidae	 240
+Berytidae	 4550
+Bethylidae	 3152
+Betulaceae	 2
+Beyrichiidae	 29
+Biantidae	 25
+Bibionidae	 1756
+Bibonidae	 1
+Biphyllidae	 104
+Bithyniidae	 2
+Bittacidae	 831
+Blaberidae	 317
+Blaniulidae	 222
+Blastobasidae	 649
+Blattallidae	 1
+Blattaria	 309
+Blattellidae	 1293
+Blattidae	 1346
+Blattinopsidae	 1
+Blattisocidae	 11
+Blattisociidae	 36
+Blenniidae	 9
+Blennocampinae	 1
+Blephariceridae	 15
+Blissidae	 4876
+Bodotriidae	 2662
+Bogidiellidae	 1
+Bolaspididae	 5
+Bolboceratidae	 206
+Bolbomyiidae	 5
+Bolitophilidae	 4
+Bolliidae	 2
+Bombidae	 1
+Bombycidae	 246
+Bombylidae	 1
+Bombyliidae	 4005
+Boopidae	 2827
+Bopyridae	 35
+Borboridae	 15
+Boreidae	 196
+Boridae	 12
+Bosminidae	 115
+Bostrichidae	 2650
+Bostricidae	 1
+Bostrychidae	 1
+Bothidae	 7
+Bothrideridae	 119
+Bothriocephalidae	 2
+Bourletiellidae	 511
+Bovicolidae	 108
+Bracenidae	 1
+Brachycentridae	 2338
+Brachyceridae	 80
+Brachychthoniidae	 14
+Brachycoeliidae	 1
+Brachylaimidae	 24
+Brachymetopidae	 1
+Brachypteridae	 38
+Brachystomatidae	 47
+Brachystomellidae	 96
+Braconidae	 65043
+Bradybaenidae	 1
+Bradynobaenidae	 580
+Branchinectidae	 249
+Branneriidae	 8
+Brathinidae	 2
+Brenthidae	 1
+Brentidae	 2909
+Bresiliidae	 1
+Bruchidae	 429
+Buccinidae	 38
+Bucculatricidae	 329
+Bucephalidae	 2
+Bulimulidae	 37
+Bullidae	 6
+Buprestidae	 27447
+Burgessiidae	 58
+Bursidae	 9
+BUtahhidae	 1
+Buthidae	 1043
+Byrrhidae	 680
+Bythocyprididae	 5
+Bythocytheridae	 5
+Byturidae	 380
+Caddidae	 24
+Caecilidae	 1
+Caeciliidae	 26
+Caeciliusidae	 77
+Caeculidae	 17
+Caenidae	 3036
+Calamoceratidae	 211
+Calanidae	 10116
+Calappidae	 275
+Caleremaeidae	 4
+Caligidae	 111
+Caligonellidae	 1
+Caliphoridae	 8
+Caliscelidae	 1338
+Callianassidae	 675
+Callianideidae	 6
+Callionymidae	 3
+Calliopiidae	 206
+Calliostomatidae	 7
+Callipallenidae	 63
+Calliphorida	 1
+Calliphoridae	 10890
+Callipodidae	 1
+Callirhipidae	 40
+Calocarididae	 4
+Calocidae	 1
+Caloneuridae	 10
+Calophyidae	 134
+Calopterygidae	 5316
+Calymenidae	 925
+Calyptostomatidae	 4
+Calyptraeidae	 31
+Calyptraeidae 	 4
+Camaenidae	 2
+Camallanidae	 13
+Camasiidae	 1
+Cambalidae	 77
+Cambaridae	 4222
+Camisiidae	 163
+Campodeidae	 47
+Camptoneuritidae	 1
+Canacidae	 5995
+Cancellariidae	 3
+Cancridae	 758
+Cancroidea	 3
+Candacidae	 3
+Candaciidae	 4
+Candonidae	 13
+Canestriniidae	 1
+Cantharidae	 6478
+Canthocamptidae	 41
+Canthyloscelidae	 16
+Canuellidae	 187
+Capillaridae	 45
+Capniidae	 12718
+Caponiidae	 33
+Caprellidae	 614
+Caprellinoididae	 11
+Capulidae	 1
+Carabidae	 428445
+Carabidae 	 76
+Caraboacaridae	 7
+Carabodidae	 48
+Carangidae	 2
+Carcineretidae	 2
+Carcinophoridae	 21
+Carcinosomatidae	 1
+Cardiidae	 32
+Carditidae	 6
+Caribbiantidae	 3
+Caridae	 5
+Carnidae	 408
+Carpiliidae	 8
+Carposinidae	 92
+Carychiidae	 8
+Caryophyllaeidae	 1
+Caseyidae	 19
+Caspiopetalidae	 4
+Cassidae	 15
+Castniidae	 4
+Catacrinidae	 1
+Catenotaeniidae	 4
+Catillicephalidae	 39
+Cebrionidae	 72
+Cecidomyiidae	 28297
+Cecropidae	 7
+Cedariidae	 1
+Celaenopsidae	 3
+Centropagidae	 616
+Centrorhynchidae	 17
+Cephaloidae	 13
+Cepheidae	 3
+Cephidae	 555
+Ceraclea	 1
+Cerambycidae	 32847
+Ceraphrodidae	 87
+Ceraphronidae	 1445
+Ceratapogonidae	 176
+Ceratiidae	 43
+Ceratiocarididae	 28
+Ceratocombidae	 99
+Ceratocumatidae	 7
+Ceratolasmatidae	 46
+Ceratophylidae	 1
+Ceratophyllida	 1
+Ceratophyllidae	 886
+Ceratopogonidae	 9351
+Ceratopongidae	 12
+Ceratoppiidae	 319
+Ceratopsyche	 4
+Ceratozetidae	 417
+Cercopidae	 4200
+Cercropidae	 1
+Cerithiidae	 5
+Cerococcidae	 73
+Cerophytidae	 7
+Cerozetidae	 4
+Certatopogonidae	 3
+Cerviniidae	 17
+Cerylonidae	 894
+Cetomimidae	 45
+Cetoniidae	 1152
+Chactidae	 26
+Chaetiliidae	 171
+Chaetodactylidae	 19
+Chaetodontidae	 4
+Chalcidae	 3
+Chalcididae	 2851
+Chamaemyiidae	 6593
+Chamidae	 9
+Chamobatidae	 71
+Chaoboridae	 638
+Chaodoridae	 3
+Charipidae	 100
+Charopidae	 2
+Chasmocarcinidae	 11
+Chauliodontidae	 60
+Cheilocephalidae	 2
+Cheiragonidae	 1470
+Cheiridiidae	 5
+Cheirocratidae	 1
+Cheiruridae	 2397
+Cheliferidae	 235
+Chelisochidae	 82
+Chelodesmidae	 22
+Chelonariidae	 69
+Chelonibiidae	 3
+Chelopteridae	 43
+Cheluridae	 6
+Chernetidae	 240
+Cheyletidae	 22
+Chilenophilidae	 1
+Chilomastigidae	 2
+Chimabachidae	 1
+Chirocephalidae	 108
+Chirodiscidae	 39
+Chiromyidae	 3
+Chironomidae	 38555
+Chirostylidae	 8
+Chitonidae	 2
+Chloroperlidae	 3409
+Chloropidae	 50275
+Choctellidae	 4
+Chondracanthidae	 36
+Chordodidae	 1
+Choreutidae	 179
+Choropidae	 17
+Chortoglyphidae	 11
+Chrionomidae	 1
+Chrysididae	 6494
+Chrysolmelidae	 1
+Chrysomelidae	 34080
+Chrysomelidae:Bruchinae	 34
+Chrysomellidae	 1
+Chrysopidae	 8106
+Chthamalidae	 87
+Chthonidae	 1
+Chthoniidae	 99
+Chydoridae	 503
+Chyphotidae	 61
+Chyromyidae	 479
+Chyrsomelidae	 11
+Cicadellidae	 208726
+Cicadidae	 50928
+Cicerinidae	 1
+Cicindelidae	 94
+Cicodellidae	 5
+Ciidae	 3648
+Cimbicidae	 814
+Cimibicidae	 8
+Cimicidae	 1336
+Cirolanidae	 620
+Cisiidae	 1
+Cixiidae	 7651
+Cixiidae, Achilidae	 1
+Cladonychiidae	 47
+Clambidae	 312
+Clariidae	 2
+Clastopteriae	 11
+Clastopteridae	 5552
+Clausidiidae	 4
+Clausocalanidae	 3473
+Cleidogonidae	 400
+Cleriae	 1
+Cleridae	 7271
+Cletodidae	 118
+Clinidae	 2
+Clinostomatidae	 141
+Cloacaridae	 48
+Clubionidae	 2743
+Clusiidae	 850
+Clytemnestridae	 1
+Coccidae	 3473
+Coccinellidae	 21215
+Coccinellidae, Chrysomelidae	 1
+Coccoideae	 1
+Cochlicopidae	 2
+Cochylidae	 72
+Coelopidae	 359
+Coenagrionidae	 38112
+Coenobitidae	 113
+Coleophoridae	 947
+Coleoptera	 23
+Colletidae	 79610
+Colletteidae	 50
+Collumbellidae	 1
+Colomastigidae	 47
+Colossendeidae	 26
+Columbellidae	 8
+Colydiidae	 392
+Conchaspididae	 5
+Condylopygidae	 4
+Conidae	 80
+Coniopterygidae	 602
+Conipterygidae	 1
+Conocephalidae	 50
+Conocephalidea	 1
+Conocephalideae	 2
+Conocoryphidae	 11
+Conoesucidae	 1
+Conopidae	 636
+Conotylidae	 120
+Coosellidae	 6
+Copromorphidae	 12
+Corallanidae	 42
+Coralliophilidae	 2
+Corbiculidae	 52
+Cordulegastridae	 1332
+Corduliidae	 8262
+Cordullidae	 596
+Coreidae	 21337
+Corethrellidae	 11
+Corimelaenidae	 646
+Corinnidae	 1875
+Corinnidae?	 7
+Corixidae	 46242
+Corixiidae	 25
+Coronulidae	 8
+Corophiidae	 3029
+Corycaeidae	 9
+Corydalidae	 2226
+Corydiidae	 145
+Corylophidae	 1852
+Cosmetidae	 325
+Cosmocercidae	 14
+Cosmochthoniidae	 5
+Cosmopterigidae	 1290
+Cossidae	 503
+Crabronidae	 44703
+Crambidae	 9699
+Crangonidae	 924
+Crangonyctidae	 361
+Craspedosomatidae	 2
+Crassatellidae	 2
+Crepicephalidae	 14
+Crepidulidae	 5
+Crossotonotidae	 1
+Crotoniidae	 5
+Crustacea	 1134
+Cruziidae	 6
+Cryptocercidae	 104
+Cryptochetidae	 1
+Cryptochiridae	 6
+Cryptocopidae	 1
+Cryptodesmidae	 11
+Cryptogonimidae	 25
+Cryptoniscidae	 57
+Cryptophagidae	 2650
+Cryptophialidae	 1
+Cryptopidae	 161
+Ctenidae	 65
+Ctenizidae	 106
+Ctenizidae?	 1
+Ctenophthalmidae	 31
+Ctenuchidae	 2
+Cucujidae	 334
+Cuculionidae	 1
+Cucullanidae	 1
+Culicidae	 32506
+Cunaxidae	 30
+Cupedidae	 298
+Curaliidae	 20
+Curculionidae	 177076
+Curculionidae:Scolytinae	 2
+Curtonotidae	 20
+Cuspidariidae	 1
+CUtaherebridae	 1
+Cuterebridae	 120
+Cyamidae	 5
+Cyathocephalidae	 1
+Cyathocotylidae	 1
+Cyathostomidae	 65
+Cybaeidae	 2054
+Cyclidae	 1
+Cyclocoelidae	 80
+Cyclodorippidae	 19
+Cyclopidae	 638
+Cyclopinidae	 8
+Cyclopygidae	 1
+Cydnidae	 5184
+Cyematidae	 1
+Cylichnidae	 1
+Cylindroleberididae	 1628
+Cylindropsyllidae	 47
+Cylindrotomidae	 31
+Cylisticidae	 8
+Cymbaeremaeidae	 53
+Cymidae	 2851
+Cymopoliidae	 9
+Cymothoidae	 69
+Cynidae	 2
+Cynipidae	 9213
+Cyphocarididae	 8
+Cypraeidae	 24
+Cypridae	 2
+Cyprididae	 1201
+Cypridinidae	 365
+Cypridopsidae	 1
+Cyproideidae	 4
+Cyrtaucheniidae	 42
+Cyrtodesmidae	 2
+Cystiosomatidae	 1
+Cytherellidae	 3
+Cytheridae	 14
+Cytherideidae	 127
+Cytheromatidae	 41
+Cytheruridae	 7
+Cytoditidae	 2
+Cytodytidae	 27
+Cyzicidae	 53
+Dactylogyridae	 17
+Dactylopiidae	 112
+Dairellidae	 1
+Dairidae	 45
+Dairoididae	 12
+Dakoticancridae	 25
+Dalceridae	 35
+Dalmanitidae	 61
+Damaeidae	 75
+Dameaidae	 6
+Danaidae	 18
+Danidae	 1
+Daphnidae	 44
+Daphniidae	 617
+Daraineidae	 1
+Darcythompsoniidae	 7
+Dariellidae	 1
+Darwinulidae	 30
+Dascillidae	 172
+Dascyllidae	 1
+Dasyleptidae	 1
+Dasytidae	 3
+Davaineidae	 226
+Deinopidae	 4
+Delphacidae	 27600
+Deltocephalidae	 82
+Demodecidae	 12
+Demodicidae	 1
+Demopteridae	 1
+Dendrotionidae	 1
+Dentaliidae	 1
+Depressariidae	 3
+Derbidae	 2970
+Dermanyssidae	 1181
+Dermationidae	 1
+Dermestidae	 5813
+Derodontidae	 2812
+Desidae	 7
+Desmosomatidae	 39
+Deuterophlebiidae	 4
+Dexaminidae	 75
+Diadocidiidae	 7
+Diagnothodontidae	 5
+Diaphanidae	 1
+Diaphanocephalidae	 3
+Diaphanometopidae	 1
+Diapheromeridae	 280
+Diapriidae	 8300
+Diaptomidae	 344
+Diaspididae	 14139
+Diastatidae	 129
+Diastylidae	 1135
+Dibothriocephalidae	 2
+Dicrocoeliidae	 245
+Dictynidae	 5179
+Dictynidae?	 1
+Dictyopharidae	 4426
+Dicyrtomidae	 424
+Digamasellidae	 376
+Dignathodontidae	 7
+Diguetidae	 89
+Dikelocephalidae	 75
+Dilaridae	 1
+Dilepididae	 271
+Dimeropygidae	 7
+Dinesidae	 7
+Dinidoridae	 19
+Dinychidae	 565
+Dioctophymatidae	 10
+Dioecocestidae	 2
+Diogenidae	 1261
+Dionididae	 8
+Diopsidae	 18
+Dioptidae	 3
+Diosaccidae	 69
+Diospilini	 1
+Dipetalonematidae	 79
+Diphyllobothridae	 5
+Diphyllostomatidae	 21
+Diplagnostidae	 2
+Diplepididae	 22
+Diplocentridae	 63
+Diplodiscidae	 2
+Diplostomatidae	 5656
+Diplotrianeidae	 6
+Dipluridae	 72
+Diprionidae	 3543
+Dipseudopsidae	 572
+Dipsocoridae	 24
+Diptera	 10
+Dipylidiidae	 20
+Dirivultidae	 91
+Disciadidae	 1
+Discidae	 31
+Discocotylidae	 14
+Discolomatidae	 2
+Discolomidae	 1
+Discourellidae	 2
+Ditaxineuridae	 2
+Ditomyiidae	 17
+Dixidae	 112
+Dixiidae	 1
+Dogielinotidae	 147
+Doidae	 3
+Dokimocephalidae	 40
+Dolichoderinae	 12
+Dolichometopidae	 78
+Dolichopidae	 5
+Dolichopodidae	 33222
+Dolichopsyllidae	 22
+Dolichopteridae	 10
+Dolochopodidae	 1
+Domeciidae	 36
+Donacidae	 9
+Dorippidae	 15
+Dorypygidae	 72
+Douglasiidae	 52
+Dracanculidae	 1
+Drassidae	 5
+Drepanellidae	 7
+Drepanidae	 1599
+Dressenidae	 1
+Dromiidae	 144
+Drosophila	 130
+Drosophilidae	 30447
+Dryinidae	 994
+Dryobidae	 1
+Dryomyzidae	 734
+Dryophthoridae	 663
+Dryopidae	 7159
+Dulichiidae	 3
+Dulicidae	 1
+Dumontiidae	 4
+Dynastidae	 1561
+Dynomenidae	 22
+Dysderidae	 557
+Dytiscidae	 49103
+Dytisidae	 1
+E	 1
+Ecbathyriontidae	 1
+Echeneididae	 39
+Echinocarididae	 31
+Echinorhynchidae	 1
+Echinostomatidae	 103
+Ecnomidae	 16
+Ectinosomatidae	 89
+Ectobiidae	 326
+Ectopsocidae	 35
+Eimeriidae	 2
+Elachistidae	 1408
+Elasmidae	 14
+Elateriae	 1
+Elateridae	 35063
+Elateroidea	 5
+Elenchidae	 9
+Eleotrididae	 21
+Elipsocidae	 37
+Ellipsocephalidae	 2
+Ellipsocephaloididae	 29
+Elliptochthoniidae	 2
+Ellobiidae	 5
+Elmidae	 17132
+Elmoidae	 10
+Elviniidae	 57
+Elytroneuridae	 1
+Embiidae	 2
+Embioptera	 18
+Embolemidae	 5
+Empidae	 1
+Empididae	 8495
+Enchytraeidae	 4
+Encrinuridae	 163
+Encyridae	 20
+Encyrtidae	 22530
+Endamoebidae	 10
+Endecatomidae	 59
+Endeididae	 12
+Endomychidae	 1477
+Endymioniidae	 4
+Eneopteridae	 2
+Engraulididae	 42
+Enicocephalidae	 118
+Eniochthoniidae	 1
+Enoplometopidae	 1
+Entocytheridae	 33
+Entomaspididae	 1
+Entomobryidae	 9968
+Entomozoidae	 1
+Entonyssidae	 4
+Eodiscidae	 20
+Eosentomidae	 1
+Epermeniidae	 62
+Ephemerellidae	 5163
+Ephemeridae	 4044
+Ephippididae	 16
+Ephydridae	 11241
+Epialtidae	 605
+Epidermoptidae	 158
+Epilohmannidae	 2
+Epilohmanniidae	 1
+Epimeriidae	 21
+Epimetopidae	 49
+Epiplemidae	 8
+Epipsocidae	 3
+Epipygidae	 2
+Epipyropidae	 6
+Episactidae	 4
+Epitoniidae	 12
+Erebidae	 29273
+Erebonasteridae	 6
+Eremaeidae	 113
+Eremobatidae	 3212
+Eremobelbidae	 1
+Ereynetidae	 161
+Ergasilidae	 38
+Erigonidae	 7
+Eriococcidae	 594
+Eriocottidae	 1
+Eriocraniidae	 116
+Eriophyidae	 10
+Eriopisidae	 3
+Eriphiidae	 221
+Erirhinidae	 307
+Erotylidae	 2362
+Erymidae	 2
+Erythraeidae	 1383
+Estheriidae	 3
+Ethmiidae	 17
+Ethusidae	 20
+Eucaenidae	 1
+Eucalanidae	 1714
+Euchaetidae	 653
+Eucharitidae	 198
+Eucinetidae	 269
+Eucnemidae	 952
+Eucoilidae	 235
+Eucopiidae	 71
+Eucotylidae	 30
+Eucytheridae	 14
+Euglenidae	 36
+Euglycyphagidae	 8
+Eugonatonotidae	 4
+Eukoeneniidae	 3
+Eulichadidae	 1
+Eulimidae	 1
+Eulophidae	 16407
+Eumastacidae	 61
+Eumenidae	 1898
+Eumunididae	 2
+Eupelmidae	 1271
+Euphausiidae	 5376
+Euphoberiidae	 10
+Euphorinae	 2
+Euphthiracaridae	 6
+Eupodidae	 621
+Euproopidae	 16
+Eurycercidae	 30
+Eurychilinidae	 11
+Eurydesmidae	 9
+Eurymerodesmidae	 42
+Euryphoridae	 2
+Euryplacidae	 51
+Eurypteridae	 109
+Euryptilonidae	 13
+Eurysquillidae	 1
+Eurystethidae	 10
+Eurytomidae	 3807
+Euryuridae	 194
+Euscorpiidae	 2
+Eusiridae	 243
+Euteliidae	 44
+Euterpinidae	 2
+Eutichuridae	 40
+Evaniidae	 623
+Expanathuridae	 2
+Eylaidae	 8
+Fabaceae	 30
+Fallotaspididae	 1
+Fanniidae	 4990
+Fasciolariidae	 23
+Fasciolidae	 12
+Fellodistomatidae	 1
+Ficidae	 3
+Figitidae	 1931
+Filariidae	 29
+Filaroididae	 129
+Filistatidae	 219
+Fish	 1
+Fissurellidae	 20
+Flatidae	 4962
+Floridobolidae	 5
+Forficulidae	 334
+Formica	 3
+Formicidae	 251086
+Freyanidae	 13
+Fuhrmannodesmidae	 3
+Fulgoridae	 876
+Fungivoridae	 1
+Gabuciniidae	 12
+Gadiformes	 16
+Gagrellidae	 80
+Galacticidae	 13
+Galatheidae	 204
+Galeorhinidae	 6
+Galumnidae	 131
+Gamasidae	 8
+Gammarellidae	 8
+Gammaridae	 1073
+Garypidae	 18
+Garypinidae	 1
+Gasteruptiidae	 400
+Gastrerophilidae	 1
+Gastrocotylidae	 6
+Gastronyssidae	 4
+Gecarcinidae	 228
+Gelastochoridae	 3
+Gelastocoridae	 2639
+Gelechidae	 2
+Gelechiidae	 6394
+Geocoridae	 6179
+Geogarypidae	 1
+Geometridae	 34129
+Geomyzidae	 1
+Geophilidae	 273
+Geophilomorpha	 1
+Georissidae	 3
+Georyssidae	 15
+Geotrupidae	 2754
+Geragnostidae	 5
+Gerridae	 9490
+Geryonidae	 49
+Gigantorhynchidae	 15
+Glaphuridae	 8
+Glaphyridae	 43
+Glaresidae	 780
+Glomeridae	 24
+Glomeridesmidae	 9
+Glossosomatidae	 3354
+Glycymerididae	 6
+Glycyphagidae	 110
+Glypheidae	 1
+Glyphidoceridae	 20
+Glyphipterigidae	 72
+Glyphocrangonidae	 120
+Glyptograpsidae	 46
+Gnaphosidae	 12120
+Gnaphosidae?	 12
+Gnaphosiidae	 2
+Gnathiidae	 65
+Gnathophyllidae	 28
+Gnathostenetroidae	 5
+Gnathostomatidae	 5
+Gobiesocidae	 8
+Gobiidae	 6
+Goeridae	 494
+Goeziidae	 3
+Gomphidae	 7286
+Goneplacidae	 79
+Gonodactylidae	 323
+Gorgoderidae	 10
+Gosibiidae	 21
+Gracillariidae	 3426
+Grammistidae	 7
+Grapsidae	 772
+Gryllacrididae	 48
+Gryllidae	 5758
+Grylloblattidae	 23
+Gryllotalpidae	 334
+Guanolichidae	 2
+Gustaviidae	 8
+Gymnodamaeidae	 99
+Gyrinidae	 11902
+Gyrodactylidae	 1
+Gyropidae	 24
+Habronematidae	 27
+Hadziidae	 83
+Haematopinidae	 46
+Hahnidae	 1
+Hahniidae	 2950
+Halacaridae	 29
+Halarachinidae	 1
+Halicidae	 5
+Halictidae	 631017
+Halictus	 3
+Halimococcidae	 6
+Haliotididae	 15
+Haliplidae	 6580
+Halocyprididae	 258
+Haminoeidae	 2
+Hammatocnemidae	 15
+Hapalocarcinidae	 2
+Haplobothriidae	 1
+Haplochthoniidae	 6
+Haplodesmidae	 4
+Haplomunnidae	 3
+Haplonematidae	 2
+Haploniscidae	 6
+Haplotrematidae	 4
+Haplozetidae	 73
+Harpacticidae	 638
+Harpetidae	 29
+Harpidae	 2
+Harpididae	 5
+Harpyrhynchidae	 7
+Hasstilesiidae	 8
+Hastagnostidae	 53
+Haustoridae	 1
+Haustoriidae	 827
+Hebridae	 669
+Hectopsyllidae	 234
+Hedylidae	 2
+Heleomyzidae	 3375
+Helicarionidae	 17
+Helicidae	 6
+Helicinidae	 19
+Helicodiscidae	 19
+Heliconiidae	 6
+Helicophidae	 100
+Helicopsychidae	 1367
+Heliodinidae	 79
+Heliozelidae	 189
+Helminthoglyptidae	 1
+Helodidae	 3
+Helomyzidae	 9
+Helophoridae	 890
+Heloridae	 21
+Hemerobiidae	 5608
+Hemicytheridae	 895
+Hemimylacridae	 1
+Hemipsocidae	 22
+Hemiptera	 12
+Hemisarcoptidae	 8
+Hemiscorpionidae	 1
+Hemisquillidae	 8
+Hemiuridae	 43
+Henicopidae	 60
+Hepialidae	 322
+Heptageniidae	 15393
+Hermanniellidae	 2
+Hermanniidae	 16
+Hermatobatidae	 2
+Herminiidae	 26
+Heronimidae	 8
+Herpyllobiidae	 1
+Hersiliidae	 24
+Hesperiidae	 60744
+Hesperinidae	 7
+Heterakidae	 46
+Heteroceridae	 3214
+Heterocheilidae	 3
+Heterochoilidae	 14
+Heterogastridae	 81
+Heteromyzidae	 7
+Heteronemiidae	 59
+Heterononomiidae	 1
+Heterophyidae	 116
+Heteroptera	 1
+Heterorhabdidae	 361
+Heterothripidae	 261
+Heterozerconidae	 1
+Heterozetidae	 1
+Hexamitidae	 1
+Hexathelidae	 1
+Hilarimorphidae	 49
+Himantariidae	 16
+Hippidae	 246
+Hippoboscidae	 109
+Hippolytidae	 1470
+Hipponicidae	 7
+Hiridae	 1
+Hirudisomatidae	 3
+Hirudosomatidae	 1
+Histeridae	 11626
+Histeridae 	 3319
+Histiostomatidae	 30
+Hodotermitidae	 1
+Holistophallidae	 6
+Hollinidae	 17
+Holmiidae	 12
+Holocentridae	 1
+Holognathidae	 13
+Holopedidae	 1
+Holopediidae	 2
+Homalonotidae	 48
+Homalonychidae	 47
+Homolidae	 12
+Homolodromiidae	 1
+Homotomidae	 11
+Hoplopleuridae	 93
+Hubbardiidae	 27
+Hughmilleriidae	 48
+Humerobatidae	 219
+Huntemanniidae	 15
+Hutchinsoniellidae	 25
+Hyadesiidae	 81
+Hyalellidae	 298
+Hyalidae	 109
+Hyblaeidae	 1
+Hybosoridae	 803
+Hybotidae	 4778
+Hydatinidae	 2
+Hydrachnidae	 24
+Hydraenidae	 862
+Hydridae	 5
+Hydrobiidae	 99
+Hydrobiosidae	 304
+Hydrochidae	 471
+Hydrodromidae	 1
+Hydrometridae	 650
+Hydrophilidae	 39127
+Hydropsyche	 1
+Hydropsychidae	 21754
+Hydroptilidae	 6019
+Hydroscaphidae	 215
+Hydrozetidae	 2
+Hydryphantidae	 7
+Hygrobatidae	 3
+Hymenolepididae	 228
+Hymenopodidae	 1
+Hymenoptera	 18
+Hyperiidae	 3416
+Hypochilidae	 823
+Hypochthoniidae	 7
+Hypoderidae	 177
+Hypogastruridae	 1692
+Hyponeoidae	 1
+Hyssuridae	 715
+Hystrichopsyllidae	 214
+Ibalidae	 2
+Ibaliidae	 142
+Ichneumonidae	 52899
+Ichneumonidae, Bruniaceae	 4
+Ichnuemonidae	 4
+Icthyocrinidae	 1
+Idahoiidae	 19
+Ideoroncidae	 9
+Idiacanthidae	 13
+Idiopidae	 3
+Idoteidae	 1274
+Iguanidae	 1
+Illaenidae	 890
+Illaenuridae	 6
+Ilyocryptidae	 44
+Ilyocyprididae	 301
+Immidae	 24
+Inachidae	 218
+Inachoididae	 125
+incertae sedis	 1
+Incurvariidae	 160
+Ingolfiellidae	 27
+Inocellidae	 340
+Inocelliidae	 2
+Iphimediidae	 21
+Isaeidae	 1775
+Ischnochitonidae	 24
+Ischnomesidae	 3
+Ischnopsyllidae	 8
+Ischryopsalididae	 24
+Ischyroceridae	 1438
+Ischyropsalididae	 148
+Ismaridae	 5
+Isochilinidae	 7
+Isognomonidae	 6
+Isonychidae	 3
+Isonychiidae	 1820
+Isoperlinae	 69
+Isotomidae	 3623
+Issidae	 2085
+Ithonidae	 132
+Ithyceridae	 8
+Iuridae	 1019
+Ixodidae	 3589
+Jacobsoniidae	 1
+Janirellidae	 4
+Janiridae	 215
+Janthinidae	 1
+Japygidae	 79
+Jassidae	 1
+Jineidae	 2
+Joeropsididae	 35
+Joppeicidae	 27
+Judomiidae	 3
+Julidae	 1259
+Kalliapseudidae	 696
+Kalotermitidae	 812
+Kateretidae	 495
+Kathlaniidae	 8
+Katiannidae	 425
+Kennedyidae	 6
+Kermesidae	 394
+Kermisidae	 16
+Keroplatidae	 298
+Kerridae	 5
+Kerriidae	 48
+Kingstoniidae	 23
+Kinnaridae	 113
+Kloedenellidae	 91
+Kloedeniidae	 17
+Knemidokoptidae	 22
+Knoxitidae	 1
+Krithidae	 111
+Kuhliidae	 3
+Kuwaniidae	 40
+Kyphosidae	 1
+Labidaphohidae	 1
+Labiduridae	 90
+Labiidae	 49
+Labridae	 5
+Lachesillidae	 16
+Lacistorhynchidae	 3
+Lacturidae	 12
+Laelapidae	 681
+Laemobothriidae	 7
+Laemophloeidae	 764
+Lafystiidae	 3
+Lagriidae	 7
+Lamellariidae	 2
+Lampritrematidae	 2
+Lampropidae	 115
+Lampyridae	 2800
+Lanceolidae	 24
+Languriidae	 445
+Laomediidae	 2
+Laophontidae	 52
+Larcidae	 3
+Lardoglyphidae	 2
+Largidae	 1466
+Larridae	 10
+Lasaeidae	 3
+Lasiocampidae	 2329
+Lasiocampidae?	 5
+Lasiochilidae	 430
+Lathrididae	 11
+Lathridiidae	 155
+Latreilliidae	 13
+Latridiidae	 5851
+Latridiidae?	 2
+Lauxaniidae	 6082
+Leaiidae	 25
+Leanchoiliidae	 1
+Lebertiidae	 14
+Lecanodiaspididae	 122
+Lecanopygidae	 1
+Lecithoceridae	 9
+Lecithodendriidae	 10
+Leeuwenhoekiidae	 1
+Leiodidae	 7166
+Leiostegiidae	 24
+Lemmatophoridae	 718
+Lepadidae	 37
+Lepdophlebiidae	 1
+Leperditellidae	 39
+Leperditiidae	 116
+Lepidomysidae	 6
+Lepidopsocidae	 162
+Lepidoptera	 361
+Lepidoptera, Satyridae	 3
+Lepidostomatidae	 3008
+Lepidotrichidae	 5
+Lepismatidae	 154
+Lepocreadiidae	 14
+Leptanthuridae	 66
+Leptastacidae	 3
+Leptestheriidae	 8
+Leptidae	 22
+Leptinidae	 6
+Leptocera	 1
+Leptoceridae	 13425
+Leptocheliidae	 1728
+Leptochitonidae	 1
+Leptocytheridae	 298
+Leptodiridae	 6
+Leptodoridae	 11
+Leptogastridae	 15
+Leptognathiidae	 49
+Leptohyphidae	 762
+Leptonetidae	 49
+Leptophlebiidae	 3540
+Leptopodidae	 81
+Leptopontiidae	 1
+Leptopsyllidae	 43
+Lernaeidae	 3
+Lernaeoceridae	 2
+Lernaeopodidae	 8
+Lestidae	 8964
+Lestremiidae	 112
+Lethrinidae	 2
+Leucochloridlidae	 12
+Leuconidae	 1389
+Leucosiidae	 277
+Leucospidae	 199
+Leucospididae	 8
+Leucothoidae	 170
+Leuctridae	 1791
+Liacaridae	 34
+Libelluidae	 7
+Libellulidae	 30040
+Libelluloidae	 1
+Libytheidae	 57
+Lichakephalidae	 29
+Lichen	 1
+Lichidae	 50
+Liebstadiidae	 44
+Ligiidae	 73
+Liljeborgiidae	 677
+Limacidae	 4
+Limacodidae	 1042
+Limnadiidae	 40
+Limnadopsidae	 4
+Limnephilidae	 14788
+Limnephilinae	 25
+Limnephiloidea	 69
+Limnesiidae	 28
+Limnichidae	 952
+Limnichilidae	 1
+Limnocharidae	 3
+Limnocytheridae	 4
+Limnoriidae	 68
+Limoniidae	 1766
+Limulidae	 60
+Limulodidae	 2
+Linguatulidae	 1
+Linognathidae	 36
+Linotaeniidae	 380
+Linyphiidae	 27111
+Liochelidae	 1
+Liocranidae	 469
+Liodidae	 2
+Liomesaspididae	 3
+Liomopteridae	 149
+Liopropomatidae	 2
+Liostracinidae	 1
+Liotheidae	 3
+Liparidae	 1
+Lipogenyidae	 2
+Liposcelidae	 2
+Liposcelididae	 10
+Lissorchiidae	 1
+Listrophonidae	 4
+Listrophoridae	 949
+Lithobiidae	 2194
+Lithobiomorpha	 1
+Lithodidae	 6472
+Littorinidae	 30
+Liturgusidae	 7
+Liviidae	 387
+Llinyphiidae	 2
+Locustidae	 16
+Lohmanniidae	 11
+Loliginidae	 1
+Lomoidae	 2
+Lonchaeidae	 564
+Lonchocephalidae	 7
+Lonchopteridae	 1000
+Longipediidae	 16
+Longusorbiidae	 1
+Lophioneuridae	 1
+Lophogastridae	 71
+Lophoproctidae	 4
+Loreidae	 1
+Lotidae	 83
+Lottiidae	 13
+Louriniidae	 1
+Loxoconchidae	 901
+Lubbockiidae	 13
+Lucanidae	 1072
+Lucicutiidae	 5
+Luciferidae	 22
+Lucinidae	 27
+Lumbricidae	 7
+Lutjanidae	 6
+Lutrochidae	 251
+Lycaeidae	 4
+Lycaenidae	 62510
+Lycidae	 1973
+Lycosidae	 34134
+Lyctidae	 17
+Lyctocoridae	 119
+Lygacidae	 1
+Lygaeidae	 34808
+Lygalidae	 1
+Lygistorrhinidae	 3
+Lymantiidae	 1
+Lymantridae	 8
+Lymantriidae	 684
+Lymexylidae	 12
+Lymexylonidae	 3
+Lymnaeidae	 338
+Lymnaeidae?	 1
+Lynceidae	 32
+LyniphiIdae	 2
+Lyonetiidae	 177
+Lyonsiidae	 5
+Lysianassidae	 1286
+Lysianassidea	 2
+Lysiosquillidae	 21
+Machalidae	 1
+Machilidae	 286
+Machiloidea	 10
+Machrochelidae	 3
+Macracanthorhynchidae	 5
+Macrobiotidae	 2
+Macrochelidae	 31
+Macrocyprididae	 2
+Macroderidae	 1
+Macromiidae	 85
+Macronyssidae	 3
+Macropipidae	 14
+Macrosternodesmidae	 6
+Macrostylidae	 2
+Macrothricidae	 126
+Macrouridaex	 1
+Macroveliidae	 325
+Macrurocyttidae	 1
+Mactridae	 25
+Maeridae	 18
+Majidae	 781
+Malachidae	 1
+Malachiidae	 11
+Malaconothridae	 13
+Malacosteidae	 159
+Malicaidae	 1
+Maloconothridae	 1
+Mantidae	 805
+Mantispidae	 1071
+Mantoididae	 54
+Margaritiferidae	 1
+Margarodidae	 69
+Margaroididae	 8
+Marginellidae	 1
+Marjumiidae	 4
+Marrellidae	 220
+Martynoviidae	 13
+Masaridae	 315
+Matsucoccidae	 72
+Mauroniscidae	 2
+Mecicobothriidae	 92
+Mecistocephalidae	 10
+Mecynoceridae	 1
+Megacalanidae	 1
+Megachildae	 373
+Megachilidae	 241078
+Megagopygidae	 3
+Megalopodidae	 34
+Megalopygidae	 710
+Megaluropidae	 779
+Meganeuridae	 17
+Megapodagrionidae	 1
+Megapontiidae	 4
+Megaspilidae	 669
+Megeremaeidae	 15
+Megisthanidae	 1
+Meinertellidae	 32
+Melamphaidae	 266
+Melandryidae	 2580
+Melanopsidae	 1
+Melanostomiidae	 212
+Melanthripidae	 18
+Melasidae	 1
+Melitidae	 2236
+Melittidae	 12302
+Mellitidae	 4
+Mellyridae	 1
+Meloidae	 19962
+Meloidae?	 1
+Melolonthidae	 1751
+Melondryidae	 2
+Melongenidae	 37
+Melphidippidae	 146
+Melyridae	 4150
+Melyrridae	 14
+Membracidae	 72942
+Menippidae	 151
+Menomoniidae	 25
+Menoponidae	 69
+Menthidae	 4
+Mermithidae	 1
+Meropeidae	 201
+Merothripidae	 5
+Mesocestoidae	 1
+Mesocestoididae	 1654
+Mesoplophoridae	 1
+Mesopsocidae	 10
+Mesoveliidae	 1170
+Messicobolidae	 7
+Metapseudidae	 250
+Methochidae	 37
+Metidae	 15
+Metretopodidae	 253
+Metridinidae	 2140
+Micragnostidae	 2
+Microbothriidae	 2
+Microcerberidae	 2
+Microcotylidae	 2
+Microdispidae	 26
+Microgyniidae	 31
+Microlympiidae	 4
+Micromalthidae	 46
+Micronectidae	 2246
+Microparasellidae	 25
+Micropezidae	 588
+Microphallidae	 170
+Microphoridae	 2
+Microphysidae	 20
+Micropterigidae	 31
+Microtrombidiidae	 23
+Micryphantidae	 3
+Mideidae	 1
+Mideopsidae	 9
+Milacidae	 1
+Milichiidae	 5659
+Mimallonidae	 28
+Mimetidae	 274
+Miraciidae	 2
+Miridae	 374176
+Miridae and/or Anthocoridae	 757
+Miridae/Anthocoridae	 137
+Miridea	 1
+Mithracidae	 1327
+Mitridae	 12
+Miturgidae	 341
+Mobulidae	 3
+Mochlozetidae	 35
+Modulidae	 1
+Mogoplistidae	 291
+Moinidae	 267
+Molanna	 1
+Molannidae	 1170
+Momphidae	 212
+Monacanthidae	 1
+Moniliformidae	 16
+Monocotylidae	 1
+Monomachidae	 1
+Monommatidae	 6
+Monommidae	 5
+Monophlebidae	 107
+Monorchiidae	 4
+Monotom	 1
+Monotomidae	 1586
+Monstrillidae	 3
+Mopaliidae	 21
+Mordelidae	 3
+Mordellidae	 13064
+Mormonillidae	 40
+Mrylianidae	 1
+Mugilidae	 61
+Munididae	 22
+Munidopsidae	 21
+Munnidae	 95
+Munnopsidae	 73
+Muricidae	 105
+Musapsocidae	 1
+Muscidae	 27568
+MUtahillidae	 32
+Mutilidae	 1
+Mutillidae	 27943
+Mycetophagidae	 2578
+Mycetophilidae	 13886
+Mycobacteriaceae	 10
+Mycteridae	 229
+Myctophidae	 1
+Mydaidae	 2
+Mydidae	 555
+Myicolidae	 2
+Myidae	 3
+Mylacridae	 2
+Mymaridae	 3596
+Myobiidae	 66
+Myocoptidae	 33
+Myopsocidae	 1
+Myrmecophilidae	 93
+Myrmelenontidae	 13
+Myrmeleontidae	 3976
+Myrmeliontidae	 1
+Myrmeloentidae	 12
+Myrmelontidae	 2
+Myrmosidae	 26
+Mysidae	 1959
+Mysmenidae	 77
+Mythicomyiidae	 151
+Mytilicolidae	 1
+Mytilidae	 29
+Myxinidae	 2
+Nabidae	 11000
+Nacellidae	 6
+Naididae	 2
+Nanhermaniidae	 3
+Nanhermanniidae	 10
+Nannastacidae	 3430
+Nannoniscidae	 3
+Nannosquillidae	 3
+Nanophyidae	 7
+Nanorchestidae	 6
+Naraoiidae	 5
+Narkidae	 13
+Nassariidae	 18
+Nasseriidae	 1
+Naticidae	 41
+Naucoridae	 4091
+Neanuridae	 1142
+Nearctodesmidae	 17
+Nebaliidae	 87
+Neelidae	 89
+Nemasomatidae	 47
+Nemastomatidae	 256
+Nematinae	 2
+Nematocarcinidae	 72
+Nematocera	 1
+Nematode	 4
+Nemesiidae	 22
+Nemestrinidae	 17
+Nemonychidae	 56
+Nemouridae	 6001
+Nenteriidae	 2
+Neobisiidae	 367
+Neocytherideididae	 296
+Neoechinorhynchidae	 11
+Neoephemeridae	 37
+Neogoveidae	 20
+Neoliodidae	 5
+Neomegamphopidae	 223
+Neophyllobiidae	 10
+Neoscopelidae	 6
+Neotanaidae	 104
+Nephilidae	 127
+Nephropidae	 5155
+Nepidae	 2825
+Nepticulidae	 327
+Neritidae	 13
+Nesticidae	 171
+Nevadiidae	 7
+New York	 1
+Nicoletiidae	 1
+Nileidae	 6
+Ninidae	 148
+Nitidulidae	 13552
+Noctuiclae	 1
+Noctuidae	 110585
+Nogodinidae	 137
+Nolidae	 242
+Nomadidae	 46
+Normanellidae	 2
+North America	 1
+Norwoodiidae	 3
+Nosodendridae	 101
+Nosodendriidae	 1
+Notaspididae	 1
+Noteridae	 1109
+Nothridae	 49
+Notocotylidae	 24
+Notodontidae	 8846
+Notodromadidae	 7
+Notohectidae	 1
+Notonectidae	 28854
+Nototanaidae	 17
+Nudacotylidae	 9
+Nugonioneuridae	 1
+Nuuanuidae	 2
+Nycteribiidae	 82
+Nymphalidae	 158853
+Nymphomyiidae	 11
+Nymphonidae	 66
+Ochetosomatidae	 14
+Ochlesidae	 3
+Ochodaeidae	 1712
+Ochteridae	 367
+Ochyroceratidae	 5
+Ocypodidae	 606
+Odiniidae	 13
+Odonata	 5
+Odontellidae	 194
+Odontoceridae	 665
+Odontopleuridae	 223
+Oecanthidae	 1329
+Oecetis	 4
+Oechophoridae	 20
+Oecobiidae	 86
+Oecophoridae	 1812
+Oedemeridae	 4209
+Oedicerotidae	 1901
+Oestridae	 133
+Ogygopsidae	 82
+Ogyrididae	 132
+Oithonidae	 885
+Okeanobatidae	 5
+Oleacinidae	 1
+Olenellidae	 1259
+Olenidae	 683
+Olethreutidae	 7
+Oligacanthorhynchidae	 3166
+Oligoneuriidae	 42
+Oligotomidae	 2
+Olividae	 32
+Ologamasidae	 53
+Olpiidae	 27
+Omethidae	 35
+Omosudidae	 14
+Oncaeidae	 364
+Onchobothriidae	 1
+Onchocercidae	 123
+Oncobothriidae	 1
+Oncopoduridae	 38
+Oniscidae	 48
+Onychiuridae	 667
+Oonopidae	 880
+Opabinidae	 2
+Ophidiiformes	 2
+Ophryoxidae	 1
+Opisidae	 14
+Opisthorchiidae	 5
+Oplitidae	 24
+Oplophoridae	 459
+Opomyzidae	 264
+Opostegidae	 35
+Oppiidae	 63
+Orchipedidae	 92
+Oregoniidae	 37937
+Oreogetonidae	 13
+Oreohelicidae	 6
+Oribatellidae	 46
+Oribatidae	 1
+Oribatulidae	 284
+Oribotritiidae	 6
+Oripodidae	 55
+Ormyridae	 315
+Orsodacnidae	 120
+Orsolobidae	 1
+Ortalidae	 1
+Orthezidae	 1
+Ortheziidae	 223
+Orthoptera	 59
+Orussidae	 286
+Oryctocephalidae	 7
+Oryidae	 19
+Osphronemidae	 1
+Ostomatidae	 44
+Ostomidae	 14
+Ostraciidae	 41
+Ostracoda	 5
+Ostreidae	 24
+Ostreoida?	 1
+Otarionidae	 2
+Otitidae	 122
+Otobothriidae	 2
+Ovulidae	 1
+Oxaeidae	 187
+Oxidae	 2
+Oxycarenidae	 466
+Oxydesmidae	 830
+Oxyopidae	 948
+Oxyuridae	 183
+Oziidae	 96
+Pachybolidae	 11
+Pachydomellidae	 3
+Pachygronthidae	 2970
+Pachylaelapidae	 3
+Pachymorphidae	 1
+Pachyroctidae	 3
+Paeromopidae	 2
+Paeromopodidae	 17
+Pagetiidae	 16
+Pagodiidae	 1
+Pagurapseudidae	 117
+Paguridae	 8308
+Palaemonidae	 2604
+Palaeocarididae	 20
+Palaeomanteidae	 64
+Palaeopalaemonidae	 1
+Paleolimulidae	 12
+Paleuthygrammatidae	 41
+Paleuthygrammidae	 11
+Palicidae	 12
+Palingeniidae	 243
+Palinuridae	 183
+Pallopteridae	 62
+Palpimanidae	 2
+Pamphilidae	 510
+Pamphiliidae	 322
+Pandalidae	 2214
+Pandaridae	 14
+Pandoridae	 1
+Panopeidae	 1035
+Panorpidae	 746
+Panorpodidae	 228
+Pantheidae	 358
+Papilionidae	 20924
+Papillionidae	 1
+Papyriaspididae	 2
+Parabolinoididae	 9
+Paracalanidae	 53
+Paradoxididae	 423
+Paradoxosomatidae	 443
+Paragonimidae	 2
+Paraiulidae	 8
+Parajulidae	 991
+Parakalummidae	 22
+Paralepididae	 209
+Paralogidae	 1
+Paramesochridae	 2
+Paramphistomatidae	 72
+Paramunnidae	 277
+Paranebaliidae	 116
+Paranonychidae	 802
+Paranthuridae	 88
+Parapaguridae	 28
+Paraparchitidae	 3
+Parapseudidae	 261
+Parasitidae	 691
+Parasquillidae	 2
+Parastacidae	 1
+Paratanaidae	 73
+Paratropididae	 66
+Parattidae	 4
+Pardaliscidae	 22
+Parelmoidae	 2
+Pariambidae	 638
+Paronellidae	 27
+Parthenopidae	 231
+Paruterinidae	 3
+Pasiphaeidae	 390
+Passalidae	 2583
+Passandridae	 85
+Patellidae	 3
+Pectinidae	 55
+Pediciidae	 89
+Pediculidae	 8
+Pelecinidae	 410
+Pelecorhynchidae	 3
+Peloppiidae	 138
+Peltidiidae	 8
+Peltogastridae	 3
+Peltoperlidae	 523
+Pempherididae	 1
+Pemphredonidae	 2
+Penaeidae	 1851
+Pennellidae	 13
+Pentatomidae	 77004
+Penthaleidae	 4
+Penthalodidae	 8
+Pentostomidae	 1
+Perciformes	 18
+Percnidae	 19
+Pergidae	 1336
+Perilampidae	 999
+Periplomatidae	 1
+Peripsocidae	 6
+Periscelididae	 60
+Perlidae	 10090
+Perlodidae	 5745
+Perlolidae	 2
+Permembiidae	 4
+Permithonidae	 1
+Permoberothidae	 6
+Permochoristidae	 2
+Permopanorpidae	 16
+Permopsocidae	 1
+Permoraphidiidae	 1
+Permosocidae	 36
+Peronopsidae	 15
+Perothopidae	 3
+Personidae	 3
+Petaluidae	 1
+Petaluridae	 62
+Petricolidae	 4
+Phacopidae	 123
+Phacopteronidae	 1
+Phaennidae	 47
+Phalacriade	 1
+Phalacridae	 1749
+Phalacromidae	 12
+Phalaenidae	 2
+Phalangiidae	 796
+Phalangodidae	 853
+Pharidae	 7
+Phasianellidae	 2
+Phasmatidae	 48
+Phasmidae	 1
+Phengodidae	 568
+Phenopelopidae	 100
+Phenopteridae	 23
+Phigonematidae	 1
+Philanthidae	 7
+Philichthyidae	 1
+Phillipsiidae	 149
+Philodromidae	 4381
+Philodromidae?	 38
+Philomedidae	 699
+Philometridae	 1
+Philophthalmidae	 3
+Philopotamidae	 4801
+Philopteridae	 212
+Philosciidae	 18
+Philotarsidae	 1
+Phlaeothripidae	 2825
+Phliantidae	 22
+Phoenicococcidae	 35
+Pholadidae	 3
+Pholcidae	 1429
+Pholididae	 226
+Phoridae	 40145
+Photichthyidae	 69
+Photidae	 1
+Photimus pyralis	 1
+Photinus Pyralis	 47
+Phoxichilidiidae	 123
+Phoxocephalidae	 2740
+Phronimidae	 29
+Phrosinidae	 36
+Phrurolithidae	 2035
+Phryganeidae	 3337
+Phryganeoidae	 13
+Phryganidae	 1
+Phrynidae	 18
+Phthiracaridae	 22
+Phthiraptera	 2
+Phthiridae	 1
+Phtisicidae	 128
+Phyllobothridae	 2
+Phyllopidae	 1
+Phylloxeridae	 98
+Phyloblattidae	 3
+Phymanthidae	 1
+Phymatidae	 110
+Physalopteridae	 335
+Physidae	 659
+Phytoseiidae	 186
+Pieridae	 51557
+Piesmatidae	 1035
+Pilekiidae	 6
+Pilumnidae	 263
+Pimoidae	 68
+Pinaceae	 14
+Pinnidae	 6
+Pinnotheridae	 764
+Pionidae	 82
+Piophilidae	 352
+Pipunculidae	 2012
+Pisauridae	 661
+Pisidiidae	 66
+Pityococcidae	 47
+Plagiorchiidae	 70
+Plagusiidae	 25
+Planorbidae	 534
+Plasmodiidae	 29
+Plataspidae	 117
+Plataspididae	 145
+Plateremaeidae	 2
+Platydesmidae	 26
+Platygasteridae	 31
+Platygastridae	 22847
+Platyischnopidae	 1626
+Platypezidae	 159
+Platypodidae	 1
+Platyrhacidae	 6
+Platyscelidae	 2
+Platystomatidae	 536
+Pleciidae	 2
+Plecoptera	 37
+Plectreuridae	 72
+Pleidae	 580
+Pleisiogrammatidae	 2
+Pleocomidae	 305
+Pleorchiidae	 6
+Pleotomus pallens	 30
+Plethopeltidae	 21
+Pleuroceridae	 34
+Pleurocopidae	 6
+Pleuronectiformes	 8
+Pleustidae	 157
+Plicatulidae	 5
+Pliomeridae	 37
+Plumulitidae	 8
+Plutellidae	 521
+Plutoniumidae	 1
+Pneumocoptidae	 1
+Pneumospiruridae	 10
+Podapolipidae	 17
+Podoceridae	 457
+Podocinidae	 1
+Podonidae	 59
+Podoscirtidae	 5
+Poduridae	 123
+Poecilasmatidae	 49
+Pollicipedidae	 45
+Polyaspidae	 1
+Polybiidae	 104
+Polycentropodidae	 6303
+Polychelidae	 72
+Polycopidae	 4
+Polydesmidae	 907
+Polygyridae	 214
+Polymitarcidae	 1
+Polymitarcyidae	 562
+Polymorphidae	 11
+Polyodontidae	 32
+Polyphagidae	 561
+Polyphemidae	 50
+Polyplacidae	 1
+Polystoechotidae	 187
+Polystomatidae	 27
+Polyxenidae	 72
+Polyzoniidae	 93
+Pomacentridae	 1
+Pomadasyidae	 3
+Pomilidae	 1
+Pomphorhynchidae	 5
+Pompilidae	 10036
+Pompillidae	 4
+Pomplilidae	 1
+Pontellidae	 399
+Pontocyprididae	 332
+Pontogeneiidae	 4
+Pontoporeiidae	 143
+Porcellanidae	 1958
+Porcellidiidae	 2
+Porcellionidae	 176
+Portunidae	 2307
+Posthogonimidae	 15
+Posthorhynchidae	 2
+Potamanthidae	 857
+Potamididae	 4
+Poteriidae	 1
+Priacanthidae	 6
+Primitiidae	 1
+Primitiopsidae	 9
+Probnidae	 120
+Procarididae	 1
+Processidae	 316
+Procotrupidae	 1
+Proctophyllodidae	 65
+Proctotrupidae	 913
+Prodidomidae	 10
+Prodoxidae	 324
+Proetidae	 19
+Progeryonidae	 1
+Prokoeneniidae	 3
+Pronocephalidae	 3
+Propalticidae	 44
+Prophalangopsidae	 9
+Proscopiidae	 1
+Prosogonotrematidae	 13
+Prosthogonimidae	 8
+Prostomidae	 20
+Protellidae	 140
+Protembiidae	 42
+Proteocephalidae	 19
+Protereismatidae	 85
+Protoglomeridae	 2
+Protohymenidae	 50
+Protolophidae	 49
+Protoneuridae	 5
+Protoribatidae	 14
+Protoschizomidae	 2
+Protostrongylidae	 7
+Pruvostitidae	 1
+Prygidae	 1
+Psammobiidae	 7
+Pselaphidae	 162
+Psephenidae	 2460
+Pseudagnostidae	 20
+Pseudaliidae	 115
+Pseudironidae	 26
+Pseudocaecilidae	 11
+Pseudocaeciliidae	 324
+Pseudococcidae	 5157
+Pseudocumatidae	 15
+Pseudodiaptomidae	 3
+Pseudogarypidae	 5
+Pseudomelatomidae	 2
+Pseudonannolenidae	 1
+Pseudophasmatidae	 63
+Pseudorhombilidae	 35
+Pseudosquillidae	 17
+Pseudostigmatidae	 30
+Pseudotachidiidae	 20
+Pseudotanaidae	 23
+Pseudothelphusidae	 491
+Psilidae	 368
+Psilostomatidae	 34
+Psocidae	 134
+Psocidiidae	 476
+Psoidae	 2
+Psoquillidae	 2
+Psoralgidae	 3
+Psorergatidae	 5
+Psoroptidae	 18
+Psoroptoididae	 6
+Psychidae	 398
+Psychodidae	 4417
+Psychomyiidae	 1449
+Psyllidae	 2522
+Psyllipsocidae	 4
+Psyllipsocidae?	 1
+Psyrphidae	 1
+Pteriidae	 6
+Pterocephaliidae	 36
+Pterolichidae	 10
+Pteromalidae	 7869
+Pteronarcyidae	 1474
+Pteronarcynidae	 379
+Pteronarcyoidea	 1
+Pteronyssidae	 19
+Pterophoridae	 1064
+Pterpcephalidae	 1
+Pterygometopidae	 58
+Pterygosomidae	 1
+Pterygotidae	 13
+Pthiridae	 5
+Ptilidae	 5
+Ptiliidae	 2321
+Ptilodactylidae	 1496
+Ptinidae	 958
+Ptychagnostidae	 3
+Ptychaspididae	 44
+Ptychopariidae	 152
+Ptychopteridae	 94
+Ptyssalgidae	 5
+Pulicidae	 315
+Punctidae	 14
+Punctoribatidae	 65
+Pupillidae	 103
+Putoidae	 167
+Pycnogonidae	 14
+Pyemotidae	 7
+Pygmephoridae	 12
+Pygocephalidae	 3
+Pygrotidae	 1
+Pylochelidae	 1
+Pyractomena pu	 1
+Pyralidae	 6346
+Pyramidellidae	 2
+Pyraustidae	 1
+Pyrgodesmidae	 58
+Pyrgomorphidae	 32
+Pyrgotidae	 196
+Pyrochroidae	 916
+Pyroehroidae	 1
+Pyroglyphidae	 74
+Pyropyga minuta	 1
+Pyrrhocoridae	 1527
+Pysillidae	 8
+Pythidae	 65
+Quadrijugatoridae	 9
+Quadroppiidae	 19
+Quasillitidae	 5
+Racomidae	 1
+Ranellidae	 4
+Raninidae	 190
+Ranunculaceae	 1
+Raphididae	 1
+Raphidiida	 32
+Raphidiidae	 3348
+Raphignathidae	 1
+Raphiidae	 2
+Raphiophoridae	 47
+Raymondinidae	 16
+Raymondionymidae	 9
+Reduviidae	 40959
+Remopleurididae	 60
+Retroplumidae	 14
+Rhabdiasidae	 27
+Rhachodesmidae	 44
+Rhadalidae	 1
+Rhadinorhynchidae	 12
+Rhagidiidae	 197
+Rhagionidae	 1340
+Rhaphidiidae	 23
+Rhaphidophoridae	 2861
+Rhincalanidae	 2
+Rhinocarididae	 11
+Rhinocricidae	 61
+Rhinophoridae	 13
+Rhinotermitidae	 1293
+Rhipiceridae	 380
+Rhipiphoridae	 573
+Rhiscosomididae	 12
+Rhizophagidae	 74
+Rhizothricidae	 3
+Rhomboentomozoidae	 1
+Rhopaliasidae	 5
+Rhopalidae	 14330
+Rhopalopsyllidae	 7
+Rhopalosomatidae	 102
+Rhyacophila	 1
+Rhyacophilidae	 4930
+Rhynchitidae	 384
+Rhyncoptidae	 1
+Rhyparochromidae	 22551
+Rhysodidae	 586
+Ricaniidae	 12
+Richardiidae	 23
+Ricinoididae	 30
+Rictulariidae	 59
+Riodinidae	 1723
+Ripipterygidae	 3
+Romaleidae	 1159
+Romalidae	 1
+Ropalidae	 1
+Roproniidae	 37
+Rosaceae	 1
+Rosensteiniidae	 42
+Rossianidae	 1
+Rutelidae	 905
+Rutidermatidae	 656
+Sabaconidae	 233
+Sabelliphilidae	 1
+Sacculinidae	 62
+Sagdidae	 1
+Saldidae	 8681
+Salpingidae	 1862
+Salticidae	 12251
+Samoidae	 3
+Santiidae	 33
+Sapphirinidae	 1
+Saproglyphidae	 9
+Sapygidae	 80
+Sarcophagidae	 7983
+Sarcoptidae	 428
+Sarsiellidae	 2064
+Saturniidae	 9920
+Satyridae	 7
+Saukiidae	 24
+Scalpellidae	 20
+Scaphidiidae	 61
+Scaphidiinae	 4
+Scarabaeidae	 245522
+Scaridae	 12
+Scathophagidae	 7110
+Scatopsidae	 324
+Scelionidae	 3690
+Scenopinidae	 32
+Scheloribatidae	 327
+Schendylidae	 215
+Schistorphidae	 2
+Schistosomatidae	 214
+Schizocytheridae	 17
+Schizopetalidae	 17
+Schizopodidae	 23
+Schizopteridae	 181
+Schreckensteiniidae	 31
+Sciaridae	 25611
+Scinidae	 2
+Sciomyzidae	 5326
+Scirtidae	 1539
+Scirtidae/Helodidae	 1
+Sclerogibbidae	 4
+Sclerosomatidae	 1575
+Scolebythidae	 3
+Scolecithricidae	 4
+Scolecitrichidae	 691
+Scoleidae	 2
+Scoliidae	 5539
+Scollidae	 16
+Scolopendrellidae	 2
+Scolopendridae	 284
+Scolopocryptopidae	 314
+Scolytidae	 1383
+Scolytinae	 1
+Scombrolabracidae	 8
+Scopelarchidae	 6
+Scophthalmidae	 52
+Scorpaenidae	 16
+Scraptidae	 1
+Scraptiidae	 4056
+Scutacaridae	 153
+ScUtahelleridae	 6
+Scutelleridae	 5260
+Scutigerellidae	 12
+Scutigeridae	 91
+Scutoverticidae	 3
+Scydmaenidae	 3199
+Scyllaridae	 84
+Scytalocrinidae	 4
+Scythrididae	 329
+Scytodidae	 192
+Sebidae	 16
+Segestriidae	 117
+Segrestriidae	 2
+Sejidae	 27
+Selenopeltidae	 33
+Selenopidae	 174
+Sematuridae	 6
+Semelidae	 5
+Senoculidae	 7
+Sepsidae	 1743
+Sergestidae	 90
+Sericostomatidae	 674
+Serolidae	 97
+Serphitidae	 8
+Serranidae	 4
+Sesarmidae	 198
+Sesiidae	 1255
+Sessiidae	 23
+Setellidae	 1
+Shumardiidae	 1
+Sialidae	 863
+Sicariidae	 344
+Sicyoniidae	 267
+Sididae	 171
+Sidneyiidae	 8
+Sierolomorphidae	 47
+Signiphoridae	 7
+Silphidae	 17507
+Silvanidae	 1238
+Simuliidae	 4698
+Siphlonuridae	 1700
+Siphonariidae	 3
+Siphoniulidae	 2
+Siphonophoridae	 36
+Siphonotidae	 4
+Siricidae	 1020
+Sironidae	 34
+Sisyridae	 103
+Smarididae	 2
+Smicripidae	 2
+Sminthuridae	 375
+Sminthurididae	 209
+Sogonidae	 6
+Solecurtidae	 6
+Solenidae	 3
+Solenoceridae	 79
+Solenopleuridae	 15
+Solifugidae	 1
+Solpugidae	 3
+Sotoplacidae	 2
+Sparassidae	 260
+Sparidae	 2
+Spathebothriidae	 1
+Speleonectidae	 1
+Sperchonidae	 5
+Sphaeragnostidae	 27
+Sphaeridae	 1
+Sphaeriidae	 185
+Sphaeriodesmidae	 60
+Sphaeritidae	 9
+Sphaeriusidae	 50
+Sphaeroceridae	 11171
+Sphaeromatidae	 689
+Sphaeropsocidae	 4
+Sphaerotheriidae	 1
+Sphecidae	 15119
+Sphindidae	 194
+Sphingidae	 8816
+Sphyranuridae	 1
+Sphyrapodidae	 1
+Sphyriidae	 10
+Spilapteridae	 2
+Spiloblattinidae	 28
+Spinagnostidae	 111
+Spinocalanidae	 347
+Spinturnicidae	 4
+Spiraxidae	 2
+Spirobolellidae	 1
+Spirobolidae	 508
+Spirocercidae	 3
+Spirorchidae	 7
+Spirostreptidae	 64
+Spirridae	 3
+Spirulidae	 2
+Spiruridae	 1323
+Spondylidae	 2
+Spongicolidae	 21
+Spongiphoridae	 13
+Squillidae	 345
+Staphilinidae	 3
+Staphlinidae	 1
+Staphylinidae	 98774
+Stegocephalidae	 8
+Steingeliidae	 18
+Stemmiulidae	 20
+Stenasellidae	 2
+Stenetriidae	 23
+Stenopelmatidae	 368
+Stenopodidae	 34
+Stenopsocidae	 32
+Stenopsychidae	 8
+Stenothoidae	 484
+Stenotrachelidae	 157
+Stephanidae	 96
+Sternophoridae	 20
+Stigmaeidae	 9
+Stigmaphronidae	 2
+Stignopsidae	 1
+Stilipedidae	 53
+Stomatellidae	 2
+Stomylotrematidae	 8
+Strahlaxiidae	 1
+Stramentidae	 2
+Stratiomyiadae	 6
+Stratiomyidae	 2744
+Streblidae	 909
+Streingelidae	 5
+Strephocladidae	 38
+Streptelasmatidae	 2
+Streptocephalidae	 40
+Striariidae	 11
+Strigeidae	 111
+Strobilopsidae	 27
+Stromateoids	 1
+Strombidae	 21
+Strongylidae	 2
+Strongylocentrotidae	 1
+Strongyloididae	 29
+Strongylophthalmyiidae	 9
+Struthiolariidae	 1
+Styginidae	 5
+Stygnommatidae	 12
+Stygnopsidae	 60
+Stylopidae	 15
+Stylotermitidae	 1
+Subtriquetridae	 2
+Subulinidae	 8
+Subuluridae	 222
+Succineidae	 64
+Suctobelbidae	 44
+Suidasiidae	 24
+Superstitionidae	 12
+Superstitioniidae	 109
+Surperstitioniidae	 2
+Syarinidae	 14
+Sylvaphlebiidae	 10
+Symmocidae	 40
+Symphytognathidae	 4
+Synanceiidae	 1
+Synchroidae	 151
+Syngamidae	 2
+Synneuridae	 2
+Synodontidae	 9
+Synopiidae	 247
+Syringobiidae	 10
+Syringophilidae	 3
+Syrphidae	 20971
+Syrphus sp. pupa	 1
+Tabanidae	 22814
+Tachardiidae	 1
+Tachinidae	 11174
+Taeniidae	 4624
+Taeniopterygidae	 3949
+Talitridae	 527
+Tanaellidae	 67
+Tanaidae	 9
+Tanaididae	 69
+Tanaissuidae	 165
+Tanaostigmatidae	 1
+Tanyderidae	 1
+Tanypezidae	 17
+Tarachodidae	 6
+Tarantulidae	 1
+Tarsonemidae	 13
+Tasimiidae	 1
+Tecticipitidae	 2
+Tectocepheidae	 26
+Tegastidae	 2
+Tegoribatidae	 29
+Tegulidae	 1
+Telegeusidae	 9
+Telemidae	 230
+Tellinidae	 35
+Telorchiidae	 28
+Temoridae	 222
+Tenebriodinae	 1
+Tenebrionidae	 105369
+Tengellidae	 62
+Tentaculariidae	 4
+Tenthiridinidae	 1
+Tenthredinidae	 32493
+Tenthredmidae	 1
+Tenuialidae	 4
+Tenuipalpidae	 111
+Tephritidae	 7733
+Teratembiidae	 2
+Terebridae	 9
+Termitidae	 295
+Termopsidae	 163
+Terpnacaridae	 4
+Tessaratomidae	 1
+Tethinidae	 7
+Tetigoniidae	 1
+Tetrablemmidae	 38
+Tetracampidae	 2
+Tetraclitidae	 21
+Tetradellidae	 4
+Tetragnatha	 1
+Tetragnathidae	 5372
+Tetragonicipitidae	 33
+Tetraliidae	 2
+Tetrameridae	 765
+Tetranychidae	 335
+Tetrasquillidae	 1
+Tetrastemmatidae	 1
+Tetrastichidae	 156
+Tetratomidae	 1291
+Tetrigidae	 4132
+Tettigonidae	 32
+Tettigoniidae	 6702
+Thalassinidae	 17
+Thalestridae	 30
+Thamnocephalidae	 15
+Thanerocleridae	 3
+Tharybidae	 48
+Thaumaleidae	 6
+Thaumastellidae	 23
+Thaumatoneuridae	 12
+Thelastomatidae	 3
+Thelaziidae	 472
+Thelyphonidae	 60
+Theraphosidae	 462
+Therevidae	 1124
+Theridiidae	 9484
+Theridiidae?	 1
+Theridiosomatidae	 102
+Theriidae	 1
+Thermacaridae	 15
+Thespidae	 148
+Thomisidae	 8455
+Thorscidae	 9
+Thremmatidae	 849
+Threvidae	 1
+Thripidae	 21423
+Thrombiculidae	 3
+Throscidae	 810
+Thyasidae	 1
+Thyatiricidae	 1
+Thyatiridae	 302
+Thyreocoridae	 3479
+Thyrididae	 157
+Thyrisomidae	 1
+Thysanopeltidae	 4
+Timema	 38
+Timematidae	 14
+Timemidae	 292
+Tineidae	 4378
+Tingidae	 12003
+Tingupidae	 7
+Tiphiidae	 5181
+Tipulidae	 3906
+Tisbidae	 57
+Tischeridae	 1
+Tischeriidae	 176
+Titanoecidae	 309
+Titanoecidae?	 1
+Tochinidae	 5
+Tococladidae	 1
+Toernquistiidae	 4
+Tomoceridae	 1485
+Tonnidae	 1
+Tortanidae	 485
+Tortricidae	 14418
+Torymidae	 7314
+Toxopheustidae	 1
+Toxoplasmatidae	 2
+Trachelidae	 225
+Trachelipodidae	 16
+Trachyleberididae	 319
+Trachypachidae	 190
+Trachytidae	 6
+Trachyuropodidae	 10
+Trapeziidae	 140
+Travuniidae	 423
+Trechaleidae	 2
+Trematuridae	 204
+Treniidae	 1
+Treposellidae	 1
+Trhypochthoniidae	 123
+Triaenodes	 2
+Triaenonychidae	 257
+Triaenophoridae	 1
+Trichinellidae	 6
+Trichiuridae	 2
+Trichoceridae	 272
+Trichodactylidae	 52
+Trichodectidae	 356
+Trichogrammatidae	 834
+Trichoniscidae	 23
+Trichopeltariidae	 2
+Trichopetalidae	 64
+Trichosomoididae	 1
+Trichostrongylidae	 243
+Trichuridae	 100
+Tricrepicephalidae	 5
+Tridactylidae	 958
+Tridenchthoniidae	 3
+Triglidae	 2
+Trigonalidae	 94
+Trigonidiidae	 1372
+Trilobita	 8
+Triloculariidae	 1
+Trinucleidae	 401
+Triopsidae	 80
+Triozidae	 941
+Triviidae	 4
+Trixoscelididae	 3
+Trochidae	 15
+Trogidae	 6343
+Trogiidae	 2
+Trogloraptoridae	 2
+Trogolotrematidae	 2
+Trogossitidae	 879
+Trogulidae	 1
+Trombiculidae	 3329
+Trombidiidae	 192
+Tropidocoryphidae	 1
+Tropiduchidae	 1003
+Tropisuridae	 15
+Trypanosomatidae	 2
+Trypetidae	 12
+Tryphanidae	 1
+Tsinaniidae	 9
+Tubificidae	 35
+Tullbergidae	 25
+Tullbergiidae	 272
+Tumidocarcinidae	 1
+Turbinellidae	 1
+Turbinidae	 21
+Turbinoptidae	 54
+Turidae	 1
+Turridae	 5
+Turritellidae	 4
+Tvaerenellidae	 50
+Tydeidae	 23
+Tylidae	 4
+Typhlobolellidae	 7
+Typhlotanaidae	 1
+Tyrogliphidae	 3
+Tyroglyphidae	 1
+Ucididae	 13
+Uenoidae	 545
+Uldiidae	 2
+Ulidiidae	 2163
+Uloboridae	 196
+Unciolidae	 1
+undefinable	 2
+Underwoodiidae	 1
+Undescribed ammoxenidae	 1
+Uniciolidae	 3
+Unidentified	 153
+Unionicolidae	 97
+Unionidae	 1691
+Unionidae?	 6
+UNKNOWN_NULL	 390668
+Upogebiidae	 157
+Uraniidae	 275
+Uranoscopidae	 3
+Uristidae	 240
+Urnatellidae	 6
+Urochordeumatidae	 1
+Urocoptidae	 2
+Urodidae	 27
+Urodinychidae	 21
+Uropodidae	 55
+Urotrematidae	 3
+Vaejovidae	 2347
+Valloniidae	 7
+Valvatidae	 4
+Vanhorniidae	 95
+Varroidae	 184191
+Varunidae	 94
+Vasidae	 3
+Veigaiidae	 1
+Velidae	 16
+Veliidae	 7233
+Veneridae	 74
+Vermetidae	 1
+Vermilionidae	 1
+Vermipsyllidae	 4
+Verrucidae	 12
+Vespidae	 32758
+Vibiliidae	 46
+Vitrinellidae	 1
+Vitrinidae	 2
+Viviparidae	 27
+Waptiidae	 16
+Winterschmidtiidae	 6
+Withiidae	 2
+Xanthidae	 2213
+Xenidae	 1
+Xenillidae	 15
+Xenophoridae	 3
+Xiphocarididae	 1
+Xiphocentronidae	 18
+Xiphydriidae	 502
+Xolalgidae	 10
+Xyelidae	 633
+Xylococcidae	 98
+Xyloiulidae	 10
+Xylomyidae	 56
+Xylophagidae	 193
+Xylorictidae	 8
+Xyloryctidae	 41
+Xystodesmidae	 2985
+Xystodesmidae?	 10
+Yponomeutidae	 1109
+Ypsolophidae	 370
+Zacanthoididae	 49
+Zalmoxidae	 29
+Zanthopsidae	 8
+Zerconidae	 21
+Zetomimidae	 4
+Zodariidae	 239
+Zonitidae	 95
+Zoogonidae	 7
+Zopheridae	 6421
+Zoridae	 4
+Zorocratidae	 57
+Zoropsidae	 2
+Zorotypidae	 1
+Zygaenidae	 362
+Zygaeniidae	 4
+Zygentoma	 1
+Zygobolbidae	 1
+Zygoptera	 6
+Zygtenidae	 2
+
+Executed: select family,count(occid),count(distinct genus,specificEpithet) as specificEpithet, count(distinct locality,county,stateProvince,municipality, year,month,day,decimalLatitude,decimalLongitude) as colevent,count(distinct locality,county,stateProvince,municipality,decimalLatitude,decimalLongitude) as localities from omoccurrences where specificEpithet != 'UNKNOWN_NULL' group by family order by family;
+1 Rhopaliasidae, 2 Diplostomidae	 1	 1	 1	 1
+1 Strigeidae/ 2 Threskiornithidae	 1	 1	 1	 1
+Abacionidae	 222	 11	 187	 116
+Acanaloniidae	 3135	 29	 1736	 1230
+Acanthametropodidae	 3	 1	 3	 3
+Acanthaspidiidae	 6	 1	 6	 6
+Acanthochitonidae	 1	 1	 1	 1
+Acantholeberidae	 1	 1	 1	 1
+Acanthopidae	 1	 1	 1	 1
+Acanthopteroctetidae	 12	 1	 12	 12
+Acanthosomatidae	 1340	 6	 646	 428
+Acanthotelsonidae	 28	 1	 7	 7
+Acardae	 1	 1	 1	 1
+Acaridae	 112	 26	 32	 30
+Acartiidae	 270	 7	 74	 64
+Acartophthalmidae	 30	 1	 18	 13
+Acastidae	 3	 1	 3	 3
+Achatinellidae	 10	 9	 6	 6
+Achilidae	 2183	 55	 949	 650
+Achipteriidae	 59	 7	 23	 17
+Achiridae	 67	 6	 38	 37
+Aclerdidae	 23	 8	 16	 15
+Acmaeidae	 16	 11	 9	 9
+Acrididae	 77932	 493	 8947	 5180
+Acroceridae	 52	 28	 32	 31
+Acrolepiidae	 44	 5	 15	 14
+Acrolophidae	 85	 18	 66	 60
+Acropsopilionidae	 1	 1	 1	 1
+Acteonidae	 1	 1	 1	 1
+Acuariidae	 37	 7	 5	 5
+Adelgidae	 685	 11	 157	 149
+Adelidae	 262	 14	 187	 162
+Aderidae	 1634	 36	 494	 195
+Aegialiidae	 30	 15	 11	 11
+Aegidae	 51	 10	 50	 49
+Aeginellidae	 1	 1	 1	 1
+Aeglidae	 1	 1	 1	 1
+Aenictopecheidae	 1	 1	 1	 1
+Aeolothripidae	 753	 40	 200	 157
+Aeshnidae	 8538	 46	 4247	 2211
+Aetalionidae	 44	 4	 16	 16
+Aethridae	 110	 10	 100	 96
+Aetideidae	 487	 20	 73	 72
+Agaonidae	 125	 4	 22	 15
+Agathotanaidae	 26	 2	 26	 26
+Agelendae	 1	 1	 1	 1
+Agelenidae	 2688	 66	 2092	 1418
+Aglycyderidae	 80	 18	 15	 11
+Agnostidae	 54	 32	 29	 28
+Agonoxenidae	 20	 3	 11	 9
+Agostocarididae	 2	 1	 2	 2
+Agraulidae	 56	 3	 10	 8
+Agriolomacidae	 2	 2	 2	 2
+Agrionidae	 6	 2	 1	 1
+Agromyzidae	 2534	 219	 593	 338
+Agromyziidae	 1	 1	 1	 1
+Agyrtidae	 323	 12	 112	 92
+Aididae	 3	 1	 3	 2
+Akanthophoreidae	 35	 1	 35	 35
+Albuneidae	 31	 10	 29	 27
+Aleyrodidae	 3274	 141	 1564	 806
+Algophagidae	 8	 1	 1	 1
+Alleculidae	 100	 81	 70	 58
+Allocreadiidae	 3	 3	 2	 2
+Alloptidae	 5	 1	 1	 1
+Allopyragraphoridae	 1	 1	 1	 1
+Alokistocaridae	 229	 14	 29	 29
+Alpheidae	 1610	 100	 699	 462
+Alucitidae	 85	 7	 57	 43
+Alvinocarididae	 10	 1	 1	 1
+Alydidae	 6365	 38	 2950	 1981
+Amaurobiidae	 1346	 75	 793	 550
+Amaurobiidae?	 1	 1	 1	 1
+Ameiridae	 23	 11	 11	 4
+Ameletidae	 448	 25	 292	 224
+Ameronothridae	 11	 2	 6	 5
+Ameronothriidae	 3	 1	 1	 1
+Ameroseiidae	 3	 3	 3	 2
+Ametropodidae	 12	 2	 10	 7
+Ammotheidae	 70	 13	 58	 58
+Ammotrechidae	 227	 15	 207	 178
+Amorphoscelidae	 2	 1	 2	 1
+Ampeliscidae	 2745	 43	 1582	 1445
+Amphientomidae	 8	 2	 3	 3
+Amphilochidae	 138	 10	 58	 47
+Amphinectidae	 13	 1	 9	 7
+Amphinemurinae	 97	 3	 92	 77
+Amphipsocidae	 43	 1	 18	 4
+Amphisbatidae	 8	 5	 3	 3
+Amphizoidae	 436	 7	 201	 142
+Ampithoidae	 302	 13	 230	 219
+Ampulicidae	 73	 6	 36	 16
+Ampullariidae	 3	 1	 3	 3
+Analgesidae	 2	 1	 2	 2
+Analgidae	 5	 1	 1	 1
+Anapidae	 19	 2	 5	 4
+Anaxyelidae	 1	 1	 1	 1
+Ancinidae	 52	 3	 37	 37
+Ancorabolidae	 11	 4	 8	 6
+Ancylidae	 32	 8	 18	 10
+Ancylostomatidae	 420	 7	 72	 72
+Ancyracanthidae	 21	 2	 3	 3
+Anderemaeidae	 3	 1	 1	 1
+Andrenidae	 269504	 1350	 30825	 15184
+Andrognathidae	 48	 6	 29	 27
+Angiodictylidae	 1	 1	 1	 1
+Anguillidae	 241	 2	 231	 214
+Angusticaecidae	 1	 1	 1	 1
+Anisembiidae	 1	 1	 1	 1
+Anisogammaridae	 62	 3	 59	 56
+Anisolabididae	 89	 3	 56	 37
+Anisopodidae	 261	 8	 73	 50
+Annulariidae	 2	 2	 2	 2
+Anobiidae	 1155	 290	 548	 387
+Anoetidae	 1	 1	 1	 1
+Anomalocarididae	 1	 1	 1	 1
+Anomiidae	 8	 4	 8	 8
+Anomocaridae	 5	 5	 5	 5
+Anoplocephalidae	 266	 5	 7	 7
+Anoplogastridae	 25	 1	 24	 22
+Anotopteridae	 3	 1	 3	 3
+Antarcturidae	 2	 1	 2	 2
+Antennariidae	 34	 8	 31	 30
+Antheluridae	 2	 2	 2	 2
+Anthicidae	 6652	 235	 2087	 1309
+Anthocoridae	 2530	 53	 1106	 720
+Anthocoridea	 2	 1	 2	 2
+Anthomyiidae	 12295	 201	 634	 337
+Anthomyzidae	 147	 18	 51	 41
+Anthophoridae	 8218	 205	 1762	 574
+Anthribidae	 680	 62	 367	 186
+Anthroleucosomatidae	 1	 1	 1	 1
+Anthuridae	 1398	 19	 1077	 1028
+Antrodiaetidae	 130	 32	 111	 86
+Anyphaenidae	 459	 75	 392	 320
+Anysidae	 11	 1	 2	 2
+Anystidae	 9	 9	 8	 7
+Aoridae	 2405	 46	 1460	 1399
+Aparchitidae	 5	 3	 3	 3
+Apataniidae	 166	 24	 131	 116
+Apatelodidae	 77	 10	 53	 25
+Apaturidae	 11	 3	 6	 5
+Aphalaridae	 1686	 77	 442	 331
+Aphelidesmidae	 11	 8	 10	 9
+Aphelinidae	 7005	 109	 973	 455
+Aphidae	 1	 1	 1	 1
+Aphididae	 84918	 1212	 24858	 7073
+Aphidiidae	 46	 4	 12	 3
+Aphidiinae	 55	 1	 5	 3
+Aphodiidae	 1310	 119	 739	 482
+Aphrophoridae	 7016	 34	 2202	 1315
+Aphrophorinae	 49	 1	 10	 7
+Apidae	 447106	 1413	 89225	 42446
+Apidea	 3	 1	 2	 2
+Apidiae	 1	 1	 1	 1
+Apioceridae	 80	 29	 60	 58
+Apionidae	 138	 99	 72	 70
+Aplustridae	 4	 2	 2	 1
+Aplysiidae	 1	 1	 1	 1
+Apseudidae	 58	 6	 42	 40
+Apsilocephalidae	 3	 1	 1	 1
+Aradidae	 3104	 90	 1169	 746
+Araneidae	 9108	 333	 5448	 4015
+Archaeobalanidae	 123	 5	 63	 62
+Archaeocrypticidae	 1	 1	 1	 1
+Archeocrypticidae	 191	 4	 57	 41
+Archescytinidae	 42	 5	 3	 3
+Archimylacridae	 1	 1	 1	 1
+Architectonicidae	 6	 4	 6	 6
+Arcidae	 13	 7	 9	 5
+Arctiidae	 9921	 877	 3705	 1353
+Arctopsychidae	 126	 3	 103	 72
+Arcturidae	 6	 5	 6	 6
+Argasidae	 166	 23	 142	 104
+Argestidae	 21	 12	 9	 9
+Argidae	 604	 44	 238	 116
+Argiopidae	 1	 1	 1	 1
+Argissidae	 129	 1	 106	 86
+Argulidae	 18	 10	 17	 17
+Argyresthiidae	 22	 6	 20	 17
+Arietellidae	 1	 1	 1	 1
+Arionidae	 1	 1	 1	 1
+Aristaeidae	 4	 1	 4	 4
+Aristeidae	 44	 6	 32	 31
+Armadillidae	 2047	 5	 1667	 1649
+Armadillidiidae	 43	 5	 34	 30
+Arrenuridae	 112	 23	 46	 41
+Arrhopalitidae	 5	 2	 4	 4
+Artematopidae	 1	 1	 1	 1
+Artematopodidae	 118	 6	 45	 23
+Artemiidae	 9	 2	 8	 7
+Artheneidae	 263	 3	 22	 22
+Arthrolycosidae	 4	 2	 2	 2
+Arthropleidae	 4	 1	 2	 2
+Asaphidae	 608	 53	 143	 137
+Asaphiscidae	 17	 3	 7	 7
+Ascalaphidae	 114	 9	 67	 44
+Ascaridae	 11	 1	 5	 5
+Ascarididae	 242	 4	 62	 62
+Ascidae	 1	 1	 1	 1
+Asellidae	 287	 29	 276	 270
+Asilidae	 2684	 505	 1361	 916
+Aspidogastridae	 6	 2	 2	 2
+Astacidae	 50	 12	 43	 41
+Astartidae	 1	 1	 1	 1
+Asteiidae	 648	 22	 219	 139
+Asterocheridae	 2	 1	 2	 2
+Asterolecaniidae	 333	 19	 183	 136
+Asthenohymenidae	 135	 8	 5	 5
+Astronesthidae	 52	 12	 47	 46
+Atelecyclidae	 6	 1	 6	 6
+Ateleopodidae	 1	 1	 1	 1
+Atemnidae	 33	 7	 19	 19
+Athericidae	 2	 1	 2	 1
+Atopetholidae	 24	 10	 22	 16
+Atopomelidae	 2	 1	 1	 1
+Attelabidae	 465	 38	 219	 178
+Atyidae	 341	 15	 265	 198
+Atypidae	 117	 9	 108	 73
+Augaptilidae	 22	 3	 10	 10
+Aulacidae	 18	 14	 5	 5
+Aulacigastridae	 425	 4	 37	 24
+Autostichidae	 21	 5	 19	 19
+Avenzoariidae	 5	 1	 1	 1
+Aviculariidae	 2	 1	 2	 2
+Axiidae	 205	 10	 146	 113
+Axymyiidae	 2	 1	 2	 2
+Azygiidae	 19	 4	 6	 6
+Babyloniidae	 1	 1	 1	 1
+Baetidae	 2573	 179	 1356	 986
+Baetiscidae	 209	 9	 166	 122
+Bairdiidae	 58	 5	 13	 13
+Balanidae	 671	 33	 160	 147
+Barbouriidae	 1	 1	 1	 1
+Bateidae	 488	 5	 380	 378
+Bathycheilidae	 40	 1	 39	 39
+Bathygadidae	 12	 3	 11	 11
+Bathylagidae	 92	 9	 75	 75
+Bathynellidae	 1	 1	 1	 1
+Bathynotidae	 4	 2	 3	 3
+Bathypontiidae	 29	 1	 11	 11
+Bathypteroidae	 36	 7	 23	 23
+Bathyuridae	 19	 10	 17	 17
+Batillariidae	 1	 1	 1	 1
+Batocrinidae	 2	 1	 2	 2
+Batrachedridae	 70	 9	 59	 37
+Bdellidae	 16	 9	 8	 8
+Bdellouridae	 2	 1	 1	 1
+Bedelliidae	 55	 2	 20	 12
+Behningiidae	 10	 1	 7	 5
+Belidae	 26	 8	 11	 8
+Bellostomatidae	 7	 5	 6	 6
+Belostomatidae	 3330	 40	 1298	 953
+Benthesicymidae	 93	 6	 82	 81
+Bentheuphausiidae	 13	 1	 5	 2
+Berothidae	 128	 8	 97	 44
+Berytidae	 4235	 29	 2093	 1493
+Bethylidae	 590	 115	 336	 183
+Beyrichiidae	 21	 5	 9	 9
+Bibionidae	 353	 34	 176	 89
+Biphyllidae	 65	 3	 36	 28
+Bithyniidae	 1	 1	 1	 1
+Bittacidae	 678	 12	 255	 179
+Blaberidae	 260	 23	 132	 76
+Blaniulidae	 200	 8	 174	 74
+Blastobasidae	 215	 21	 134	 90
+Blattellidae	 784	 27	 392	 208
+Blattidae	 505	 14	 304	 154
+Blattisocidae	 11	 10	 11	 7
+Blennocampinae	 1	 1	 1	 1
+Blephariceridae	 1	 1	 1	 1
+Blissidae	 4186	 43	 1212	 899
+Bodotriidae	 2036	 19	 829	 616
+Bogidiellidae	 1	 1	 1	 1
+Bolaspididae	 5	 1	 2	 1
+Bolboceratidae	 203	 23	 123	 87
+Bolbomyiidae	 5	 1	 2	 2
+Bolliidae	 2	 1	 2	 2
+Bombidae	 1	 1	 1	 1
+Bombycidae	 92	 24	 56	 30
+Bombyliidae	 1628	 221	 877	 439
+Boopidae	 2827	 1	 3	 3
+Bopyridae	 18	 10	 18	 18
+Borboridae	 2	 2	 2	 2
+Boreidae	 173	 16	 133	 96
+Boridae	 9	 1	 5	 5
+Bosminidae	 106	 6	 57	 41
+Bostrichidae	 1388	 110	 657	 402
+Bostrychidae	 1	 1	 1	 1
+Bothrideridae	 108	 8	 58	 39
+Bovicolidae	 108	 1	 3	 3
+Brachycentridae	 765	 36	 507	 429
+Brachyceridae	 80	 4	 30	 22
+Brachycoeliidae	 1	 1	 1	 1
+Brachymetopidae	 1	 1	 1	 1
+Brachypteridae	 34	 4	 19	 19
+Brachystomatidae	 22	 5	 13	 11
+Braconidae	 9658	 766	 2620	 1341
+Bradybaenidae	 1	 1	 1	 1
+Bradynobaenidae	 55	 21	 19	 17
+Branchinectidae	 247	 7	 91	 55
+Branneriidae	 2	 2	 2	 2
+Brathinidae	 2	 2	 1	 1
+Brentidae	 581	 53	 132	 102
+Bruchidae	 413	 107	 184	 167
+Buccinidae	 29	 13	 21	 17
+Bucculatricidae	 149	 31	 121	 111
+Bucephalidae	 1	 1	 1	 1
+Bulimulidae	 37	 13	 23	 22
+Bullidae	 6	 3	 6	 5
+Buprestidae	 16758	 652	 5419	 2589
+Burgessiidae	 58	 1	 2	 2
+Bursidae	 4	 4	 3	 3
+Buthidae	 859	 32	 579	 503
+Byrrhidae	 519	 53	 300	 134
+Bythocytheridae	 3	 2	 1	 1
+Byturidae	 370	 3	 180	 131
+Caddidae	 12	 3	 8	 8
+Caeciliidae	 26	 2	 11	 6
+Caeciliusidae	 22	 2	 10	 9
+Caeculidae	 6	 2	 4	 3
+Caenidae	 683	 37	 371	 305
+Calamoceratidae	 58	 5	 49	 49
+Calanidae	 9192	 22	 1071	 787
+Calappidae	 224	 27	 181	 163
+Caleremaeidae	 4	 2	 2	 2
+Caligidae	 108	 9	 30	 26
+Caligonellidae	 1	 1	 1	 1
+Caliscelidae	 1143	 41	 634	 489
+Callianassidae	 471	 23	 135	 128
+Calliopiidae	 198	 7	 96	 63
+Calliostomatidae	 7	 5	 7	 7
+Callipallenidae	 60	 5	 58	 56
+Calliphorida	 1	 1	 1	 1
+Calliphoridae	 7378	 111	 2058	 885
+Callirhipidae	 24	 1	 19	 15
+Calocarididae	 2	 1	 1	 1
+Calophyidae	 132	 6	 65	 57
+Calopterygidae	 3784	 20	 2015	 1306
+Calymenidae	 665	 28	 233	 228
+Calyptraeidae	 31	 12	 26	 22
+Camasiidae	 1	 1	 1	 1
+Cambalidae	 51	 13	 47	 43
+Cambaridae	 3866	 279	 3351	 2807
+Camisiidae	 91	 11	 29	 24
+Campodeidae	 17	 6	 15	 15
+Camptoneuritidae	 1	 1	 1	 1
+Canacidae	 3318	 27	 333	 244
+Cancellariidae	 1	 1	 1	 1
+Cancridae	 737	 17	 585	 504
+Candacidae	 3	 1	 3	 3
+Candaciidae	 4	 1	 4	 4
+Candonidae	 11	 7	 8	 8
+Canestriniidae	 1	 1	 1	 1
+Cantharidae	 1824	 341	 840	 559
+Canthocamptidae	 37	 13	 14	 9
+Canthyloscelidae	 16	 1	 3	 3
+Canuellidae	 187	 4	 57	 39
+Capillaridae	 43	 1	 5	 5
+Capniidae	 3547	 122	 2462	 2211
+Caponiidae	 22	 12	 21	 21
+Caprellidae	 325	 24	 250	 235
+Caprellinoididae	 11	 1	 8	 8
+Capulidae	 1	 1	 1	 1
+Carabidae	 325236	 5902	 52319	 28551
+Caraboacaridae	 2	 1	 2	 2
+Carabodidae	 40	 23	 25	 24
+Carcinophoridae	 19	 2	 10	 8
+Cardiidae	 32	 15	 28	 22
+Carditidae	 6	 5	 6	 5
+Caribbiantidae	 3	 1	 2	 2
+Carnidae	 11	 8	 7	 6
+Carpiliidae	 6	 1	 6	 4
+Carposinidae	 82	 21	 64	 49
+Carychiidae	 8	 1	 8	 7
+Caseyidae	 5	 3	 5	 5
+Caspiopetalidae	 1	 1	 1	 1
+Cassidae	 15	 10	 14	 11
+Castniidae	 4	 3	 3	 2
+Catillicephalidae	 35	 7	 23	 19
+Cebrionidae	 19	 16	 13	 13
+Cecidomyiidae	 657	 111	 113	 66
+Cecropidae	 1	 1	 1	 1
+Celaenopsidae	 3	 3	 3	 3
+Centropagidae	 589	 8	 313	 270
+Cephaloidae	 12	 6	 10	 8
+Cepheidae	 3	 2	 2	 2
+Cephidae	 186	 12	 107	 68
+Cerambycidae	 23058	 1395	 10514	 4603
+Ceraphronidae	 127	 7	 43	 20
+Ceratiidae	 38	 3	 36	 36
+Ceratiocarididae	 26	 4	 6	 5
+Ceratocombidae	 46	 3	 21	 17
+Ceratocumatidae	 4	 2	 3	 3
+Ceratolasmatidae	 38	 6	 32	 21
+Ceratophyllidae	 336	 32	 204	 116
+Ceratopogonidae	 2697	 148	 807	 382
+Ceratoppiidae	 23	 5	 12	 11
+Ceratozetidae	 127	 20	 35	 33
+Cercopidae	 3648	 44	 1297	 838
+Cercropidae	 1	 1	 1	 1
+Cerithiidae	 5	 4	 5	 5
+Cerococcidae	 72	 6	 29	 27
+Cerophytidae	 7	 2	 7	 6
+Cerozetidae	 4	 1	 3	 2
+Certatopogonidae	 3	 1	 2	 2
+Cerviniidae	 17	 9	 14	 14
+Cerylonidae	 539	 35	 212	 152
+Cetomimidae	 18	 6	 13	 13
+Cetoniidae	 920	 83	 316	 243
+Chactidae	 5	 4	 4	 4
+Chaetiliidae	 151	 10	 140	 136
+Chaetodactylidae	 11	 1	 1	 1
+Chalcididae	 873	 87	 411	 190
+Chamaemyiidae	 3885	 19	 150	 56
+Chamidae	 9	 4	 8	 7
+Chamobatidae	 71	 2	 17	 15
+Chaoboridae	 131	 10	 104	 101
+Charipidae	 2	 1	 2	 2
+Charopidae	 2	 1	 1	 1
+Chasmocarcinidae	 10	 2	 6	 3
+Chauliodontidae	 59	 2	 48	 48
+Cheilocephalidae	 1	 1	 1	 1
+Cheiragonidae	 1470	 2	 1267	 483
+Cheiridiidae	 3	 3	 3	 2
+Cheirocratidae	 1	 1	 1	 1
+Cheiruridae	 2350	 35	 71	 71
+Cheliferidae	 125	 34	 88	 85
+Chelisochidae	 69	 2	 61	 31
+Chelodesmidae	 5	 3	 5	 5
+Chelonariidae	 37	 1	 22	 12
+Chelonibiidae	 3	 2	 3	 3
+Chelopteridae	 40	 1	 1	 1
+Cheluridae	 3	 1	 3	 2
+Chernetidae	 158	 55	 104	 101
+Cheyletidae	 13	 10	 9	 8
+Chilenophilidae	 1	 1	 1	 1
+Chilomastigidae	 2	 1	 1	 1
+Chirocephalidae	 105	 5	 102	 97
+Chirodiscidae	 3	 1	 1	 1
+Chironomidae	 10557	 455	 1232	 794
+Chirostylidae	 8	 5	 8	 8
+Chitonidae	 2	 2	 1	 1
+Chloroperlidae	 943	 63	 593	 480
+Chloropidae	 17632	 273	 1458	 752
+Choctellidae	 4	 1	 3	 3
+Chordodidae	 1	 1	 1	 1
+Choreutidae	 152	 29	 131	 93
+Choropidae	 17	 6	 14	 4
+Chortoglyphidae	 3	 1	 1	 1
+Chrysididae	 851	 129	 432	 250
+Chrysomelidae	 16330	 1613	 6186	 3412
+Chrysomelidae:Bruchinae	 34	 4	 2	 1
+Chrysopidae	 6428	 76	 2375	 1221
+Chthamalidae	 87	 6	 23	 20
+Chthoniidae	 38	 14	 25	 24
+Chydoridae	 480	 41	 242	 150
+Chyromyidae	 101	 23	 61	 49
+Cicadellidae	 145336	 3429	 23332	 10573
+Cicadidae	 47886	 244	 13358	 6380
+Cicerinidae	 1	 1	 1	 1
+Cicindelidae	 18	 9	 13	 12
+Ciidae	 2064	 81	 357	 231
+Cimbicidae	 182	 11	 143	 103
+Cimibicidae	 8	 4	 1	 1
+Cimicidae	 1164	 20	 240	 176
+Cirolanidae	 547	 36	 323	 254
+Cisiidae	 1	 1	 1	 1
+Cixiidae	 4850	 199	 1890	 1303
+Cladonychiidae	 15	 2	 13	 13
+Clambidae	 255	 16	 120	 107
+Clariidae	 2	 1	 2	 2
+Clastopteriae	 11	 1	 5	 3
+Clastopteridae	 3894	 36	 1405	 941
+Clausidiidae	 4	 4	 4	 4
+Clausocalanidae	 1042	 10	 96	 90
+Cleidogonidae	 201	 76	 137	 124
+Cleridae	 4210	 235	 1671	 1002
+Cletodidae	 116	 14	 39	 10
+Clinostomatidae	 10	 2	 3	 3
+Cloacaridae	 1	 1	 1	 1
+Clubionidae	 2508	 89	 1288	 923
+Clusiidae	 716	 23	 106	 75
+Clytemnestridae	 1	 1	 1	 1
+Coccidae	 3205	 97	 1623	 768
+Coccinellidae	 16811	 507	 6578	 3138
+Cochlicopidae	 2	 1	 2	 2
+Cochylidae	 71	 7	 43	 5
+Coelopidae	 293	 5	 24	 21
+Coenagrionidae	 31006	 139	 8878	 4610
+Coenobitidae	 105	 4	 95	 75
+Coleophoridae	 777	 117	 433	 246
+Colletidae	 58937	 340	 13131	 7509
+Colletteidae	 50	 5	 39	 39
+Colomastigidae	 31	 6	 27	 26
+Colossendeidae	 23	 7	 20	 18
+Columbellidae	 7	 6	 6	 6
+Colydiidae	 226	 50	 114	 73
+Conchaspididae	 3	 2	 3	 3
+Conidae	 79	 50	 47	 36
+Coniopterygidae	 309	 18	 198	 64
+Conocoryphidae	 9	 5	 5	 5
+Conopidae	 204	 60	 128	 88
+Conotylidae	 99	 34	 90	 83
+Coosellidae	 6	 4	 4	 4
+Copromorphidae	 11	 4	 10	 10
+Corallanidae	 32	 9	 26	 25
+Coralliophilidae	 2	 2	 2	 2
+Corbiculidae	 46	 6	 39	 33
+Cordulegastridae	 1178	 14	 756	 413
+Corduliidae	 7530	 58	 3312	 1350
+Cordullidae	 480	 38	 313	 263
+Coreidae	 17552	 233	 7262	 4172
+Corethrellidae	 9	 1	 4	 3
+Corimelaenidae	 645	 11	 293	 239
+Corinnidae	 1281	 77	 933	 646
+Corinnidae?	 7	 3	 7	 5
+Corixidae	 42023	 162	 4450	 2850
+Coronulidae	 7	 1	 6	 5
+Corophiidae	 2552	 35	 1390	 1109
+Corycaeidae	 9	 7	 8	 6
+Corydalidae	 773	 24	 499	 377
+Corydiidae	 99	 10	 52	 20
+Corylophidae	 313	 50	 139	 90
+Cosmetidae	 197	 24	 185	 161
+Cosmocercidae	 7	 1	 1	 1
+Cosmochthoniidae	 5	 1	 1	 1
+Cosmopterigidae	 633	 94	 369	 277
+Cossidae	 399	 60	 301	 235
+Crabronidae	 19199	 908	 5508	 2729
+Crambidae	 7687	 672	 2489	 1283
+Crangonidae	 688	 32	 610	 567
+Crangonyctidae	 356	 24	 295	 253
+Crassatellidae	 2	 1	 2	 2
+Crepicephalidae	 13	 5	 5	 5
+Crepidulidae	 5	 2	 5	 5
+Crossotonotidae	 1	 1	 1	 1
+Cruziidae	 6	 1	 1	 1
+Cryptocercidae	 85	 1	 27	 26
+Cryptochiridae	 6	 3	 5	 4
+Cryptocopidae	 1	 1	 1	 1
+Cryptodesmidae	 2	 2	 2	 2
+Cryptophagidae	 473	 78	 192	 144
+Cryptophialidae	 1	 1	 1	 1
+Cryptopidae	 146	 12	 127	 112
+Ctenidae	 47	 16	 45	 42
+Ctenizidae	 86	 7	 68	 59
+Ctenophthalmidae	 20	 6	 15	 12
+Cucujidae	 258	 42	 162	 116
+Culicidae	 21167	 188	 3509	 1278
+Cunaxidae	 1	 1	 1	 1
+Cupedidae	 223	 10	 122	 86
+Curaliidae	 20	 1	 17	 4
+Curculionidae	 130352	 2743	 15246	 8681
+Curculionidae:Scolytinae	 2	 2	 1	 1
+Curtonotidae	 18	 1	 3	 3
+Cuspidariidae	 1	 1	 1	 1
+Cuterebridae	 11	 2	 1	 1
+Cyamidae	 4	 4	 3	 3
+Cyathocephalidae	 1	 1	 1	 1
+Cyathocotylidae	 1	 1	 1	 1
+Cyathostomidae	 62	 4	 3	 3
+Cybaeidae	 1288	 24	 616	 261
+Cyclidae	 1	 1	 1	 1
+Cyclocoelidae	 16	 4	 5	 5
+Cyclodorippidae	 9	 6	 8	 8
+Cyclopidae	 612	 54	 372	 169
+Cyclopinidae	 7	 1	 6	 1
+Cydnidae	 3769	 63	 1631	 1043
+Cylichnidae	 1	 1	 1	 1
+Cylindroleberididae	 1247	 15	 516	 515
+Cylindropsyllidae	 47	 1	 19	 19
+Cylindrotomidae	 22	 2	 7	 6
+Cylisticidae	 8	 1	 7	 7
+Cymbaeremaeidae	 9	 3	 3	 3
+Cymidae	 2511	 18	 908	 694
+Cymopoliidae	 9	 7	 9	 8
+Cymothoidae	 54	 15	 42	 29
+Cynidae	 1	 1	 1	 1
+Cynipidae	 2409	 448	 798	 390
+Cyphocarididae	 5	 2	 4	 4
+Cypraeidae	 24	 21	 18	 16
+Cypridae	 2	 2	 2	 2
+Cyprididae	 1174	 19	 481	 363
+Cypridinidae	 358	 7	 136	 120
+Cyproideidae	 4	 1	 3	 3
+Cyrtaucheniidae	 19	 11	 13	 13
+Cystiosomatidae	 1	 1	 1	 1
+Cytherellidae	 3	 2	 2	 2
+Cytheridae	 13	 3	 9	 8
+Cytherideidae	 114	 5	 70	 70
+Cytheruridae	 5	 4	 1	 1
+Cytodytidae	 13	 1	 2	 2
+Cyzicidae	 37	 14	 24	 24
+Dactylogyridae	 17	 1	 4	 4
+Dactylopiidae	 96	 5	 60	 54
+Dairidae	 45	 1	 40	 26
+Dairoididae	 12	 1	 9	 8
+Dakoticancridae	 1	 1	 1	 1
+Dalceridae	 9	 4	 7	 7
+Dalmanitidae	 47	 8	 15	 15
+Damaeidae	 32	 23	 25	 23
+Dameaidae	 6	 1	 1	 1
+Danaidae	 17	 3	 14	 12
+Daphnidae	 37	 22	 30	 28
+Daphniidae	 587	 31	 268	 170
+Daraineidae	 1	 1	 1	 1
+Darcythompsoniidae	 7	 5	 5	 2
+Dariellidae	 1	 1	 1	 1
+Darwinulidae	 29	 1	 28	 23
+Dascillidae	 81	 11	 27	 25
+Dascyllidae	 1	 1	 1	 1
+Dasyleptidae	 1	 1	 1	 1
+Davaineidae	 220	 4	 7	 7
+Deinopidae	 4	 1	 4	 4
+Delphacidae	 25414	 461	 6638	 3885
+Demodecidae	 11	 2	 1	 1
+Demodicidae	 1	 1	 1	 1
+Dentaliidae	 1	 1	 1	 1
+Derbidae	 2364	 75	 1145	 628
+Dermanyssidae	 23	 10	 11	 11
+Dermationidae	 1	 1	 1	 1
+Dermestidae	 4099	 135	 1576	 869
+Derodontidae	 2758	 10	 279	 148
+Desidae	 7	 2	 7	 7
+Desmosomatidae	 29	 19	 15	 15
+Dexaminidae	 63	 9	 62	 61
+Diadocidiidae	 1	 1	 1	 1
+Diaphanidae	 1	 1	 1	 1
+Diapheromeridae	 136	 9	 60	 47
+Diapriidae	 162	 47	 98	 65
+Diaptomidae	 319	 21	 136	 96
+Diaspididae	 13859	 384	 8506	 3048
+Diastatidae	 22	 5	 15	 10
+Diastylidae	 871	 38	 699	 684
+Dibothriocephalidae	 2	 2	 1	 1
+Dicrocoeliidae	 143	 11	 8	 8
+Dictynidae	 4056	 206	 2555	 1917
+Dictynidae?	 1	 1	 1	 1
+Dictyopharidae	 3303	 82	 1805	 1410
+Dicyrtomidae	 12	 2	 4	 4
+Digamasellidae	 12	 7	 5	 3
+Dignathodontidae	 2	 2	 2	 2
+Diguetidae	 73	 9	 67	 62
+Dikelocephalidae	 68	 6	 12	 12
+Dilepididae	 261	 7	 16	 16
+Dinesidae	 1	 1	 1	 1
+Dioecocestidae	 2	 1	 1	 1
+Diogenidae	 914	 50	 649	 487
+Dionididae	 4	 1	 4	 4
+Diopsidae	 18	 1	 9	 9
+Dioptidae	 3	 3	 2	 2
+Diosaccidae	 68	 36	 30	 22
+Dipetalonematidae	 72	 1	 9	 9
+Diphyllobothridae	 1	 1	 1	 1
+Diphyllostomatidae	 21	 3	 8	 7
+Diplagnostidae	 1	 1	 1	 1
+Diplocentridae	 33	 15	 28	 23
+Diplodiscidae	 1	 1	 1	 1
+Diplostomatidae	 5528	 10	 16	 16
+Dipluridae	 44	 9	 42	 32
+Diprionidae	 118	 24	 37	 29
+Dipseudopsidae	 298	 6	 177	 113
+Dipsocoridae	 1	 1	 1	 1
+Diptera	 1	 1	 1	 1
+Dipylidiidae	 20	 1	 1	 1
+Dirivultidae	 91	 25	 17	 17
+Disciadidae	 1	 1	 1	 1
+Discidae	 31	 7	 28	 26
+Discocotylidae	 13	 2	 2	 2
+Discolomatidae	 2	 1	 1	 1
+Discourellidae	 2	 2	 2	 2
+Ditomyiidae	 4	 2	 3	 2
+Dixidae	 7	 7	 2	 2
+Dogielinotidae	 146	 4	 137	 136
+Doidae	 3	 3	 2	 2
+Dolichoderinae	 12	 3	 8	 8
+Dolichometopidae	 24	 8	 7	 7
+Dolichopodidae	 13463	 687	 1898	 1010
+Dolichopsyllidae	 20	 1	 2	 2
+Dolichopteridae	 5	 3	 3	 3
+Domeciidae	 36	 1	 29	 21
+Donacidae	 9	 4	 8	 7
+Dorippidae	 11	 6	 10	 8
+Dorypygidae	 55	 17	 28	 25
+Douglasiidae	 42	 7	 14	 13
+Drassidae	 1	 1	 1	 1
+Drepanellidae	 4	 3	 3	 3
+Drepanidae	 1578	 28	 1136	 394
+Dressenidae	 1	 1	 1	 1
+Dromiidae	 124	 16	 107	 99
+Drosophila	 130	 2	 60	 37
+Drosophilidae	 26006	 571	 4627	 2298
+Dryinidae	 218	 45	 125	 89
+Dryomyzidae	 655	 10	 68	 54
+Dryophthoridae	 401	 62	 280	 166
+Dryopidae	 5422	 25	 1515	 1202
+Dulichiidae	 3	 3	 3	 3
+Dumontiidae	 4	 1	 2	 1
+Dynastidae	 1430	 98	 669	 312
+Dynomenidae	 21	 3	 16	 11
+Dysderidae	 516	 2	 402	 328
+Dytiscidae	 33509	 960	 6047	 3930
+Ecbathyriontidae	 1	 1	 1	 1
+Echeneididae	 17	 7	 17	 17
+Echinocarididae	 25	 11	 15	 15
+Echinorhynchidae	 1	 1	 1	 1
+Echinostomatidae	 26	 8	 6	 6
+Ecnomidae	 12	 2	 12	 11
+Ectinosomatidae	 81	 17	 41	 37
+Ectobiidae	 255	 39	 134	 55
+Ectopsocidae	 32	 4	 11	 7
+Eimeriidae	 2	 1	 1	 1
+Elachistidae	 854	 151	 577	 387
+Elateridae	 19350	 1058	 5802	 3005
+Elateroidea	 5	 1	 3	 2
+Eleotrididae	 17	 7	 17	 16
+Elipsocidae	 36	 7	 18	 8
+Ellipsocephalidae	 2	 1	 2	 2
+Ellipsocephaloididae	 10	 1	 10	 10
+Elliptochthoniidae	 2	 1	 1	 1
+Ellobiidae	 5	 3	 5	 5
+Elmidae	 12405	 208	 3466	 2492
+Elmoidae	 9	 1	 2	 2
+Elviniidae	 14	 7	 12	 12
+Elytroneuridae	 1	 1	 1	 1
+Embiidae	 2	 2	 2	 2
+Embioptera	 18	 2	 16	 13
+Embolemidae	 2	 1	 2	 2
+Empidae	 1	 1	 1	 1
+Empididae	 1240	 188	 189	 134
+Encrinuridae	 13	 6	 9	 9
+Encyrtidae	 8633	 272	 1996	 704
+Endamoebidae	 10	 3	 1	 1
+Endecatomidae	 59	 2	 24	 16
+Endeididae	 12	 1	 6	 6
+Endomychidae	 1162	 43	 455	 319
+Endymioniidae	 4	 1	 2	 1
+Engraulididae	 37	 18	 32	 31
+Enicocephalidae	 18	 4	 6	 6
+Eniochthoniidae	 1	 1	 1	 1
+Enoplometopidae	 1	 1	 1	 1
+Entocytheridae	 29	 16	 11	 2
+Entomobryidae	 1751	 25	 79	 74
+Eodiscidae	 18	 7	 10	 9
+Epermeniidae	 22	 9	 16	 14
+Ephemerellidae	 3251	 114	 1922	 1231
+Ephemeridae	 1146	 21	 647	 517
+Ephippididae	 15	 4	 14	 14
+Ephydridae	 8745	 227	 729	 423
+Epialtidae	 576	 41	 411	 290
+Epidermoptidae	 120	 16	 11	 11
+Epilohmannidae	 2	 1	 1	 1
+Epilohmanniidae	 1	 1	 1	 1
+Epimeriidae	 20	 1	 10	 4
+Epimetopidae	 46	 5	 7	 5
+Epiplemidae	 8	 2	 5	 5
+Epipsocidae	 1	 1	 1	 1
+Epipygidae	 1	 1	 1	 1
+Epipyropidae	 5	 2	 4	 4
+Epitoniidae	 12	 7	 11	 9
+Erebidae	 24627	 581	 15208	 3889
+Erebonasteridae	 6	 3	 5	 5
+Eremaeidae	 42	 9	 17	 17
+Eremobatidae	 2692	 161	 2254	 1644
+Eremobelbidae	 1	 1	 1	 1
+Ereynetidae	 12	 4	 4	 4
+Ergasilidae	 1	 1	 1	 1
+Eriococcidae	 572	 57	 287	 227
+Eriocottidae	 1	 1	 1	 1
+Eriocraniidae	 82	 9	 72	 63
+Eriophyidae	 3	 3	 3	 3
+Eriphiidae	 219	 2	 151	 79
+Erirhinidae	 182	 14	 61	 60
+Erotylidae	 1559	 74	 526	 280
+Erythraeidae	 20	 17	 18	 18
+Estheriidae	 3	 3	 3	 3
+Ethmiidae	 17	 3	 13	 7
+Ethusidae	 20	 4	 20	 18
+Eucaenidae	 1	 1	 1	 1
+Eucalanidae	 1714	 2	 468	 397
+Euchaetidae	 140	 4	 51	 51
+Eucharitidae	 24	 8	 14	 9
+Eucinetidae	 191	 19	 120	 86
+Eucnemidae	 588	 68	 239	 143
+Eucoilidae	 3	 1	 2	 1
+Eucopiidae	 44	 4	 18	 14
+Eucytheridae	 3	 3	 1	 1
+Euglenidae	 11	 8	 9	 8
+Euglycyphagidae	 8	 2	 1	 1
+Eugonatonotidae	 4	 1	 4	 4
+Eukoeneniidae	 1	 1	 1	 1
+Eulichadidae	 1	 1	 1	 1
+Eulimidae	 1	 1	 1	 1
+Eulophidae	 5270	 315	 986	 596
+Eumastacidae	 55	 8	 15	 15
+Eumenidae	 1634	 82	 786	 548
+Eumunididae	 2	 1	 2	 2
+Eupelmidae	 184	 44	 110	 66
+Euphausiidae	 4670	 29	 1354	 1153
+Euphoberiidae	 7	 3	 6	 6
+Euphorinae	 2	 1	 1	 1
+Euphthiracaridae	 6	 3	 4	 4
+Eupodidae	 4	 4	 2	 2
+Euproopidae	 15	 5	 5	 5
+Eurycercidae	 30	 2	 10	 9
+Eurychilinidae	 11	 6	 6	 6
+Eurydesmidae	 1	 1	 1	 1
+Eurymerodesmidae	 38	 13	 32	 24
+Euryphoridae	 2	 2	 2	 1
+Euryplacidae	 41	 3	 37	 36
+Eurypteridae	 95	 4	 12	 11
+Eurysquillidae	 1	 1	 1	 1
+Eurystethidae	 10	 3	 7	 6
+Eurytomidae	 347	 42	 73	 49
+Euryuridae	 140	 20	 133	 125
+Euscorpiidae	 2	 2	 2	 2
+Eusiridae	 161	 15	 128	 123
+Euteliidae	 34	 8	 32	 20
+Euterpinidae	 2	 1	 2	 2
+Eutichuridae	 28	 2	 26	 8
+Evaniidae	 394	 12	 187	 63
+Expanathuridae	 2	 2	 2	 2
+Fanniidae	 2726	 51	 156	 91
+Fasciolariidae	 23	 7	 16	 11
+Fasciolidae	 12	 3	 3	 3
+Ficidae	 3	 2	 3	 3
+Figitidae	 306	 35	 77	 44
+Filariidae	 13	 2	 3	 3
+Filaroididae	 129	 2	 13	 13
+Filistatidae	 99	 8	 84	 59
+Fissurellidae	 19	 13	 15	 14
+Flatidae	 4650	 65	 2197	 1416
+Floridobolidae	 5	 1	 2	 2
+Forficulidae	 233	 1	 104	 68
+Formica	 3	 1	 3	 3
+Formicidae	 191849	 2520	 39135	 29479
+Freyanidae	 8	 1	 1	 1
+Fulgoridae	 734	 42	 467	 385
+Gabuciniidae	 12	 2	 2	 2
+Galacticidae	 12	 1	 2	 2
+Galatheidae	 175	 18	 132	 127
+Galeorhinidae	 6	 3	 3	 3
+Galumnidae	 12	 7	 8	 8
+Gammarellidae	 8	 2	 8	 8
+Gammaridae	 664	 34	 457	 441
+Garypidae	 18	 4	 12	 12
+Garypinidae	 1	 1	 1	 1
+Gasteruptiidae	 209	 13	 62	 48
+Gecarcinidae	 208	 8	 182	 144
+Gelastochoridae	 3	 1	 3	 1
+Gelastocoridae	 2077	 16	 791	 527
+Gelechiidae	 4711	 544	 1915	 1117
+Geocoridae	 4925	 21	 1783	 1021
+Geometridae	 26379	 2014	 10003	 3804
+Geophilidae	 254	 32	 201	 98
+Georyssidae	 2	 2	 2	 2
+Geotrupidae	 2028	 69	 913	 480
+Geragnostidae	 5	 2	 3	 3
+Gerridae	 7250	 89	 2058	 1320
+Geryonidae	 49	 2	 41	 41
+Gigantorhynchidae	 2	 2	 2	 2
+Glaphuridae	 8	 1	 3	 3
+Glaphyridae	 28	 5	 15	 12
+Glaresidae	 651	 18	 98	 82
+Glomeridae	 15	 7	 12	 11
+Glomeridesmidae	 2	 1	 1	 1
+Glossosomatidae	 860	 60	 637	 517
+Glycymerididae	 4	 4	 4	 3
+Glycyphagidae	 46	 7	 10	 3
+Glyphidoceridae	 19	 3	 15	 10
+Glyphipterigidae	 47	 14	 41	 40
+Glyphocrangonidae	 120	 6	 80	 80
+Glyptograpsidae	 46	 2	 46	 35
+Gnaphosidae	 10408	 347	 4489	 3106
+Gnaphosidae?	 12	 7	 11	 8
+Gnaphosiidae	 2	 1	 2	 2
+Gnathiidae	 14	 5	 13	 13
+Gnathophyllidae	 22	 3	 21	 20
+Gnathostenetroidae	 5	 1	 5	 5
+Gnathostomatidae	 3	 2	 2	 2
+Gobiesocidae	 6	 5	 6	 6
+Goeridae	 333	 11	 90	 70
+Gomphidae	 6032	 106	 3288	 1785
+Goneplacidae	 28	 10	 24	 24
+Gonodactylidae	 288	 15	 197	 117
+Gosibiidae	 21	 11	 12	 10
+Gracillariidae	 2235	 182	 767	 483
+Grammistidae	 4	 4	 4	 4
+Grapsidae	 699	 39	 460	 334
+Gryllacrididae	 2	 2	 2	 2
+Gryllidae	 2029	 76	 982	 659
+Grylloblattidae	 21	 2	 16	 13
+Gryllotalpidae	 247	 10	 156	 114
+Guanolichidae	 2	 1	 1	 1
+Gymnodamaeidae	 84	 3	 9	 9
+Gyrinidae	 9768	 103	 1969	 1415
+Gyropidae	 2	 2	 2	 2
+Habronematidae	 13	 1	 2	 2
+Hadziidae	 72	 2	 51	 51
+Haematopinidae	 3	 2	 3	 3
+Hahnidae	 1	 1	 1	 1
+Hahniidae	 2719	 38	 901	 527
+Halacaridae	 17	 5	 9	 9
+Halictidae	 395775	 834	 38417	 18218
+Halimococcidae	 6	 2	 2	 2
+Haliotididae	 12	 6	 9	 9
+Haliplidae	 5688	 109	 1441	 1181
+Halocyprididae	 97	 11	 18	 17
+Haminoeidae	 2	 2	 2	 2
+Hammatocnemidae	 13	 8	 5	 5
+Hapalocarcinidae	 2	 2	 2	 2
+Haplobothriidae	 1	 1	 1	 1
+Haplochthoniidae	 6	 1	 1	 1
+Haplodesmidae	 1	 1	 1	 1
+Haplomunnidae	 3	 1	 3	 3
+Haploniscidae	 6	 6	 6	 6
+Haplotrematidae	 4	 3	 4	 4
+Haplozetidae	 66	 6	 19	 17
+Harpacticidae	 624	 10	 52	 47
+Harpetidae	 4	 1	 3	 2
+Harpidae	 2	 1	 2	 2
+Harpididae	 2	 1	 2	 1
+Hasstilesiidae	 3	 1	 1	 1
+Hastagnostidae	 49	 6	 8	 8
+Haustoridae	 1	 1	 1	 1
+Haustoriidae	 696	 25	 374	 354
+Hebridae	 542	 17	 179	 132
+Hectopsyllidae	 234	 1	 11	 11
+Heleomyzidae	 2401	 79	 318	 191
+Helicarionidae	 6	 2	 5	 5
+Helicidae	 6	 5	 6	 6
+Helicinidae	 19	 2	 19	 17
+Helicodiscidae	 18	 5	 16	 16
+Helicopsychidae	 229	 7	 186	 164
+Heliodinidae	 44	 12	 35	 35
+Heliozelidae	 90	 16	 84	 78
+Helminthoglyptidae	 1	 1	 1	 1
+Helophoridae	 45	 17	 26	 26
+Heloridae	 8	 2	 7	 4
+Hemerobiidae	 3987	 71	 1777	 801
+Hemicytheridae	 599	 4	 216	 216
+Hemipsocidae	 22	 2	 9	 6
+Hemisarcoptidae	 1	 1	 1	 1
+Hemiscorpionidae	 1	 1	 1	 1
+Hemisquillidae	 8	 1	 8	 8
+Hemiuridae	 3	 1	 2	 2
+Henicopidae	 32	 14	 31	 31
+Hepialidae	 210	 36	 159	 93
+Heptageniidae	 5031	 131	 2676	 1732
+Hermanniellidae	 2	 1	 2	 2
+Hermanniidae	 16	 2	 5	 5
+Hermatobatidae	 2	 1	 2	 2
+Herminiidae	 25	 9	 18	 18
+Heronimidae	 5	 1	 1	 1
+Hersiliidae	 21	 4	 17	 16
+Hesperiidae	 55755	 768	 29376	 12160
+Hesperinidae	 7	 1	 4	 4
+Heterakidae	 35	 2	 7	 7
+Heteroceridae	 1090	 59	 387	 272
+Heterogastridae	 20	 3	 8	 8
+Heteromyzidae	 7	 1	 6	 6
+Heteronemiidae	 23	 5	 16	 13
+Heterophyidae	 1	 1	 1	 1
+Heterorhabdidae	 251	 4	 34	 34
+Heterothripidae	 58	 9	 14	 12
+Heterozetidae	 1	 1	 1	 1
+Hexamitidae	 1	 1	 1	 1
+Himantariidae	 16	 7	 11	 11
+Hippidae	 207	 9	 98	 65
+Hippoboscidae	 48	 17	 30	 28
+Hippolytidae	 654	 65	 454	 369
+Hipponicidae	 6	 2	 6	 5
+Hiridae	 1	 1	 1	 1
+Hirudisomatidae	 1	 1	 1	 1
+Hirudosomatidae	 1	 1	 1	 1
+Histeridae	 8030	 414	 1832	 1095
+Histeridae 	 616	 58	 104	 28
+Histiostomatidae	 8	 1	 1	 1
+Hodotermitidae	 1	 1	 1	 1
+Hollinidae	 17	 9	 9	 9
+Holmiidae	 2	 2	 2	 2
+Holognathidae	 13	 1	 12	 12
+Holopedidae	 1	 1	 1	 1
+Homalonotidae	 43	 4	 28	 26
+Homalonychidae	 37	 6	 37	 35
+Homolidae	 6	 2	 6	 6
+Homolodromiidae	 1	 1	 1	 1
+Homotomidae	 11	 1	 6	 2
+Hoplopleuridae	 5	 1	 1	 1
+Hubbardiidae	 24	 6	 22	 21
+Hughmilleriidae	 48	 3	 4	 4
+Humerobatidae	 205	 6	 59	 38
+Huntemanniidae	 13	 7	 13	 13
+Hutchinsoniellidae	 21	 4	 18	 17
+Hyadesiidae	 81	 7	 2	 2
+Hyalellidae	 297	 6	 140	 100
+Hyalidae	 61	 7	 37	 35
+Hybosoridae	 659	 9	 348	 241
+Hybotidae	 1503	 55	 177	 98
+Hydatinidae	 2	 2	 2	 2
+Hydraenidae	 510	 59	 170	 138
+Hydridae	 1	 1	 1	 1
+Hydrobiidae	 35	 5	 32	 31
+Hydrobiosidae	 13	 4	 7	 7
+Hydrochidae	 206	 8	 80	 76
+Hydrodromidae	 1	 1	 1	 1
+Hydrometridae	 519	 8	 235	 168
+Hydrophilidae	 14227	 478	 3646	 2580
+Hydropsychidae	 6521	 167	 2330	 1451
+Hydroptilidae	 1229	 112	 601	 318
+Hydroscaphidae	 132	 2	 33	 28
+Hymenolepididae	 222	 4	 6	 6
+Hymenopodidae	 1	 1	 1	 1
+Hymenoptera	 4	 2	 2	 2
+Hyperiidae	 2989	 18	 492	 404
+Hypochilidae	 813	 13	 237	 222
+Hypochthoniidae	 2	 2	 2	 2
+Hypoderidae	 63	 8	 6	 6
+Hypogastruridae	 195	 10	 26	 22
+Hyponeoidae	 1	 1	 1	 1
+Hyssuridae	 612	 3	 351	 338
+Hystrichopsyllidae	 177	 20	 86	 46
+Ibaliidae	 85	 3	 36	 22
+Ichneumonidae	 11227	 2134	 3207	 1274
+Ichnuemonidae	 4	 3	 3	 3
+Icthyocrinidae	 1	 1	 1	 1
+Idahoiidae	 18	 1	 7	 7
+Ideoroncidae	 9	 4	 4	 4
+Idiacanthidae	 12	 2	 12	 12
+Idiopidae	 2	 1	 2	 2
+Idoteidae	 1182	 37	 970	 901
+Illaenidae	 792	 48	 85	 82
+Illaenuridae	 6	 1	 3	 3
+Ilyocryptidae	 42	 2	 38	 26
+Ilyocyprididae	 301	 1	 216	 215
+Immidae	 24	 1	 9	 8
+Inachidae	 184	 15	 159	 137
+Inachoididae	 123	 16	 95	 89
+incertae sedis	 1	 1	 1	 1
+Incurvariidae	 36	 8	 25	 25
+Ingolfiellidae	 21	 1	 10	 10
+Inocelliidae	 2	 2	 2	 2
+Iphimediidae	 18	 7	 18	 18
+Isaeidae	 974	 33	 665	 632
+Ischnochitonidae	 23	 18	 21	 17
+Ischnomesidae	 3	 1	 3	 3
+Ischryopsalididae	 24	 1	 20	 20
+Ischyroceridae	 1006	 12	 607	 577
+Ischyropsalididae	 148	 9	 69	 69
+Ismaridae	 1	 1	 1	 1
+Isochilinidae	 6	 5	 3	 3
+Isognomonidae	 6	 6	 4	 4
+Isonychiidae	 738	 18	 429	 273
+Isoperlinae	 45	 12	 39	 33
+Isotomidae	 751	 38	 112	 94
+Issidae	 1607	 51	 805	 623
+Ithonidae	 132	 3	 29	 20
+Ithyceridae	 5	 2	 5	 5
+Iuridae	 86	 11	 71	 68
+Ixodidae	 1280	 62	 834	 649
+Jacobsoniidae	 1	 1	 1	 1
+Janirellidae	 4	 3	 4	 4
+Janiridae	 126	 10	 100	 100
+Janthinidae	 1	 1	 1	 1
+Japygidae	 15	 6	 11	 7
+Joeropsididae	 22	 4	 21	 21
+Joppeicidae	 27	 1	 4	 2
+Julidae	 1141	 19	 563	 197
+Kalliapseudidae	 365	 4	 223	 223
+Kalotermitidae	 793	 17	 189	 188
+Kateretidae	 377	 11	 98	 91
+Katiannidae	 16	 1	 3	 3
+Kermesidae	 316	 24	 118	 100
+Kermisidae	 10	 4	 6	 5
+Keroplatidae	 54	 12	 9	 9
+Kerriidae	 48	 8	 16	 15
+Kingstoniidae	 20	 3	 4	 3
+Kinnaridae	 80	 4	 51	 49
+Kloedenellidae	 78	 22	 39	 39
+Kloedeniidae	 14	 4	 14	 14
+Knemidokoptidae	 10	 2	 2	 2
+Knoxitidae	 1	 1	 1	 1
+Kuhliidae	 3	 2	 3	 3
+Kuwaniidae	 38	 2	 12	 10
+Labiduridae	 69	 1	 59	 46
+Labiidae	 37	 6	 27	 19
+Lachesillidae	 5	 1	 3	 2
+Lacturidae	 10	 2	 4	 4
+Laelapidae	 19	 16	 16	 12
+Laemobothriidae	 7	 2	 3	 3
+Laemophloeidae	 401	 26	 168	 82
+Lafystiidae	 2	 1	 2	 2
+Lagriidae	 7	 5	 4	 4
+Lamellariidae	 2	 2	 2	 2
+Lampropidae	 73	 13	 61	 60
+Lampyridae	 746	 91	 395	 281
+Lanceolidae	 19	 9	 4	 3
+Languriidae	 213	 18	 139	 93
+Laomediidae	 1	 1	 1	 1
+Laophontidae	 49	 21	 13	 5
+Lardoglyphidae	 2	 1	 2	 2
+Largidae	 1314	 20	 688	 487
+Lasaeidae	 3	 2	 3	 3
+Lasiocampidae	 2186	 78	 1639	 797
+Lasiochilidae	 280	 3	 71	 53
+Lathridiidae	 150	 80	 93	 77
+Latreilliidae	 1	 1	 1	 1
+Latridiidae	 3059	 93	 844	 568
+Lauxaniidae	 3684	 123	 584	 315
+Leaiidae	 20	 5	 6	 6
+Leanchoiliidae	 1	 1	 1	 1
+Lebertiidae	 1	 1	 1	 1
+Lecanodiaspididae	 101	 5	 44	 37
+Lecanopygidae	 1	 1	 1	 1
+Lecithoceridae	 9	 1	 9	 9
+Lecithodendriidae	 3	 3	 3	 3
+Leiodidae	 2679	 294	 758	 494
+Leiostegiidae	 21	 10	 14	 12
+Lemmatophoridae	 286	 5	 3	 3
+Lepadidae	 31	 13	 30	 25
+Leperditellidae	 39	 21	 17	 17
+Leperditiidae	 48	 15	 25	 25
+Lepidomysidae	 4	 2	 4	 4
+Lepidopsocidae	 41	 4	 25	 13
+Lepidostomatidae	 1289	 58	 529	 303
+Lepismatidae	 20	 3	 14	 10
+Leptanthuridae	 56	 3	 49	 47
+Leptastacidae	 3	 2	 3	 3
+Leptestheriidae	 8	 1	 8	 7
+Leptidae	 22	 7	 11	 10
+Leptinidae	 4	 1	 1	 1
+Leptoceridae	 4234	 116	 1580	 891
+Leptocheliidae	 782	 5	 533	 506
+Leptochitonidae	 1	 1	 1	 1
+Leptocytheridae	 2	 2	 2	 2
+Leptodiridae	 6	 4	 4	 4
+Leptodoridae	 2	 1	 2	 2
+Leptogastridae	 10	 7	 2	 2
+Leptohyphidae	 144	 20	 110	 84
+Leptonetidae	 29	 12	 18	 17
+Leptophlebiidae	 1860	 53	 1006	 710
+Leptopodidae	 81	 1	 8	 7
+Leptopontiidae	 1	 1	 1	 1
+Leptopsyllidae	 43	 6	 31	 20
+Lernaeidae	 1	 1	 1	 1
+Lernaeopodidae	 8	 6	 7	 7
+Lestidae	 7898	 24	 2535	 1232
+Lethrinidae	 1	 1	 1	 1
+Leucochloridlidae	 1	 1	 1	 1
+Leuconidae	 1252	 23	 1072	 1035
+Leucosiidae	 226	 32	 203	 192
+Leucospidae	 81	 8	 41	 26
+Leucothoidae	 109	 4	 92	 91
+Leuctridae	 275	 28	 260	 233
+Liacaridae	 16	 12	 11	 11
+Libellulidae	 24973	 127	 9116	 4465
+Libytheidae	 15	 4	 12	 11
+Lichakephalidae	 5	 1	 5	 5
+Lichidae	 44	 16	 23	 21
+Liebstadiidae	 44	 1	 12	 12
+Ligiidae	 64	 6	 57	 51
+Liljeborgiidae	 527	 8	 448	 420
+Limacidae	 4	 3	 4	 4
+Limacodidae	 458	 90	 221	 135
+Limnadiidae	 33	 13	 30	 25
+Limnadopsidae	 4	 1	 2	 1
+Limnephilidae	 5871	 258	 2528	 1115
+Limnephilinae	 17	 1	 12	 10
+Limnephiloidea	 37	 5	 31	 30
+Limnichidae	 816	 39	 351	 279
+Limnocharidae	 3	 2	 3	 3
+Limnocytheridae	 4	 3	 4	 4
+Limnoriidae	 31	 4	 12	 12
+Limoniidae	 910	 120	 411	 321
+Limulidae	 58	 2	 54	 46
+Linguatulidae	 1	 1	 1	 1
+Linotaeniidae	 369	 11	 259	 86
+Linyphiidae	 22548	 1145	 6680	 4129
+Liocranidae	 429	 16	 267	 194
+Liodidae	 2	 1	 2	 2
+Liomesaspididae	 3	 1	 1	 1
+Liomopteridae	 40	 4	 2	 2
+Liostracinidae	 1	 1	 1	 1
+Lipogenyidae	 2	 1	 2	 2
+Liposcelidae	 2	 1	 1	 1
+Liposcelididae	 5	 2	 3	 3
+Listrophonidae	 2	 2	 2	 2
+Listrophoridae	 650	 50	 3	 3
+Lithobiidae	 1874	 207	 1095	 598
+Lithodidae	 5612	 25	 3011	 1037
+Littorinidae	 26	 16	 19	 18
+Liturgusidae	 3	 1	 3	 3
+Liviidae	 230	 18	 107	 84
+Llinyphiidae	 2	 1	 2	 2
+Lohmanniidae	 11	 5	 5	 5
+Loliginidae	 1	 1	 1	 1
+Lonchaeidae	 88	 26	 37	 27
+Lonchocephalidae	 3	 3	 3	 3
+Lonchopteridae	 973	 7	 175	 100
+Longipediidae	 14	 1	 5	 1
+Longusorbiidae	 1	 1	 1	 1
+Lophogastridae	 53	 7	 44	 42
+Lophoproctidae	 4	 2	 3	 3
+Lotidae	 80	 6	 71	 71
+Lottiidae	 13	 7	 11	 9
+Louriniidae	 1	 1	 1	 1
+Loxoconchidae	 1	 1	 1	 1
+Lubbockiidae	 8	 2	 7	 7
+Lucanidae	 840	 33	 543	 394
+Lucicutiidae	 5	 4	 4	 4
+Luciferidae	 21	 2	 21	 21
+Lucinidae	 15	 13	 13	 9
+Lumbricidae	 7	 4	 6	 6
+Lutrochidae	 150	 4	 125	 91
+Lycaeidae	 3	 1	 3	 3
+Lycaenidae	 56127	 575	 30646	 13690
+Lycidae	 654	 76	 377	 176
+Lycosidae	 32074	 417	 8280	 5845
+Lyctidae	 5	 5	 5	 5
+Lyctocoridae	 117	 6	 62	 46
+Lygaeidae	 26755	 289	 8559	 5554
+Lygistorrhinidae	 2	 2	 2	 2
+Lymantriidae	 557	 48	 383	 234
+Lymexylidae	 11	 4	 8	 7
+Lymexylonidae	 1	 1	 1	 1
+Lymnaeidae	 34	 17	 31	 26
+Lynceidae	 32	 3	 29	 27
+Lyonetiidae	 96	 17	 73	 66
+Lyonsiidae	 5	 4	 5	 4
+Lysianassidae	 812	 43	 526	 476
+Lysianassidea	 2	 2	 2	 2
+Lysiosquillidae	 19	 6	 15	 15
+Machilidae	 42	 7	 21	 19
+Macracanthorhynchidae	 4	 1	 1	 1
+Macrochelidae	 7	 6	 7	 6
+Macromiidae	 60	 7	 35	 28
+Macrosternodesmidae	 1	 1	 1	 1
+Macrostylidae	 2	 2	 2	 2
+Macrothricidae	 126	 10	 90	 66
+Macroveliidae	 325	 3	 117	 100
+Macrurocyttidae	 1	 1	 1	 1
+Mactridae	 25	 9	 21	 16
+Maeridae	 4	 2	 4	 4
+Majidae	 411	 112	 272	 225
+Malachidae	 1	 1	 1	 1
+Malachiidae	 9	 3	 1	 1
+Malaconothridae	 12	 1	 3	 3
+Malacosteidae	 145	 7	 107	 107
+Maloconothridae	 1	 1	 1	 1
+Mantidae	 403	 27	 320	 212
+Mantispidae	 970	 16	 450	 221
+Mantoididae	 50	 1	 35	 7
+Margaritiferidae	 1	 1	 1	 1
+Margarodidae	 66	 11	 23	 22
+Marginellidae	 1	 1	 1	 1
+Marjumiidae	 2	 2	 2	 2
+Marrellidae	 220	 1	 3	 2
+Martynoviidae	 10	 2	 1	 1
+Masaridae	 218	 31	 123	 62
+Matsucoccidae	 72	 8	 32	 32
+Mecicobothriidae	 86	 4	 65	 63
+Mecistocephalidae	 10	 4	 10	 9
+Mecynoceridae	 1	 1	 1	 1
+Megacalanidae	 1	 1	 1	 1
+Megachildae	 5	 2	 3	 3
+Megachilidae	 199603	 967	 41142	 20520
+Megagopygidae	 3	 2	 2	 2
+Megalopodidae	 14	 6	 8	 8
+Megalopygidae	 257	 44	 158	 88
+Megaluropidae	 774	 2	 285	 169
+Meganeuridae	 15	 3	 2	 2
+Megapontiidae	 4	 1	 2	 2
+Megaspilidae	 61	 10	 19	 14
+Megisthanidae	 1	 1	 1	 1
+Meinertellidae	 10	 2	 8	 7
+Melamphaidae	 239	 13	 119	 119
+Melandryidae	 1802	 80	 831	 480
+Melanopsidae	 1	 1	 1	 1
+Melanostomiidae	 193	 51	 115	 114
+Melanthripidae	 18	 1	 1	 1
+Melasidae	 1	 1	 1	 1
+Melitidae	 1347	 49	 925	 861
+Melittidae	 11908	 42	 1129	 737
+Mellyridae	 1	 1	 1	 1
+Meloidae	 10999	 400	 3880	 2563
+Melolonthidae	 841	 170	 265	 167
+Melongenidae	 35	 9	 19	 16
+Melphidippidae	 134	 7	 77	 54
+Melyridae	 1656	 233	 677	 518
+Melyrridae	 14	 1	 1	 1
+Membracidae	 64677	 367	 17857	 9042
+Menippidae	 144	 4	 107	 65
+Menomoniidae	 2	 2	 2	 2
+Menoponidae	 24	 11	 13	 12
+Menthidae	 4	 2	 3	 3
+Meropeidae	 164	 1	 75	 27
+Merothripidae	 5	 2	 5	 4
+Mesocestoididae	 501	 4	 25	 25
+Mesoplophoridae	 1	 1	 1	 1
+Mesopsocidae	 8	 2	 7	 7
+Mesoveliidae	 888	 6	 305	 215
+Messicobolidae	 1	 1	 1	 1
+Metapseudidae	 184	 5	 129	 129
+Metidae	 15	 1	 7	 7
+Metretopodidae	 160	 2	 117	 61
+Metridinidae	 1271	 9	 252	 227
+Micragnostidae	 2	 1	 1	 1
+Microcotylidae	 1	 1	 1	 1
+Microlympiidae	 4	 1	 1	 1
+Micromalthidae	 38	 1	 15	 10
+Micronectidae	 2246	 1	 85	 69
+Micropezidae	 501	 18	 133	 87
+Microphallidae	 1	 1	 1	 1
+Microphysidae	 20	 3	 10	 9
+Micropterigidae	 25	 3	 16	 12
+Microtrombidiidae	 2	 2	 2	 2
+Milacidae	 1	 1	 1	 1
+Milichiidae	 4775	 34	 256	 146
+Mimallonidae	 17	 9	 12	 12
+Mimetidae	 155	 13	 139	 113
+Miraciidae	 2	 1	 2	 2
+Miridae	 299572	 2658	 48852	 24258
+Miridae and/or Anthocoridae	 1	 1	 1	 1
+Miridae/Anthocoridae	 1	 1	 1	 1
+Miridea	 1	 1	 1	 1
+Mithracidae	 1285	 43	 522	 328
+Mitridae	 12	 11	 7	 6
+Miturgidae	 260	 22	 225	 186
+Mobulidae	 3	 2	 2	 2
+Mochlozetidae	 25	 8	 9	 9
+Modulidae	 1	 1	 1	 1
+Mogoplistidae	 152	 3	 45	 36
+Moinidae	 266	 6	 146	 95
+Molannidae	 574	 11	 318	 181
+Momphidae	 125	 20	 70	 62
+Moniliformidae	 16	 2	 2	 2
+Monomachidae	 1	 1	 1	 1
+Monommatidae	 6	 3	 5	 4
+Monommidae	 5	 3	 2	 2
+Monophlebidae	 106	 6	 62	 52
+Monotomidae	 750	 28	 330	 167
+Monstrillidae	 1	 1	 1	 1
+Mopaliidae	 21	 8	 15	 13
+Mordellidae	 9035	 157	 1861	 1088
+Mormonillidae	 29	 1	 11	 11
+Mugilidae	 20	 7	 18	 18
+Munididae	 21	 11	 20	 18
+Munidopsidae	 16	 8	 13	 12
+Munnidae	 62	 6	 58	 58
+Munnopsidae	 68	 18	 50	 40
+Muricidae	 104	 67	 72	 61
+Muscidae	 13546	 404	 2196	 1082
+MUtahillidae	 3	 2	 2	 2
+Mutillidae	 9620	 373	 4240	 2164
+Mycetophagidae	 2263	 30	 825	 392
+Mycetophilidae	 1181	 172	 123	 93
+Mycobacteriaceae	 10	 1	 1	 1
+Mycteridae	 197	 10	 75	 65
+Mydidae	 60	 22	 41	 34
+Myicolidae	 2	 1	 1	 1
+Myidae	 3	 1	 3	 2
+Mymaridae	 1250	 23	 305	 144
+Myobiidae	 48	 8	 2	 2
+Myocoptidae	 20	 3	 3	 3
+Myrmecophilidae	 56	 5	 27	 27
+Myrmelenontidae	 10	 1	 4	 3
+Myrmeleontidae	 3167	 78	 1194	 720
+Myrmeloentidae	 9	 5	 6	 3
+Myrmosidae	 11	 2	 9	 7
+Mysidae	 1597	 66	 873	 790
+Mysmenidae	 45	 10	 34	 31
+Mythicomyiidae	 3	 1	 1	 1
+Mytilidae	 18	 9	 14	 14
+Nabidae	 10641	 83	 4287	 2653
+Nacellidae	 6	 2	 6	 3
+Nanhermaniidae	 3	 1	 1	 1
+Nannastacidae	 2708	 45	 893	 650
+Nannoniscidae	 3	 3	 3	 3
+Nannosquillidae	 3	 3	 3	 3
+Nanophyidae	 1	 1	 1	 1
+Naraoiidae	 5	 1	 1	 1
+Narkidae	 13	 3	 11	 11
+Nassariidae	 16	 11	 14	 10
+Nasseriidae	 1	 1	 1	 1
+Naticidae	 32	 14	 27	 21
+Naucoridae	 2725	 51	 492	 377
+Neanuridae	 100	 4	 27	 21
+Nearctodesmidae	 9	 6	 8	 8
+Nebaliidae	 36	 3	 36	 36
+Neelidae	 2	 2	 2	 2
+Nemasomatidae	 45	 9	 38	 24
+Nemastomatidae	 227	 13	 172	 123
+Nematinae	 2	 1	 2	 1
+Nematocarcinidae	 70	 3	 69	 69
+Nemesiidae	 1	 1	 1	 1
+Nemestrinidae	 8	 3	 6	 5
+Nemonychidae	 40	 9	 22	 21
+Nemouridae	 3219	 81	 2456	 2119
+Nenteriidae	 2	 1	 1	 1
+Neobisiidae	 60	 18	 48	 45
+Neoechinorhynchidae	 6	 2	 2	 2
+Neoephemeridae	 22	 3	 20	 15
+Neogoveidae	 20	 2	 15	 14
+Neoliodidae	 4	 2	 2	 2
+Neomegamphopidae	 119	 3	 85	 85
+Neophyllobiidae	 10	 10	 10	 9
+Neoscopelidae	 6	 3	 4	 4
+Neotanaidae	 103	 11	 72	 72
+Nephilidae	 86	 3	 86	 81
+Nephropidae	 5141	 7	 4979	 4770
+Nepidae	 2311	 21	 596	 457
+Nepticulidae	 129	 25	 78	 74
+Neritidae	 12	 9	 9	 9
+Nesticidae	 151	 24	 81	 72
+Nevadiidae	 6	 1	 1	 1
+New York	 1	 1	 1	 1
+Nicoletiidae	 1	 1	 1	 1
+Nileidae	 6	 5	 6	 6
+Ninidae	 148	 2	 45	 42
+Nitidulidae	 7325	 270	 2179	 1402
+Noctuidae	 98696	 5656	 28673	 9460
+Nogodinidae	 97	 11	 39	 29
+Nolidae	 175	 37	 109	 71
+Normanellidae	 2	 2	 1	 1
+Norwoodiidae	 1	 1	 1	 1
+Nosodendridae	 84	 3	 42	 35
+Notaspididae	 1	 1	 1	 1
+Noteridae	 576	 28	 141	 109
+Nothridae	 48	 6	 18	 14
+Notocotylidae	 1	 1	 1	 1
+Notodontidae	 8275	 292	 5039	 1405
+Notodromadidae	 2	 1	 2	 2
+Notohectidae	 1	 1	 1	 1
+Notonectidae	 23528	 57	 2376	 1652
+Nototanaidae	 2	 2	 2	 2
+Nudacotylidae	 7	 1	 1	 1
+Nuuanuidae	 2	 1	 2	 2
+Nycteribiidae	 69	 8	 49	 41
+Nymphalidae	 144469	 1008	 57665	 21579
+Nymphomyiidae	 11	 1	 8	 3
+Nymphonidae	 63	 12	 49	 47
+Ochlesidae	 3	 1	 3	 3
+Ochodaeidae	 1142	 28	 355	 226
+Ochteridae	 329	 9	 110	 96
+Ochyroceratidae	 1	 1	 1	 1
+Ocypodidae	 418	 34	 339	 287
+Odiniidae	 8	 4	 5	 5
+Odontellidae	 13	 1	 4	 4
+Odontoceridae	 316	 11	 109	 96
+Odontopleuridae	 196	 15	 22	 22
+Oecanthidae	 363	 11	 218	 164
+Oechophoridae	 20	 3	 19	 1
+Oecobiidae	 63	 11	 58	 53
+Oecophoridae	 1031	 115	 623	 432
+Oedemeridae	 3443	 102	 1123	 799
+Oedicerotidae	 1458	 40	 826	 715
+Oestridae	 55	 18	 24	 15
+Ogygopsidae	 63	 2	 6	 5
+Ogyrididae	 128	 3	 120	 119
+Oithonidae	 549	 8	 163	 156
+Okeanobatidae	 4	 1	 4	 4
+Oleacinidae	 1	 1	 1	 1
+Olenellidae	 751	 35	 35	 33
+Olenidae	 652	 18	 51	 50
+Oligacanthorhynchidae	 525	 7	 33	 33
+Oligoneuriidae	 27	 3	 10	 6
+Oligotomidae	 2	 1	 2	 2
+Olividae	 29	 9	 25	 18
+Olpiidae	 13	 9	 10	 10
+Omethidae	 34	 7	 28	 21
+Omosudidae	 14	 1	 14	 14
+Oncaeidae	 144	 4	 33	 33
+Onchocercidae	 120	 4	 14	 14
+Oniscidae	 32	 9	 27	 24
+Onychiuridae	 10	 2	 7	 7
+Oonopidae	 523	 66	 349	 245
+Opabinidae	 2	 1	 2	 2
+Ophryoxidae	 1	 1	 1	 1
+Opisidae	 14	 1	 14	 14
+Opisthorchiidae	 5	 3	 2	 2
+Oplitidae	 24	 6	 8	 7
+Oplophoridae	 454	 37	 283	 272
+Opomyzidae	 181	 10	 72	 44
+Opostegidae	 11	 3	 11	 10
+Oppiidae	 11	 6	 6	 6
+Orchipedidae	 92	 1	 6	 6
+Oregoniidae	 26480	 8	 7443	 1490
+Oreogetonidae	 13	 1	 2	 1
+Oreohelicidae	 4	 3	 3	 3
+Oribatellidae	 30	 10	 17	 17
+Oribatulidae	 50	 8	 16	 16
+Oribotritiidae	 3	 3	 2	 2
+Oripodidae	 1	 1	 1	 1
+Ormyridae	 143	 12	 82	 35
+Orsodacnidae	 114	 2	 55	 41
+Orsolobidae	 1	 1	 1	 1
+Ortalidae	 1	 1	 1	 1
+Orthezidae	 1	 1	 1	 1
+Ortheziidae	 205	 16	 77	 66
+Orussidae	 196	 6	 30	 19
+Oryctocephalidae	 2	 1	 2	 2
+Oryidae	 18	 4	 14	 14
+Osphronemidae	 1	 1	 1	 1
+Ostomidae	 14	 14	 14	 14
+Ostraciidae	 36	 9	 13	 12
+Ostreidae	 10	 4	 9	 9
+Otarionidae	 2	 2	 2	 2
+Otitidae	 108	 35	 61	 49
+Ovulidae	 1	 1	 1	 1
+Oxaeidae	 175	 2	 59	 26
+Oxycarenidae	 434	 15	 160	 150
+Oxyopidae	 715	 53	 575	 484
+Oxyuridae	 167	 5	 9	 9
+Oziidae	 94	 5	 81	 41
+Pachybolidae	 11	 4	 8	 6
+Pachydomellidae	 3	 1	 3	 3
+Pachygronthidae	 2477	 11	 1086	 786
+Pachyroctidae	 3	 1	 1	 1
+Paeromopodidae	 7	 3	 4	 4
+Pagetiidae	 14	 1	 4	 2
+Pagodiidae	 1	 1	 1	 1
+Pagurapseudidae	 112	 2	 66	 66
+Paguridae	 1633	 66	 863	 614
+Palaemonidae	 1966	 86	 1427	 1036
+Palaeocarididae	 19	 2	 5	 5
+Palaeomanteidae	 60	 4	 2	 2
+Paleolimulidae	 12	 1	 3	 3
+Paleuthygrammatidae	 30	 1	 3	 3
+Palicidae	 12	 5	 11	 10
+Palingeniidae	 18	 1	 14	 11
+Palinuridae	 153	 13	 133	 120
+Pallopteridae	 35	 10	 26	 21
+Palpimanidae	 2	 1	 1	 1
+Pamphilidae	 20	 20	 1	 1
+Pamphiliidae	 225	 36	 148	 74
+Pandalidae	 850	 32	 499	 494
+Pandaridae	 13	 8	 11	 7
+Pandoridae	 1	 1	 1	 1
+Panopeidae	 999	 44	 739	 609
+Panorpidae	 373	 20	 102	 82
+Panorpodidae	 196	 39	 135	 98
+Pantheidae	 355	 17	 179	 112
+Papilionidae	 16687	 152	 11843	 6438
+Papillionidae	 1	 1	 1	 1
+Papyriaspididae	 1	 1	 1	 1
+Parabolinoididae	 9	 3	 5	 5
+Paracalanidae	 50	 7	 15	 15
+Paradoxididae	 390	 10	 30	 26
+Paradoxosomatidae	 116	 4	 103	 82
+Paragonimidae	 2	 1	 1	 1
+Parajulidae	 572	 59	 427	 275
+Parakalummidae	 12	 6	 10	 9
+Paralepididae	 178	 19	 145	 145
+Paralogidae	 1	 1	 1	 1
+Paramesochridae	 2	 2	 2	 2
+Paramphistomatidae	 52	 2	 2	 2
+Paramunnidae	 255	 5	 191	 179
+Paranebaliidae	 77	 2	 57	 57
+Paranonychidae	 783	 16	 311	 303
+Paranthuridae	 71	 5	 69	 69
+Parapaguridae	 25	 2	 23	 23
+Paraparchitidae	 3	 1	 1	 1
+Parapseudidae	 68	 3	 35	 31
+Parasitidae	 9	 9	 7	 6
+Parasquillidae	 1	 1	 1	 1
+Parastacidae	 1	 1	 1	 1
+Paratanaidae	 5	 2	 5	 5
+Paratropididae	 66	 1	 3	 3
+Parattidae	 4	 4	 1	 1
+Pardaliscidae	 22	 3	 17	 9
+Pariambidae	 625	 6	 497	 489
+Parthenopidae	 186	 28	 158	 145
+Paruterinidae	 3	 1	 1	 1
+Pasiphaeidae	 348	 14	 296	 293
+Passalidae	 2459	 53	 925	 340
+Passandridae	 75	 2	 63	 38
+Patellidae	 3	 2	 2	 2
+Pectinidae	 35	 19	 32	 28
+Pediciidae	 51	 9	 42	 27
+Pediculidae	 6	 1	 3	 3
+Pelecinidae	 118	 2	 82	 61
+Pelecorhynchidae	 1	 1	 1	 1
+Peltidiidae	 8	 1	 8	 8
+Peltogastridae	 3	 2	 3	 3
+Peltoperlidae	 182	 11	 133	 108
+Pempherididae	 1	 1	 1	 1
+Pemphredonidae	 1	 1	 1	 1
+Penaeidae	 1253	 25	 763	 586
+Pennellidae	 7	 5	 7	 7
+Pentatomidae	 66516	 488	 26820	 13377
+Penthaleidae	 3	 2	 2	 2
+Percnidae	 19	 1	 17	 14
+Pergidae	 308	 4	 86	 46
+Perilampidae	 170	 19	 95	 58
+Periplomatidae	 1	 1	 1	 1
+Peripsocidae	 3	 2	 2	 2
+Periscelididae	 58	 5	 24	 18
+Perlidae	 1876	 75	 1161	 923
+Perlodidae	 1022	 74	 785	 659
+Perlolidae	 2	 2	 2	 2
+Permoberothidae	 4	 1	 1	 1
+Permochoristidae	 2	 2	 1	 1
+Permopanorpidae	 15	 2	 1	 1
+Permosocidae	 2	 2	 1	 1
+Peronopsidae	 11	 3	 8	 8
+Perothopidae	 2	 2	 2	 2
+Personidae	 3	 3	 2	 2
+Petaluridae	 47	 2	 32	 22
+Petricolidae	 4	 2	 4	 4
+Phacopidae	 39	 6	 19	 19
+Phacopteronidae	 1	 1	 1	 1
+Phaennidae	 2	 2	 2	 2
+Phalacridae	 249	 28	 70	 51
+Phalacromidae	 11	 4	 11	 11
+Phalangiidae	 561	 36	 306	 243
+Phalangodidae	 837	 48	 317	 307
+Pharidae	 7	 5	 7	 6
+Phengodidae	 325	 22	 140	 102
+Phenopelopidae	 78	 5	 21	 15
+Phenopteridae	 23	 1	 1	 1
+Philanthidae	 7	 4	 7	 5
+Philichthyidae	 1	 1	 1	 1
+Phillipsiidae	 44	 13	 36	 36
+Philodromidae	 3887	 132	 2615	 1957
+Philodromidae?	 37	 6	 26	 8
+Philomedidae	 642	 11	 393	 393
+Philophthalmidae	 1	 1	 1	 1
+Philopotamidae	 1298	 52	 803	 593
+Philopteridae	 151	 31	 68	 33
+Philosciidae	 14	 2	 8	 8
+Phlaeothripidae	 2494	 105	 270	 210
+Phliantidae	 22	 3	 18	 17
+Phoenicococcidae	 35	 1	 14	 14
+Pholadidae	 2	 1	 2	 1
+Pholcidae	 1048	 56	 857	 628
+Pholididae	 225	 8	 209	 138
+Phoridae	 5946	 317	 902	 390
+Photichthyidae	 66	 9	 51	 50
+Phoxichilidiidae	 102	 16	 85	 84
+Phoxocephalidae	 2286	 38	 1132	 887
+Phronimidae	 24	 6	 14	 10
+Phrosinidae	 35	 2	 33	 32
+Phrurolithidae	 1711	 52	 790	 455
+Phryganeidae	 1699	 45	 833	 415
+Phryganeoidae	 13	 1	 11	 5
+Phryganidae	 1	 1	 1	 1
+Phrynidae	 4	 4	 4	 4
+Phthiracaridae	 14	 11	 10	 10
+Phtisicidae	 128	 2	 95	 95
+Phylloxeridae	 81	 6	 23	 21
+Phymatidae	 90	 4	 33	 28
+Physalopteridae	 238	 3	 57	 57
+Physidae	 31	 14	 25	 21
+Phytoseiidae	 70	 69	 58	 35
+Pieridae	 47685	 282	 26627	 11605
+Piesmatidae	 720	 7	 247	 174
+Pilumnidae	 243	 15	 174	 137
+Pimoidae	 40	 2	 39	 37
+Pinaceae	 12	 2	 3	 1
+Pinnidae	 6	 5	 4	 4
+Pinnotheridae	 319	 54	 276	 255
+Piophilidae	 214	 25	 81	 64
+Pipunculidae	 573	 98	 206	 126
+Pisauridae	 515	 29	 403	 343
+Pisidiidae	 33	 9	 24	 20
+Pityococcidae	 47	 3	 14	 10
+Plagiorchiidae	 28	 14	 8	 8
+Plagusiidae	 24	 3	 22	 21
+Planorbidae	 145	 18	 102	 83
+Plasmodiidae	 29	 5	 3	 3
+Plataspidae	 98	 2	 19	 12
+Plataspididae	 145	 2	 26	 24
+Plateremaeidae	 2	 1	 1	 1
+Platydesmidae	 7	 4	 6	 6
+Platygasteridae	 1	 1	 1	 1
+Platygastridae	 2527	 168	 580	 356
+Platyischnopidae	 1626	 2	 525	 267
+Platypezidae	 79	 39	 43	 39
+Platyrhacidae	 2	 2	 2	 2
+Platyscelidae	 1	 1	 1	 1
+Platystomatidae	 184	 21	 88	 64
+Plectreuridae	 43	 12	 39	 37
+Pleidae	 477	 4	 104	 82
+Pleisiogrammatidae	 2	 2	 1	 1
+Pleocomidae	 250	 22	 115	 86
+Pleorchiidae	 6	 1	 2	 2
+Plethopeltidae	 20	 7	 10	 10
+Pleuroceridae	 13	 3	 13	 9
+Pleurocopidae	 6	 1	 6	 6
+Pleustidae	 114	 12	 109	 108
+Plicatulidae	 5	 1	 4	 4
+Pliomeridae	 27	 10	 23	 22
+Plumulitidae	 3	 2	 2	 2
+Plutellidae	 370	 25	 244	 190
+Plutoniumidae	 1	 1	 1	 1
+Pneumocoptidae	 1	 1	 1	 1
+Pneumospiruridae	 10	 1	 4	 4
+Podapolipidae	 10	 3	 7	 7
+Podoceridae	 382	 13	 177	 148
+Podocinidae	 1	 1	 1	 1
+Podonidae	 26	 5	 10	 8
+Podoscirtidae	 5	 3	 4	 4
+Poduridae	 55	 8	 17	 16
+Poecilasmatidae	 12	 3	 10	 9
+Pollicipedidae	 45	 1	 10	 10
+Polyaspidae	 1	 1	 1	 1
+Polybiidae	 100	 7	 84	 82
+Polycentropodidae	 2231	 78	 979	 540
+Polychelidae	 65	 8	 59	 56
+Polydesmidae	 422	 35	 338	 246
+Polygyridae	 206	 49	 137	 109
+Polymitarcidae	 1	 1	 1	 1
+Polymitarcyidae	 138	 5	 100	 75
+Polymorphidae	 3	 1	 1	 1
+Polyodontidae	 32	 1	 18	 18
+Polyphagidae	 344	 18	 209	 139
+Polyphemidae	 41	 1	 15	 12
+Polyplacidae	 1	 1	 1	 1
+Polystoechotidae	 185	 3	 127	 78
+Polystomatidae	 20	 1	 1	 1
+Polyxenidae	 42	 3	 38	 34
+Polyzoniidae	 59	 8	 28	 26
+Pomadasyidae	 3	 3	 3	 3
+Pomphorhynchidae	 4	 2	 2	 2
+Pompilidae	 4247	 394	 1856	 970
+Pontellidae	 399	 4	 140	 116
+Pontocyprididae	 327	 1	 94	 67
+Pontogeneiidae	 2	 1	 2	 2
+Pontoporeiidae	 140	 6	 74	 73
+Porcellanidae	 1808	 79	 795	 498
+Porcellionidae	 89	 8	 62	 56
+Portunidae	 2080	 65	 1498	 1118
+Potamanthidae	 130	 8	 98	 77
+Potamididae	 3	 3	 3	 3
+Poteriidae	 1	 1	 1	 1
+Primitiidae	 1	 1	 1	 1
+Primitiopsidae	 9	 5	 6	 6
+Probnidae	 9	 1	 1	 1
+Procarididae	 1	 1	 1	 1
+Processidae	 137	 9	 112	 110
+Proctophyllodidae	 25	 6	 8	 6
+Proctotrupidae	 77	 37	 14	 14
+Prodidomidae	 9	 6	 9	 9
+Prodoxidae	 198	 37	 139	 120
+Proetidae	 6	 3	 3	 3
+Prokoeneniidae	 3	 1	 3	 3
+Propalticidae	 44	 1	 33	 7
+Prophalangopsidae	 8	 2	 4	 4
+Proscopiidae	 1	 1	 1	 1
+Prostomidae	 20	 1	 9	 9
+Protellidae	 131	 5	 103	 100
+Protembiidae	 40	 1	 2	 2
+Proteocephalidae	 2	 1	 1	 1
+Protereismatidae	 73	 7	 4	 4
+Protoglomeridae	 2	 2	 2	 2
+Protohymenidae	 35	 8	 6	 6
+Protolophidae	 10	 2	 9	 9
+Protoneuridae	 5	 2	 5	 5
+Protostrongylidae	 7	 3	 3	 3
+Psammobiidae	 7	 4	 7	 5
+Pselaphidae	 152	 94	 40	 38
+Psephenidae	 2008	 24	 1008	 876
+Pseudagnostidae	 19	 3	 3	 3
+Pseudaliidae	 71	 2	 10	 10
+Pseudironidae	 3	 1	 3	 3
+Pseudocaecilidae	 11	 1	 6	 3
+Pseudococcidae	 5079	 277	 2713	 1248
+Pseudocumatidae	 15	 2	 15	 15
+Pseudodiaptomidae	 3	 2	 3	 3
+Pseudogarypidae	 4	 2	 3	 3
+Pseudomelatomidae	 2	 1	 2	 2
+Pseudophasmatidae	 9	 2	 5	 5
+Pseudorhombilidae	 33	 6	 15	 15
+Pseudosquillidae	 17	 3	 16	 15
+Pseudostigmatidae	 29	 5	 26	 7
+Pseudotachidiidae	 20	 7	 10	 10
+Pseudotanaidae	 21	 3	 17	 17
+Pseudothelphusidae	 302	 32	 267	 230
+Psilidae	 66	 22	 45	 37
+Psilostomatidae	 1	 1	 1	 1
+Psocidae	 36	 11	 26	 25
+Psocidiidae	 465	 5	 1	 1
+Psoquillidae	 1	 1	 1	 1
+Psoralgidae	 3	 1	 1	 1
+Psorergatidae	 1	 1	 1	 1
+Psoroptidae	 5	 4	 4	 4
+Psychidae	 73	 20	 48	 42
+Psychodidae	 2447	 16	 96	 31
+Psychomyiidae	 347	 8	 253	 197
+Psyllidae	 1569	 103	 635	 461
+Pteriidae	 6	 4	 6	 6
+Pterocephaliidae	 11	 7	 11	 11
+Pterolichidae	 10	 2	 1	 1
+Pteromalidae	 766	 107	 198	 84
+Pteronarcyidae	 219	 11	 182	 153
+Pteronarcynidae	 8	 3	 7	 6
+Pteronarcyoidea	 1	 1	 1	 1
+Pteronyssidae	 10	 2	 2	 2
+Pterophoridae	 790	 107	 549	 353
+Pterpcephalidae	 1	 1	 1	 1
+Pterygometopidae	 34	 11	 11	 10
+Pterygosomidae	 1	 1	 1	 1
+Pterygotidae	 4	 1	 2	 2
+Pthiridae	 2	 1	 2	 2
+Ptiliidae	 291	 35	 99	 87
+Ptilodactylidae	 72	 12	 58	 51
+Ptinidae	 452	 103	 186	 96
+Ptychaspididae	 42	 11	 15	 15
+Ptychopariidae	 52	 18	 37	 35
+Ptychopteridae	 31	 2	 24	 17
+Pulicidae	 279	 11	 67	 55
+Punctidae	 10	 2	 10	 10
+Punctoribatidae	 61	 8	 30	 24
+Pupillidae	 90	 20	 52	 46
+Putoidae	 167	 16	 92	 73
+Pycnogonidae	 10	 2	 9	 9
+Pyemotidae	 3	 3	 3	 3
+Pygmephoridae	 2	 2	 2	 2
+Pygocephalidae	 3	 1	 1	 1
+Pygrotidae	 1	 1	 1	 1
+Pyralidae	 5564	 747	 3080	 1526
+Pyramidellidae	 2	 2	 2	 2
+Pyrgodesmidae	 36	 14	 27	 26
+Pyrgomorphidae	 32	 2	 28	 21
+Pyrgotidae	 153	 8	 82	 49
+Pyrochroidae	 733	 54	 309	 228
+Pyroehroidae	 1	 1	 1	 1
+Pyroglyphidae	 58	 8	 4	 4
+Pyrrhocoridae	 1479	 24	 459	 338
+Pythidae	 58	 7	 40	 28
+Quadrijugatoridae	 9	 2	 3	 3
+Quadroppiidae	 17	 1	 7	 7
+Quasillitidae	 2	 1	 2	 2
+Ranellidae	 4	 4	 4	 3
+Raninidae	 144	 16	 109	 96
+Raphidiidae	 103	 12	 62	 46
+Raphignathidae	 1	 1	 1	 1
+Raphiophoridae	 39	 12	 25	 24
+Raymondinidae	 12	 3	 5	 5
+Raymondionymidae	 5	 2	 3	 3
+Reduviidae	 33721	 318	 18720	 10529
+Remopleurididae	 53	 14	 18	 18
+Rhabdiasidae	 2	 1	 1	 1
+Rhachodesmidae	 22	 14	 15	 13
+Rhadinorhynchidae	 6	 5	 5	 5
+Rhagidiidae	 1	 1	 1	 1
+Rhagionidae	 842	 63	 419	 208
+Rhaphidiidae	 23	 2	 11	 10
+Rhaphidophoridae	 1071	 60	 536	 289
+Rhincalanidae	 2	 2	 2	 2
+Rhinocarididae	 5	 5	 4	 4
+Rhinocricidae	 34	 9	 14	 13
+Rhinophoridae	 3	 1	 3	 3
+Rhinotermitidae	 873	 10	 206	 205
+Rhipiceridae	 43	 6	 24	 20
+Rhipiphoridae	 478	 44	 281	 207
+Rhiscosomididae	 10	 4	 8	 7
+Rhizophagidae	 71	 21	 37	 27
+Rhizothricidae	 1	 1	 1	 1
+Rhopaliasidae	 4	 1	 1	 1
+Rhopalidae	 9970	 57	 4736	 3194
+Rhopalosomatidae	 80	 4	 46	 14
+Rhyacophilidae	 1718	 100	 1036	 653
+Rhynchitidae	 43	 16	 28	 28
+Rhyncoptidae	 1	 1	 1	 1
+Rhyparochromidae	 20234	 220	 7117	 3991
+Rhysodidae	 542	 19	 151	 108
+Ricaniidae	 3	 1	 3	 1
+Richardiidae	 13	 6	 9	 7
+Ricinoididae	 23	 8	 19	 16
+Rictulariidae	 59	 3	 13	 13
+Riodinidae	 1406	 71	 793	 514
+Ripipterygidae	 1	 1	 1	 1
+Romaleidae	 684	 19	 371	 306
+Roproniidae	 12	 2	 11	 9
+Rosensteiniidae	 33	 4	 2	 2
+Rutelidae	 770	 95	 304	 194
+Rutidermatidae	 634	 6	 342	 342
+Sabaconidae	 175	 15	 117	 89
+Sacculinidae	 60	 2	 15	 15
+Sagdidae	 1	 1	 1	 1
+Saldidae	 8469	 95	 2033	 1529
+Salpingidae	 853	 30	 239	 104
+Salticidae	 9543	 647	 5807	 4397
+Santiidae	 31	 1	 30	 30
+Sapphirinidae	 1	 1	 1	 1
+Sapygidae	 15	 10	 9	 8
+Sarcophagidae	 4465	 151	 803	 391
+Sarcoptidae	 76	 4	 2	 2
+Sarsiellidae	 1662	 29	 703	 699
+Saturniidae	 6519	 241	 4335	 1612
+Satyridae	 5	 4	 5	 5
+Saukiidae	 24	 10	 11	 11
+Scalpellidae	 4	 3	 4	 4
+Scaphidiidae	 60	 14	 26	 21
+Scarabaeidae	 124132	 2218	 29300	 15567
+Scathophagidae	 2728	 99	 566	 253
+Scatopsidae	 19	 10	 4	 4
+Scelionidae	 60	 35	 21	 13
+Scenopinidae	 17	 7	 11	 11
+Scheloribatidae	 76	 3	 7	 7
+Schendylidae	 213	 27	 197	 91
+Schistosomatidae	 202	 6	 10	 10
+Schizopetalidae	 12	 6	 10	 8
+Schizopodidae	 20	 1	 1	 1
+Schizopteridae	 46	 7	 30	 17
+Schreckensteiniidae	 30	 3	 25	 24
+Sciaridae	 385	 48	 33	 28
+Scinidae	 2	 2	 2	 2
+Sciomyzidae	 3135	 147	 726	 384
+Scirtidae	 415	 47	 215	 159
+Sclerogibbidae	 4	 1	 3	 3
+Sclerosomatidae	 691	 67	 574	 517
+Scolebythidae	 3	 2	 1	 1
+Scolecithricidae	 4	 3	 3	 3
+Scolecitrichidae	 667	 9	 74	 73
+Scoliidae	 782	 41	 304	 208
+Scolopendrellidae	 1	 1	 1	 1
+Scolopendridae	 235	 23	 200	 180
+Scolopocryptopidae	 276	 14	 219	 180
+Scolytidae	 1110	 143	 289	 184
+Scombrolabracidae	 7	 1	 7	 7
+Scopelarchidae	 6	 3	 6	 6
+Scophthalmidae	 52	 1	 43	 43
+Scraptiidae	 1037	 23	 439	 254
+Scutacaridae	 5	 3	 4	 3
+Scutelleridae	 5008	 66	 2450	 1874
+Scutigerellidae	 9	 1	 9	 9
+Scutigeridae	 84	 6	 84	 67
+Scydmaenidae	 67	 62	 24	 24
+Scyllaridae	 78	 12	 69	 69
+Scytalocrinidae	 4	 1	 1	 1
+Scythrididae	 158	 23	 109	 89
+Scytodidae	 137	 20	 123	 86
+Sebidae	 16	 2	 13	 13
+Segestriidae	 89	 15	 83	 78
+Selenopeltidae	 3	 2	 3	 3
+Selenopidae	 150	 13	 64	 61
+Sematuridae	 2	 2	 1	 1
+Semelidae	 3	 3	 3	 3
+Senoculidae	 7	 3	 7	 6
+Sepsidae	 1579	 28	 408	 189
+Sergestidae	 69	 10	 38	 34
+Sericostomatidae	 77	 12	 57	 45
+Serolidae	 97	 3	 71	 70
+Serphitidae	 8	 3	 1	 1
+Sesarmidae	 188	 15	 133	 117
+Sesiidae	 717	 168	 466	 357
+Sessiidae	 1	 1	 1	 1
+Setellidae	 1	 1	 1	 1
+Shumardiidae	 1	 1	 1	 1
+Sialidae	 319	 20	 173	 132
+Sicariidae	 263	 25	 208	 179
+Sicyoniidae	 176	 14	 155	 150
+Sididae	 153	 11	 89	 72
+Sidneyiidae	 8	 3	 3	 2
+Sierolomorphidae	 7	 2	 6	 6
+Signiphoridae	 1	 1	 1	 1
+Silphidae	 14513	 71	 4396	 2551
+Silvanidae	 892	 37	 471	 299
+Simuliidae	 1640	 91	 449	 375
+Siphlonuridae	 1148	 18	 542	 305
+Siphonariidae	 2	 1	 2	 2
+Siphoniulidae	 2	 1	 2	 2
+Siphonophoridae	 14	 3	 4	 3
+Siphonotidae	 2	 2	 2	 2
+Siricidae	 398	 22	 255	 202
+Sironidae	 30	 9	 22	 22
+Sisyridae	 82	 4	 43	 23
+Smarididae	 2	 2	 2	 2
+Sminthuridae	 41	 20	 24	 22
+Sminthurididae	 12	 2	 5	 5
+Sogonidae	 6	 3	 5	 5
+Solecurtidae	 6	 3	 5	 4
+Solenidae	 3	 2	 2	 2
+Solenoceridae	 65	 10	 60	 59
+Solenopleuridae	 12	 7	 10	 9
+Sotoplacidae	 2	 1	 2	 2
+Sparassidae	 135	 19	 122	 100
+Speleonectidae	 1	 1	 1	 1
+Sphaeragnostidae	 12	 3	 10	 10
+Sphaeriodesmidae	 36	 24	 29	 27
+Sphaeritidae	 9	 1	 8	 7
+Sphaeriusidae	 39	 1	 12	 12
+Sphaeroceridae	 3633	 128	 301	 182
+Sphaeromatidae	 568	 28	 404	 350
+Sphaerotheriidae	 1	 1	 1	 1
+Sphecidae	 6872	 305	 3539	 1941
+Sphindidae	 70	 7	 36	 32
+Sphingidae	 3643	 318	 1868	 1165
+Sphyranuridae	 1	 1	 1	 1
+Sphyriidae	 10	 4	 7	 6
+Spiloblattinidae	 15	 12	 5	 5
+Spinagnostidae	 110	 8	 15	 15
+Spinocalanidae	 161	 4	 23	 23
+Spinturnicidae	 3	 3	 3	 3
+Spiraxidae	 2	 1	 2	 2
+Spirobolellidae	 1	 1	 1	 1
+Spirobolidae	 346	 23	 270	 172
+Spirocercidae	 3	 1	 3	 3
+Spirostreptidae	 28	 15	 25	 23
+Spirulidae	 1	 1	 1	 1
+Spiruridae	 1199	 15	 65	 65
+Spondylidae	 2	 2	 2	 2
+Spongicolidae	 20	 1	 19	 12
+Spongiphoridae	 11	 3	 10	 8
+Squillidae	 283	 23	 256	 221
+Staphilinidae	 3	 1	 3	 3
+Staphylinidae	 41051	 2557	 7442	 4185
+Stegocephalidae	 8	 4	 7	 6
+Steingeliidae	 18	 1	 8	 5
+Stemmiulidae	 4	 3	 3	 3
+Stenasellidae	 2	 1	 1	 1
+Stenetriidae	 14	 2	 14	 14
+Stenopelmatidae	 155	 7	 108	 80
+Stenopodidae	 24	 2	 24	 21
+Stenopsocidae	 8	 1	 5	 2
+Stenothoidae	 239	 19	 185	 170
+Stenotrachelidae	 112	 6	 81	 52
+Stephanidae	 85	 8	 67	 38
+Sternophoridae	 19	 6	 10	 8
+Stigmaeidae	 1	 1	 1	 1
+Stigmaphronidae	 2	 2	 1	 1
+Stilipedidae	 53	 1	 19	 8
+Stomatellidae	 2	 1	 2	 2
+Stramentidae	 2	 1	 2	 2
+Stratiomyiadae	 6	 6	 3	 1
+Stratiomyidae	 1412	 156	 737	 449
+Streblidae	 830	 65	 228	 157
+Strephocladidae	 1	 1	 1	 1
+Streptelasmatidae	 2	 1	 2	 2
+Streptocephalidae	 35	 8	 29	 23
+Striariidae	 1	 1	 1	 1
+Strigeidae	 13	 4	 4	 4
+Strobilopsidae	 20	 6	 20	 20
+Strombidae	 21	 8	 17	 12
+Strongylidae	 1	 1	 1	 1
+Strongyloididae	 6	 2	 1	 1
+Strongylophthalmyiidae	 8	 5	 8	 7
+Styginidae	 5	 2	 4	 3
+Stygnommatidae	 7	 2	 7	 7
+Stygnopsidae	 5	 5	 5	 5
+Stylopidae	 6	 2	 2	 2
+Stylotermitidae	 1	 1	 1	 1
+Subtriquetridae	 2	 1	 1	 1
+Subulinidae	 8	 6	 8	 8
+Subuluridae	 222	 1	 10	 10
+Succineidae	 62	 12	 52	 37
+Suctobelbidae	 3	 1	 3	 3
+Suidasiidae	 15	 3	 1	 1
+Superstitionidae	 10	 1	 4	 3
+Superstitioniidae	 1	 1	 1	 1
+Surperstitioniidae	 2	 1	 2	 2
+Syarinidae	 5	 5	 5	 5
+Symmocidae	 40	 5	 32	 21
+Symphytognathidae	 2	 1	 2	 2
+Synanceiidae	 1	 1	 1	 1
+Synchroidae	 127	 2	 89	 59
+Synopiidae	 183	 11	 160	 159
+Syringobiidae	 10	 2	 2	 1
+Syringophilidae	 3	 1	 1	 1
+Syrphidae	 12354	 897	 4003	 1601
+Tabanidae	 18150	 339	 3418	 1383
+Tachardiidae	 1	 1	 1	 1
+Tachinidae	 4293	 600	 1081	 412
+Taeniidae	 3483	 15	 82	 82
+Taeniopterygidae	 428	 26	 313	 261
+Talitridae	 405	 26	 256	 178
+Tanaellidae	 65	 5	 55	 55
+Tanaidae	 6	 3	 5	 5
+Tanaididae	 55	 6	 42	 42
+Tanaissuidae	 144	 2	 103	 101
+Tanypezidae	 16	 3	 15	 13
+Tarachodidae	 4	 1	 3	 3
+Tarsonemidae	 13	 11	 12	 6
+Tecticipitidae	 2	 1	 2	 2
+Tectocepheidae	 7	 2	 3	 3
+Tegastidae	 2	 2	 1	 1
+Tegoribatidae	 24	 2	 13	 11
+Tegulidae	 1	 1	 1	 1
+Telemidae	 219	 3	 161	 52
+Tellinidae	 34	 18	 29	 22
+Telorchiidae	 1	 1	 1	 1
+Temoridae	 204	 10	 63	 54
+Tenebriodinae	 1	 1	 1	 1
+Tenebrionidae	 58765	 1415	 15610	 10080
+Tengellidae	 44	 12	 42	 39
+Tenthiridinidae	 1	 1	 1	 1
+Tenthredinidae	 6112	 483	 1450	 541
+Tenuialidae	 3	 3	 3	 3
+Tenuipalpidae	 111	 73	 81	 62
+Tephritidae	 4589	 193	 1256	 618
+Teratembiidae	 2	 1	 2	 1
+Terebridae	 9	 9	 9	 9
+Termitidae	 17	 6	 9	 8
+Termopsidae	 155	 3	 52	 52
+Tessaratomidae	 1	 1	 1	 1
+Tethinidae	 5	 3	 5	 5
+Tetrablemmidae	 10	 2	 8	 8
+Tetraclitidae	 20	 3	 15	 11
+Tetradellidae	 2	 1	 2	 2
+Tetragnathidae	 4485	 97	 2172	 1784
+Tetragonicipitidae	 33	 7	 4	 3
+Tetraliidae	 2	 2	 2	 2
+Tetrameridae	 540	 24	 44	 44
+Tetranychidae	 130	 38	 35	 23
+Tetrasquillidae	 1	 1	 1	 1
+Tetrastemmatidae	 1	 1	 1	 1
+Tetratomidae	 1133	 25	 510	 275
+Tetrigidae	 1832	 30	 693	 452
+Tettigonidae	 16	 9	 14	 6
+Tettigoniidae	 3645	 157	 1546	 1085
+Thalestridae	 30	 19	 25	 20
+Thamnocephalidae	 14	 2	 9	 7
+Tharybidae	 17	 3	 9	 9
+Thaumastellidae	 23	 1	 4	 3
+Thelastomatidae	 1	 1	 1	 1
+Thelaziidae	 463	 5	 37	 37
+Thelyphonidae	 35	 2	 30	 28
+Theraphosidae	 170	 41	 150	 137
+Therevidae	 350	 75	 199	 134
+Theridiidae	 7856	 364	 5099	 3603
+Theridiidae?	 1	 1	 1	 1
+Theridiosomatidae	 83	 10	 51	 47
+Thermacaridae	 15	 1	 5	 5
+Thespidae	 126	 4	 89	 66
+Thomisidae	 7446	 223	 4153	 2838
+Thremmatidae	 11	 3	 11	 4
+Threvidae	 1	 1	 1	 1
+Thripidae	 13676	 254	 1737	 1107
+Throscidae	 248	 22	 91	 62
+Thyatiridae	 293	 18	 212	 117
+Thyreocoridae	 3099	 42	 1473	 968
+Thyrididae	 148	 13	 99	 71
+Thyrisomidae	 1	 1	 1	 1
+Thysanopeltidae	 3	 3	 3	 3
+Tineidae	 930	 128	 684	 450
+Tingidae	 10515	 121	 2512	 1504
+Tingupidae	 3	 3	 3	 3
+Tiphiidae	 557	 75	 201	 145
+Tipulidae	 1315	 278	 645	 479
+Tisbidae	 23	 10	 16	 16
+Tischeriidae	 44	 17	 41	 40
+Titanoecidae	 284	 8	 232	 199
+Titanoecidae?	 1	 1	 1	 1
+Toernquistiidae	 4	 2	 4	 4
+Tomoceridae	 32	 2	 12	 11
+Tonnidae	 1	 1	 1	 1
+Tortanidae	 479	 1	 311	 180
+Tortricidae	 11149	 1167	 4759	 2185
+Torymidae	 724	 83	 204	 109
+Toxoplasmatidae	 1	 1	 1	 1
+Trachelidae	 166	 18	 156	 129
+Trachelipodidae	 15	 2	 15	 15
+Trachyleberididae	 128	 17	 41	 30
+Trachypachidae	 187	 8	 55	 41
+Trachyuropodidae	 10	 1	 2	 2
+Trapeziidae	 49	 4	 36	 25
+Travuniidae	 423	 11	 266	 257
+Trechaleidae	 1	 1	 1	 1
+Trematuridae	 196	 27	 70	 53
+Treniidae	 1	 1	 1	 1
+Trhypochthoniidae	 115	 2	 20	 18
+Triaenonychidae	 239	 4	 168	 107
+Triaenophoridae	 1	 1	 1	 1
+Trichinellidae	 6	 1	 2	 2
+Trichoceridae	 11	 9	 7	 7
+Trichodactylidae	 40	 2	 40	 36
+Trichodectidae	 317	 44	 99	 84
+Trichogrammatidae	 220	 12	 112	 84
+Trichoniscidae	 18	 8	 14	 13
+Trichopeltariidae	 2	 1	 2	 2
+Trichopetalidae	 49	 16	 42	 42
+Trichosomoididae	 1	 1	 1	 1
+Trichostrongylidae	 151	 18	 11	 11
+Trichuridae	 58	 11	 18	 18
+Tricrepicephalidae	 2	 1	 1	 1
+Tridactylidae	 346	 5	 121	 110
+Tridenchthoniidae	 3	 1	 2	 2
+Trigonalidae	 33	 3	 24	 12
+Trigonidiidae	 200	 15	 74	 69
+Trinucleidae	 347	 14	 106	 105
+Triopsidae	 70	 13	 60	 45
+Triozidae	 875	 68	 357	 283
+Triviidae	 2	 2	 2	 2
+Trixoscelididae	 1	 1	 1	 1
+Trochidae	 13	 8	 11	 10
+Trogidae	 3777	 54	 1495	 809
+Trogiidae	 1	 1	 1	 1
+Trogloraptoridae	 2	 1	 2	 1
+Trogolotrematidae	 2	 1	 1	 1
+Trogossitidae	 475	 43	 203	 166
+Trombiculidae	 59	 7	 29	 22
+Trombidiidae	 11	 4	 11	 10
+Tropiduchidae	 888	 45	 446	 299
+Tropisuridae	 15	 4	 1	 1
+Trypanosomatidae	 2	 1	 1	 1
+Trypetidae	 12	 9	 10	 10
+Tsinaniidae	 1	 1	 1	 1
+Tubificidae	 2	 1	 2	 2
+Tumidocarcinidae	 1	 1	 1	 1
+Turbinellidae	 1	 1	 1	 1
+Turbinidae	 21	 10	 18	 16
+Turbinoptidae	 5	 2	 1	 1
+Turridae	 5	 2	 4	 2
+Turritellidae	 4	 3	 4	 4
+Tvaerenellidae	 37	 6	 29	 29
+Tylidae	 4	 3	 4	 4
+Typhlobolellidae	 3	 2	 3	 3
+Ucididae	 11	 2	 11	 10
+Uenoidae	 332	 32	 230	 186
+Ulidiidae	 610	 38	 158	 78
+Uloboridae	 158	 25	 143	 135
+Unciolidae	 1	 1	 1	 1
+Undescribed ammoxenidae	 1	 1	 1	 1
+Uniciolidae	 3	 2	 3	 3
+Unidentified	 153	 1	 62	 47
+Unionicolidae	 34	 8	 33	 31
+Unionidae	 1603	 113	 609	 387
+Unionidae?	 5	 5	 1	 1
+UNKNOWN_NULL	 16859	 3495	 6068	 5453
+Upogebiidae	 74	 8	 71	 68
+Uraniidae	 88	 13	 60	 34
+Uristidae	 223	 10	 73	 44
+Urnatellidae	 6	 1	 6	 6
+Urochordeumatidae	 1	 1	 1	 1
+Urocoptidae	 2	 2	 2	 2
+Urodidae	 27	 3	 20	 7
+Uropodidae	 52	 6	 32	 27
+Urotrematidae	 1	 1	 1	 1
+Vaejovidae	 690	 83	 559	 512
+Valloniidae	 5	 3	 5	 5
+Valvatidae	 4	 2	 3	 3
+Vanhorniidae	 93	 1	 5	 5
+Varroidae	 184191	 1	 2	 2
+Varunidae	 92	 6	 76	 57
+Vasidae	 3	 3	 3	 3
+Velidae	 16	 3	 8	 8
+Veliidae	 6052	 62	 724	 572
+Veneridae	 74	 40	 53	 39
+Vermetidae	 1	 1	 1	 1
+Vermilionidae	 1	 1	 1	 1
+Vermipsyllidae	 4	 1	 1	 1
+Verrucidae	 1	 1	 1	 1
+Vespidae	 9979	 349	 4541	 2275
+Vibiliidae	 40	 6	 14	 7
+Vitrinellidae	 1	 1	 1	 1
+Vitrinidae	 2	 2	 2	 2
+Viviparidae	 20	 10	 20	 18
+Waptiidae	 16	 1	 4	 3
+Withiidae	 2	 2	 2	 2
+Xanthidae	 1408	 167	 710	 465
+Xenidae	 1	 1	 1	 1
+Xenillidae	 1	 1	 1	 1
+Xenophoridae	 3	 1	 3	 3
+Xiphocarididae	 1	 1	 1	 1
+Xiphydriidae	 142	 8	 48	 34
+Xyelidae	 21	 11	 8	 8
+Xylococcidae	 98	 3	 36	 31
+Xyloiulidae	 5	 2	 4	 3
+Xylomyidae	 34	 12	 11	 7
+Xylophagidae	 85	 12	 31	 21
+Xylorictidae	 5	 5	 1	 1
+Xyloryctidae	 40	 4	 8	 7
+Xystodesmidae	 1914	 194	 605	 581
+Xystodesmidae?	 10	 1	 9	 1
+Yponomeutidae	 671	 46	 360	 212
+Ypsolophidae	 235	 35	 201	 144
+Zacanthoididae	 29	 5	 13	 12
+Zalmoxidae	 2	 2	 2	 2
+Zanthopsidae	 8	 1	 1	 1
+Zetomimidae	 4	 1	 2	 2
+Zodariidae	 100	 18	 65	 62
+Zonitidae	 81	 22	 59	 53
+Zopheridae	 5290	 143	 2014	 1216
+Zoridae	 4	 1	 4	 3
+Zorocratidae	 45	 6	 38	 29
+Zoropsidae	 2	 1	 2	 2
+Zorotypidae	 1	 1	 1	 1
+Zygaenidae	 115	 29	 80	 73
+Zygentoma	 1	 1	 1	 1
+Zygobolbidae	 1	 1	 1	 1
+
+Executed: select family, count(distinct locality,county,stateProvince,municipality,year,month,day,decimalLatitude,decimalLongitude) as colevent, count(distinct locality,county,stateProvince,municipality,decimalLatitude,decimalLongitude) as localities from omoccurrences where specificEpithet != 'UNKNOWN_NULL' and decimalLatitude != '0.0000' group by family order by family;
+1 Rhopaliasidae, 2 Diplostomidae	 1	 1
+1 Strigeidae/ 2 Threskiornithidae	 1	 1
+Abacionidae	 66	 17
+Acanaloniidae	 1699	 1193
+Acanthametropodidae	 1	 1
+Acanthaspidiidae	 6	 6
+Acantholeberidae	 1	 1
+Acanthopidae	 1	 1
+Acanthopteroctetidae	 1	 1
+Acanthosomatidae	 604	 392
+Acaridae	 5	 5
+Acartiidae	 68	 58
+Acartophthalmidae	 17	 12
+Acastidae	 1	 1
+Achatinellidae	 3	 3
+Achilidae	 895	 605
+Achipteriidae	 20	 15
+Achiridae	 28	 28
+Aclerdidae	 16	 15
+Acmaeidae	 7	 7
+Acrididae	 6425	 3294
+Acroceridae	 9	 9
+Acrolepiidae	 5	 5
+Acrolophidae	 40	 34
+Acteonidae	 1	 1
+Acuariidae	 5	 5
+Adelgidae	 143	 137
+Adelidae	 29	 17
+Aderidae	 436	 165
+Aegialiidae	 3	 3
+Aegidae	 41	 40
+Aeglidae	 1	 1
+Aenictopecheidae	 1	 1
+Aeolothripidae	 164	 126
+Aeshnidae	 2446	 1336
+Aetalionidae	 13	 13
+Aethridae	 41	 38
+Aetideidae	 67	 67
+Agathotanaidae	 26	 26
+Agelendae	 1	 1
+Agelenidae	 1857	 1220
+Agnostidae	 2	 2
+Agonoxenidae	 5	 5
+Agostocarididae	 1	 1
+Agriolomacidae	 2	 2
+Agromyzidae	 430	 239
+Agromyziidae	 1	 1
+Agyrtidae	 101	 81
+Aididae	 3	 2
+Akanthophoreidae	 35	 35
+Albuneidae	 21	 21
+Aleyrodidae	 1405	 724
+Algophagidae	 1	 1
+Alleculidae	 3	 3
+Allocreadiidae	 2	 2
+Alloptidae	 1	 1
+Allopyragraphoridae	 1	 1
+Alokistocaridae	 11	 11
+Alpheidae	 474	 311
+Alucitidae	 34	 20
+Alvinocarididae	 1	 1
+Alydidae	 2667	 1726
+Amaurobiidae	 600	 396
+Amaurobiidae?	 1	 1
+Ameiridae	 7	 3
+Ameletidae	 182	 138
+Ameronothridae	 6	 5
+Ametropodidae	 4	 3
+Ammotheidae	 52	 52
+Ammotrechidae	 178	 152
+Amorphoscelidae	 2	 1
+Ampeliscidae	 1552	 1426
+Amphientomidae	 2	 2
+Amphilochidae	 58	 47
+Amphinectidae	 5	 4
+Amphipsocidae	 18	 4
+Amphisbatidae	 2	 2
+Amphizoidae	 55	 42
+Ampithoidae	 213	 202
+Ampulicidae	 35	 15
+Ampullariidae	 1	 1
+Analgidae	 1	 1
+Anapidae	 2	 2
+Ancinidae	 36	 36
+Ancorabolidae	 5	 5
+Ancylidae	 5	 4
+Ancylostomatidae	 59	 59
+Ancyracanthidae	 3	 3
+Andrenidae	 28808	 13706
+Andrognathidae	 5	 5
+Angiodictylidae	 1	 1
+Anguillidae	 205	 188
+Angusticaecidae	 1	 1
+Anisembiidae	 1	 1
+Anisogammaridae	 59	 56
+Anisopodidae	 66	 43
+Annulariidae	 2	 2
+Anobiidae	 317	 219
+Anomiidae	 1	 1
+Anoplocephalidae	 6	 6
+Anoplogastridae	 22	 20
+Anotopteridae	 2	 2
+Antarcturidae	 2	 2
+Antennariidae	 22	 22
+Antheluridae	 2	 2
+Anthicidae	 1784	 1106
+Anthocoridae	 924	 621
+Anthomyiidae	 565	 287
+Anthomyzidae	 44	 34
+Anthophoridae	 1716	 536
+Anthribidae	 149	 75
+Anthuridae	 1072	 1023
+Antrodiaetidae	 71	 51
+Anyphaenidae	 295	 225
+Aoridae	 1445	 1385
+Apataniidae	 60	 50
+Apatelodidae	 46	 18
+Apaturidae	 6	 5
+Aphalaridae	 423	 312
+Aphelinidae	 623	 260
+Aphidae	 1	 1
+Aphididae	 23447	 6219
+Aphidiidae	 1	 1
+Aphodiidae	 624	 388
+Aphrophoridae	 1992	 1138
+Apidae	 77544	 34526
+Apidea	 1	 1
+Apioceridae	 29	 29
+Apseudidae	 42	 40
+Apsilocephalidae	 1	 1
+Aradidae	 1068	 659
+Araneidae	 4240	 3029
+Archaeobalanidae	 54	 54
+Archeocrypticidae	 56	 40
+Architectonicidae	 4	 4
+Arctiidae	 3480	 1174
+Arctopsychidae	 103	 72
+Arcturidae	 6	 6
+Argasidae	 22	 19
+Argestidae	 9	 9
+Argidae	 230	 108
+Argiopidae	 1	 1
+Argissidae	 106	 86
+Argulidae	 2	 2
+Arietellidae	 1	 1
+Arionidae	 1	 1
+Aristaeidae	 3	 3
+Aristeidae	 29	 28
+Armadillidae	 1647	 1646
+Armadillidiidae	 15	 12
+Arrenuridae	 5	 5
+Arrhopalitidae	 3	 3
+Artematopodidae	 42	 20
+Artemiidae	 3	 2
+Artheneidae	 17	 17
+Arthrolycosidae	 2	 2
+Asaphidae	 7	 7
+Ascalaphidae	 15	 12
+Ascaridae	 1	 1
+Ascarididae	 57	 57
+Asellidae	 14	 13
+Asilidae	 1017	 625
+Aspidogastridae	 2	 2
+Astacidae	 4	 3
+Asteiidae	 107	 78
+Asterocheridae	 2	 2
+Asterolecaniidae	 178	 132
+Astronesthidae	 42	 42
+Atelecyclidae	 3	 3
+Atemnidae	 5	 5
+Athericidae	 2	 1
+Atopetholidae	 2	 2
+Attelabidae	 199	 159
+Atyidae	 139	 104
+Atypidae	 13	 13
+Augaptilidae	 10	 10
+Aulacidae	 3	 3
+Aulacigastridae	 34	 22
+Autostichidae	 4	 4
+Avenzoariidae	 1	 1
+Aviculariidae	 2	 2
+Axiidae	 129	 98
+Axymyiidae	 2	 2
+Azygiidae	 5	 5
+Baetidae	 920	 684
+Baetiscidae	 67	 48
+Bairdiidae	 9	 9
+Balanidae	 99	 91
+Barbouriidae	 1	 1
+Bateidae	 379	 377
+Bathycheilidae	 39	 39
+Bathygadidae	 11	 11
+Bathylagidae	 72	 72
+Bathypontiidae	 11	 11
+Bathypteroidae	 22	 22
+Batillariidae	 1	 1
+Batrachedridae	 34	 13
+Bdellidae	 4	 4
+Bdellouridae	 1	 1
+Bedelliidae	 1	 1
+Bellostomatidae	 4	 4
+Belostomatidae	 782	 571
+Benthesicymidae	 82	 81
+Bentheuphausiidae	 5	 2
+Berothidae	 28	 5
+Berytidae	 1966	 1369
+Bethylidae	 127	 56
+Beyrichiidae	 4	 4
+Bibionidae	 159	 73
+Biphyllidae	 19	 17
+Bittacidae	 28	 20
+Blaberidae	 66	 34
+Blaniulidae	 131	 32
+Blastobasidae	 57	 37
+Blattellidae	 288	 154
+Blattidae	 72	 38
+Blennocampinae	 1	 1
+Blissidae	 1030	 743
+Bodotriidae	 825	 612
+Bolboceratidae	 115	 80
+Bolbomyiidae	 2	 2
+Bolliidae	 2	 2
+Bombycidae	 37	 15
+Bombyliidae	 697	 291
+Boopidae	 1	 1
+Bopyridae	 10	 10
+Boreidae	 63	 34
+Boridae	 4	 4
+Bosminidae	 54	 38
+Bostrichidae	 369	 256
+Bothrideridae	 35	 29
+Bovicolidae	 3	 3
+Brachycentridae	 192	 164
+Brachyceridae	 26	 18
+Brachycoeliidae	 1	 1
+Brachypteridae	 11	 11
+Brachystomatidae	 11	 9
+Braconidae	 1641	 862
+Bradybaenidae	 1	 1
+Bradynobaenidae	 17	 15
+Branchinectidae	 22	 21
+Brentidae	 89	 68
+Bruchidae	 117	 100
+Buccinidae	 9	 9
+Bucculatricidae	 31	 24
+Bucephalidae	 1	 1
+Bulimulidae	 12	 12
+Bullidae	 1	 1
+Buprestidae	 1937	 885
+Bursidae	 1	 1
+Buthidae	 151	 127
+Byrrhidae	 270	 109
+Bythocytheridae	 1	 1
+Byturidae	 172	 125
+Caddidae	 3	 3
+Caeciliusidae	 10	 9
+Caenidae	 206	 165
+Calamoceratidae	 22	 22
+Calanidae	 1045	 763
+Calappidae	 70	 59
+Caleremaeidae	 1	 1
+Caligidae	 22	 19
+Caliscelidae	 594	 452
+Callianassidae	 112	 108
+Calliopiidae	 89	 56
+Calliostomatidae	 5	 5
+Callipallenidae	 57	 55
+Calliphorida	 1	 1
+Calliphoridae	 1325	 455
+Callirhipidae	 13	 10
+Calocarididae	 1	 1
+Calophyidae	 62	 54
+Calopterygidae	 1294	 886
+Calymenidae	 124	 124
+Calyptraeidae	 12	 11
+Cambalidae	 5	 5
+Cambaridae	 1411	 1101
+Camisiidae	 25	 20
+Campodeidae	 12	 12
+Camptoneuritidae	 1	 1
+Canacidae	 274	 198
+Cancridae	 477	 411
+Candaciidae	 4	 4
+Candonidae	 8	 8
+Cantharidae	 637	 399
+Canthocamptidae	 1	 1
+Canthyloscelidae	 3	 3
+Canuellidae	 43	 37
+Capillaridae	 5	 5
+Capniidae	 425	 392
+Caponiidae	 8	 8
+Caprellidae	 223	 212
+Caprellinoididae	 8	 8
+Capulidae	 1	 1
+Carabidae	 37150	 20273
+Caraboacaridae	 2	 2
+Carabodidae	 4	 4
+Carcinophoridae	 10	 8
+Cardiidae	 15	 14
+Carditidae	 3	 3
+Carnidae	 3	 2
+Carpiliidae	 5	 3
+Carposinidae	 20	 10
+Carychiidae	 7	 6
+Cassidae	 8	 5
+Catillicephalidae	 1	 1
+Cebrionidae	 2	 2
+Cecidomyiidae	 93	 54
+Cecropidae	 1	 1
+Centropagidae	 293	 255
+Cephaloidae	 4	 2
+Cephidae	 104	 65
+Cerambycidae	 4490	 1970
+Ceraphronidae	 7	 4
+Ceratiidae	 36	 36
+Ceratocombidae	 19	 15
+Ceratocumatidae	 3	 3
+Ceratolasmatidae	 21	 10
+Ceratophyllidae	 199	 111
+Ceratopogonidae	 491	 245
+Ceratoppiidae	 9	 8
+Ceratozetidae	 23	 21
+Cercopidae	 1111	 667
+Cercropidae	 1	 1
+Cerithiidae	 4	 4
+Cerococcidae	 27	 25
+Cerophytidae	 4	 4
+Certatopogonidae	 2	 2
+Cerviniidae	 14	 14
+Cerylonidae	 105	 82
+Cetomimidae	 13	 13
+Cetoniidae	 116	 79
+Chaetiliidae	 138	 134
+Chalcididae	 218	 97
+Chamaemyiidae	 137	 43
+Chamidae	 4	 3
+Chamobatidae	 17	 15
+Chaoboridae	 91	 89
+Charopidae	 1	 1
+Chasmocarcinidae	 6	 3
+Chauliodontidae	 43	 43
+Cheilocephalidae	 1	 1
+Cheiragonidae	 1267	 483
+Cheiridiidae	 1	 1
+Cheirocratidae	 1	 1
+Cheiruridae	 4	 4
+Cheliferidae	 14	 14
+Chelonariidae	 18	 9
+Chelonibiidae	 2	 2
+Chernetidae	 24	 23
+Cheyletidae	 3	 3
+Chilenophilidae	 1	 1
+Chilomastigidae	 1	 1
+Chirocephalidae	 4	 3
+Chironomidae	 1002	 635
+Chirostylidae	 7	 7
+Chloroperlidae	 195	 149
+Chloropidae	 1239	 577
+Choctellidae	 1	 1
+Choreutidae	 54	 23
+Chrysididae	 378	 205
+Chrysomelidae	 3934	 2244
+Chrysomelidae:Bruchinae	 2	 1
+Chrysopidae	 769	 263
+Chthamalidae	 21	 18
+Chthoniidae	 2	 2
+Chydoridae	 219	 127
+Chyromyidae	 51	 39
+Cicadellidae	 21369	 9351
+Cicadidae	 11982	 5504
+Cicindelidae	 13	 12
+Ciidae	 258	 157
+Cimbicidae	 129	 93
+Cimicidae	 202	 149
+Cirolanidae	 279	 217
+Cixiidae	 1673	 1130
+Clambidae	 104	 91
+Clariidae	 2	 2
+Clastopteridae	 1320	 864
+Clausidiidae	 3	 3
+Clausocalanidae	 88	 82
+Cleidogonidae	 12	 11
+Cleridae	 1324	 758
+Cletodidae	 11	 9
+Clinostomatidae	 3	 3
+Cloacaridae	 1	 1
+Clubionidae	 1047	 722
+Clusiidae	 92	 61
+Coccidae	 1528	 698
+Coccinellidae	 5365	 2504
+Cochlicopidae	 2	 2
+Cochylidae	 43	 5
+Coelopidae	 23	 20
+Coenagrionidae	 5921	 3271
+Coenobitidae	 44	 34
+Coleophoridae	 348	 177
+Colletidae	 12274	 6876
+Colletteidae	 39	 39
+Colomastigidae	 27	 26
+Colossendeidae	 18	 16
+Columbellidae	 5	 5
+Colydiidae	 93	 52
+Conchaspididae	 2	 2
+Conidae	 26	 23
+Coniopterygidae	 58	 14
+Conopidae	 84	 47
+Conotylidae	 14	 14
+Copromorphidae	 2	 2
+Corallanidae	 18	 17
+Coralliophilidae	 1	 1
+Corbiculidae	 35	 29
+Cordulegastridae	 403	 221
+Corduliidae	 1747	 757
+Cordullidae	 204	 163
+Coreidae	 6450	 3568
+Corethrellidae	 4	 3
+Corimelaenidae	 257	 206
+Corinnidae	 739	 517
+Corinnidae?	 4	 2
+Corixidae	 2518	 1552
+Coronulidae	 3	 2
+Corophiidae	 1367	 1086
+Corydalidae	 267	 206
+Corydiidae	 45	 16
+Corylophidae	 55	 50
+Cosmetidae	 31	 31
+Cosmocercidae	 1	 1
+Cosmochthoniidae	 1	 1
+Cosmopterigidae	 75	 64
+Cossidae	 145	 87
+Crabronidae	 5030	 2411
+Crambidae	 1654	 704
+Crangonidae	 512	 484
+Crangonyctidae	 4	 4
+Crossotonotidae	 1	 1
+Cruziidae	 1	 1
+Cryptocercidae	 22	 22
+Cryptochiridae	 4	 3
+Cryptocopidae	 1	 1
+Cryptodesmidae	 1	 1
+Cryptophagidae	 149	 104
+Cryptopidae	 17	 14
+Ctenidae	 16	 16
+Ctenizidae	 49	 49
+Ctenophthalmidae	 13	 11
+Cucujidae	 126	 83
+Culicidae	 3028	 1025
+Cunaxidae	 1	 1
+Cupedidae	 106	 72
+Curaliidae	 17	 4
+Curculionidae	 9873	 5281
+Curculionidae:Scolytinae	 1	 1
+Curtonotidae	 1	 1
+Cuspidariidae	 1	 1
+Cyathocephalidae	 1	 1
+Cyathostomidae	 3	 3
+Cybaeidae	 590	 241
+Cyclocoelidae	 4	 4
+Cyclodorippidae	 4	 4
+Cyclopidae	 333	 150
+Cyclopinidae	 6	 1
+Cydnidae	 1389	 849
+Cylichnidae	 1	 1
+Cylindroleberididae	 516	 515
+Cylindropsyllidae	 19	 19
+Cylindrotomidae	 7	 6
+Cymidae	 805	 602
+Cymopoliidae	 3	 3
+Cymothoidae	 18	 5
+Cynidae	 1	 1
+Cynipidae	 133	 88
+Cyphocarididae	 4	 4
+Cypraeidae	 10	 9
+Cyprididae	 477	 361
+Cypridinidae	 135	 119
+Cyproideidae	 3	 3
+Cyrtaucheniidae	 7	 7
+Cytherellidae	 2	 2
+Cytheridae	 7	 7
+Cytherideidae	 70	 70
+Cytheruridae	 1	 1
+Cytodytidae	 2	 2
+Cyzicidae	 5	 5
+Dactylogyridae	 4	 4
+Dactylopiidae	 57	 51
+Dairidae	 19	 13
+Dairoididae	 9	 8
+Dalceridae	 5	 5
+Dalmanitidae	 1	 1
+Damaeidae	 6	 5
+Danaidae	 14	 12
+Daphnidae	 2	 2
+Daphniidae	 267	 169
+Daraineidae	 1	 1
+Darcythompsoniidae	 3	 1
+Darwinulidae	 28	 23
+Dascillidae	 20	 18
+Davaineidae	 7	 7
+Deinopidae	 2	 2
+Delphacidae	 6010	 3412
+Dentaliidae	 1	 1
+Derbidae	 1116	 599
+Dermanyssidae	 10	 10
+Dermestidae	 845	 457
+Derodontidae	 238	 119
+Desidae	 6	 6
+Desmosomatidae	 15	 15
+Dexaminidae	 60	 59
+Diaphanidae	 1	 1
+Diapheromeridae	 55	 42
+Diapriidae	 40	 37
+Diaptomidae	 128	 89
+Diaspididae	 7919	 2684
+Diastatidae	 12	 7
+Diastylidae	 685	 670
+Dibothriocephalidae	 1	 1
+Dicrocoeliidae	 7	 7
+Dictynidae	 2245	 1640
+Dictynidae?	 1	 1
+Dictyopharidae	 1676	 1285
+Dicyrtomidae	 4	 4
+Diguetidae	 38	 34
+Dikelocephalidae	 4	 4
+Dilepididae	 11	 11
+Dinesidae	 1	 1
+Dioecocestidae	 1	 1
+Diogenidae	 345	 284
+Dionididae	 1	 1
+Diopsidae	 5	 5
+Diosaccidae	 20	 17
+Dipetalonematidae	 8	 8
+Diphyllobothridae	 1	 1
+Diphyllostomatidae	 4	 3
+Diplagnostidae	 1	 1
+Diplocentridae	 2	 2
+Diplodiscidae	 1	 1
+Diplostomatidae	 13	 13
+Dipluridae	 16	 13
+Diprionidae	 34	 26
+Dipseudopsidae	 89	 57
+Dipsocoridae	 1	 1
+Dipylidiidae	 1	 1
+Dirivultidae	 17	 17
+Discidae	 20	 19
+Discocotylidae	 2	 2
+Ditomyiidae	 3	 2
+Dogielinotidae	 1	 1
+Dolichometopidae	 1	 1
+Dolichopodidae	 1364	 690
+Dolichopsyllidae	 1	 1
+Dolichopteridae	 3	 3
+Domeciidae	 18	 13
+Donacidae	 2	 2
+Dorippidae	 4	 4
+Dorypygidae	 1	 1
+Douglasiidae	 4	 4
+Drassidae	 1	 1
+Drepanellidae	 3	 3
+Drepanidae	 866	 250
+Dressenidae	 1	 1
+Dromiidae	 70	 66
+Drosophilidae	 1409	 861
+Dryinidae	 31	 20
+Dryomyzidae	 58	 44
+Dryophthoridae	 42	 36
+Dryopidae	 716	 590
+Dulichiidae	 3	 3
+Dynastidae	 362	 117
+Dynomenidae	 13	 8
+Dysderidae	 388	 314
+Dytiscidae	 4772	 2929
+Ecbathyriontidae	 1	 1
+Echeneididae	 11	 11
+Echinocarididae	 9	 9
+Echinorhynchidae	 1	 1
+Echinostomatidae	 4	 4
+Ecnomidae	 2	 2
+Ectinosomatidae	 40	 36
+Ectobiidae	 66	 22
+Eimeriidae	 1	 1
+Elachistidae	 290	 132
+Elateridae	 4946	 2441
+Elateroidea	 3	 2
+Eleotrididae	 12	 11
+Ellipsocephaloididae	 10	 10
+Ellobiidae	 4	 4
+Elmidae	 1704	 1155
+Elviniidae	 8	 8
+Elytroneuridae	 1	 1
+Embolemidae	 1	 1
+Empidae	 1	 1
+Empididae	 135	 92
+Encrinuridae	 7	 7
+Encyrtidae	 1579	 480
+Endamoebidae	 1	 1
+Endecatomidae	 14	 11
+Endeididae	 6	 6
+Endomychidae	 401	 279
+Engraulididae	 18	 18
+Enicocephalidae	 5	 5
+Eniochthoniidae	 1	 1
+Enoplometopidae	 1	 1
+Entocytheridae	 1	 1
+Entomobryidae	 68	 63
+Epermeniidae	 8	 7
+Ephemerellidae	 1060	 637
+Ephemeridae	 358	 280
+Ephippididae	 8	 8
+Ephydridae	 608	 320
+Epialtidae	 298	 223
+Epidermoptidae	 9	 9
+Epimeriidae	 10	 4
+Epimetopidae	 3	 1
+Epiplemidae	 3	 3
+Epipsocidae	 1	 1
+Epipygidae	 1	 1
+Epipyropidae	 3	 3
+Epitoniidae	 5	 5
+Erebidae	 9516	 1687
+Erebonasteridae	 5	 5
+Eremaeidae	 14	 14
+Eremobatidae	 2105	 1525
+Ereynetidae	 3	 3
+Ergasilidae	 1	 1
+Eriococcidae	 274	 216
+Eriocottidae	 1	 1
+Eriocraniidae	 12	 9
+Eriophyidae	 1	 1
+Eriphiidae	 80	 36
+Erirhinidae	 22	 21
+Erotylidae	 411	 223
+Erythraeidae	 2	 2
+Ethmiidae	 13	 7
+Ethusidae	 7	 7
+Eucaenidae	 1	 1
+Eucalanidae	 468	 397
+Euchaetidae	 43	 43
+Eucharitidae	 13	 8
+Eucinetidae	 99	 65
+Eucnemidae	 197	 106
+Eucopiidae	 18	 14
+Eucytheridae	 1	 1
+Eugonatonotidae	 4	 4
+Eukoeneniidae	 1	 1
+Eulichadidae	 1	 1
+Eulimidae	 1	 1
+Eulophidae	 825	 487
+Eumastacidae	 4	 4
+Eumenidae	 756	 522
+Eumunididae	 2	 2
+Eupelmidae	 94	 53
+Euphausiidae	 1316	 1125
+Euphthiracaridae	 3	 3
+Eurycercidae	 10	 9
+Eurymerodesmidae	 2	 2
+Euryplacidae	 34	 34
+Eurysquillidae	 1	 1
+Eurytomidae	 69	 45
+Euryuridae	 46	 46
+Eusiridae	 126	 121
+Euteliidae	 6	 6
+Euterpinidae	 1	 1
+Eutichuridae	 23	 5
+Evaniidae	 155	 38
+Expanathuridae	 2	 2
+Fanniidae	 153	 88
+Fasciolariidae	 11	 7
+Fasciolidae	 2	 2
+Ficidae	 2	 2
+Figitidae	 16	 11
+Filariidae	 2	 2
+Filaroididae	 10	 10
+Filistatidae	 51	 41
+Fissurellidae	 8	 8
+Flatidae	 2042	 1284
+Floridobolidae	 1	 1
+Forficulidae	 95	 59
+Formica	 1	 1
+Formicidae	 25683	 19339
+Freyanidae	 1	 1
+Fulgoridae	 419	 341
+Gabuciniidae	 2	 2
+Galacticidae	 1	 1
+Galatheidae	 98	 96
+Galeorhinidae	 3	 3
+Galumnidae	 1	 1
+Gammarellidae	 6	 6
+Gammaridae	 295	 284
+Garypidae	 3	 3
+Gasteruptiidae	 61	 47
+Gecarcinidae	 60	 56
+Gelastocoridae	 626	 423
+Gelechiidae	 695	 289
+Geocoridae	 1502	 858
+Geometridae	 5531	 1692
+Geophilidae	 113	 18
+Geotrupidae	 793	 402
+Gerridae	 1752	 1094
+Geryonidae	 34	 34
+Gigantorhynchidae	 2	 2
+Glaphyridae	 8	 6
+Glaresidae	 92	 76
+Glomeridae	 1	 1
+Glossosomatidae	 238	 190
+Glycyphagidae	 1	 1
+Glyphidoceridae	 10	 5
+Glyphipterigidae	 7	 7
+Glyphocrangonidae	 73	 73
+Glyptograpsidae	 22	 15
+Gnaphosidae	 3837	 2631
+Gnaphosidae?	 7	 4
+Gnaphosiidae	 2	 2
+Gnathiidae	 12	 12
+Gnathophyllidae	 14	 13
+Gnathostenetroidae	 5	 5
+Gnathostomatidae	 2	 2
+Gobiesocidae	 5	 5
+Goeridae	 56	 45
+Gomphidae	 1990	 1058
+Goneplacidae	 14	 14
+Gonodactylidae	 125	 75
+Gracillariidae	 341	 157
+Grammistidae	 3	 3
+Grapsidae	 240	 169
+Gryllacrididae	 1	 1
+Gryllidae	 653	 424
+Grylloblattidae	 16	 13
+Gryllotalpidae	 99	 66
+Gymnodamaeidae	 5	 5
+Gyrinidae	 814	 533
+Gyropidae	 1	 1
+Habronematidae	 2	 2
+Hadziidae	 51	 51
+Hahniidae	 759	 435
+Halacaridae	 9	 9
+Halictidae	 35892	 16411
+Halimococcidae	 2	 2
+Haliotididae	 4	 4
+Haliplidae	 755	 615
+Halocyprididae	 17	 16
+Haminoeidae	 2	 2
+Hammatocnemidae	 5	 5
+Hapalocarcinidae	 1	 1
+Haplobothriidae	 1	 1
+Haplochthoniidae	 1	 1
+Haplomunnidae	 3	 3
+Haploniscidae	 6	 6
+Haplotrematidae	 3	 3
+Haplozetidae	 15	 13
+Harpacticidae	 49	 44
+Harpidae	 2	 2
+Hastagnostidae	 1	 1
+Haustoriidae	 369	 349
+Hebridae	 154	 109
+Hectopsyllidae	 11	 11
+Heleomyzidae	 263	 148
+Helicarionidae	 4	 4
+Helicidae	 3	 3
+Helicinidae	 9	 9
+Helicodiscidae	 12	 12
+Helicopsychidae	 106	 93
+Heliodinidae	 10	 10
+Heliozelidae	 13	 13
+Helminthoglyptidae	 1	 1
+Helophoridae	 7	 7
+Heloridae	 6	 3
+Hemerobiidae	 506	 149
+Hemicytheridae	 216	 216
+Hemisquillidae	 7	 7
+Hemiuridae	 2	 2
+Henicopidae	 11	 11
+Hepialidae	 141	 77
+Heptageniidae	 1654	 1067
+Hermanniellidae	 2	 2
+Hermanniidae	 4	 4
+Hermatobatidae	 1	 1
+Heronimidae	 1	 1
+Hersiliidae	 6	 6
+Hesperiidae	 21894	 8466
+Hesperinidae	 4	 4
+Heterakidae	 2	 2
+Heteroceridae	 163	 109
+Heterogastridae	 8	 8
+Heteromyzidae	 6	 6
+Heteronemiidae	 16	 13
+Heterophyidae	 1	 1
+Heterorhabdidae	 32	 32
+Heterothripidae	 6	 6
+Hexamitidae	 1	 1
+Himantariidae	 1	 1
+Hippidae	 65	 33
+Hippoboscidae	 22	 20
+Hippolytidae	 312	 256
+Hipponicidae	 2	 2
+Hirudisomatidae	 1	 1
+Hirudosomatidae	 1	 1
+Histeridae	 1542	 871
+Histeridae 	 13	 7
+Histiostomatidae	 1	 1
+Hodotermitidae	 1	 1
+Holognathidae	 12	 12
+Homalonychidae	 12	 10
+Homolidae	 5	 5
+Homolodromiidae	 1	 1
+Homotomidae	 6	 2
+Hubbardiidae	 2	 2
+Humerobatidae	 57	 36
+Huntemanniidae	 12	 12
+Hutchinsoniellidae	 12	 12
+Hyadesiidae	 1	 1
+Hyalellidae	 127	 91
+Hyalidae	 34	 32
+Hybosoridae	 327	 227
+Hybotidae	 167	 89
+Hydatinidae	 1	 1
+Hydraenidae	 110	 84
+Hydridae	 1	 1
+Hydrobiidae	 7	 6
+Hydrobiosidae	 7	 7
+Hydrochidae	 62	 60
+Hydrometridae	 208	 142
+Hydrophilidae	 2617	 1883
+Hydropsychidae	 1399	 948
+Hydroptilidae	 322	 195
+Hydroscaphidae	 10	 10
+Hymenolepididae	 5	 5
+Hymenopodidae	 1	 1
+Hyperiidae	 438	 384
+Hypochilidae	 182	 177
+Hypochthoniidae	 1	 1
+Hypoderidae	 5	 5
+Hypogastruridae	 25	 21
+Hyponeoidae	 1	 1
+Hyssuridae	 351	 338
+Hystrichopsyllidae	 77	 39
+Ibaliidae	 20	 13
+Ichneumonidae	 2315	 790
+Ichnuemonidae	 3	 3
+Idiacanthidae	 10	 10
+Idoteidae	 897	 837
+Ilyocryptidae	 38	 26
+Ilyocyprididae	 216	 215
+Inachidae	 94	 84
+Inachoididae	 45	 42
+incertae sedis	 1	 1
+Incurvariidae	 13	 13
+Ingolfiellidae	 10	 10
+Iphimediidae	 13	 13
+Isaeidae	 664	 631
+Ischnochitonidae	 16	 12
+Ischnomesidae	 3	 3
+Ischryopsalididae	 20	 20
+Ischyroceridae	 603	 573
+Ischyropsalididae	 68	 68
+Ismaridae	 1	 1
+Isochilinidae	 2	 2
+Isognomonidae	 2	 2
+Isonychiidae	 116	 86
+Isotomidae	 100	 83
+Issidae	 774	 593
+Ithonidae	 5	 3
+Ithyceridae	 1	 1
+Iuridae	 14	 14
+Ixodidae	 633	 477
+Janirellidae	 4	 4
+Janiridae	 93	 93
+Japygidae	 5	 1
+Joeropsididae	 21	 21
+Joppeicidae	 4	 2
+Julidae	 442	 100
+Kalliapseudidae	 223	 223
+Kalotermitidae	 185	 185
+Kateretidae	 63	 60
+Katiannidae	 3	 3
+Kermesidae	 108	 91
+Keroplatidae	 4	 4
+Kerriidae	 16	 15
+Kinnaridae	 44	 42
+Kloedenellidae	 39	 39
+Kloedeniidae	 14	 14
+Knemidokoptidae	 1	 1
+Knoxitidae	 1	 1
+Kuhliidae	 1	 1
+Kuwaniidae	 12	 10
+Labiduridae	 5	 5
+Labiidae	 1	 1
+Lacturidae	 1	 1
+Laelapidae	 1	 1
+Laemobothriidae	 1	 1
+Laemophloeidae	 102	 62
+Lafystiidae	 1	 1
+Lamellariidae	 2	 2
+Lampropidae	 57	 57
+Lampyridae	 325	 226
+Lanceolidae	 3	 2
+Languriidae	 108	 67
+Laomediidae	 1	 1
+Laophontidae	 6	 4
+Largidae	 579	 401
+Lasaeidae	 3	 3
+Lasiocampidae	 1069	 422
+Lasiochilidae	 67	 49
+Lathridiidae	 47	 34
+Latreilliidae	 1	 1
+Latridiidae	 792	 524
+Lauxaniidae	 499	 241
+Lecanodiaspididae	 41	 34
+Lecithodendriidae	 3	 3
+Leiodidae	 582	 354
+Lepadidae	 8	 7
+Leperditiidae	 10	 10
+Lepidomysidae	 3	 3
+Lepidopsocidae	 11	 6
+Lepidostomatidae	 324	 202
+Lepismatidae	 10	 7
+Leptanthuridae	 46	 45
+Leptastacidae	 2	 2
+Leptestheriidae	 2	 2
+Leptoceridae	 954	 606
+Leptocheliidae	 532	 505
+Leptocytheridae	 1	 1
+Leptodoridae	 1	 1
+Leptohyphidae	 64	 46
+Leptonetidae	 5	 5
+Leptophlebiidae	 554	 373
+Leptopodidae	 7	 6
+Leptopontiidae	 1	 1
+Leptopsyllidae	 29	 19
+Lernaeidae	 1	 1
+Lernaeopodidae	 6	 6
+Lestidae	 1537	 806
+Leucochloridlidae	 1	 1
+Leuconidae	 1070	 1033
+Leucosiidae	 116	 109
+Leucospidae	 32	 17
+Leucothoidae	 92	 91
+Leuctridae	 117	 101
+Liacaridae	 3	 3
+Libellulidae	 5912	 3057
+Libytheidae	 10	 9
+Lichakephalidae	 5	 5
+Liebstadiidae	 12	 12
+Ligiidae	 18	 18
+Liljeborgiidae	 448	 420
+Limacidae	 2	 2
+Limacodidae	 171	 89
+Limnadiidae	 4	 4
+Limnephilidae	 1865	 864
+Limnichidae	 70	 64
+Limnocytheridae	 4	 4
+Limnoriidae	 9	 9
+Limoniidae	 347	 273
+Limulidae	 24	 22
+Linotaeniidae	 199	 28
+Linyphiidae	 5409	 3199
+Liocranidae	 221	 159
+Lipogenyidae	 2	 2
+Liposcelididae	 3	 3
+Listrophoridae	 1	 1
+Lithobiidae	 452	 128
+Lithodidae	 2996	 1023
+Littorinidae	 12	 11
+Liviidae	 96	 73
+Llinyphiidae	 1	 1
+Lonchaeidae	 14	 6
+Lonchopteridae	 157	 83
+Longusorbiidae	 1	 1
+Lophogastridae	 42	 40
+Lophoproctidae	 3	 3
+Lotidae	 58	 58
+Lottiidae	 8	 7
+Loxoconchidae	 1	 1
+Lubbockiidae	 7	 7
+Lucanidae	 184	 139
+Lucicutiidae	 4	 4
+Luciferidae	 21	 21
+Lucinidae	 5	 4
+Lumbricidae	 6	 6
+Lutrochidae	 80	 56
+Lycaeidae	 2	 2
+Lycaenidae	 21629	 8461
+Lycidae	 320	 130
+Lycosidae	 6989	 4944
+Lyctocoridae	 58	 42
+Lygaeidae	 6925	 4497
+Lymantriidae	 305	 162
+Lymexylidae	 5	 4
+Lymexylonidae	 1	 1
+Lymnaeidae	 10	 10
+Lynceidae	 3	 2
+Lyonetiidae	 16	 15
+Lyonsiidae	 3	 2
+Lysianassidae	 519	 469
+Lysianassidea	 1	 1
+Lysiosquillidae	 3	 3
+Machilidae	 16	 14
+Macracanthorhynchidae	 1	 1
+Macrochelidae	 2	 2
+Macromiidae	 9	 7
+Macrostylidae	 2	 2
+Macrothricidae	 82	 58
+Macroveliidae	 113	 96
+Macrurocyttidae	 1	 1
+Mactridae	 6	 6
+Maeridae	 4	 4
+Majidae	 61	 53
+Malaconothridae	 3	 3
+Malacosteidae	 101	 101
+Mantidae	 168	 107
+Mantispidae	 55	 43
+Mantoididae	 35	 7
+Margaritiferidae	 1	 1
+Margarodidae	 19	 18
+Masaridae	 113	 52
+Matsucoccidae	 31	 31
+Mecicobothriidae	 56	 55
+Mecistocephalidae	 2	 1
+Megacalanidae	 1	 1
+Megachilidae	 37582	 18008
+Megalopodidae	 4	 4
+Megalopygidae	 144	 74
+Megaluropidae	 285	 169
+Megapontiidae	 2	 2
+Megaspilidae	 18	 13
+Megisthanidae	 1	 1
+Meinertellidae	 8	 7
+Melamphaidae	 114	 114
+Melandryidae	 772	 431
+Melanostomiidae	 111	 110
+Melitidae	 909	 849
+Melittidae	 1054	 674
+Mellyridae	 1	 1
+Meloidae	 2875	 1803
+Melolonthidae	 139	 81
+Melongenidae	 12	 10
+Melphidippidae	 77	 54
+Melyridae	 524	 399
+Melyrridae	 1	 1
+Membracidae	 15872	 7614
+Menippidae	 79	 43
+Meropeidae	 64	 20
+Mesocestoididae	 20	 20
+Mesopsocidae	 6	 6
+Mesoveliidae	 261	 179
+Messicobolidae	 1	 1
+Metapseudidae	 129	 129
+Metidae	 7	 7
+Metretopodidae	 74	 42
+Metridinidae	 244	 220
+Microcotylidae	 1	 1
+Microlympiidae	 1	 1
+Micromalthidae	 12	 7
+Micronectidae	 9	 7
+Micropezidae	 109	 65
+Microphysidae	 10	 9
+Micropterigidae	 13	 9
+Microtrombidiidae	 1	 1
+Milacidae	 1	 1
+Milichiidae	 230	 121
+Mimallonidae	 6	 6
+Mimetidae	 117	 94
+Miridae	 46013	 22308
+Mithracidae	 336	 227
+Mitridae	 5	 4
+Miturgidae	 194	 160
+Mobulidae	 2	 2
+Mochlozetidae	 2	 2
+Modulidae	 1	 1
+Mogoplistidae	 31	 24
+Moinidae	 144	 93
+Molannidae	 221	 129
+Momphidae	 41	 36
+Moniliformidae	 2	 2
+Monomachidae	 1	 1
+Monommatidae	 5	 4
+Monophlebidae	 50	 42
+Monotomidae	 297	 149
+Mopaliidae	 12	 10
+Mordellidae	 1750	 989
+Mormonillidae	 11	 11
+Mugilidae	 12	 12
+Munididae	 6	 6
+Munidopsidae	 9	 9
+Munnidae	 58	 58
+Munnopsidae	 47	 37
+Muricidae	 45	 42
+Muscidae	 1543	 768
+MUtahillidae	 2	 2
+Mutillidae	 3002	 1464
+Mycetophagidae	 693	 315
+Mycetophilidae	 95	 68
+Mycobacteriaceae	 1	 1
+Mycteridae	 70	 60
+Mydidae	 26	 19
+Mymaridae	 237	 94
+Myocoptidae	 2	 2
+Myrmecophilidae	 13	 13
+Myrmeleontidae	 185	 126
+Myrmeloentidae	 1	 1
+Myrmosidae	 1	 1
+Mysidae	 795	 734
+Mysmenidae	 15	 13
+Mythicomyiidae	 1	 1
+Mytilidae	 5	 5
+Nabidae	 3574	 2180
+Nannastacidae	 892	 649
+Nannoniscidae	 3	 3
+Nannosquillidae	 3	 3
+Nanophyidae	 1	 1
+Narkidae	 11	 11
+Nassariidae	 7	 6
+Nasseriidae	 1	 1
+Naticidae	 12	 10
+Naucoridae	 264	 200
+Neanuridae	 27	 21
+Nearctodesmidae	 1	 1
+Nebaliidae	 35	 35
+Nemasomatidae	 29	 15
+Nemastomatidae	 162	 113
+Nematinae	 2	 1
+Nematocarcinidae	 68	 68
+Nemestrinidae	 3	 3
+Nemonychidae	 17	 16
+Nemouridae	 782	 638
+Neobisiidae	 20	 19
+Neoechinorhynchidae	 2	 2
+Neoephemeridae	 1	 1
+Neogoveidae	 15	 14
+Neoliodidae	 1	 1
+Neomegamphopidae	 85	 85
+Neophyllobiidae	 2	 2
+Neoscopelidae	 4	 4
+Neotanaidae	 72	 72
+Nephilidae	 85	 80
+Nephropidae	 4955	 4746
+Nepidae	 324	 238
+Nepticulidae	 16	 16
+Neritidae	 4	 4
+Nesticidae	 43	 38
+Nevadiidae	 1	 1
+Ninidae	 37	 34
+Nitidulidae	 1265	 772
+Noctuidae	 19593	 5638
+Nogodinidae	 29	 20
+Nolidae	 69	 41
+Normanellidae	 1	 1
+Nosodendridae	 35	 30
+Noteridae	 74	 54
+Nothridae	 15	 11
+Notocotylidae	 1	 1
+Notodontidae	 3515	 834
+Notodromadidae	 2	 2
+Notonectidae	 1332	 886
+Nototanaidae	 1	 1
+Nudacotylidae	 1	 1
+Nuuanuidae	 2	 2
+Nycteribiidae	 4	 3
+Nymphalidae	 44159	 14515
+Nymphomyiidae	 2	 1
+Nymphonidae	 34	 33
+Ochlesidae	 3	 3
+Ochodaeidae	 331	 207
+Ochteridae	 81	 67
+Ochyroceratidae	 1	 1
+Ocypodidae	 109	 96
+Odiniidae	 4	 4
+Odontellidae	 4	 4
+Odontoceridae	 60	 55
+Odontopleuridae	 1	 1
+Oecanthidae	 191	 148
+Oechophoridae	 19	 1
+Oecobiidae	 25	 22
+Oecophoridae	 273	 162
+Oedemeridae	 976	 698
+Oedicerotidae	 824	 713
+Oestridae	 13	 10
+Ogyrididae	 114	 113
+Oithonidae	 157	 151
+Olenidae	 8	 8
+Oligacanthorhynchidae	 29	 29
+Oligoneuriidae	 2	 2
+Oligotomidae	 1	 1
+Olividae	 10	 8
+Olpiidae	 1	 1
+Omethidae	 25	 18
+Omosudidae	 13	 13
+Oncaeidae	 33	 33
+Onchocercidae	 9	 9
+Oniscidae	 8	 7
+Onychiuridae	 7	 7
+Oonopidae	 137	 106
+Ophryoxidae	 1	 1
+Opisidae	 14	 14
+Opisthorchiidae	 2	 2
+Oplophoridae	 276	 266
+Opomyzidae	 65	 37
+Opostegidae	 3	 2
+Oppiidae	 4	 4
+Orchipedidae	 3	 3
+Oregoniidae	 7443	 1490
+Oreogetonidae	 2	 1
+Oreohelicidae	 2	 2
+Oribatellidae	 5	 5
+Oribatulidae	 11	 11
+Ormyridae	 81	 34
+Orsodacnidae	 50	 36
+Orsolobidae	 1	 1
+Ortheziidae	 69	 59
+Orussidae	 29	 18
+Oryctocephalidae	 2	 2
+Oryidae	 2	 2
+Ostraciidae	 8	 7
+Ostreidae	 5	 5
+Otitidae	 33	 24
+Oxaeidae	 58	 25
+Oxycarenidae	 144	 134
+Oxyopidae	 405	 335
+Oxyuridae	 9	 9
+Oziidae	 47	 20
+Pachybolidae	 2	 2
+Pachydomellidae	 3	 3
+Pachygronthidae	 988	 694
+Paeromopodidae	 1	 1
+Pagodiidae	 1	 1
+Pagurapseudidae	 66	 66
+Paguridae	 647	 447
+Palaemonidae	 682	 517
+Palicidae	 4	 4
+Palingeniidae	 12	 10
+Palinuridae	 98	 90
+Pallopteridae	 13	 8
+Pamphiliidae	 147	 73
+Pandalidae	 454	 451
+Pandaridae	 5	 4
+Pandoridae	 1	 1
+Panopeidae	 580	 512
+Panorpidae	 93	 73
+Panorpodidae	 34	 17
+Pantheidae	 173	 106
+Papilionidae	 7915	 4029
+Papyriaspididae	 1	 1
+Paracalanidae	 14	 14
+Paradoxididae	 8	 8
+Paradoxosomatidae	 49	 31
+Paragonimidae	 1	 1
+Parajulidae	 151	 38
+Parakalummidae	 5	 4
+Paralepididae	 141	 141
+Paramesochridae	 2	 2
+Paramphistomatidae	 1	 1
+Paramunnidae	 191	 179
+Paranebaliidae	 57	 57
+Paranonychidae	 295	 288
+Paranthuridae	 69	 69
+Parapaguridae	 21	 21
+Parapseudidae	 35	 31
+Parasitidae	 1	 1
+Parasquillidae	 1	 1
+Paratropididae	 3	 3
+Parattidae	 1	 1
+Pardaliscidae	 17	 9
+Pariambidae	 497	 489
+Parthenopidae	 104	 96
+Pasiphaeidae	 291	 290
+Passalidae	 785	 245
+Passandridae	 46	 28
+Patellidae	 1	 1
+Pectinidae	 17	 16
+Pediciidae	 38	 24
+Pediculidae	 3	 3
+Pelecinidae	 76	 55
+Peltidiidae	 5	 5
+Peltogastridae	 3	 3
+Peltoperlidae	 14	 11
+Penaeidae	 381	 275
+Pennellidae	 5	 5
+Pentatomidae	 24116	 11436
+Penthaleidae	 1	 1
+Percnidae	 13	 11
+Pergidae	 85	 45
+Perilampidae	 84	 47
+Periplomatidae	 1	 1
+Periscelididae	 22	 16
+Perlidae	 498	 402
+Perlodidae	 353	 302
+Perlolidae	 2	 2
+Peronopsidae	 4	 4
+Perothopidae	 1	 1
+Personidae	 1	 1
+Petaluridae	 20	 11
+Petricolidae	 2	 2
+Phacopidae	 8	 8
+Phacopteronidae	 1	 1
+Phaennidae	 2	 2
+Phalacridae	 47	 36
+Phalacromidae	 9	 9
+Phalangiidae	 189	 152
+Phalangodidae	 268	 263
+Pharidae	 1	 1
+Phengodidae	 118	 84
+Phenopelopidae	 19	 13
+Philanthidae	 6	 4
+Phillipsiidae	 23	 23
+Philodromidae	 2388	 1760
+Philodromidae?	 22	 4
+Philomedidae	 392	 392
+Philophthalmidae	 1	 1
+Philopotamidae	 371	 287
+Philopteridae	 2	 2
+Philosciidae	 7	 7
+Phlaeothripidae	 208	 159
+Phliantidae	 18	 17
+Phoenicococcidae	 13	 13
+Pholcidae	 716	 494
+Pholididae	 204	 133
+Phoridae	 844	 342
+Photichthyidae	 45	 45
+Phoxichilidiidae	 65	 64
+Phoxocephalidae	 1126	 882
+Phronimidae	 11	 7
+Phrosinidae	 33	 32
+Phrurolithidae	 315	 142
+Phryganeidae	 577	 314
+Phrynidae	 3	 3
+Phthiracaridae	 4	 4
+Phtisicidae	 95	 95
+Phylloxeridae	 22	 20
+Phymatidae	 32	 27
+Physalopteridae	 48	 48
+Physidae	 13	 11
+Phytoseiidae	 8	 7
+Pieridae	 20449	 8245
+Piesmatidae	 232	 162
+Pilumnidae	 111	 93
+Pimoidae	 38	 36
+Pinnidae	 1	 1
+Pinnotheridae	 204	 195
+Piophilidae	 64	 49
+Pipunculidae	 145	 75
+Pisauridae	 242	 210
+Pisidiidae	 8	 8
+Pityococcidae	 14	 10
+Plagiorchiidae	 8	 8
+Plagusiidae	 15	 14
+Planorbidae	 44	 40
+Plasmodiidae	 2	 2
+Plataspidae	 2	 2
+Plataspididae	 18	 16
+Platydesmidae	 4	 4
+Platygastridae	 566	 343
+Platyischnopidae	 525	 267
+Platypezidae	 10	 9
+Platyscelidae	 1	 1
+Platystomatidae	 66	 43
+Plectreuridae	 7	 7
+Pleidae	 59	 41
+Pleocomidae	 87	 62
+Pleorchiidae	 2	 2
+Pleuroceridae	 7	 4
+Pleurocopidae	 6	 6
+Pleustidae	 108	 107
+Plicatulidae	 2	 2
+Plutellidae	 93	 59
+Pneumospiruridae	 4	 4
+Podapolipidae	 5	 5
+Podoceridae	 177	 148
+Podonidae	 7	 7
+Podoscirtidae	 2	 2
+Poduridae	 13	 12
+Poecilasmatidae	 10	 9
+Pollicipedidae	 4	 4
+Polybiidae	 81	 79
+Polycentropodidae	 627	 388
+Polychelidae	 50	 50
+Polydesmidae	 104	 48
+Polygyridae	 72	 63
+Polymitarcidae	 1	 1
+Polymitarcyidae	 51	 39
+Polymorphidae	 1	 1
+Polyodontidae	 7	 7
+Polyphagidae	 189	 124
+Polyphemidae	 10	 7
+Polyplacidae	 1	 1
+Polystoechotidae	 3	 2
+Polystomatidae	 1	 1
+Polyxenidae	 10	 10
+Polyzoniidae	 4	 4
+Pomadasyidae	 2	 2
+Pomphorhynchidae	 2	 2
+Pompilidae	 1581	 784
+Pontellidae	 136	 113
+Pontocyprididae	 94	 67
+Pontoporeiidae	 70	 69
+Porcellanidae	 438	 313
+Porcellionidae	 32	 27
+Portunidae	 918	 687
+Potamanthidae	 68	 53
+Potamididae	 2	 2
+Poteriidae	 1	 1
+Primitiidae	 1	 1
+Procarididae	 1	 1
+Processidae	 109	 107
+Proctophyllodidae	 4	 4
+Proctotrupidae	 12	 12
+Prodidomidae	 2	 2
+Prodoxidae	 26	 16
+Prokoeneniidae	 2	 2
+Prostomidae	 8	 8
+Protellidae	 102	 99
+Proteocephalidae	 1	 1
+Protoglomeridae	 2	 2
+Protolophidae	 2	 2
+Protoneuridae	 3	 3
+Protostrongylidae	 3	 3
+Psammobiidae	 5	 4
+Pselaphidae	 7	 7
+Psephenidae	 347	 292
+Pseudaliidae	 8	 8
+Pseudironidae	 3	 3
+Pseudococcidae	 2594	 1165
+Pseudocumatidae	 14	 14
+Pseudodiaptomidae	 2	 2
+Pseudomelatomidae	 2	 2
+Pseudophasmatidae	 5	 5
+Pseudorhombilidae	 14	 14
+Pseudosquillidae	 12	 11
+Pseudostigmatidae	 14	 4
+Pseudotachidiidae	 10	 10
+Pseudotanaidae	 17	 17
+Pseudothelphusidae	 102	 83
+Psilidae	 24	 20
+Psocidae	 24	 23
+Psoralgidae	 1	 1
+Psychidae	 30	 26
+Psychodidae	 95	 30
+Psychomyiidae	 102	 82
+Psyllidae	 562	 405
+Pteriidae	 1	 1
+Pterocephaliidae	 7	 7
+Pterolichidae	 1	 1
+Pteromalidae	 178	 72
+Pteronarcyidae	 35	 25
+Pteronarcyoidea	 1	 1
+Pteronyssidae	 2	 2
+Pterophoridae	 297	 149
+Pthiridae	 1	 1
+Ptiliidae	 89	 77
+Ptilodactylidae	 33	 29
+Ptinidae	 119	 63
+Ptychopariidae	 10	 10
+Ptychopteridae	 18	 12
+Pulicidae	 59	 47
+Punctidae	 7	 7
+Punctoribatidae	 25	 19
+Pupillidae	 32	 31
+Putoidae	 87	 68
+Pycnogonidae	 4	 4
+Pyemotidae	 1	 1
+Pygmephoridae	 1	 1
+Pygrotidae	 1	 1
+Pyralidae	 1275	 446
+Pyramidellidae	 1	 1
+Pyrgodesmidae	 1	 1
+Pyrgotidae	 74	 41
+Pyrochroidae	 241	 167
+Pyroehroidae	 1	 1
+Pyroglyphidae	 3	 3
+Pyrrhocoridae	 359	 254
+Pythidae	 33	 21
+Quadroppiidae	 7	 7
+Quasillitidae	 2	 2
+Ranellidae	 2	 1
+Raninidae	 76	 67
+Raphidiidae	 55	 42
+Raphiophoridae	 1	 1
+Raymondinidae	 1	 1
+Reduviidae	 17086	 9410
+Rhabdiasidae	 1	 1
+Rhachodesmidae	 6	 6
+Rhadinorhynchidae	 5	 5
+Rhagionidae	 371	 168
+Rhaphidiidae	 11	 10
+Rhaphidophoridae	 414	 182
+Rhincalanidae	 2	 2
+Rhinocricidae	 2	 2
+Rhinophoridae	 2	 2
+Rhinotermitidae	 203	 202
+Rhipiceridae	 19	 15
+Rhipiphoridae	 209	 152
+Rhizophagidae	 23	 13
+Rhizothricidae	 1	 1
+Rhopaliasidae	 1	 1
+Rhopalidae	 4281	 2813
+Rhopalosomatidae	 44	 12
+Rhyacophilidae	 611	 360
+Rhynchitidae	 15	 15
+Rhyparochromidae	 6412	 3468
+Rhysodidae	 145	 102
+Richardiidae	 1	 1
+Ricinoididae	 10	 10
+Rictulariidae	 12	 12
+Riodinidae	 428	 266
+Romaleidae	 270	 211
+Roproniidae	 10	 8
+Rosensteiniidae	 1	 1
+Rutelidae	 185	 109
+Rutidermatidae	 342	 342
+Sabaconidae	 82	 56
+Sacculinidae	 15	 15
+Sagdidae	 1	 1
+Saldidae	 1671	 1198
+Salpingidae	 226	 91
+Salticidae	 4426	 3252
+Santiidae	 30	 30
+Sapygidae	 7	 6
+Sarcophagidae	 741	 343
+Sarcoptidae	 1	 1
+Sarsiellidae	 703	 699
+Saturniidae	 2211	 782
+Satyridae	 5	 5
+Scalpellidae	 2	 2
+Scaphidiidae	 16	 12
+Scarabaeidae	 23743	 11890
+Scathophagidae	 491	 188
+Scatopsidae	 2	 2
+Scelionidae	 19	 11
+Scenopinidae	 6	 6
+Scheloribatidae	 5	 5
+Schendylidae	 118	 19
+Schistosomatidae	 6	 6
+Schizopetalidae	 1	 1
+Schizopodidae	 1	 1
+Schizopteridae	 28	 16
+Schreckensteiniidae	 5	 4
+Sciaridae	 31	 26
+Scinidae	 2	 2
+Sciomyzidae	 642	 311
+Scirtidae	 185	 136
+Sclerosomatidae	 98	 76
+Scolebythidae	 1	 1
+Scolecitrichidae	 74	 73
+Scoliidae	 181	 125
+Scolopendridae	 46	 35
+Scolopocryptopidae	 54	 33
+Scolytidae	 127	 79
+Scombrolabracidae	 7	 7
+Scopelarchidae	 5	 5
+Scophthalmidae	 38	 38
+Scraptiidae	 428	 244
+Scutacaridae	 1	 1
+Scutelleridae	 1848	 1353
+Scutigerellidae	 1	 1
+Scutigeridae	 22	 12
+Scydmaenidae	 3	 3
+Scyllaridae	 44	 44
+Scythrididae	 50	 33
+Scytodidae	 84	 49
+Sebidae	 13	 13
+Segestriidae	 39	 36
+Selenopeltidae	 3	 3
+Selenopidae	 40	 38
+Semelidae	 2	 2
+Senoculidae	 5	 5
+Sepsidae	 367	 153
+Sergestidae	 33	 29
+Sericostomatidae	 37	 32
+Serolidae	 71	 70
+Serphitidae	 1	 1
+Sesarmidae	 88	 73
+Sesiidae	 205	 121
+Sessiidae	 1	 1
+Sialidae	 116	 81
+Sicariidae	 121	 100
+Sicyoniidae	 68	 67
+Sididae	 77	 60
+Sierolomorphidae	 5	 5
+Silphidae	 2406	 1252
+Silvanidae	 230	 163
+Simuliidae	 332	 278
+Siphlonuridae	 406	 213
+Siphonariidae	 1	 1
+Siphonophoridae	 3	 2
+Siricidae	 174	 123
+Sironidae	 16	 16
+Sisyridae	 20	 6
+Smarididae	 2	 2
+Sminthuridae	 13	 13
+Sminthurididae	 5	 5
+Solecurtidae	 1	 1
+Solenidae	 2	 2
+Solenoceridae	 29	 29
+Sotoplacidae	 2	 2
+Sparassidae	 39	 36
+Sphaeragnostidae	 9	 9
+Sphaeriodesmidae	 16	 14
+Sphaeritidae	 8	 7
+Sphaeriusidae	 12	 12
+Sphaeroceridae	 250	 133
+Sphaeromatidae	 370	 319
+Sphecidae	 3266	 1734
+Sphindidae	 29	 28
+Sphingidae	 1217	 696
+Sphyranuridae	 1	 1
+Sphyriidae	 5	 5
+Spinocalanidae	 23	 23
+Spiraxidae	 2	 2
+Spirobolidae	 108	 28
+Spirocercidae	 3	 3
+Spirostreptidae	 16	 14
+Spirulidae	 1	 1
+Spiruridae	 59	 59
+Spondylidae	 2	 2
+Spongicolidae	 11	 6
+Spongiphoridae	 10	 8
+Squillidae	 93	 88
+Staphilinidae	 3	 3
+Staphylinidae	 5900	 3192
+Stegocephalidae	 5	 4
+Steingeliidae	 8	 5
+Stemmiulidae	 3	 3
+Stenasellidae	 1	 1
+Stenetriidae	 14	 14
+Stenopelmatidae	 96	 69
+Stenopodidae	 15	 13
+Stenopsocidae	 5	 2
+Stenothoidae	 185	 170
+Stenotrachelidae	 78	 49
+Stephanidae	 65	 36
+Sternophoridae	 2	 2
+Stigmaeidae	 1	 1
+Stigmaphronidae	 1	 1
+Stilipedidae	 19	 8
+Stratiomyiadae	 3	 1
+Stratiomyidae	 505	 245
+Streblidae	 79	 59
+Streptocephalidae	 14	 9
+Strigeidae	 3	 3
+Strobilopsidae	 14	 14
+Strombidae	 8	 7
+Strongylidae	 1	 1
+Strongyloididae	 1	 1
+Strongylophthalmyiidae	 1	 1
+Stygnommatidae	 1	 1
+Stygnopsidae	 2	 2
+Subtriquetridae	 1	 1
+Subulinidae	 7	 7
+Subuluridae	 8	 8
+Succineidae	 22	 20
+Suctobelbidae	 3	 3
+Superstitionidae	 2	 1
+Surperstitioniidae	 1	 1
+Syarinidae	 1	 1
+Symmocidae	 27	 16
+Symphytognathidae	 2	 2
+Synchroidae	 81	 53
+Synopiidae	 160	 159
+Syringobiidae	 2	 1
+Syrphidae	 3668	 1348
+Tabanidae	 2839	 998
+Tachinidae	 915	 303
+Taeniidae	 69	 69
+Taeniopterygidae	 61	 54
+Talitridae	 194	 128
+Tanaellidae	 55	 55
+Tanaididae	 42	 42
+Tanaissuidae	 103	 101
+Tanypezidae	 12	 10
+Tecticipitidae	 2	 2
+Tectocepheidae	 3	 3
+Tegastidae	 1	 1
+Tegoribatidae	 13	 11
+Telemidae	 161	 52
+Tellinidae	 19	 15
+Telorchiidae	 1	 1
+Temoridae	 48	 41
+Tenebriodinae	 1	 1
+Tenebrionidae	 14403	 9309
+Tengellidae	 22	 22
+Tenthiridinidae	 1	 1
+Tenthredinidae	 1425	 520
+Tenuipalpidae	 35	 29
+Tephritidae	 663	 252
+Teratembiidae	 2	 1
+Terebridae	 3	 3
+Termitidae	 5	 4
+Termopsidae	 49	 49
+Tethinidae	 3	 3
+Tetrablemmidae	 2	 2
+Tetraclitidae	 10	 8
+Tetradellidae	 2	 2
+Tetragnathidae	 1904	 1535
+Tetragonicipitidae	 2	 2
+Tetraliidae	 2	 2
+Tetrameridae	 34	 34
+Tetranychidae	 20	 10
+Tetrasquillidae	 1	 1
+Tetrastemmatidae	 1	 1
+Tetratomidae	 453	 240
+Tetrigidae	 467	 301
+Tettigoniidae	 927	 596
+Thalestridae	 21	 16
+Thamnocephalidae	 4	 2
+Tharybidae	 9	 9
+Thaumastellidae	 3	 2
+Thelastomatidae	 1	 1
+Thelaziidae	 33	 33
+Thelyphonidae	 13	 11
+Theraphosidae	 97	 94
+Therevidae	 189	 124
+Theridiidae	 4372	 3024
+Theridiidae?	 1	 1
+Theridiosomatidae	 28	 27
+Thespidae	 88	 65
+Thomisidae	 3555	 2393
+Threvidae	 1	 1
+Thripidae	 557	 370
+Throscidae	 70	 50
+Thyatiridae	 167	 76
+Thyreocoridae	 1324	 848
+Thyrididae	 65	 42
+Tineidae	 257	 117
+Tingidae	 2278	 1323
+Tiphiidae	 136	 99
+Tipulidae	 518	 360
+Tisbidae	 13	 13
+Tischeriidae	 7	 7
+Titanoecidae	 213	 180
+Toernquistiidae	 4	 4
+Tomoceridae	 12	 11
+Tortanidae	 306	 176
+Tortricidae	 2512	 747
+Torymidae	 148	 92
+Toxoplasmatidae	 1	 1
+Trachelidae	 30	 22
+Trachelipodidae	 4	 4
+Trachyleberididae	 41	 30
+Trachypachidae	 46	 32
+Trapeziidae	 21	 12
+Travuniidae	 243	 234
+Trematuridae	 29	 26
+Treniidae	 1	 1
+Trhypochthoniidae	 20	 18
+Triaenonychidae	 134	 75
+Triaenophoridae	 1	 1
+Trichinellidae	 2	 2
+Trichoceridae	 3	 3
+Trichodactylidae	 26	 24
+Trichodectidae	 13	 13
+Trichogrammatidae	 62	 45
+Trichoniscidae	 9	 8
+Trichopeltariidae	 1	 1
+Trichopetalidae	 4	 4
+Trichosomoididae	 1	 1
+Trichostrongylidae	 10	 10
+Trichuridae	 9	 9
+Tridactylidae	 86	 76
+Tridenchthoniidae	 1	 1
+Trigonalidae	 23	 11
+Trigonidiidae	 40	 35
+Trinucleidae	 28	 28
+Triopsidae	 22	 13
+Triozidae	 334	 262
+Triviidae	 2	 2
+Trochidae	 9	 8
+Trogidae	 1331	 704
+Trogolotrematidae	 1	 1
+Trogossitidae	 149	 138
+Trombiculidae	 19	 13
+Trombidiidae	 3	 2
+Tropiduchidae	 406	 262
+Trypanosomatidae	 1	 1
+Tsinaniidae	 1	 1
+Tubificidae	 2	 2
+Tumidocarcinidae	 1	 1
+Turbinellidae	 1	 1
+Turbinidae	 11	 11
+Turridae	 4	 2
+Turritellidae	 1	 1
+Tvaerenellidae	 29	 29
+Tylidae	 2	 2
+Typhlobolellidae	 1	 1
+Ucididae	 7	 7
+Uenoidae	 138	 119
+Ulidiidae	 135	 60
+Uloboridae	 120	 112
+Unciolidae	 1	 1
+Uniciolidae	 2	 2
+Unidentified	 62	 47
+Unionicolidae	 1	 1
+Unionidae	 339	 245
+UNKNOWN_NULL	 1687	 1416
+Upogebiidae	 55	 53
+Uraniidae	 43	 24
+Uristidae	 72	 43
+Urocoptidae	 1	 1
+Urodidae	 17	 4
+Uropodidae	 31	 26
+Urotrematidae	 1	 1
+Vaejovidae	 113	 103
+Valloniidae	 4	 4
+Valvatidae	 1	 1
+Vanhorniidae	 4	 4
+Varroidae	 2	 2
+Varunidae	 37	 36
+Veliidae	 576	 437
+Veneridae	 27	 22
+Vermipsyllidae	 1	 1
+Vespidae	 3190	 1625
+Vibiliidae	 9	 5
+Vitrinidae	 2	 2
+Viviparidae	 12	 12
+Xanthidae	 312	 207
+Xenophoridae	 1	 1
+Xiphydriidae	 46	 32
+Xyelidae	 4	 4
+Xylococcidae	 36	 31
+Xylomyidae	 6	 4
+Xylophagidae	 29	 19
+Xyloryctidae	 8	 7
+Xystodesmidae	 325	 315
+Yponomeutidae	 314	 177
+Ypsolophidae	 84	 38
+Zacanthoididae	 2	 2
+Zodariidae	 56	 54
+Zonitidae	 38	 35
+Zopheridae	 1784	 1056
+Zoridae	 4	 3
+Zorocratidae	 30	 21
+Zoropsidae	 2	 2
+Zygaenidae	 45	 38
+
+Executed: select country,stateProvince,count(occid),count(distinct genus,specificEpithet) as specificEpithet, count(distinct locality,county,stateProvince,municipality,year,month,day,decimalLatitude,decimalLongitude) as colevent,count(distinct locality,county,stateProvince,municipality,decimalLatitude,decimalLongitude) as localities from omoccurrences where specificEpithet !='UNKNOWN_NULL' group by stateProvince order by country,stateProvince;
+Canada	 Alberta	 199879	 9334	 33032	 10557
+Canada	 British Columbia	 75895	 5852	 16989	 7000
+Canada	 Labrador	 112	 64	 40	 21
+Canada	 Manitoba	 54219	 3038	 10412	 2069
+Canada	 Newfoundland	 6870	 1369	 1778	 752
+Canada	 Northwest Territories	 16153	 655	 3246	 952
+Canada	 Nova Scotia	 11614	 1684	 4402	 1864
+Canada	 Nunavut	 2636	 143	 674	 170
+Canada	 Ontario	 99567	 6524	 26051	 8431
+Canada	 Prince Edward Island	 1479	 218	 337	 227
+Canada	 Quebec	 164205	 4762	 28801	 7574
+Canada	 Saskatchewan	 30058	 2969	 5355	 1757
+Canada	 Yukon	 26464	 987	 4065	 2266
+Mexico	 Aguascalientes	 970	 186	 108	 87
+Mexico	 Baja California	 5138	 1071	 1724	 1193
+Mexico	 Baja California Norte	 3008	 342	 448	 346
+Mexico	 Baja California Sur	 71	 17	 21	 20
+Mexico	 Campeche	 3221	 507	 689	 416
+Mexico	 Chiapas	 59927	 3759	 7931	 4483
+Mexico	 Chihuahua	 19078	 1602	 1675	 1323
+Mexico	 Coahuila	 10160	 1148	 1329	 802
+Mexico	 Colima	 3354	 729	 585	 317
+Mexico	 Distrito Federal	 18470	 1775	 3736	 1436
+Mexico	 Durango	 12918	 1050	 1318	 827
+Mexico	 Guanajuato	 1810	 306	 260	 177
+Mexico	 Guerrero	 15212	 2049	 2261	 1471
+Mexico	 Hidalgo	 9419	 1183	 1774	 965
+Mexico	 Jalisco	 20592	 2349	 3813	 2021
+Mexico	 Michoacan	 10815	 1501	 1878	 1285
+Mexico	 Morelos	 12084	 1723	 2496	 1026
+Mexico	 Nayarit	 8540	 1211	 1666	 917
+Mexico	 Neuvo Leon	 13	 2	 1	 1
+Mexico	 Nuevo Leon	 8439	 1235	 2352	 1088
+Mexico	 Oaxaca	 32171	 3016	 3932	 2458
+Mexico	 Puebla	 17311	 2876	 1908	 1247
+Mexico	 Queretaro	 7207	 836	 479	 284
+Mexico	 Quintana Roo	 8993	 832	 1367	 747
+Mexico	 San Luis Potosi	 11398	 1662	 1549	 953
+Mexico	 Sinaloa	 7822	 988	 1402	 931
+Mexico	 Sonora	 23457	 2149	 2772	 1983
+Mexico	 Tabasco	 2727	 539	 494	 313
+Mexico	 Tamaulipas	 11411	 1715	 2322	 1372
+Mexico	 Tlaxcala	 1631	 191	 130	 98
+Mexico	 UNKNOWN_NULL	 514839	 17560	 51565	 30586
+Mexico	 Veracruz	 40876	 4448	 8664	 4465
+Mexico	 Yucatan	 29269	 960	 2123	 602
+Mexico	 Zacatecas	 2406	 440	 342	 288
+USA	 Alabama	 10990	 1851	 2625	 1463
+USA	 Alaska	 116851	 3835	 12753	 5339
+USA	 American Samoa	 10	 2	 6	 2
+USA	 Arizona	 268556	 10672	 39406	 21216
+USA	 Arkansas	 9006	 1634	 2570	 1159
+USA	 California	 580379	 21081	 127421	 51376
+USA	 Colorado	 188541	 8472	 40712	 21247
+USA	 Connecticut	 66192	 3103	 20662	 4825
+USA	 Delaware	 25076	 1339	 4974	 1239
+USA	 Florida	 112727	 8206	 27018	 10002
+USA	 Georgia	 20902	 2590	 4036	 1882
+USA	 Guam	 32	 15	 21	 18
+USA	 Hawaii	 119131	 4061	 29888	 11914
+USA	 Idaho	 30085	 2602	 6599	 3343
+USA	 Illinois	 36196	 4766	 9063	 3201
+USA	 Indiana	 12499	 2412	 4735	 1728
+USA	 Iowa	 13723	 1687	 3511	 1188
+USA	 Kansas	 110446	 5082	 14554	 5276
+USA	 Kentucky	 21179	 1484	 2986	 1162
+USA	 Line Islands	 3	 2	 1	 1
+USA	 Louisiana	 12840	 2206	 3341	 1422
+USA	 Maine	 52450	 2781	 7290	 2640
+USA	 Maryland	 89756	 2640	 8888	 4065
+USA	 Massachusetts	 88242	 5379	 16046	 5623
+USA	 Michigan	 61740	 17968	 10972	 4161
+USA	 Minnesota	 13096	 1449	 3470	 1727
+USA	 Mississippi	 52146	 2653	 12311	 2476
+USA	 Missouri	 17556	 2374	 5857	 2082
+USA	 Montana	 16356	 2132	 4034	 2616
+USA	 Nebraska	 12669	 1461	 2410	 1156
+USA	 Nevada	 102496	 3149	 5977	 3471
+USA	 New Hampshire	 18561	 2436	 5199	 1487
+USA	 New Jersey	 55657	 4752	 14034	 4483
+USA	 New Mexico	 123857	 8364	 24785	 12811
+USA	 New York	 137374	 6064	 26516	 6159
+USA	 North Carolina	 107015	 4678	 22792	 6048
+USA	 North Dakota	 10236	 1267	 1724	 632
+USA	 Northern Mariana Islands	 9	 7	 7	 7
+USA	 Ohio	 53125	 4002	 13562	 4434
+USA	 Oklahoma	 63751	 5143	 10357	 3147
+USA	 Oregon	 105489	 5156	 17923	 8355
+USA	 Palmyra Atoll	 12	 3	 5	 5
+USA	 Pennsylvania	 36279	 4181	 10002	 3345
+USA	 Puerto Rico	 404	 126	 158	 84
+USA	 Rhode Island	 4145	 740	 1159	 502
+USA	 South Carolina	 12363	 1958	 2514	 1247
+USA	 South Dakota	 51269	 1338	 2749	 1705
+USA	 Tennessee	 17760	 2563	 3914	 1988
+USA	 Texas	 335378	 11771	 50196	 19844
+USA	 US Virgin Islands	 1279	 125	 197	 78
+USA	 Utah	 231475	 4869	 24151	 9906
+USA	 Vermont	 5485	 1125	 1632	 878
+USA	 Virginia	 36431	 3780	 8351	 3974
+USA	 Wake Island	 2	 1	 2	 2
+USA	 Washington	 16	 5	 9	 4
+USA	 Washington DC	 60993	 5267	 12233	 5071
+USA	 West Virginia	 24331	 1589	 2696	 1820
+USA	 Wisconsin	 15513	 2415	 4661	 2245
+USA	 Wyoming	 27188	 2466	 5200	 3035
+
+Executed: select country,stateProvince, count(distinct locality,county,stateProvince,municipality,year,month,day,decimalLatitude,decimalLongitude) as colevent, count(distinct decimalLatitude,decimalLongitude) as localities from omoccurrences where specificEpithet !='UNKNOWN_NULL' and decimalLatitude != '0.0000' group by stateProvince order by country,stateProvince;
+Canada	 Alberta	 31722	 7864
+Canada	 British Columbia	 14618	 4564
+Canada	 Labrador	 2	 1
+Canada	 Manitoba	 9437	 1317
+Canada	 Newfoundland	 1406	 437
+Canada	 Northwest Territories	 2816	 575
+Canada	 Nova Scotia	 3409	 1025
+Canada	 Nunavut	 627	 121
+Canada	 Ontario	 23330	 5068
+Canada	 Prince Edward Island	 294	 167
+Canada	 Quebec	 20211	 2536
+Canada	 Saskatchewan	 4882	 1314
+Canada	 Yukon	 3402	 1154
+Mexico	 Aguascalientes	 81	 61
+Mexico	 Baja California	 924	 534
+Mexico	 Baja California Norte	 381	 273
+Mexico	 Baja California Sur	 8	 8
+Mexico	 Campeche	 267	 129
+Mexico	 Chiapas	 6410	 2849
+Mexico	 Chihuahua	 1086	 779
+Mexico	 Coahuila	 738	 448
+Mexico	 Colima	 424	 184
+Mexico	 Distrito Federal	 2041	 603
+Mexico	 Durango	 835	 490
+Mexico	 Guanajuato	 153	 87
+Mexico	 Guerrero	 1434	 704
+Mexico	 Hidalgo	 1063	 474
+Mexico	 Jalisco	 2668	 1059
+Mexico	 Michoacan	 1102	 692
+Mexico	 Morelos	 1365	 437
+Mexico	 Nayarit	 999	 408
+Mexico	 Nuevo Leon	 1811	 608
+Mexico	 Oaxaca	 2508	 1382
+Mexico	 Puebla	 1291	 716
+Mexico	 Queretaro	 358	 175
+Mexico	 Quintana Roo	 994	 324
+Mexico	 San Luis Potosi	 953	 496
+Mexico	 Sinaloa	 817	 442
+Mexico	 Sonora	 1806	 1026
+Mexico	 Tabasco	 310	 166
+Mexico	 Tamaulipas	 1719	 688
+Mexico	 Tlaxcala	 66	 50
+Mexico	 UNKNOWN_NULL	 41658	 24829
+Mexico	 Veracruz	 5929	 2057
+Mexico	 Yucatan	 1772	 284
+Mexico	 Zacatecas	 237	 182
+USA	 Alabama	 1792	 793
+USA	 Alaska	 11898	 4259
+USA	 Arizona	 31094	 11317
+USA	 Arkansas	 1675	 632
+USA	 California	 76271	 26229
+USA	 Colorado	 34571	 12026
+USA	 Connecticut	 18837	 1941
+USA	 Delaware	 4589	 967
+USA	 Florida	 21149	 5762
+USA	 Georgia	 2842	 1137
+USA	 Guam	 6	 5
+USA	 Hawaii	 11538	 3600
+USA	 Idaho	 5406	 2185
+USA	 Illinois	 6134	 1794
+USA	 Indiana	 2849	 842
+USA	 Iowa	 2900	 702
+USA	 Kansas	 11148	 3246
+USA	 Kentucky	 2402	 654
+USA	 Line Islands	 1	 1
+USA	 Louisiana	 2076	 734
+USA	 Maine	 5335	 986
+USA	 Maryland	 7201	 2920
+USA	 Massachusetts	 10703	 2360
+USA	 Michigan	 6704	 1913
+USA	 Minnesota	 2884	 1005
+USA	 Mississippi	 10908	 1599
+USA	 Missouri	 4112	 1029
+USA	 Montana	 2753	 1397
+USA	 Nebraska	 1969	 771
+USA	 Nevada	 4524	 2142
+USA	 New Hampshire	 4001	 699
+USA	 New Jersey	 10686	 2302
+USA	 New Mexico	 18992	 5534
+USA	 New York	 22156	 3426
+USA	 North Carolina	 18756	 3585
+USA	 North Dakota	 1274	 350
+USA	 Ohio	 12534	 1969
+USA	 Oklahoma	 5173	 1656
+USA	 Oregon	 14690	 5737
+USA	 Palmyra Atoll	 1	 1
+USA	 Pennsylvania	 6848	 2095
+USA	 Puerto Rico	 54	 24
+USA	 Rhode Island	 719	 206
+USA	 South Carolina	 1820	 786
+USA	 South Dakota	 1978	 1056
+USA	 Tennessee	 2557	 987
+USA	 Texas	 43502	 12457
+USA	 US Virgin Islands	 105	 33
+USA	 Utah	 19716	 5923
+USA	 Vermont	 850	 366
+USA	 Virginia	 3444	 1429
+USA	 Wake Island	 1	 1
+USA	 Washington	 8	 3
+USA	 Washington DC	 10314	 3474
+USA	 West Virginia	 1837	 1133
+USA	 Wisconsin	 2925	 1045
+USA	 Wyoming	 3874	 1620
+
