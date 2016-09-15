@@ -5,11 +5,12 @@
 
 import MySQLdb
 import sys
+import /raid/scratch/seltmann/allArthropodDataProject/includes.py
 
 #connection information from mysql
 
 #test database
-connect = MySQLdb.connect("", user="", passwd="", db="")
+#connect = MySQLdb.connect("", user="", passwd="", db="")
 
 cursor = connect.cursor ()
 

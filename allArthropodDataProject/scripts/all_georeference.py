@@ -5,6 +5,7 @@
 
 import MySQLdb
 import sys
+import /raid/scratch/seltmann/allArthropodDataProject/includes.py
 
 #add date to file export
 from datetime import date
@@ -12,7 +13,7 @@ now = date.today()
 
 #connection information from mysql
 #main database
-connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="allArthropod" )
+#connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="allArthropod" )
 
 #test database
 #connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="" )
