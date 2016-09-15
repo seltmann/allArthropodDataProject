@@ -5,6 +5,7 @@
 
 import MySQLdb
 import sys
+import /raid/scratch/seltmann/allArthropodDataProject/includes.py
 
 #add date to file export
 from datetime import date
@@ -12,7 +13,7 @@ now = date.today()
 
 #connection information from mysql
 #main database
-connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="" )
+#connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="" )
 
 #test database
 #connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="" )
@@ -20,7 +21,7 @@ connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="" )
 cursor = connect.cursor ()
 
 #define an outfile
-outfilename = "scientificNameCounts_%s.tsv" % now
+outfilename = "stats_%s.tsv" % now
 outfile = open(outfilename, 'w')
 
 #function to execute mysql commands one at a time
@@ -37,7 +38,7 @@ def ExecuteMysql(line):
 		outfile.write('\n')
 	
 #open and iterate through commands, can add to this list
-infilename = 'mysql.txt'
+infilename = '../dataUpdates/master.txt'
 infile = open(infilename, 'r')
 	
 for line in infile:

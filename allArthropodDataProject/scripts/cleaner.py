@@ -3,15 +3,10 @@
 # import the MySQLdb and sys modules
 # katja seltmann April 16, 2013 to run on arthropod data in scan symbiota database
 
-try:
-    # load MySQLdb interface emulation
-    import pymysql
-    pymysql.install_as_MySQLdb()
-except ImportError:
-    pass
-
 import MySQLdb
 import sys
+import /raid/scratch/seltmann/allArthropodDataProject/includes.py
+
 
 #add date to file export
 from datetime import date
@@ -19,7 +14,7 @@ now = date.today()
 
 #connection information from mysql
 #main database
-connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="" )
+#connect = MySQLdb.connect("", user="", passwd="", db="" )
 
 cursor = connect.cursor ()
 
@@ -30,14 +25,14 @@ def ExecuteMysql(line):
 		a = "Executed: %s" % line + "\n"
 		print a
 		
-x = "1-updates_scan.txt"
+x = "8-updates_scan.txt"
 	
-infilename = '/Library/WebServer/Documents/allArthropod/allArthropodDataProject/allArthropodDataProject/dataUpdates/cleaner-add/' + x
+infilename = "../dataUpdates/cleaner-add/"  + x
 infile = open(infilename, 'r')
 
-	for line in infile:
-		line = line.strip()
-		ExecuteMysql(line)
+for line in infile:
+	line = line.strip()
+	ExecuteMysql(line)
 
 #close all connections
 cursor.close()
