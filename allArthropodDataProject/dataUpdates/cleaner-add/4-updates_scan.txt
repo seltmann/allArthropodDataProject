@@ -12,3 +12,9 @@ update omoccurrences set year='0000' where year is NULL;
 update omoccurrences set month='00' where month is NULL;
 update omoccurrences set day='00' where day is NULL;
 
+update omoccurrences set infraspecificEpithet='UNKNOWN_NULL' where infraspecificEpithet='';
+update omoccurrences set infraspecificEpithet='UNKNOWN_NULL' where infraspecificEpithet is NULL;
+update omoccurrences set specificEpithet=UNKNOWN_NULL where specificEpithet='';
+update omoccurrences set family=UNKNOWN_NULL where family='';
+
+

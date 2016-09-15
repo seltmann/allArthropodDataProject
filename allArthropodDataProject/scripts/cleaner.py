@@ -3,6 +3,9 @@
 # import the MySQLdb and sys modules
 # katja seltmann April 16, 2013 to run on arthropod data in scan symbiota database
 
+
+#DO NOT USE
+
 import MySQLdb
 import sys
 import os

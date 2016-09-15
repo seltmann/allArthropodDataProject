@@ -1,0 +1,15 @@
+#run like source updates_scan.txt
+#did not run these updates on 2016 version
+
+
+#update omoccurrences set sciname=scientificName where sciname is NULL;
+#update omoccurrences set eventDate=NULL where eventDate = '0000-00-00';
+
+#update omoccurrences set taxonRank='subspecies' where infraspecificEpithet is not NULL and taxonRank is NULL;
+
+#update omoccurrences set taxonRank='species' where infraspecificEpithet is NULL and specificEpithet is not NULL and taxonRank is NULL;
+#update omoccurrences set taxonRank='genus' where infraspecificEpithet is NULL and specificEpithet is NULL and genus is not NULL and taxonRank is NULL;
+
+update omoccurrences set taxonRank='family' where family = 'UNKNOWN_NULL' and family=scientificName and infraspecificEpithet = 'UNKNOWN_NULL' and specificEpithet = 'UNKNOWN_NULL' and genus = 'UNKNOWN_NULL';
+
+#update omoccurrences set taxonRank='unknown' where family = 'UNKNOWN_NULL' and infraspecificEpithet = 'UNKNOWN_NULL' and specificEpithet = 'UNKNOWN_NULL' and genus = 'UNKNOWN_NULL';
