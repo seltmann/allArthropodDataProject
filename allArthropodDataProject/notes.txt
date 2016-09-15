@@ -140,4 +140,4 @@ MariaDB [scandata]> describe omoccurrences;
 
 - GBIF specimens = NULL
 
-- why so many NULL in Family (need to check)
+- all text null values are set to UNKNOWN_NULL

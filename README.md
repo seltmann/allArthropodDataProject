@@ -1,29 +1,19 @@
 # allArthropodDataProject
 
-The goal of this project is to evaluate all known arthropod data as of May 2015 to see where our community has research ready data. 
+The goal of this project is to evaluate all known arthropod data. We have a first draft that was presented at several meetings in 2014-2015. The new information starts July 2016. 
 
-# May 14 2015
-select count(*) from omoccurrences; just scan data = 3943069 records (prior to adding AEC and GBIf)
+http://www.slideshare.net/taxonbytes/franz-cobb-seltmann-2015-spnhc-current-state-of-arthropod-biodiversity-data
 
-	TODO: add a flag to the data for its origin
-
-	DONE: added dataSource column to table
-
-	TIME: 20 min for mysql to create new column or restore SCAN from source.
-	
-Downloading data from symbiota2.symbscan.occurrences table to upload on different server for merging with GBIF and AEC data
-
-Renamed table to omo
-
-#May 18 2015
-created an import for AEC data to match new SCAN table structure
-
-exporting all NA data from AEC
-
-#May 20 2015
-import into symbscan database AEC data using Load Data
-create GBIF database from occurrence.txt files
+http://www.slideshare.net/taxonbytes/cobb-seltmann-franz-2014-the-current-state-of-arthropod-biodiversity-data-addressing-impacts-of-global-change
 
 #July 23 2016
 new cleaned data from GBIF and SCAN DB from Ben Brandt.
 
+#September 2016
+Total number of records: 8,376,162
+
+Total georeferenced: 7,121,499
+
+Total distinct localities: 391,627
+
+Total distinct families: 2858
