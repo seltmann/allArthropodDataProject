@@ -136,3 +136,8 @@ MariaDB [scandata]> describe omoccurrences;
 | dateEntered                    | datetime         | YES  | MUL | NULL              |                             |
 | dateLastModified               | timestamp        | NO   | MUL | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP |
 +--------------------------------+------------------+------+-----+-------------------+-----------------------------+
+
+
+- GBIF specimens = NULL
+
+- why so many NULL in Family (need to check)
