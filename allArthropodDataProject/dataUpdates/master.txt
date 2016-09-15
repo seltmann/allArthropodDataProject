@@ -1,5 +1,7 @@
 select count(*) from omoccurrences;
-select count(*) from omoccurrences where collid='99';
+# null values where from GBIF, not scan
+select count(*) from omoccurrences where collid is null;
+select count(*) from omoccurrences where collid is not null;
 select count(*) from omoccurrences where decimalLatitude !='0.0000';
 select count(distinct locality,county,stateProvince,municipality,decimalLatitude,decimalLongitude) as localities from omoccurrences;
 select count(distinct decimalLatitude,decimalLongitude) as localities from omoccurrences where decimalLatitude != '0.0000';
