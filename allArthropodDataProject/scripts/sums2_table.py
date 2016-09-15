@@ -3,6 +3,8 @@
 # import the MySQLdb and sys modules
 # katja seltmann April 16, 2013 to run on arthropod data in scan symbiota database
 
+#run ExecuteMysql first
+
 import MySQLdb
 import sys
 
@@ -37,7 +39,7 @@ def ColeventsNOLAT():
 		concat_string = x[1]
 		occid = str(x[0])
 
-		cursor.execute ("""select count(distinct locality,county,stateProvince,municipality,year,month,day) as colevent from omoccurrences where decimalLatitude = '0.0000' and concat(family,genus,specificEpithet) =""" +  "'" + concat_string + "'")
+		cursor.execute ("""select count(distinct locality,county,stateProvince,municipality,year,month,day) as colevent from omoccurrences where decimalLatitude != '0.0000' and concat(family,genus,specificEpithet) =""" +  "'" + concat_string + "'")
 		data = cursor.fetchone()
 		colevent = data[0]
 		if data:
@@ -65,8 +67,8 @@ def GeoCoordinated():
 					connect.rollback()	
 
 
-ExecuteMysql()
-#ColeventsNOLAT()
+#ExecuteMysql()
+ColeventsNOLAT()
 #GeoCoordinated()
 connect.close()
 

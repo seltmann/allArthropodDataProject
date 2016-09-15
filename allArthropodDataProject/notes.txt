@@ -141,3 +141,5 @@ MariaDB [scandata]> describe omoccurrences;
 - GBIF specimens = NULL
 
 - all text null values are set to UNKNOWN_NULL
+
+- echo "select distinct institutionCode from omoccurrences;" | mysql -u root -p -D symbscan > institutionCode_echo.tsv
