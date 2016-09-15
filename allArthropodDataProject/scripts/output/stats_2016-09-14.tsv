@@ -1,9 +1,16 @@
+#total number of occurances
 Executed: select count(*) from omoccurrences;
 8376162
 
-Executed: select count(*) from omoccurrences where collid='99';
-109826
+#total from GBIF
+Executed: select count(*) from omoccurrences where collid is null;
+2455869
 
+#total from SCAN
+Executed: select count(*) from omoccurrences where collid is not null;
+5920293
+
+#total georeferenced
 Executed: select count(*) from omoccurrences where decimalLatitude !='0.0000';
 7121499
 
