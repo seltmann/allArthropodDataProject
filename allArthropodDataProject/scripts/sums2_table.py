@@ -5,7 +5,6 @@
 
 import MySQLdb
 import sys
-import /raid/scratch/seltmann/allArthropodDataProject/includes.py
 
 #connection information from mysql
 

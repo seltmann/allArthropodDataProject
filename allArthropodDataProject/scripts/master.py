@@ -38,7 +38,7 @@ def ExecuteMysql(line):
 		outfile.write('\n')
 	
 #open and iterate through commands, can add to this list
-infilename = '../dataUpdates/master.txt'
+infilename = 'master.txt'
 infile = open(infilename, 'r')
 	
 for line in infile:
