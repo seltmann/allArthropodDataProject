@@ -5,8 +5,14 @@
 
 import MySQLdb
 import sys
-import '/raid/scratch/seltmann/allArthropodDataProject/includes.py'
+import os
 
+def include(filename):
+    if os.path.exists(filename): 
+        execfile(filename)
+
+
+include('/raid/scratch/seltmann/allArthropodDataProject/includes.py')
 
 #add date to file export
 from datetime import date
