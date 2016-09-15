@@ -5,7 +5,7 @@
 
 import MySQLdb
 import sys
-import /raid/scratch/seltmann/allArthropodDataProject/includes.py
+import '/raid/scratch/seltmann/allArthropodDataProject/includes.py'
 
 
 #add date to file export
@@ -25,7 +25,7 @@ def ExecuteMysql(line):
 		a = "Executed: %s" % line + "\n"
 		print a
 		
-x = "8-updates_scan.txt"
+x = "9-updates_scan.txt"
 	
 infilename = "../dataUpdates/cleaner-add/"  + x
 infile = open(infilename, 'r')
