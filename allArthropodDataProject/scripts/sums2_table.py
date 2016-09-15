@@ -65,9 +65,9 @@ def GeoCoordinated():
 					connect.rollback()	
 
 
-#ExecuteMysql()
+ExecuteMysql()
 #ColeventsNOLAT()
-GeoCoordinated()
+#GeoCoordinated()
 connect.close()
 
 

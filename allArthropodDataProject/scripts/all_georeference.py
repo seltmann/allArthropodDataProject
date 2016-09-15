@@ -5,7 +5,7 @@
 
 import MySQLdb
 import sys
-import /raid/scratch/seltmann/allArthropodDataProject/includes.py
+#import /raid/scratch/seltmann/allArthropodDataProject/includes.py
 
 #add date to file export
 from datetime import date
