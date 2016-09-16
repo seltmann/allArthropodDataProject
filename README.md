@@ -12,7 +12,11 @@ new cleaned data from GBIF and SCAN DB from Ben Brandt.
 #September 2016
 Total number of records: 8,376,162
 
-Total georeferenced localities: 7,121,499
+Total georeferenced specimens: 7,121,499
+
+Total distinct localities (may not be georeferenced) [concat locality,county,stateProvince,municipality,decimalLatitude,decimalLongitude]: 556,753
+
+Total distinct georeferenced localities [concat locality,county,stateProvince,municipality,decimalLatitude,decimalLongitude]: 302,076
 
 Total distinct localities: 391,627
 

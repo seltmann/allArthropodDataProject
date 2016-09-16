@@ -143,3 +143,5 @@ MariaDB [scandata]> describe omoccurrences;
 - all text null values are set to UNKNOWN_NULL
 
 - echo "select distinct institutionCode from omoccurrences;" | mysql -u root -p -D symbscan > institutionCode_echo.tsv
+
+- select count(occid),decimalLatitude,decimalLongitude from omoccurrences where decimalLatitude='0.0000' group by concat(decimalLatitude,decimalLongitude);
