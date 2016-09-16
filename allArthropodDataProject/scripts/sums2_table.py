@@ -33,13 +33,13 @@ def ExecuteMysql():
 		InsertMysql(family,genus,specificEpithet)
 
 def ColeventsNOLAT():
-	cursor.execute ("""select occid,concat(family, genus, specificEpithet) from sums2""")
+	cursor.execute ("""select occid,scientificName from sums2""")
 	data = cursor.fetchall()
 	for x in data:
 		concat_string = x[1]
 		occid = str(x[0])
 
-		cursor.execute ("""select count(distinct decimalLatitude,decimalLongitude) as local from omoccurrences where decimalLatitude != '0.0000' and concat(family,genus,specificEpithet) =""" +  "'" + concat_string + "'")
+		cursor.execute ("""select count(distinct decimalLatitude,decimalLongitude) as local from omoccurrences where decimalLatitude != '0.0000' and sciname=""" +  "'" + concat_string + "'")
 		data = cursor.fetchone()
 		local = data[0]
 		if data:
