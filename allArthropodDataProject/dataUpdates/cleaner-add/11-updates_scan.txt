@@ -1,0 +1,11 @@
+#run these after sums2 table is formed
+
+update omoccurrences set sciname=trim(concat(family, genus, specificEpithet));
+update sums2 set scientificName=trim(concat(family, genus, specificEpithet));
+update omoccurrences set sciname='FormicidaePheidoleoswaldi' where sciname="FormicidaePheidoleo'swaldi";
+update sums2 set scientificName='FormicidaePheidoleoswaldi' where scientificName="FormicidaePheidoleo'swaldi";
+
+update omoccurrences set sciname='FormicidaePheidoleoswaldi' where sciname="FormicidaePheidoleo'swaldi";
+update sums2 set scientificName='FormicidaePheidoleoswaldi' where scientificName="FormicidaePheidoleo'swaldi";
+
+delete from sums2 where scientificName like '%\'%';
