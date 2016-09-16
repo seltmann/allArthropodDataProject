@@ -27,9 +27,9 @@ def ExecuteMysql():
 	cursor.execute ("""select distinct family,genus,specificEpithet from omoccurrences where specificEpithet != 'UNKNOWN_NULL'""")
 	data = cursor.fetchall()
 	for x in data:
-		family = trim(x[0])
-		genus = trim(x[1])
-		specificEpithet = trim(x[2])
+		family = x[0]
+		genus = x[1]
+		specificEpithet = x[2]
 		InsertMysql(family,genus,specificEpithet)
 
 def ColeventsNOLAT():
@@ -39,7 +39,7 @@ def ColeventsNOLAT():
 		concat_string = x[1]
 		occid = str(x[0])
 
-		cursor.execute ("""select count(distinct decimalLatitude,decimalLongitude) as local from omoccurrences where decimalLatitude != '0.0000' and concat(trim(family),trim(genus),trim(specificEpithet)) =""" +  "'" + concat_string + "'")
+		cursor.execute ("""select count(distinct decimalLatitude,decimalLongitude) as local from omoccurrences where decimalLatitude != '0.0000' and concat(family,genus,specificEpithet) =""" +  "'" + concat_string + "'")
 		data = cursor.fetchone()
 		local = data[0]
 		if data:
@@ -48,7 +48,8 @@ def ColeventsNOLAT():
 				connect.commit()
 			except:
 				connect.rollback()
-		
+
+#did not use this script in 2015 analysis		
 def GeoCoordinated():
 		cursor.execute ("""select sums2.occid,omoccurrences.nameOMOConcat,count(distinct decimalLatitude,decimalLongitude,year,month,day) from omoccurrences join sums2 on omoccurrences.nameOMOConcat = sums2.nameConcat where decimalLatitude !='0.0000' and georeferenced is NULL group by omoccurrences.nameOMOConcat limit 20""")
 		data = cursor.fetchall()
