@@ -27,9 +27,9 @@ def ExecuteMysql():
 	cursor.execute ("""select distinct family,genus,specificEpithet from omoccurrences where specificEpithet != 'UNKNOWN_NULL'""")
 	data = cursor.fetchall()
 	for x in data:
-		family = x[0]
-		genus = x[1]
-		specificEpithet = x[2]
+		family = trim(x[0])
+		genus = trim(x[1])
+		specificEpithet = trim(x[2])
 		InsertMysql(family,genus,specificEpithet)
 
 def ColeventsNOLAT():
@@ -39,12 +39,12 @@ def ColeventsNOLAT():
 		concat_string = x[1]
 		occid = str(x[0])
 
-		cursor.execute ("""select count(distinct locality,county,stateProvince,municipality,year,month,day) as colevent from omoccurrences where decimalLatitude != '0.0000' and concat(family,genus,specificEpithet) =""" +  "'" + concat_string + "'")
+		cursor.execute ("""select count(distinct decimalLatitude,decimalLongitude) as local from omoccurrences where decimalLatitude != '0.0000' and concat(trim(family),trim(genus),trim(specificEpithet)) =""" +  "'" + concat_string + "'")
 		data = cursor.fetchone()
-		colevent = data[0]
+		local = data[0]
 		if data:
 			try:
-				cursor.execute ("""update sums2 set coleventsLat = '%s' where occid = '%s';"""% (colevent,occid))
+				cursor.execute ("""update sums2 set georeferenced = '%s' where occid = '%s';"""% (local,occid))
 				connect.commit()
 			except:
 				connect.rollback()
@@ -67,8 +67,8 @@ def GeoCoordinated():
 					connect.rollback()	
 
 
-#ExecuteMysql()
-ColeventsNOLAT()
+ExecuteMysql()
+#ColeventsNOLAT()
 #GeoCoordinated()
 connect.close()
 
