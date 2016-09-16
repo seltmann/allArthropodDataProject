@@ -144,10 +144,6 @@ MariaDB [scandata]> describe omoccurrences;
 
 - echo "select distinct institutionCode from omoccurrences;" | mysql -u root -p -D symbscan > institutionCode_echo.tsv
 
-- select count(occid),decimalLatitude,decimalLongitude from omoccurrences where decimalLatitude='0.0000' group by concat(decimalLatitude,decimalLongitude);
-- the sums script was running too slow so:
-update omoccurrences set sciname=trim(concat(family, genus, specificEpithet));
-update sums2 set scientificName=trim(concat(family, genus, specificEpithet));
+- deleted 17 taxon names that have '.
 
-so can be a simple comparison without concat
-
+`
