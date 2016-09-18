@@ -10,3 +10,4 @@ update omoccurrences set family = 'UNKNOWN_NULL' where family = '0';
 update omoccurrences set specificEpithet = 'UNKNOWN_NULL' where specificEpithet is NULL;
 update omoccurrences set specificEpithet = 'UNKNOWN_NULL' where specificEpithet = '0';
 update omoccurrences set infraspecificEpithet=UNKNOWN_NULL where infraspecificEpithet is NULL;
+

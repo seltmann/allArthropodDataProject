@@ -1,1 +1,3 @@
-select scientificName, count(distinct(concat(decimalLatitude,decimalLongitude))) as unique_geo from omoccurrences group by scientificName order by scientificName;
+#select scientificName, count(distinct(concat(decimalLatitude,decimalLongitude))) as unique_geo from omoccurrences group by scientificName order by scientificName;
+
+select distinct year, count(occid) from omoccurrences group by year;

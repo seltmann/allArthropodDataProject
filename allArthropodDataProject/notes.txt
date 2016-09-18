@@ -137,6 +137,20 @@ MariaDB [scandata]> describe omoccurrences;
 | dateLastModified               | timestamp        | NO   | MUL | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP |
 +--------------------------------+------------------+------+-----+-------------------+-----------------------------+
 
+sums2
++-----------------+--------------+------+-----+---------+----------------+
+| Field           | Type         | Null | Key | Default | Extra          |
++-----------------+--------------+------+-----+---------+----------------+
+| occid           | int(10)      | NO   | PRI | NULL    | auto_increment |
+| family          | varchar(255) | YES  |     | NULL    |                |
+| scientificName  | varchar(255) | YES  |     | NULL    |                |
+| genus           | varchar(255) | YES  |     | NULL    |                |
+| specificEpithet | varchar(255) | YES  |     | NULL    |                |
+| coleventsLat    | int(10)      | YES  |     | NULL    |                |
+| georeferenced   | int(10)      | YES  |     | NULL    |                |
++-----------------+--------------+------+-----+---------+----------------+
+7 rows in set (0.01 sec)
+
 
 - GBIF specimens = NULL
 
@@ -146,4 +160,24 @@ MariaDB [scandata]> describe omoccurrences;
 
 - deleted 17 taxon names that have '.
 
-`
+
+1. get sums2 data
+2. find which to delete
+3. delete from main table? How many species now?
+4. look for years
+
+--years
+select distinct year, count(occid) from omoccurrences; Had to update the year, month and day field as they are not filled out for many records.
+
+
+select distinct year,month, decimalLatitude,decimalLongitude from omoccurrences where decimalLatitude !='0.0000' and specificEpithet != 'UNKNOWN_NULL' and year !='0000' and month !='00' order by year,month;
+
+#count by year, but year is not filled out in most records
+select distinct year, count(occid) from omoccurrences group by year;
+
+update omoccurrences set year=Substring(eventDate,-10,4);
+update omoccurrences set month=Substring(DateStart,-5,2);
+update omoccurrences set day=Substring(DateStart,-2,2);
+
+echo "select distinct basisOfRecord from omoccurrences;" | mysql -u seltmann -p -D scandata > basisOfRecord.tsv
+
