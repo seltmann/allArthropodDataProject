@@ -169,9 +169,6 @@ sums2
 --years
 select distinct year, count(occid) from omoccurrences; Had to update the year, month and day field as they are not filled out for many records.
 
-
-select distinct year,month, decimalLatitude,decimalLongitude from omoccurrences where decimalLatitude !='0.0000' and specificEpithet != 'UNKNOWN_NULL' and year !='0000' and month !='00' order by year,month;
-
 #count by year, but year is not filled out in most records
 select distinct year, count(occid) from omoccurrences group by year;
 
@@ -179,5 +176,25 @@ update omoccurrences set year=Substring(eventDate,-10,4);
 update omoccurrences set month=Substring(DateStart,-5,2);
 update omoccurrences set day=Substring(DateStart,-2,2);
 
+echo "select distinct year, count(occid) from omoccurrences where year is Null group by year;" | mysql -u seltmann -p -D scandata > yearCount.tsv
+
+1206877 years are null
+
+echo "select distinct decimalLatitude,decimalLongitude from omoccurrences where (decimalLatitude between '14' and '80') and (decimalLongitude between '-180' and '-54');" | mysql -u seltmann -p -D scandata > GeoBetween.tsv
+
 echo "select distinct basisOfRecord from omoccurrences;" | mysql -u seltmann -p -D scandata > basisOfRecord.tsv
+
+echo "select * from sumsCleaned;" | mysql -u seltmann -p -D scandata > sums.tsv
+
+##TODO need to look at what is in specificEpithet
+
+
+echo "select family, count(scientificName) from sumsCleaned group by family;" | mysql -u seltmann -p -D scandata > speciesFamily.tsv
+
+echo "select distinct family from omoccurrences;" | mysql -u seltmann -p -D scandata > families.tsv
+
+echo "select distinct family, count(occid) from omoccurrences group by family;" | mysql -u seltmann -p -D scandata > specimens.tsv
+
+echo "select family, count(occid) from omoccurrences where decimalLatitude !='0.0000' group by family;" | mysql -u seltmann -p -D scandata > geoPerFamily.tsv
+
 
