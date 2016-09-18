@@ -1,5 +1,5 @@
 
 #update year, month and day fields
-update omoccurrences set year=Substring(eventDate,-10,4);
-update omoccurrences set month=Substring(DateStart,-5,2);
-update omoccurrences set day=Substring(DateStart,-2,2);
+#update omoccurrences set year=Substring(eventDate,-10,4);
+update omoccurrences set month=Substring(eventDate,-5,2);
+update omoccurrences set day=Substring(eventDate,-2,2);
