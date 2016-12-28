@@ -186,9 +186,6 @@ echo "select distinct basisOfRecord from omoccurrences;" | mysql -u seltmann -p 
 
 echo "select * from sumsCleaned;" | mysql -u seltmann -p -D scandata > sums.tsv
 
-##TODO need to look at what is in specificEpithet
-
-
 echo "select family, count(scientificName) from sumsCleaned group by family;" | mysql -u seltmann -p -D scandata > speciesFamily.tsv
 
 echo "select distinct family from omoccurrences;" | mysql -u seltmann -p -D scandata > families.tsv
@@ -196,5 +193,31 @@ echo "select distinct family from omoccurrences;" | mysql -u seltmann -p -D scan
 echo "select distinct family, count(occid) from omoccurrences group by family;" | mysql -u seltmann -p -D scandata > specimens.tsv
 
 echo "select family, count(occid) from omoccurrences where decimalLatitude !='0.0000' group by family;" | mysql -u seltmann -p -D scandata > geoPerFamily.tsv
+
+echo "select family, count(distinct(concat(decimalLatitude,decimalLongitude))) from omoccurrences where decimalLatitude !='0.0000' group by family;" | mysql -u seltmann -p -D scandata > uniqueGeoPerFamily.tsv
+
+echo "select decimalLongitude,decimalLatitude from omoccurrences where decimalLatitude !='0.0000';" | mysql -u seltmann -p -D scandata > allGeo.tsv
+
+Number of specimens that are determined to species.
+select count(*) from omoccurrences where specificEpithet != 'UNKNOWN_NULL';
+5421176
+
+#Number of total specimens
+8376162
+
+#number of specimens from omoccurrences that match name in sumsCleaned
+select count(*) from omoccurrences where sciname in (select scientificName from sumsCleaned);
+5210893
+
+#number of specimens from omoccurrences that match name in sumsCleaned and are georeferenced.
+select count(*) from omoccurrences where sciname in (select scientificName from sumsCleaned) and decimalLatitude !='0.0000';
+4516365
+
+-------
+
+December 2016
+#adding specimens from USNM and first limiting the new data to NA
+
+echo "select distinct country from occurrences_togo_NA order by country asc" | mysql -u seltmann -p -D scandata > allGeo.tsv
 
 

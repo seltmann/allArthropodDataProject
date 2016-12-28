@@ -1,0 +1,51 @@
+#cleaning up sums table to find only those determined to species
+
+create table sumsCleaned select * from sums2;
+delete from sumsCleaned where scientificName like "%nr.%";
+delete from sumsCleaned where scientificName like "%,%";
+
+delete from sumsCleaned where specificEpithet = "indet.";
+delete from sumsCleaned where specificEpithet = "undet.";
+delete from sumsCleaned where specificEpithet = "n.sp";
+delete from sumsCleaned where specificEpithet like "%spp.%";
+delete from sumsCleaned where specificEpithet like "%cf.%";
+delete from sumsCleaned where specificEpithet like "%No.%";
+delete from sumsCleaned where scientificName like "%.%" and scientificName not like "%var%";
+delete from sumsCleaned where specificEpithet like "%unk.%";
+delete from sumsCleaned where genus = "Var.";
+delete from sumsCleaned where specificEpithet like "%nr %";
+delete from sumsCleaned where specificEpithet like "%sp %" and specificEpithet not like "%ssp%";
+delete from sumsCleaned where scientificName like "%-%";
+delete from sumsCleaned where specificEpithet ="pluto ms";
+delete from sumsCleaned where scientificName like "%?%";
+delete from sumsCleaned where specificEpithet ="(of carinatus type)";
+delete from sumsCleaned where specificEpithet ="sp_ 1";
+delete from sumsCleaned where specificEpithet ="inermis Group";
+delete from sumsCleaned where specificEpithet ="striata aff";
+delete from sumsCleaned where specificEpithet ="sp_texana species group";
+delete from sumsCleaned where specificEpithet ="modified tarsus unsorted 1";
+delete from sumsCleaned where specificEpithet like "%near %";
+delete from sumsCleaned where specificEpithet like "%Modified %";
+delete FROM sumsCleaned WHERE scientificName REGEXP '[0-9]';
+delete from sumsCleaned where scientificName like "%group%";
+delete from sumsCleaned where specificEpithet = "cinctus h.s. x varians";
+delete from sumsCleaned where scientificName like "%species%";
+delete from sumsCleaned where scientificName like "%cf %";
+delete from sumsCleaned where scientificName like "%\_%";
+
+delete from sumsCleaned where specificEpithet = "undetermined";
+delete from sumsCleaned where specificEpithet = "a";
+delete from sumsCleaned where specificEpithet = "genus";
+delete from sumsCleaned where specificEpithet = "new";
+delete from sumsCleaned where genus = "New_Genus";
+delete from sumsCleaned where genus = "UNKNOWN_NULL";
+delete from sumsCleaned where genus = " ";
+
+delete from sumsCleaned where scientificName like "% complex%";
+delete from sumsCleaned where scientificName like "%\_complex%";
+delete from sumsCleaned where scientificName like "%manuscript%";
+
+select * from sumsCleaned where specificEpithet like "% %" and specificEpithet not like "%var%";
+
+select * from sumsCleaned where specificEpithet=COLLATE latin1_general_cs LIKE UPPER(specificEpithet)
+
