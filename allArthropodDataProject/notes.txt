@@ -218,6 +218,37 @@ select count(*) from omoccurrences where sciname in (select scientificName from 
 December 2016
 #adding specimens from USNM and first limiting the new data to NA
 
-echo "select distinct country from occurrences_togo_NA order by country asc" | mysql -u seltmann -p -D scandata > allGeo.tsv
+
+echo "select distinct country from occurrences_togo_NA order by country asc" | mysql -u seltmann -p -D scandata > occurrences_togo_NA_countries.tsv
+
+187342 specimens had country = NULL and these were deleted from dataset, leaving 475733 remaining out of the 938,802
+
+8,851,863 specimens from NA total
 
 
+#the occid are duplicated but the specimen occurrenceids are not
+MariaDB [scandata]> select count(*) from occurrences_togo_NA where occurrenceID in (Select occurrenceID from omoccurrences);
++----------+
+| count(*) |
++----------+
+|        0 |
++----------+
+
+Highest occurrenceid in omocurrences is 25,558,348.
+Lowest in  new data is 18,038,992 
+So added 8,000,000 to the occid of the data imported into omocurrences.
+New number range for the data is now between 32,882,146 and 26,038,992, which is outside of the range of the old data 25,558,348 and 8192. 
+
+Then can just insert
+INSERT INTO omoccurrences(SELECT * FROM occurrences_togo_NA)
+
+Duplicates are found from EMEC - 233 but not all of them, 144026 in total to add to the dataset
+select catalognumber, locality, dbpk from occurrences_togo_NA where dbpk in (Select dbpk from omoccurrences) order by catalogNumber;
+
+delete from occurrences_togo_NA where dbpk in (Select dbpk from omoccurrences);
+
+USGS bee dataset - only got NA specimens for that update
+
+select catalognumber, locality, dbpk from occurrences_togo_NA where dbpk in (Select dbpk from omoccurrences) order by catalogNumber;
+
+echo "select catalognumber, locality, dbpk from occurrences_togo_NA where dbpk in (Select dbpk from omoccurrences) order by catalogNumber;" | mysql -u seltmann -p -D scandata > emec_to_delete.tsv

@@ -42,5 +42,6 @@ UPDATE omoccurrences set country='USA' where country="U.S.A";
 UPDATE omoccurrences set country='Canada' where country="[Canada]";
 UPDATE omoccurrences set country='Canada' where country="Canad??";
 UPDATE omoccurrences set country='Canada' where country="Canada ?";
-#delete from omoccurrences where country !='Canada' and country !='USA';   
+#delete from omoccurrences where country !='Canada' and country !='USA' and country !='Mexico'; 
+   
       

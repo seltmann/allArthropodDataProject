@@ -1,3 +1,16 @@
+
+#updates to add the USNM data to the dataset
+UPDATE occurrences_togo_NA set country='Canada' where country="Canada and United States";
+UPDATE occurrences_togo_NA set country='Canada' where country="Canada or United States";
+UPDATE occurrences_togo_NA set country='Canada' where country="Canada?";
+UPDATE occurrences_togo_NA set country='Mexico' where country="Mexico / Costa Rica";
+UPDATE occurrences_togo_NA set country='Mexico' where country="Mexico ?";
+UPDATE occurrences_togo_NA set country='USA' where country="United States / Mexico";
+UPDATE occurrences_togo_NA set country='USA' where country="United States or Canada";
+UPDATE occurrences_togo_NA set country='USA' where country="United States/Canada";
+UPDATE occurrences_togo_NA set country='USA' where country="United States/Mexico";
+#delete from occurrences_togo_NA where country !='Canada' and country !='USA' and country !='Mexico';
+
 delete from occurrences_togo_NA where dbpk="urn:catalog:EMEC:EMEC:10005897";
 delete from occurrences_togo_NA where dbpk="urn:catalog:EMEC:EMEC:10005898";
 delete from occurrences_togo_NA where dbpk="urn:catalog:EMEC:EMEC:10005899";
