@@ -252,3 +252,7 @@ USGS bee dataset - only got NA specimens for that update
 select catalognumber, locality, dbpk from occurrences_togo_NA where dbpk in (Select dbpk from omoccurrences) order by catalogNumber;
 
 echo "select catalognumber, locality, dbpk from occurrences_togo_NA where dbpk in (Select dbpk from omoccurrences) order by catalogNumber;" | mysql -u seltmann -p -D scandata > emec_to_delete.tsv
+
+
+echo "select InstitutionCode,count(*) from omoccurrences group by InstitutionCode;" | mysql -u seltmann -p -D scandata > institutionsAll.tsv
+echo "select InstitutionCode,count(*) from omoccurrencesNA group by InstitutionCode;" | mysql -u seltmann -p -D scandata > institutionsNA.tsv
