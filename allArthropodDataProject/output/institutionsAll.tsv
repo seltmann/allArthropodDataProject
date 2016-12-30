@@ -1,86 +1,86 @@
-InstitutionCode	count(*)
-ABS	11708
-AMNH	1404960
-ANSP	4336
-ASU	77132
-BLM	192
-BYU	88913
-CAS	756255
-CLEV	12686
-CSU	94011
-CU	5
-DBG	568
-DMNS	129418
-DUGWAY	949
-EMEC	226173
-EVG	1
-FLMNH	119
-FMNH	319550
-GBIF	121625
-GPSC	577
-iNaturalist	344730
-INHS	657554
-KSU	17367
-KU	1279924
-LACM	184364
-MAJC	2056
-MCZ	487397
-MEM	68838
-MOD_AMNH	182
-MOD_CAS	2847
-MOD_CDFA	1646
-MOD_CNC	751
-MOD_CSUFC	25
-MOD_DMNS	4118
-MOD_FMNH	2319
-MOD_KSU	61
-MOD_LACM	4097
-MOD_NMNH	567
-MOD_PMJ	63
-MOD_PR	315
-MOD_SBMNH	211
-MOD_SDNHM	155
-MOD_TED	689
-MOD_UCB	10580
-MOD_UCD	5145
-MOD_UCONN	235
-MOD_UCR	335
-MOD_WPC	49
-MPM	79
-MSU	96885
-NAUF	59592
-NMK	1055
-NMSU	81112
-OMNH	118521
-OSU	446831
-PU	3281
-SBMNH	111092
-SCAN	654
-SDSU	4240
-SI	712629
-SSAC	253
-TAMU	480144
-TTRSNHM (25625)	1376
-TTU	173833
-UA	96006
-UAM	561485
-UCB	80836
-UCD	11786
-UD	1403
-UDAF	425
-UGCA	3721
-UHIM	124037
-UI	2148
-UKY-HIC	16860
-UMNH	38715
-UNL	37999
-UNM	40564
-USGS	266346
-USNM	2538
-UTC	14195
-UVM	3030
-UWYMED	16476
-VPI	3778
-WICH	440
-WWU	656
-YPM	215095
+InstitutionCode	count(*)	CollectionName
+ABS	11708	Archbold Biological Station Arthropod Collection
+AMNH	1404960	North American Bee Collections
+ANSP	4336	Academy of Natural Sciences Entomology Collection - Live Data
+ASU	77132	Arizona State University Hasbrouck Insect Collection
+BLM	192	BLM Mother Lode Field Office: The Bees of Pine Hill Preserve
+BYU	88913	Brigham Young University Arthropod Museum
+CAS	756255	AntWeb
+CLEV	12686	Cleveland Museum of Natural History Invertebrate Zoology Collection
+CSU	94011	C.P. Gillette Museum of Arthropod Diversity
+CU	5	Clemson University Arthropod Collection
+DBG	568	Denver Botanic Gardens Collection of Arthropods
+DMNS	129418	Denver Museum of Nature & Science
+DUGWAY	949	Dugway Proving Ground Natural History Collection
+EMEC	226173	Essig Museum of Entomology
+EVG	1	Ed V Gage Collection
+FLMNH	119	Florida Museum of Natural History, McGuire Center for Lepidoptera and Biodiversity
+FMNH	319550	Field Museum of Natural History Collection of Insects, Arachnids, and Myriapods
+GBIF	121625	GBIF Extract with Location Data
+GPSC	577	Gregory P. Setliff Collection - Kutztown University
+iNaturalist	344730	iNaturalist Research-grade Observations
+INHS	657554	Illinois Natural History Survey Insect Collection
+KSU	17367	K-State Museum of Entomological and Prairie Arthropod Research
+KU	1279924	University of Kansas Natural History Museum Entomology Division
+LACM	184364	Natural History Museum of Los Angeles County
+MAJC	2056	M. Andrew Johnston Collection
+MCZ	487397	Museum of Comparative Zoology, Harvard University
+MEM	68838	Mississippi Entomological Museum
+MOD_AMNH	182	Moth Observations Database: American Museum of Natural History
+MOD_CAS	2847	Moth Observations Database: California Academy of Sciences
+MOD_CDFA	1646	Moth Observations Database: California Department of Food and Agriculture
+MOD_CNC	751	Moth Observations Database: Canadian National Collection
+MOD_CSUFC	25	Moth Observations Database: Colorado State University, Fort Collins
+MOD_DMNS	4118	Moth Observations Database: Denver Museum of Nature & Science
+MOD_FMNH	2319	Moth Observation Database: Field Museum of Natural History
+MOD_KSU	61	Moth Observation Database: Kansas State University
+MOD_LACM	4097	Moth Observations Database: LA County Museum of Natural History
+MOD_NMNH	567	Moth Observations Database: National Museum of Natural History
+MOD_PMJ	63	Moth Observations Database: Peter Jump Personal Collection
+MOD_PR	315	Moth Observations Database: Paul and Sandy Russel Personal Collection
+MOD_SBMNH	211	Moth Observation Database: Santa Barbara Museum of Natural History
+MOD_SDNHM	155	Moth Observations Database: San Diego Natural History Museum
+MOD_TED	689	Moth Observations Database: Tom Dimock Personal Collection
+MOD_UCB	10580	Moth Observations Database: UC Berkeley
+MOD_UCD	5145	Moth Observations Database: UC Davis
+MOD_UCONN	235	Moth Observations Database: University of Connecticut
+MOD_UCR	335	Moth Observations Database: UC Riverside
+MOD_WPC	49	Moth Observation Database: David L. Wikle Personal Collection
+MPM	79	Milwaukee Public Museum, Invertebrate Zoology-Insect Collection
+MSU	96885	The Albert J. Cook Arthropod Research Collection
+NAUF	59592	Colorado Plateau Museum of Arthropod Biodiversity
+NMK	1055	National Museums of Kenya, Invertebrate Section
+NMSU	81112	New Mexico State Collection of Arthropods
+OMNH	118521	The Sam Noble Museum Department of Recent Invertebrates
+OSU	446831	Ohio State C.A. Triplehorn Insect Collection
+PU	3281	The Purdue Entomological Research Collection
+SBMNH	111092	Santa Barbara Museum of Natural History Entomology Collection
+SCAN	654	SCAN Collection of Externally Processed Specimens (Arthropod Systematics Research)
+SDSU	4240	SDSU Terrestrial Arthropods Collection
+SI	712629	Smithsonian Institution - National Museum of Natural History
+SSAC	253	Salvatore S. Anzaldo Collection
+TAMU	480144	Texas A&M University Insect Collection
+TTRSNHM (25625)	1376	Tall Timbers Research Station Natural History Museum
+TTU	173833	Texas Tech University - Invertebrate Zoology
+UA	96006	University of Arizona Insect Collection
+UAM	561485	UAM Insect Collection
+UCB	80836	University of Colorado Museum of Natural History Entomology Collection
+UCD	11786	R. M.Bohart Museum of Entomology
+UD	1403	University of Delaware Insect Research Collection
+UDAF	425	Utah Department of Agriculture and Food Entomology Collection
+UGCA	3721	University of Georgia Collection of Arthropods
+UHIM	124037	University of Hawaii Insect Museum
+UI	2148	William F. Barr Entomological Museum
+UKY-HIC	16860	Hymenoptera Institute Collection
+UMNH	38715	Entomology Collection at the Natural History Museum of Utah
+UNL	37999	Scarab Central: World Scarabaeoidea
+UNM	40564	Museum of Southwestern Biology, Division of Arthropods
+USGS	266346	Native Bee Inventory and Monitoring Lab - World - Bees
+USNM	2538	United States National Museum, Entomology Collections
+UTC	14195	University of Tennessee at Chattanooga
+UVM	3030	University of Vermont Zadock Thompson Zoological Collection-Invertebrates
+UWYMED	16476	University of Wyoming Dillon Lab Insect Collection
+VPI	3778	Virginia Polytechnic Institute and State University Insect Collection
+WICH	440	Wichita State University Collection
+WWU	656	Western Washington University Insect Collection
+YPM	215095	Yale Peabody Museum, Entomology Division
