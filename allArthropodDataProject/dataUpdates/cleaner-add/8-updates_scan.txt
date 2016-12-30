@@ -234,6 +234,11 @@ where sciname = 'UNKNOWN_NULL' and scientificName is not null;
 
 
 #Load sql dump files before the next scripts
+#must drop triggers from omoccurrences table before this will work
+
+DROP TRIGGER omoccurrences_delete;
+DROP TRIGGER omoccurrences_update;
+DROP TRIGGER omoccurrences_insert;
 
 UPDATE sciname_conv as s left join omoccurrences as o on s.nameToChange = o.sciname
 set o.scientificName = o.sciname;
