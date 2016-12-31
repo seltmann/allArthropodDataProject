@@ -1,5 +1,4 @@
 InstitutionCode	count(*)
-NULL	86185
 AADC	1
 Abbott Coll.	1
 ABS	11737
@@ -14,14 +13,13 @@ Anymals.org	3
 APN-AR	1
 ARC-PPRI	5
 ASCU	2
-ASU	77169
+ASU	77131
 BCRC	3
 BDBC	2643
 BDCJ	21
 BDGC	285
 BDUC	19
 Biodiversity Institute of Ontario	9864
-BISON	266346
 BLM	192
 BMNH	1117
 Borror Laboratory of Bioacoustics, Ohio State University, Columb	16
@@ -329,7 +327,7 @@ URIC	13
 USDA	20
 USFQ	349
 USFWS	19
-USNM	733178
+USNM	20550
 USU	412
 UTC	14195
 UTLA	140
