@@ -246,9 +246,6 @@ set o.scientificName = o.sciname;
 UPDATE sciname_conv as s left join omoccurrences as o on s.nameToChange = o.sciname
 set o.sciname = s.changeTo;
 
-update omoccurrences as o left join omcollections as c on o.collid = c.collid
-set o.institutionCode = c.InstitutionCode, o.collectionCode = c.CollectionCode
-where o.collid is not null;
 
 
 

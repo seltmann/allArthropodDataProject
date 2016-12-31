@@ -1,0 +1,24 @@
+Update omoccurrences set InstitutionCode="AMNH" where InstitutionCode="8/3/50";
+Update omoccurrences set InstitutionCode="AMNH" where InstitutionCode="6/29/75";
+Update omoccurrences set InstitutionCode="AMNH" where InstitutionCode="8/1/02";
+Update omoccurrences set InstitutionCode="AMNH" where InstitutionCode="6/19/16";
+Update omoccurrences set InstitutionCode="AMNH" where InstitutionCode="AMNH_ENT 00066326";
+Update omoccurrences set InstitutionCode="AMNH" where InstitutionCode="AMNH_IZC 00176893";
+Update omoccurrences set InstitutionCode="AMNH" where InstitutionCode="AMNH_IZC 00316072";
+Update omoccurrences set InstitutionCode="AMNH" where InstitutionCode="Digital Bee Collections Network, 2014 (and updates). Version: 20";
+Update omoccurrences set InstitutionCode="AMNH" where InstitutionCode="Plants, herbivores, and parasitoids: A model system for the stud";
+Update omoccurrences set InstitutionCode="AMNH" where InstitutionCode="Tingidae";
+Update omoccurrences set InstitutionCode="AMNH" where InstitutionCode="Tri-Trophic Thematic Collection Network, 2014 (and updates). Ver";
+Update omoccurrences set InstitutionCode="UKY-HIC" where InstitutionCode="UKYL_TCN 00021063";
+Update omoccurrences set InstitutionCode="AMNH" where InstitutionCode="urn:uuid:f0cec69a-853c-11e4-8259-0026552be7ea";
+Update omoccurrences set InstitutionCode="CLEV" where InstitutionCode="Cleveland Museum of Natural History, OH (CLEV)";
+Update omoccurrences set InstitutionCode="OSU" where InstitutionCode="()";
+Update omoccurrences set InstitutionCode="OSU" where InstitutionCode="C.A. Triplehorn Insect Collection, Ohio State University, Columb";
+Update omoccurrences set InstitutionCode="UAM" where InstitutionCode="University of Alberta Museums (UAM)";
+Update omoccurrences set InstitutionCode="UAM" where InstitutionCode="University of Alberta Museums (UAM)";
+Update omoccurrences set InstitutionCode="UAM" where InstitutionCode="University of Alberta Museums";
+Update omoccurrences set InstitutionCode="UKY-HIC" where InstitutionCode="Kentucky";
+Update omoccurrences set InstitutionCode="UCD" where InstitutionCode="UC Davis";
+Update omoccurrences set InstitutionCode="Maes Coll." where InstitutionCode="Maes Coll";
+
+

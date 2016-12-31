@@ -259,6 +259,7 @@ December 29, 2016
 omoccurrences.sql omoccurrencesALL.sql from dump of SCAN today. This only includes some GBIF spider records that were not on SCAN and are likely duplicates. GBIF data is on SCAN, but effort is made to get the data from the original collection, not from GBIF. 
 
 
-echo "select InstitutionCode,count(*) from omoccurrences group by InstitutionCode;" | mysql -u seltmann -p -D scandata > institutionsAll.tsv
-echo "select InstitutionCode,count(*) from omoccurrencesNA group by InstitutionCode;" | mysql -u seltmann -p -D scandata > institutionsNA.tsv
+echo "select omoccurrences.InstitutionCode,count(*),omcollections.CollectionName from omoccurrences join omcollections on omcollections.CollID = omoccurrences.CollID group by InstitutionCode;" | mysql -u seltmann -p -D scandata > institutionsAll.tsv
+
+echo "select omoccurrencesNA.InstitutionCode,count(*),omcollections.CollectionName from omoccurrencesNA join omcollections on omcollections.CollID = omoccurrencesNA.CollID group by InstitutionCode;" | mysql -u seltmann -p -D scandata > institutionsNA.tsv
 

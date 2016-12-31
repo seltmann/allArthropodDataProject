@@ -42,6 +42,36 @@ UPDATE omoccurrences set country='USA' where country="U.S.A";
 UPDATE omoccurrences set country='Canada' where country="[Canada]";
 UPDATE omoccurrences set country='Canada' where country="Canad??";
 UPDATE omoccurrences set country='Canada' where country="Canada ?";
+Update omoccurrences set country = "Canada" where country="Canada/United States";
+Update omoccurrences set country = "Mexico" where country="ME";
+Update omoccurrences set country = "Mexico" where country="Mex";
+Update omoccurrences set country = "Mexico" where country="Mexico/Central America";
+Update omoccurrences set country = "Mexico" where country="Mexico/Costa Rica";
+Update omoccurrences set country = "Mexico" where country="Mexico/Costa Rica/Panama";
+Update omoccurrences set country = "Mexico" where country="Mexico/Guatemala";
+Update omoccurrences set country = "Mexico" where country="Mexico/Panama";
+Update omoccurrences set country = "Mexico" where country="Mexico/United States";
+Update omoccurrences set country = "Mexico" where country="Mexico";
+Update omoccurrences set country = "USA" where country="Michigan";
+Update omoccurrences set country = "USA" where country="Charlotte";
+Update omoccurrences set country = "Mexico" where country="Mexico";
+Update omoccurrences set country = "Mexico" where country="Mxico";
+Update omoccurrences set country = "USA" where country="New Mexico";
+Update omoccurrences set country = "USA" where country="U.S";
+Update omoccurrences set country = "USA" where country="U.S.";
+Update omoccurrences set country = "USA" where country="U.S. A.";
+Update omoccurrences set country = "USA" where country="U.S.A,";
+Update omoccurrences set country = "USA" where country="U.S.A.";
+Update omoccurrences set country = "USA" where country="United State";
+Update omoccurrences set country = "USA" where country="United States of Americ";
+Update omoccurrences set country = "USA" where country="United States?";
+Update omoccurrences set country = "USA" where country="United Statest of America";
+Update omoccurrences set country = "USA" where country="United Statets";
+Update omoccurrences set country = "USA" where country="Untied States";
+Update omoccurrences set country = "USA" where country="USA, Europe";
+Update omoccurrences set country = "USA" where country="USA, West Indies";
+Update omoccurrences set country = "USA" where country="USAa";
+
 #delete from omoccurrences where country !='Canada' and country !='USA' and country !='Mexico'; 
    
       
