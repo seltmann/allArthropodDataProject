@@ -1,327 +1,359 @@
-InstitutionCode	InstitutionCode	count(*)	CollectionName
-NULL	ASU	7149890	Arizona State University Hasbrouck Insect Collection
-()	OSU	119	Ohio State C.A. Triplehorn Insect Collection
-6/19/16	AMNH	1	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-6/29/75	AMNH	1	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-8/1/02	AMNH	1	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-8/3/50	AMNH	1	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-AADC	GBIF	1	GBIF Extract without Location Information
-Abbott Coll.	UNL	1	Scarab Central: World Scarabaeoidea
-ABS	AMNH	29	Tri-Trophic TCN
-AJTT	GBIF	1	GBIF Extract without Location Information
-AM	GBIF	906	GBIF Extract with Location Data
-AMDC	AMNH	120	North American Bee Collections
-AMNH	AMNH	90	North American Bee Collections
-AMNHTC	AMNH	189	North American Bee Collections
-AMNH_ENT 00066326	AMNH	1	Tri-Trophic TCN
-AMNH_IZC 00176893	AMNH	1	Tri-Trophic TCN
-AMNH_IZC 00316072	AMNH	1	Tri-Trophic TCN
-ANIC	AMNH	119	Tri-Trophic TCN
-ANSP	AMNH	4643	North American Bee Collections
-Anymals.org	GBIF	3	GBIF Extract with Location Data
-APN-AR	GBIF	1	GBIF Extract without Location Information
-ARC-PPRI	GBIF	5	GBIF Extract without Location Information
-ASCU	AMNH	2	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-BCRC	UNL	3	Scarab Central: World Scarabaeoidea
-BDBC	GBIF	2643	GBIF Extract without Location Information
-BDCJ	GBIF	21	GBIF Extract without Location Information
-BDGC	AMNH	285	Tri-Trophic TCN
-BDUC	AMNH	19	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-Biodiversity Institute of Ontario	GBIF	9864	GBIF Extract with Location Data
-BMNH	AMNH	1117	Tri-Trophic TCN
-Borror Laboratory of Bioacoustics, Ohio State University, Columb	GBIF	16	GBIF Extract with Location Data
-BPBM	GBIF	25005	GBIF Extract without Location Information
-BRFC	AMNH	251	North American Bee Collections
-BYU	AMNH	2994	Tri-Trophic TCN
-BYUC	UNL	10	Scarab Central: World Scarabaeoidea
-C.A. Triplehorn Insect Collection, Ohio State University, Columb	OSU	446330	Ohio State C.A. Triplehorn Insect Collection
-CAES	AMNH	10764	North American Bee Collections
-CAS	GBIF	36122	GBIF Extract with Location Data
-CBFC	AMNH	7	Tri-Trophic TCN
-CENTA	UNL	144	Scarab Central: World Scarabaeoidea
-CIB	AMNH	4	Tri-Trophic TCN
-Cleveland Museum of Natural History, OH (CLEV)	CLEV	12686	Cleveland Museum of Natural History Invertebrate Zoology Collection
-CMNH	AMNH	15357	Tri-Trophic TCN
-CNC	AMNH	31156	Tri-Trophic TCN
-CNDF	UNL	54	Scarab Central: World Scarabaeoidea
-CSCA	AMNH	47016	Tri-Trophic TCN
-CSUC	AMNH	15897	Tri-Trophic TCN
-CUAC	AMNH	215	Tri-Trophic TCN
-CUIC	AMNH	58996	North American Bee Collections
-CUML	GBIF	21	GBIF Extract with Location Data
-CUMNH	UCB	748	University of Colorado Museum of Natural History Entomology Collection
-CUNI	AMNH	10	Tri-Trophic TCN
-CURLA	UNL	285	Scarab Central: World Scarabaeoidea
-DAR	AMNH	174	North American Bee Collections
-DART	AMNH	255	North American Bee Collections
-DCCC	UNL	193	Scarab Central: World Scarabaeoidea
-DEBU	AMNH	233	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-DEI	AMNH	58	Tri-Trophic TCN
-Digital Bee Collections Network, 2014 (and updates). Version: 20	AMNH	1	North American Bee Collections
-DJB	GBIF	1133	GBIF Extract with Location Data
-DMNS	DMNS	1102	Denver Museum of Nature & Science
-DPS	GBIF	390	GBIF Extract with Location Data
-DZRJ	AMNH	3	Tri-Trophic TCN
-E	GBIF	12	GBIF Extract without Location Information
-EAPZ	UNL	8231	Scarab Central: World Scarabaeoidea
-EAUS	UNL	114	Scarab Central: World Scarabaeoidea
-EBUS	UNL	50	Scarab Central: World Scarabaeoidea
-ECW	GBIF	366	GBIF Extract with Location Data
-EM	GBIF	9900	GBIF Extract with Location Data
-EMAP_NCA	GBIF	7	GBIF Extract with Location Data
-EMEC	GBIF	2430	GBIF Extract with Location Data
-ENA	UNL	71	Scarab Central: World Scarabaeoidea
-ESNACIFOR	UNL	1236	Scarab Central: World Scarabaeoidea
-ESUW	AMNH	19	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-EUMJ	GBIF	127	GBIF Extract without Location Information
-EVDB	UNL	2	Scarab Central: World Scarabaeoidea
-FCAP	AMNH	3	Tri-Trophic TCN
-FCMNH	GBIF	2	GBIF Extract without Location Information
-FCNI	AMNH	57	Tri-Trophic TCN
-FETS	GBIF	17	GBIF Extract without Location Information
-FIOC	AMNH	7	Tri-Trophic TCN
-FMIC	AMNH	69	North American Bee Collections
-FMNH	GBIF	5634	GBIF Extract with Location Data
-FSCA	AMNH	14185	Tri-Trophic TCN
-FUCSA	UNL	22	Scarab Central: World Scarabaeoidea
-FUPNAPIB	UNL	20	Scarab Central: World Scarabaeoidea
-GBR004	GBIF	1	GBIF Extract without Location Information
-GSC	AMNH	1748	North American Bee Collections
-GSFP	EMEC	4	Essig Museum of Entomology
-GWMP	AMNH	1922	Tri-Trophic TCN
-HAC	GBIF	137	GBIF Extract with Location Data
-HAHC	UNL	1	Scarab Central: World Scarabaeoidea
-HCM	GBIF	3	GBIF Extract without Location Information
-HEISS	AMNH	7	Tri-Trophic TCN
-HNHM	AMNH	324	Tri-Trophic TCN
-HOC	AMNH	101	North American Bee Collections
-HYO	GBIF	7	GBIF Extract without Location Information
-HZIC	AMNH	600	North American Bee Collections
-IAvH	AMNH	51	Tri-Trophic TCN
-IBUNAM	GBIF	2206	GBIF Extract with Location Data
-ICN	AMNH	148	Tri-Trophic TCN
-IEXA	AMNH	16	Tri-Trophic TCN
-IMLA	AMNH	17	Tri-Trophic TCN
-iNaturalist	GBIF	4525	GBIF Extract with Location Data
-INB	GBIF	468	GBIF Extract with Location Data
-INBIO	AMNH	1514	Tri-Trophic TCN
-INHS	GBIF	645	GBIF Extract with Location Data
-INPA	AMNH	209	Tri-Trophic TCN
-Institute of Research for Development	GBIF	2	GBIF Extract without Location Information
-ISNB	AMNH	382	Tri-Trophic TCN
-ISUI	AMNH	252	Tri-Trophic TCN
-JACM	GBIF	8	GBIF Extract without Location Information
-JECC	AMNH	2	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-JEWC	UNL	2	Scarab Central: World Scarabaeoidea
-JMAC	AMNH	4	Tri-Trophic TCN
-JML	AMNH	164	North American Bee Collections
-JNHM	GBIF	476	GBIF Extract without Location Information
-JSA	AMNH	149	North American Bee Collections
-JSANUS	AMNH	5	North American Bee Collections
-JSAOBS	AMNH	48	North American Bee Collections
-JTP	AMNH	7912	Tri-Trophic TCN
-JWH	GBIF	1884	GBIF Extract with Location Data
-KAVE	AMNH	1	Tri-Trophic TCN
-KBIN	AMNH	14	Tri-Trophic TCN
-KCMI	GBIF	5	GBIF Extract without Location Information
-Kentuky	UNL	1	Scarab Central: World Scarabaeoidea
-KIDR	GBIF	1	GBIF Extract without Location Information
-KNWR	GBIF	630	GBIF Extract with Location Data
-KU	GBIF	3503	GBIF Extract with Location Data
-La Rue	UNL	4	Scarab Central: World Scarabaeoidea
-LACM	AMNH	3971	Tri-Trophic TCN
-Lago coll.	UNL	1	Scarab Central: World Scarabaeoidea
-LBOB	AMNH	1115	Tri-Trophic TCN
-LEGON-GC	GBIF	4	GBIF Extract without Location Information
-LEHMAN	UNL	1	Scarab Central: World Scarabaeoidea
-León	UNL	131	Scarab Central: World Scarabaeoidea
-LI	GBIF	334	GBIF Extract without Location Information
-ligata	AMNH	1	Tri-Trophic TCN
-LSU	AMNH	166	Tri-Trophic TCN
-MACN	GBIF	399	GBIF Extract with Location Data
-MADUG	GBIF	5	GBIF Extract with Location Data
-Maes Coll	UNL	1	Scarab Central: World Scarabaeoidea
-Maes Coll.	UNL	4115	Scarab Central: World Scarabaeoidea
-Managua	UNL	102	Scarab Central: World Scarabaeoidea
-Mankins	UNL	4	Scarab Central: World Scarabaeoidea
-McGill University	GBIF	1508	GBIF Extract with Location Data
-MCNZ	AMNH	8	Tri-Trophic TCN
-MCZ	GBIF	17919	GBIF Extract with Location Data
-Meesters Coll.	UNL	34	Scarab Central: World Scarabaeoidea
-MEFLG	AMNH	309	Tri-Trophic TCN
-MEMU	AMNH	56349	Tri-Trophic TCN
-MEUV	AMNH	1	Tri-Trophic TCN
-MfN	GBIF	44	GBIF Extract without Location Information
-MHNCM	GBIF	1	GBIF Extract with Location Data
-MHNES	UNL	1605	Scarab Central: World Scarabaeoidea
-MHNG	AMNH	361	Tri-Trophic TCN
-MIZPAN	GBIF	5405	GBIF Extract without Location Information
-MMRL	UNL	104	Scarab Central: World Scarabaeoidea
-MMWVU	AMNH	744	North American Bee Collections
-MNHN	GBIF	502	GBIF Extract with Location Data
-MNHNL	GBIF	1	GBIF Extract without Location Information
-MNHW	GBIF	1	GBIF Extract without Location Information
-MNRJ	AMNH	226	Tri-Trophic TCN
-MPEG	GBIF	11731	GBIF Extract without Location Information
-MRAC	AMNH	197	Tri-Trophic TCN
-MSU	AMNH	41	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-MTEC	AMNH	1	Tri-Trophic TCN
-MUSM	AMNH	44	Tri-Trophic TCN
-MVY	AMNH	150	North American Bee Collections
-MZH	GBIF	91	GBIF Extract without Location Information
-MZNA	GBIF	1	GBIF Extract with Location Data
-MZSP	AMNH	225	Tri-Trophic TCN
-National Museum of the Czech Republic	GBIF	1	GBIF Extract without Location Information
-naturgucker	GBIF	41	GBIF Extract with Location Data
-NAUF	NAUF	1665	Colorado Plateau Museum of Arthropod Biodiversity
-NCSU	AMNH	116217	North American Bee Collections
-NDBC	AMNH	72	North American Bee Collections
-NEMU	AMNH	472	North American Bee Collections
-NHMW	AMNH	10	Tri-Trophic TCN
-NHRS	AMNH	33	Tri-Trophic TCN
-NIAES	GBIF	6	GBIF Extract without Location Information
-NIC	UNL	22	Scarab Central: World Scarabaeoidea
-NMLS	AMNH	1	North American Bee Collections
-NMPC	AMNH	3	Tri-Trophic TCN
-NMSU-EPPWS	GBIF	304	GBIF Extract without Location Information
-NOAA	GBIF	1	GBIF Extract with Location Data
-NOAA/HML	GBIF	1	GBIF Extract with Location Data
-NRM	GBIF	15	GBIF Extract without Location Information
-NSBC	AMNH	53	North American Bee Collections
-NSMK	GBIF	5337	GBIF Extract without Location Information
-NSULA	GBIF	92	GBIF Extract with Location Data
-NTSRV	GBIF	325	GBIF Extract without Location Information
-NYBG	AMNH	99	North American Bee Collections
-NYSM	AMNH	5376	North American Bee Collections
-ODA	AMNH	170	Tri-Trophic TCN
-Ohio State University Acarology Laboratory, Columbus, OH (OSAL)	GBIF	2	GBIF Extract with Location Data
-OMC	EMEC	113	Essig Museum of Entomology
-OMNH	GBIF	3550	GBIF Extract with Location Data
-OMPIM	GBIF	2	GBIF Extract without Location Information
-Ontario	UNL	25	Scarab Central: World Scarabaeoidea
-OSAC	AMNH	134534	North American Bee Collections
-OSEC	AMNH	139	Tri-Trophic TCN
-OSUC	AMNH	7	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-PBDB	GBIF	75	GBIF Extract with Location Data
-PDA	AMNH	1518	Tri-Trophic TCN
-PGC	AMNH	24	North American Bee Collections
-PKPC	EMEC	456	Essig Museum of Entomology
-Plants, herbivores, and parasitoids: A model system for the stud	AMNH	2	Tri-Trophic TCN
-POL003	GBIF	1	GBIF Extract without Location Information
-PSC	UNL	1	Scarab Central: World Scarabaeoidea
-PSCC	UNL	59	Scarab Central: World Scarabaeoidea
-PURC	AMNH	16	Tri-Trophic TCN
-QCAZ	AMNH	74	North American Bee Collections
-QDPI	AMNH	3	Tri-Trophic TCN
-QM	AMNH	25	Tri-Trophic TCN
-R. Cavey	UNL	13	Scarab Central: World Scarabaeoidea
-RBCM	AMNH	5	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-RBINS	GBIF	1494	GBIF Extract without Location Information
-RCC	UNL	2	Scarab Central: World Scarabaeoidea
-RDCC	UNL	51	Scarab Central: World Scarabaeoidea
-RMBL	AMNH	1845	North American Bee Collections
-RMNH	GBIF	1041	GBIF Extract without Location Information
-Roatan	UNL	14	Scarab Central: World Scarabaeoidea
-Royal Belgian Institute of natural Sciences	GBIF	666	GBIF Extract without Location Information
-RUAC	AMNH	6979	North American Bee Collections
-S	GBIF	4	GBIF Extract without Location Information
-Saltin Coll.	UNL	2	Scarab Central: World Scarabaeoidea
-SAMA	AMNH	46	Tri-Trophic TCN
-SBMNH	GBIF	214	GBIF Extract with Location Data
-SCC	GBIF	1740	GBIF Extract with Location Data
-SDNH	AMNH	589	Tri-Trophic TCN
-SDNHM	EMEC	357	Essig Museum of Entomology
-SEAA	UNL	1	Scarab Central: World Scarabaeoidea
-SEAN	UNL	3	Scarab Central: World Scarabaeoidea
-SEMC	UNL	22	Scarab Central: World Scarabaeoidea
-SEMUBCCOL	EMEC	190	Essig Museum of Entomology
-SFVS	AMNH	21	Tri-Trophic TCN
-SIIS	AMNH	27617	Tri-Trophic TCN
-Skelley	UNL	2	Scarab Central: World Scarabaeoidea
-SLIC	AMNH	11	North American Bee Collections
-SMF	GBIF	11741	GBIF Extract with Location Data
-SMNG	GBIF	4034	GBIF Extract without Location Information
-SMNK	GBIF	2458	GBIF Extract without Location Information
-SNHM	AMNH	151	Tri-Trophic TCN
-SNSD	GBIF	24	GBIF Extract without Location Information
-South African Museum	GBIF	405	GBIF Extract without Location Information
-STRI	UNL	3	Scarab Central: World Scarabaeoidea
-SWRS	AMNH	520	North American Bee Collections
-TAMU	UNL	16928	Scarab Central: World Scarabaeoidea
-TAU	AMNH	3	Tri-Trophic TCN
-The Stuart M. Fullerton Collection of Arthropods at the Universi	GBIF	7	GBIF Extract with Location Data
-Tingidae	AMNH	1	Tri-Trophic TCN
-TOYA	GBIF	54	GBIF Extract without Location Information
-Tri-Trophic Thematic Collection Network, 2014 (and updates). Ver	AMNH	1	Tri-Trophic TCN
-TTRSNHM	TTRSNHM (25625)	1376	Tall Timbers Research Station Natural History Museum
-TTU	AMNH	125	Tri-Trophic TCN
-Turnbow Coll.	UNL	92	Scarab Central: World Scarabaeoidea
-UA	GBIF	6	GBIF Extract with Location Data
-UAlig	UA	1	University of Arizona Insect Collection
-UAM	AMNH	58	Tri-Trophic TCN
-UASM	GBIF	761	GBIF Extract with Location Data
-UAZ	AMNH	224	Tri-Trophic TCN
-UBC	AMNH	107	Tri-Trophic TCN
-UC Davis	UNL	4	Scarab Central: World Scarabaeoidea
-UCB	AMNH	45897	Tri-Trophic TCN
-UCBME	EMEC	4158	Essig Museum of Entomology
-UCD	AMNH	13826	North American Bee Collections
-UCM	UCB	80516	University of Colorado Museum of Natural History Entomology Collection
-UCMS	AMNH	21578	North American Bee Collections
-UCR	AMNH	80137	Tri-Trophic TCN
-UCRC	UNL	119	Scarab Central: World Scarabaeoidea
-UCSC	EMEC	137	Essig Museum of Entomology
-UDCC	AMNH	37107	Tri-Trophic TCN
-UFMG	AMNH	32	North American Bee Collections
-UFRGS	AMNH	9	Tri-Trophic TCN
-UFRJ	AMNH	1	Tri-Trophic TCN
-UFRRJ	AMNH	20	Tri-Trophic TCN
-UGENT	GBIF	156	GBIF Extract without Location Information
-UIC	AMNH	220	North American Bee Collections
-UK	AMNH	43075	Tri-Trophic TCN
-UKYL_TCN 00021063	AMNH	1	Tri-Trophic TCN
-ULL	GBIF	42	GBIF Extract without Location Information
-UMA	AMNH	1162	North American Bee Collections
-UMAM	AMNH	6627	Tri-Trophic TCN
-UMMC	AMNH	193	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-UMRM	AMNH	174	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-UMSP	AMNH	527	Tri-Trophic TCN
-UNAB	AMNH	218	Tri-Trophic TCN
-UNAH	UNL	121	Scarab Central: World Scarabaeoidea
-UNHP	AMNH	5046	North American Bee Collections
-University of Alberta Museums	GBIF	2969	GBIF Extract with Location Data
-University of Alberta Museums (UAM)	UAM	304203	University of Alberta Museums Entomology Collection (UASM)
-UNM	AMNH	14	Tri-Trophic TCN
-UNSM	UNL	2208	Scarab Central: World Scarabaeoidea
-UNSW	AMNH	2	Tri-Trophic TCN
-UPS	GBIF	1	GBIF Extract without Location Information
-UQIC	AMNH	8	Tri-Trophic TCN
-URI	AMNH	78	Tri-Trophic TCN
-URIC	AMNH	13	North American Bee Collections
-urn:uuid:f0cec69a-853c-11e4-8259-0026552be7ea	AMNH	1	Tri-Trophic TCN
-USDA	AMNH	20	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-USFQ	AMNH	349	North American Bee Collections
-USFWS	AMNH	19	Tri-Trophic TCN
-USNM	UNL	18012	Scarab Central: World Scarabaeoidea
-USU	AMNH	412	Tri-Trophic TCN
-UTLA	UNL	140	Scarab Central: World Scarabaeoidea
-VIDA	UNL	18	Scarab Central: World Scarabaeoidea
-VTST	AMNH	245	North American Bee Collections
-WAM	GBIF	687	GBIF Extract with Location Data
-WAMP	AMNH	7	Tri-Trophic TCN
-WFBM	AMNH	3614	Tri-Trophic TCN
-Wildlife Sightings	GBIF	32	GBIF Extract with Location Data
-WildlifeSightings.net	GBIF	68	GBIF Extract with Location Data
-WIRC	AMNH	1119	North American Bee Collections
-WLNP	AMNH	1	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
-WPU	AMNH	113	North American Bee Collections
-WSU	AMNH	221	Tri-Trophic TCN
-YCEM	GBIF	771	GBIF Extract without Location Information
-YPM	YPM	145	Yale Peabody Museum, Entomology Division
-ZISP	AMNH	1105	Tri-Trophic TCN
-ZMAN	AMNH	137	Tri-Trophic TCN
-ZMHB	AMNH	10	Tri-Trophic TCN
-ZMK	GBIF	31	GBIF Extract without Location Information
-ZMUC	GBIF	239	GBIF Extract with Location Data
-ZRC	AMNH	8	Tri-Trophic TCN
-ZSM	GBIF	1298	GBIF Extract without Location Information
+InstitutionCode	count(*)
+NULL	86185
+AADC	1
+Abbott Coll.	1
+ABS	11737
+AJTT	1
+AM	906
+AMDC	120
+AMNH	491919
+AMNHTC	189
+ANIC	119
+ANSP	8979
+Anymals.org	3
+APN-AR	1
+ARC-PPRI	5
+ASCU	2
+ASU	77169
+BCRC	3
+BDBC	2643
+BDCJ	21
+BDGC	285
+BDUC	19
+Biodiversity Institute of Ontario	9864
+BISON	266346
+BLM	192
+BMNH	1117
+Borror Laboratory of Bioacoustics, Ohio State University, Columb	16
+BPBM	25005
+BRFC	251
+BYU	91907
+BYUC	10
+CAES	10764
+CAS	792377
+CBFC	7
+CENTA	144
+CIB	4
+CLEV	12686
+CMNH	15357
+CNC	31156
+CNDF	54
+CSCA	47016
+CSU	94011
+CSUC	15897
+CU	5
+CUAC	215
+CUIC	58996
+CUML	21
+CUMNH	748
+CUNI	10
+CURLA	285
+DAR	174
+DART	255
+DBG	568
+DCCC	193
+DEBU	233
+DEI	58
+DJB	1133
+DMNS	129418
+DPS	390
+DUGWAY	949
+DZRJ	3
+E	12
+EAPZ	8231
+EAUS	114
+EBUS	50
+ECW	366
+EM	9900
+EMAP_NCA	7
+EMEC	189295
+ENA	71
+ESNACIFOR	1236
+ESUW	19
+EUMJ	127
+EVDB	2
+EVG	1
+FCAP	3
+FCMNH	2
+FCNI	57
+FETS	17
+FIOC	7
+FLMNH	119
+FMIC	69
+FMNH	325184
+FSCA	14185
+FUCSA	22
+FUPNAPIB	20
+GBIF	4371
+GBR004	1
+GPSC	577
+GSC	1748
+GSFP	4
+GWMP	1922
+HAC	137
+HAHC	1
+HCM	3
+HEISS	7
+HNHM	324
+HOC	101
+HYO	7
+HZIC	600
+IAvH	51
+IBUNAM	2206
+ICN	148
+IEXA	16
+IMLA	17
+iNaturalist	349255
+INB	468
+INBIO	1514
+INHS	658199
+INPA	209
+Institute of Research for Development	2
+ISNB	382
+ISUI	252
+JACM	8
+JECC	2
+JEWC	2
+JMAC	4
+JML	164
+JNHM	476
+JSA	149
+JSANUS	5
+JSAOBS	48
+JTP	7912
+JWH	1884
+KAVE	1
+KBIN	14
+KCMI	5
+Kentuky	1
+KIDR	1
+KNWR	630
+KSU	17367
+KU	1283427
+La Rue	4
+LACM	188335
+Lago coll.	1
+LBOB	1115
+LEGON-GC	4
+LEHMAN	1
+León	131
+LI	334
+ligata	1
+LSU	166
+MACN	399
+MADUG	5
+Maes Coll.	4116
+MAJC	2056
+Managua	102
+Mankins	4
+McGill University	1508
+MCNZ	8
+MCZ	505316
+Meesters Coll.	34
+MEFLG	309
+MEMU	56349
+MEUV	1
+MfN	44
+MHNCM	1
+MHNES	1605
+MHNG	361
+MIZPAN	5405
+MMRL	104
+MMWVU	744
+MNHN	502
+MNHNL	1
+MNHW	1
+MNRJ	226
+MOD_AMNH	182
+MOD_CAS	2847
+MOD_CDFA	1646
+MOD_CNC	751
+MOD_CSUFC	25
+MOD_DMNS	4118
+MOD_FMNH	2319
+MOD_KSU	61
+MOD_LACM	4097
+MOD_NMNH	567
+MOD_PMJ	63
+MOD_PR	315
+MOD_SBMNH	211
+MOD_SDNHM	155
+MOD_TED	689
+MOD_UCB	10580
+MOD_UCD	5145
+MOD_UCONN	235
+MOD_UCR	335
+MOD_WPC	49
+MPEG	11731
+MPM	79
+MRAC	197
+MSU	96926
+MTEC	1
+MUSM	44
+MVY	150
+MZH	91
+MZNA	1
+MZSP	225
+National Museum of the Czech Republic	1
+naturgucker	41
+NAUF	59607
+NCSU	116217
+NDBC	72
+NEMU	472
+NHMW	10
+NHRS	33
+NIAES	6
+NIC	22
+NMK	1055
+NMLS	1
+NMPC	3
+NMSU	81112
+NMSU-EPPWS	304
+NOAA	1
+NOAA/HML	1
+NRM	15
+NSBC	53
+NSMK	5337
+NSULA	92
+NTSRV	325
+NYBG	99
+NYSM	5376
+ODA	170
+Ohio State University Acarology Laboratory, Columbus, OH (OSAL)	2
+OMC	113
+OMNH	122071
+OMPIM	2
+Ontario	25
+OSAC	134534
+OSEC	139
+OSU	446449
+OSUC	7
+PBDB	75
+PDA	1518
+PGC	24
+PKPC	456
+POL003	1
+PSC	1
+PSCC	59
+PU	3281
+PURC	16
+QCAZ	74
+QDPI	3
+QM	25
+R. Cavey	13
+RBCM	5
+RBINS	1494
+RCC	2
+RDCC	51
+RMBL	1845
+RMNH	1041
+Roatan	14
+Royal Belgian Institute of natural Sciences	666
+RUAC	6979
+S	4
+Saltin Coll.	2
+SAMA	46
+SBMNH	111306
+SCC	1740
+SDNH	589
+SDNHM	357
+SDSU	4240
+SEAA	1
+SEAN	3
+SEMC	22
+SEMUBCCOL	190
+SFVS	21
+SIIS	27617
+Skelley	2
+SLIC	11
+SMF	11741
+SMNG	4034
+SMNK	2458
+SNHM	151
+SNSD	24
+South African Museum	405
+STRI	3
+SWRS	520
+TAMU	497072
+TAU	3
+The Stuart M. Fullerton Collection of Arthropods at the Universi	7
+TOYA	54
+TTRSNHM	1376
+TTU	173958
+Turnbow Coll.	92
+UA	96011
+UAlig	1
+UAM	564510
+UASM	761
+UAZ	224
+UBC	107
+UCB	46038
+UCBME	4158
+UCD	25616
+UCM	80516
+UCMS	21578
+UCR	80137
+UCRC	119
+UCSC	137
+UD	1403
+UDAF	425
+UDCC	37107
+UFMG	32
+UFRGS	9
+UFRJ	1
+UFRRJ	20
+UGCA	3721
+UGENT	156
+UHIM	124037
+UIC	220
+UK	43075
+UKY-HIC	16861
+ULL	42
+UMA	1162
+UMAM	6627
+UMMC	193
+UMNH	38715
+UMRM	174
+UMSP	527
+UNAB	218
+UNAH	121
+UNHP	5046
+UNL	17580
+UNM	40578
+UNSM	2208
+UNSW	2
+UPS	1
+UQIC	8
+URI	78
+URIC	13
+USDA	20
+USFQ	349
+USFWS	19
+USNM	733178
+USU	412
+UTC	14195
+UTLA	140
+UVM	3030
+VIDA	18
+VPI	3778
+VTST	245
+WAM	687
+WAMP	7
+WFBM	3614
+WICH	440
+Wildlife Sightings	32
+WildlifeSightings.net	68
+WIRC	1119
+WLNP	1
+WPU	113
+WSU	221
+WWU	656
+YCEM	771
+YPM	215232
+ZISP	1105
+ZMAN	137
+ZMHB	10
+ZMK	31
+ZMUC	239
+ZRC	8
+ZSM	1298
