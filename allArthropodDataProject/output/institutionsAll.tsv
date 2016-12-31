@@ -1,86 +1,327 @@
-InstitutionCode	count(*)	CollectionName
-ABS	11708	Archbold Biological Station Arthropod Collection
-AMNH	1404960	North American Bee Collections
-ANSP	4336	Academy of Natural Sciences Entomology Collection - Live Data
-ASU	77132	Arizona State University Hasbrouck Insect Collection
-BLM	192	BLM Mother Lode Field Office: The Bees of Pine Hill Preserve
-BYU	88913	Brigham Young University Arthropod Museum
-CAS	756255	AntWeb
-CLEV	12686	Cleveland Museum of Natural History Invertebrate Zoology Collection
-CSU	94011	C.P. Gillette Museum of Arthropod Diversity
-CU	5	Clemson University Arthropod Collection
-DBG	568	Denver Botanic Gardens Collection of Arthropods
-DMNS	129418	Denver Museum of Nature & Science
-DUGWAY	949	Dugway Proving Ground Natural History Collection
-EMEC	226173	Essig Museum of Entomology
-EVG	1	Ed V Gage Collection
-FLMNH	119	Florida Museum of Natural History, McGuire Center for Lepidoptera and Biodiversity
-FMNH	319550	Field Museum of Natural History Collection of Insects, Arachnids, and Myriapods
-GBIF	121625	GBIF Extract with Location Data
-GPSC	577	Gregory P. Setliff Collection - Kutztown University
-iNaturalist	344730	iNaturalist Research-grade Observations
-INHS	657554	Illinois Natural History Survey Insect Collection
-KSU	17367	K-State Museum of Entomological and Prairie Arthropod Research
-KU	1279924	University of Kansas Natural History Museum Entomology Division
-LACM	184364	Natural History Museum of Los Angeles County
-MAJC	2056	M. Andrew Johnston Collection
-MCZ	487397	Museum of Comparative Zoology, Harvard University
-MEM	68838	Mississippi Entomological Museum
-MOD_AMNH	182	Moth Observations Database: American Museum of Natural History
-MOD_CAS	2847	Moth Observations Database: California Academy of Sciences
-MOD_CDFA	1646	Moth Observations Database: California Department of Food and Agriculture
-MOD_CNC	751	Moth Observations Database: Canadian National Collection
-MOD_CSUFC	25	Moth Observations Database: Colorado State University, Fort Collins
-MOD_DMNS	4118	Moth Observations Database: Denver Museum of Nature & Science
-MOD_FMNH	2319	Moth Observation Database: Field Museum of Natural History
-MOD_KSU	61	Moth Observation Database: Kansas State University
-MOD_LACM	4097	Moth Observations Database: LA County Museum of Natural History
-MOD_NMNH	567	Moth Observations Database: National Museum of Natural History
-MOD_PMJ	63	Moth Observations Database: Peter Jump Personal Collection
-MOD_PR	315	Moth Observations Database: Paul and Sandy Russel Personal Collection
-MOD_SBMNH	211	Moth Observation Database: Santa Barbara Museum of Natural History
-MOD_SDNHM	155	Moth Observations Database: San Diego Natural History Museum
-MOD_TED	689	Moth Observations Database: Tom Dimock Personal Collection
-MOD_UCB	10580	Moth Observations Database: UC Berkeley
-MOD_UCD	5145	Moth Observations Database: UC Davis
-MOD_UCONN	235	Moth Observations Database: University of Connecticut
-MOD_UCR	335	Moth Observations Database: UC Riverside
-MOD_WPC	49	Moth Observation Database: David L. Wikle Personal Collection
-MPM	79	Milwaukee Public Museum, Invertebrate Zoology-Insect Collection
-MSU	96885	The Albert J. Cook Arthropod Research Collection
-NAUF	59592	Colorado Plateau Museum of Arthropod Biodiversity
-NMK	1055	National Museums of Kenya, Invertebrate Section
-NMSU	81112	New Mexico State Collection of Arthropods
-OMNH	118521	The Sam Noble Museum Department of Recent Invertebrates
-OSU	446831	Ohio State C.A. Triplehorn Insect Collection
-PU	3281	The Purdue Entomological Research Collection
-SBMNH	111092	Santa Barbara Museum of Natural History Entomology Collection
-SCAN	654	SCAN Collection of Externally Processed Specimens (Arthropod Systematics Research)
-SDSU	4240	SDSU Terrestrial Arthropods Collection
-SI	712629	Smithsonian Institution - National Museum of Natural History
-SSAC	253	Salvatore S. Anzaldo Collection
-TAMU	480144	Texas A&M University Insect Collection
-TTRSNHM (25625)	1376	Tall Timbers Research Station Natural History Museum
-TTU	173833	Texas Tech University - Invertebrate Zoology
-UA	96006	University of Arizona Insect Collection
-UAM	561485	UAM Insect Collection
-UCB	80836	University of Colorado Museum of Natural History Entomology Collection
-UCD	11786	R. M.Bohart Museum of Entomology
-UD	1403	University of Delaware Insect Research Collection
-UDAF	425	Utah Department of Agriculture and Food Entomology Collection
-UGCA	3721	University of Georgia Collection of Arthropods
-UHIM	124037	University of Hawaii Insect Museum
-UI	2148	William F. Barr Entomological Museum
-UKY-HIC	16860	Hymenoptera Institute Collection
-UMNH	38715	Entomology Collection at the Natural History Museum of Utah
-UNL	37999	Scarab Central: World Scarabaeoidea
-UNM	40564	Museum of Southwestern Biology, Division of Arthropods
-USGS	266346	Native Bee Inventory and Monitoring Lab - World - Bees
-USNM	2538	United States National Museum, Entomology Collections
-UTC	14195	University of Tennessee at Chattanooga
-UVM	3030	University of Vermont Zadock Thompson Zoological Collection-Invertebrates
-UWYMED	16476	University of Wyoming Dillon Lab Insect Collection
-VPI	3778	Virginia Polytechnic Institute and State University Insect Collection
-WICH	440	Wichita State University Collection
-WWU	656	Western Washington University Insect Collection
-YPM	215095	Yale Peabody Museum, Entomology Division
+InstitutionCode	CollectionCode	InstitutionCode	CollectionCode	count(*)	CollectionName
+NULL	NULL	ASU	ASUHIC	7149890	Arizona State University Hasbrouck Insect Collection
+()	Insects	OSU	OSU	119	Ohio State C.A. Triplehorn Insect Collection
+6/19/16	NULL	AMNH	PBI	1	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+6/29/75	NULL	AMNH	PBI	1	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+8/1/02	NULL	AMNH	PBI	1	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+8/3/50	NULL	AMNH	PBI	1	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+AADC	ASAC_1180	GBIF	GBIF_NOLOC	1	GBIF Extract without Location Information
+Abbott Coll.	NULL	UNL	SCARAB	1	Scarab Central: World Scarabaeoidea
+ABS	NULL	AMNH	TTD	29	Tri-Trophic TCN
+AJTT	AJN-INVERT	GBIF	GBIF_NOLOC	1	GBIF Extract without Location Information
+AM	Arachnology	GBIF	GBIF_LOC	906	GBIF Extract with Location Data
+AMDC	NULL	AMNH	BEE	120	North American Bee Collections
+AMNH	NULL	AMNH	BEE	90	North American Bee Collections
+AMNHTC	NULL	AMNH	BEE	189	North American Bee Collections
+AMNH_ENT 00066326	NULL	AMNH	TTD	1	Tri-Trophic TCN
+AMNH_IZC 00176893	NULL	AMNH	TTD	1	Tri-Trophic TCN
+AMNH_IZC 00316072	NULL	AMNH	TTD	1	Tri-Trophic TCN
+ANIC	NULL	AMNH	TTD	119	Tri-Trophic TCN
+ANSP	NULL	AMNH	BEE	4643	North American Bee Collections
+Anymals.org	user: 1975	GBIF	GBIF_LOC	3	GBIF Extract with Location Data
+APN-AR	FUENTES	GBIF	GBIF_NOLOC	1	GBIF Extract without Location Information
+ARC-PPRI	NCA	GBIF	GBIF_NOLOC	5	GBIF Extract without Location Information
+ASCU	NULL	AMNH	PBI	2	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+BCRC	NULL	UNL	SCARAB	3	Scarab Central: World Scarabaeoidea
+BDBC	Banc de dades de biodiversitat de Catalunya-ArtroCat	GBIF	GBIF_NOLOC	2643	GBIF Extract without Location Information
+BDCJ	Insecta	GBIF	GBIF_NOLOC	21	GBIF Extract without Location Information
+BDGC	NULL	AMNH	TTD	285	Tri-Trophic TCN
+BDUC	NULL	AMNH	PBI	19	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+Biodiversity Institute of Ontario	BIOUG	GBIF	GBIF_LOC	9864	GBIF Extract with Location Data
+BMNH	NULL	AMNH	TTD	1117	Tri-Trophic TCN
+Borror Laboratory of Bioacoustics, Ohio State University, Columb	Recordings	GBIF	GBIF_LOC	16	GBIF Extract with Location Data
+BPBM	MO	GBIF	GBIF_NOLOC	25005	GBIF Extract without Location Information
+BRFC	NULL	AMNH	BEE	251	North American Bee Collections
+BYU	NULL	AMNH	TTD	2994	Tri-Trophic TCN
+BYUC	NULL	UNL	SCARAB	10	Scarab Central: World Scarabaeoidea
+C.A. Triplehorn Insect Collection, Ohio State University, Columb	Insects	OSU	OSU	446330	Ohio State C.A. Triplehorn Insect Collection
+CAES	NULL	AMNH	BEE	10764	North American Bee Collections
+CAS	ENT	GBIF	GBIF_LOC	36122	GBIF Extract with Location Data
+CBFC	NULL	AMNH	TTD	7	Tri-Trophic TCN
+CENTA	NULL	UNL	SCARAB	144	Scarab Central: World Scarabaeoidea
+CIB	NULL	AMNH	TTD	4	Tri-Trophic TCN
+Cleveland Museum of Natural History, OH (CLEV)	Insects	CLEV	CMNHENT	12686	Cleveland Museum of Natural History Invertebrate Zoology Collection
+CMNH	NULL	AMNH	TTD	15357	Tri-Trophic TCN
+CNC	NULL	AMNH	TTD	31156	Tri-Trophic TCN
+CNDF	NULL	UNL	SCARAB	54	Scarab Central: World Scarabaeoidea
+CSCA	NULL	AMNH	TTD	47016	Tri-Trophic TCN
+CSUC	NULL	AMNH	TTD	15897	Tri-Trophic TCN
+CUAC	NULL	AMNH	TTD	215	Tri-Trophic TCN
+CUIC	NULL	AMNH	BEE	58996	North American Bee Collections
+CUML	Sound/Film	GBIF	GBIF_LOC	21	GBIF Extract with Location Data
+CUMNH	NULL	UCB	UCMC	748	University of Colorado Museum of Natural History Entomology Collection
+CUNI	NULL	AMNH	TTD	10	Tri-Trophic TCN
+CURLA	NULL	UNL	SCARAB	285	Scarab Central: World Scarabaeoidea
+DAR	NULL	AMNH	BEE	174	North American Bee Collections
+DART	NULL	AMNH	BEE	255	North American Bee Collections
+DCCC	NULL	UNL	SCARAB	193	Scarab Central: World Scarabaeoidea
+DEBU	NULL	AMNH	PBI	233	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+DEI	NULL	AMNH	TTD	58	Tri-Trophic TCN
+Digital Bee Collections Network, 2014 (and updates). Version: 20	NULL	AMNH	BEE	1	North American Bee Collections
+DJB	DJB	GBIF	GBIF_LOC	1133	GBIF Extract with Location Data
+DMNS	NULL	DMNS	DMNS	1102	Denver Museum of Nature & Science
+DPS	DPS-MSC	GBIF	GBIF_LOC	390	GBIF Extract with Location Data
+DZRJ	NULL	AMNH	TTD	3	Tri-Trophic TCN
+E	E	GBIF	GBIF_NOLOC	12	GBIF Extract without Location Information
+EAPZ	NULL	UNL	SCARAB	8231	Scarab Central: World Scarabaeoidea
+EAUS	NULL	UNL	SCARAB	114	Scarab Central: World Scarabaeoidea
+EBUS	NULL	UNL	SCARAB	50	Scarab Central: World Scarabaeoidea
+ECW	Brewery Creek Mine Land Application Assessment 2002 and 2003	GBIF	GBIF_LOC	366	GBIF Extract with Location Data
+EM	Zoology	GBIF	GBIF_LOC	9900	GBIF Extract with Location Data
+EMAP_NCA	MAIA9798	GBIF	GBIF_LOC	7	GBIF Extract with Location Data
+EMEC	SCC	GBIF	GBIF_LOC	2430	GBIF Extract with Location Data
+ENA	NULL	UNL	SCARAB	71	Scarab Central: World Scarabaeoidea
+ESNACIFOR	NULL	UNL	SCARAB	1236	Scarab Central: World Scarabaeoidea
+ESUW	NULL	AMNH	PBI	19	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+EUMJ	COME	GBIF	GBIF_NOLOC	127	GBIF Extract without Location Information
+EVDB	NULL	UNL	SCARAB	2	Scarab Central: World Scarabaeoidea
+FCAP	NULL	AMNH	TTD	3	Tri-Trophic TCN
+FCMNH	FCMNH	GBIF	GBIF_NOLOC	2	GBIF Extract without Location Information
+FCNI	NULL	AMNH	TTD	57	Tri-Trophic TCN
+FETS	FETS_CEGN	GBIF	GBIF_NOLOC	17	GBIF Extract without Location Information
+FIOC	NULL	AMNH	TTD	7	Tri-Trophic TCN
+FMIC	NULL	AMNH	BEE	69	North American Bee Collections
+FMNH	Insects	GBIF	GBIF_LOC	5634	GBIF Extract with Location Data
+FSCA	NULL	AMNH	TTD	14185	Tri-Trophic TCN
+FUCSA	NULL	UNL	SCARAB	22	Scarab Central: World Scarabaeoidea
+FUPNAPIB	NULL	UNL	SCARAB	20	Scarab Central: World Scarabaeoidea
+GBR004	GBR	GBIF	GBIF_NOLOC	1	GBIF Extract without Location Information
+GSC	NULL	AMNH	BEE	1748	North American Bee Collections
+GSFP	GSFP	EMEC	EMEC	4	Essig Museum of Entomology
+GWMP	NULL	AMNH	TTD	1922	Tri-Trophic TCN
+HAC	RMH Spiders	GBIF	GBIF_LOC	137	GBIF Extract with Location Data
+HAHC	NULL	UNL	SCARAB	1	Scarab Central: World Scarabaeoidea
+HCM	51	GBIF	GBIF_NOLOC	3	GBIF Extract without Location Information
+HEISS	NULL	AMNH	TTD	7	Tri-Trophic TCN
+HNHM	NULL	AMNH	TTD	324	Tri-Trophic TCN
+HOC	NULL	AMNH	BEE	101	North American Bee Collections
+HYO	ENT	GBIF	GBIF_NOLOC	7	GBIF Extract without Location Information
+HZIC	NULL	AMNH	BEE	600	North American Bee Collections
+IAvH	NULL	AMNH	TTD	51	Tri-Trophic TCN
+IBUNAM	CNAN	GBIF	GBIF_LOC	2206	GBIF Extract with Location Data
+ICN	NULL	AMNH	TTD	148	Tri-Trophic TCN
+IEXA	NULL	AMNH	TTD	16	Tri-Trophic TCN
+IMLA	NULL	AMNH	TTD	17	Tri-Trophic TCN
+iNaturalist	Observations	GBIF	GBIF_LOC	4525	GBIF Extract with Location Data
+INB	Arachnida	GBIF	GBIF_LOC	468	GBIF Extract with Location Data
+INBIO	NULL	AMNH	TTD	1514	Tri-Trophic TCN
+INHS	Insect Collection	GBIF	GBIF_LOC	645	GBIF Extract with Location Data
+INPA	NULL	AMNH	TTD	209	Tri-Trophic TCN
+Institute of Research for Development	arim	GBIF	GBIF_NOLOC	2	GBIF Extract without Location Information
+ISNB	NULL	AMNH	TTD	382	Tri-Trophic TCN
+ISUI	NULL	AMNH	TTD	252	Tri-Trophic TCN
+JACM	IN8027	GBIF	GBIF_NOLOC	8	GBIF Extract without Location Information
+JECC	NULL	AMNH	PBI	2	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+JEWC	NULL	UNL	SCARAB	2	Scarab Central: World Scarabaeoidea
+JMAC	NULL	AMNH	TTD	4	Tri-Trophic TCN
+JML	NULL	AMNH	BEE	164	North American Bee Collections
+JNHM	SP-OB	GBIF	GBIF_NOLOC	476	GBIF Extract without Location Information
+JSA	NULL	AMNH	BEE	149	North American Bee Collections
+JSANUS	NULL	AMNH	BEE	5	North American Bee Collections
+JSAOBS	NULL	AMNH	BEE	48	North American Bee Collections
+JTP	NULL	AMNH	TTD	7912	Tri-Trophic TCN
+JWH	RC.014	GBIF	GBIF_LOC	1884	GBIF Extract with Location Data
+KAVE	NULL	AMNH	TTD	1	Tri-Trophic TCN
+KBIN	NULL	AMNH	TTD	14	Tri-Trophic TCN
+KCMI	KCMI	GBIF	GBIF_NOLOC	5	GBIF Extract without Location Information
+Kentuky	NULL	UNL	SCARAB	1	Scarab Central: World Scarabaeoidea
+KIDR	MM	GBIF	GBIF_NOLOC	1	GBIF Extract without Location Information
+KNWR	Ento	GBIF	GBIF_LOC	630	GBIF Extract with Location Data
+KU	SEMC	GBIF	GBIF_LOC	3503	GBIF Extract with Location Data
+La Rue	NULL	UNL	SCARAB	4	Scarab Central: World Scarabaeoidea
+LACM	NULL	AMNH	TTD	3971	Tri-Trophic TCN
+Lago coll.	NULL	UNL	SCARAB	1	Scarab Central: World Scarabaeoidea
+LBOB	NULL	AMNH	TTD	1115	Tri-Trophic TCN
+LEGON-GC	GCinsects1	GBIF	GBIF_NOLOC	4	GBIF Extract without Location Information
+LEHMAN	NULL	UNL	SCARAB	1	Scarab Central: World Scarabaeoidea
+León	NULL	UNL	SCARAB	131	Scarab Central: World Scarabaeoidea
+LI	Biologiezentrum Linz	GBIF	GBIF_NOLOC	334	GBIF Extract without Location Information
+ligata	NULL	AMNH	TTD	1	Tri-Trophic TCN
+LSU	NULL	AMNH	TTD	166	Tri-Trophic TCN
+MACN	MACN-Ar	GBIF	GBIF_LOC	399	GBIF Extract with Location Data
+MADUG	MADUG-IV	GBIF	GBIF_LOC	5	GBIF Extract with Location Data
+Maes Coll	NULL	UNL	SCARAB	1	Scarab Central: World Scarabaeoidea
+Maes Coll.	NULL	UNL	SCARAB	4115	Scarab Central: World Scarabaeoidea
+Managua	NULL	UNL	SCARAB	102	Scarab Central: World Scarabaeoidea
+Mankins	NULL	UNL	SCARAB	4	Scarab Central: World Scarabaeoidea
+McGill University	LEMQ	GBIF	GBIF_LOC	1508	GBIF Extract with Location Data
+MCNZ	NULL	AMNH	TTD	8	Tri-Trophic TCN
+MCZ	IZ	GBIF	GBIF_LOC	17919	GBIF Extract with Location Data
+Meesters Coll.	NULL	UNL	SCARAB	34	Scarab Central: World Scarabaeoidea
+MEFLG	NULL	AMNH	TTD	309	Tri-Trophic TCN
+MEMU	NULL	AMNH	TTD	56349	Tri-Trophic TCN
+MEUV	NULL	AMNH	TTD	1	Tri-Trophic TCN
+MfN	MfN - Fossil invertebrates III	GBIF	GBIF_NOLOC	44	GBIF Extract without Location Information
+MHNCM	MHNCM	GBIF	GBIF_LOC	1	GBIF Extract with Location Data
+MHNES	NULL	UNL	SCARAB	1605	Scarab Central: World Scarabaeoidea
+MHNG	NULL	AMNH	TTD	361	Tri-Trophic TCN
+MIZPAN	Araneae Collection	GBIF	GBIF_NOLOC	5405	GBIF Extract without Location Information
+MMRL	NULL	UNL	SCARAB	104	Scarab Central: World Scarabaeoidea
+MMWVU	NULL	AMNH	BEE	744	North American Bee Collections
+MNHN	AR	GBIF	GBIF_LOC	502	GBIF Extract with Location Data
+MNHNL	Recorder database	GBIF	GBIF_NOLOC	1	GBIF Extract without Location Information
+MNHW	Collection of Heteroptera	GBIF	GBIF_NOLOC	1	GBIF Extract without Location Information
+MNRJ	NULL	AMNH	TTD	226	Tri-Trophic TCN
+MPEG	ARA	GBIF	GBIF_NOLOC	11731	GBIF Extract without Location Information
+MRAC	NULL	AMNH	TTD	197	Tri-Trophic TCN
+MSU	NULL	AMNH	PBI	41	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+MTEC	NULL	AMNH	TTD	1	Tri-Trophic TCN
+MUSM	NULL	AMNH	TTD	44	Tri-Trophic TCN
+MVY	NULL	AMNH	BEE	150	North American Bee Collections
+MZH	Virtala.www_araneae	GBIF	GBIF_NOLOC	91	GBIF Extract without Location Information
+MZNA	MZ	GBIF	GBIF_LOC	1	GBIF Extract with Location Data
+MZSP	NULL	AMNH	TTD	225	Tri-Trophic TCN
+National Museum of the Czech Republic	NM	GBIF	GBIF_NOLOC	1	GBIF Extract without Location Information
+naturgucker	naturgucker	GBIF	GBIF_LOC	41	GBIF Extract with Location Data
+NAUF	GEWA	NAUF	CPMAB	1665	Colorado Plateau Museum of Arthropod Biodiversity
+NCSU	NULL	AMNH	BEE	116217	North American Bee Collections
+NDBC	NULL	AMNH	BEE	72	North American Bee Collections
+NEMU	NULL	AMNH	BEE	472	North American Bee Collections
+NHMW	NULL	AMNH	TTD	10	Tri-Trophic TCN
+NHRS	NULL	AMNH	TTD	33	Tri-Trophic TCN
+NIAES	SUGI	GBIF	GBIF_NOLOC	6	GBIF Extract without Location Information
+NIC	NULL	UNL	SCARAB	22	Scarab Central: World Scarabaeoidea
+NMLS	NULL	AMNH	BEE	1	North American Bee Collections
+NMPC	NULL	AMNH	TTD	3	Tri-Trophic TCN
+NMSU-EPPWS	Arth	GBIF	GBIF_NOLOC	304	GBIF Extract without Location Information
+NOAA	1997 EMAP Carolinian Province	GBIF	GBIF_LOC	1	GBIF Extract with Location Data
+NOAA/HML	May River Study	GBIF	GBIF_LOC	1	GBIF Extract with Location Data
+NRM	NHRS	GBIF	GBIF_NOLOC	15	GBIF Extract without Location Information
+NSBC	NULL	AMNH	BEE	53	North American Bee Collections
+NSMK	EN-SP	GBIF	GBIF_NOLOC	5337	GBIF Extract without Location Information
+NSULA	NSULA	GBIF	GBIF_LOC	92	GBIF Extract with Location Data
+NTSRV	TV-NHP	GBIF	GBIF_NOLOC	325	GBIF Extract without Location Information
+NYBG	NULL	AMNH	BEE	99	North American Bee Collections
+NYSM	NULL	AMNH	BEE	5376	North American Bee Collections
+ODA	NULL	AMNH	TTD	170	Tri-Trophic TCN
+Ohio State University Acarology Laboratory, Columbus, OH (OSAL)	Mites	GBIF	GBIF_LOC	2	GBIF Extract with Location Data
+OMC	OMC	EMEC	EMEC	113	Essig Museum of Entomology
+OMNH	RINVRT	GBIF	GBIF_LOC	3550	GBIF Extract with Location Data
+OMPIM	OMPIM	GBIF	GBIF_NOLOC	2	GBIF Extract without Location Information
+Ontario	NULL	UNL	SCARAB	25	Scarab Central: World Scarabaeoidea
+OSAC	NULL	AMNH	BEE	134534	North American Bee Collections
+OSEC	NULL	AMNH	TTD	139	Tri-Trophic TCN
+OSUC	NULL	AMNH	PBI	7	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+PBDB	21978	GBIF	GBIF_LOC	75	GBIF Extract with Location Data
+PDA	NULL	AMNH	TTD	1518	Tri-Trophic TCN
+PGC	NULL	AMNH	BEE	24	North American Bee Collections
+PKPC	PKPC	EMEC	EMEC	456	Essig Museum of Entomology
+Plants, herbivores, and parasitoids: A model system for the stud	NULL	AMNH	TTD	2	Tri-Trophic TCN
+POL003	Seed collection â€“ dead seeds for evaluation and observati	GBIF	GBIF_NOLOC	1	GBIF Extract without Location Information
+PSC	NULL	UNL	SCARAB	1	Scarab Central: World Scarabaeoidea
+PSCC	NULL	UNL	SCARAB	59	Scarab Central: World Scarabaeoidea
+PURC	NULL	AMNH	TTD	16	Tri-Trophic TCN
+QCAZ	NULL	AMNH	BEE	74	North American Bee Collections
+QDPI	NULL	AMNH	TTD	3	Tri-Trophic TCN
+QM	NULL	AMNH	TTD	25	Tri-Trophic TCN
+R. Cavey	NULL	UNL	SCARAB	13	Scarab Central: World Scarabaeoidea
+RBCM	NULL	AMNH	PBI	5	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+RBINS	Arachnofauna	GBIF	GBIF_NOLOC	1494	GBIF Extract without Location Information
+RCC	NULL	UNL	SCARAB	2	Scarab Central: World Scarabaeoidea
+RDCC	NULL	UNL	SCARAB	51	Scarab Central: World Scarabaeoidea
+RMBL	NULL	AMNH	BEE	1845	North American Bee Collections
+RMNH	ACA	GBIF	GBIF_NOLOC	1041	GBIF Extract without Location Information
+Roatan	NULL	UNL	SCARAB	14	Scarab Central: World Scarabaeoidea
+Royal Belgian Institute of natural Sciences	Collection GÃ©nÃ©rale Araneae	GBIF	GBIF_NOLOC	666	GBIF Extract without Location Information
+RUAC	NULL	AMNH	BEE	6979	North American Bee Collections
+S	S-Vascular	GBIF	GBIF_NOLOC	4	GBIF Extract without Location Information
+Saltin Coll.	NULL	UNL	SCARAB	2	Scarab Central: World Scarabaeoidea
+SAMA	NULL	AMNH	TTD	46	Tri-Trophic TCN
+SBMNH	SBMNH-ENT	GBIF	GBIF_LOC	214	GBIF Extract with Location Data
+SCC	Arthropods	GBIF	GBIF_LOC	1740	GBIF Extract with Location Data
+SDNH	NULL	AMNH	TTD	589	Tri-Trophic TCN
+SDNHM	SDNHM	EMEC	EMEC	357	Essig Museum of Entomology
+SEAA	NULL	UNL	SCARAB	1	Scarab Central: World Scarabaeoidea
+SEAN	NULL	UNL	SCARAB	3	Scarab Central: World Scarabaeoidea
+SEMC	NULL	UNL	SCARAB	22	Scarab Central: World Scarabaeoidea
+SEMUBCCOL	SEMUBCCOL	EMEC	EMEC	190	Essig Museum of Entomology
+SFVS	NULL	AMNH	TTD	21	Tri-Trophic TCN
+SIIS	NULL	AMNH	TTD	27617	Tri-Trophic TCN
+Skelley	NULL	UNL	SCARAB	2	Scarab Central: World Scarabaeoidea
+SLIC	NULL	AMNH	BEE	11	North American Bee Collections
+SMF	Collection Arachnology	GBIF	GBIF_LOC	11741	GBIF Extract with Location Data
+SMNG	Collection Arachnologie	GBIF	GBIF_NOLOC	4034	GBIF Extract without Location Information
+SMNK	SMNKspidercoll	GBIF	GBIF_NOLOC	2458	GBIF Extract without Location Information
+SNHM	NULL	AMNH	TTD	151	Tri-Trophic TCN
+SNSD	Collection Arachnida	GBIF	GBIF_NOLOC	24	GBIF Extract without Location Information
+South African Museum	Ent	GBIF	GBIF_NOLOC	405	GBIF Extract without Location Information
+STRI	NULL	UNL	SCARAB	3	Scarab Central: World Scarabaeoidea
+SWRS	NULL	AMNH	BEE	520	North American Bee Collections
+TAMU	NULL	UNL	SCARAB	16928	Scarab Central: World Scarabaeoidea
+TAU	NULL	AMNH	TTD	3	Tri-Trophic TCN
+The Stuart M. Fullerton Collection of Arthropods at the Universi	Arthropods	GBIF	GBIF_LOC	7	GBIF Extract with Location Data
+Tingidae	NULL	AMNH	TTD	1	Tri-Trophic TCN
+TOYA	Ar	GBIF	GBIF_NOLOC	54	GBIF Extract without Location Information
+Tri-Trophic Thematic Collection Network, 2014 (and updates). Ver	NULL	AMNH	TTD	1	Tri-Trophic TCN
+TTRSNHM	TTRSLEP	TTRSNHM (25625)	TTRSLEP (24626)	1376	Tall Timbers Research Station Natural History Museum
+TTU	NULL	AMNH	TTD	125	Tri-Trophic TCN
+Turnbow Coll.	NULL	UNL	SCARAB	92	Scarab Central: World Scarabaeoidea
+UA	UASM COLLECTION	GBIF	GBIF_LOC	6	GBIF Extract with Location Data
+UAlig	NULL	UA	UAIC	1	University of Arizona Insect Collection
+UAM	NULL	AMNH	TTD	58	Tri-Trophic TCN
+UASM	UASM-Caribou-2003	GBIF	GBIF_LOC	761	GBIF Extract with Location Data
+UAZ	NULL	AMNH	TTD	224	Tri-Trophic TCN
+UBC	NULL	AMNH	TTD	107	Tri-Trophic TCN
+UC Davis	NULL	UNL	SCARAB	4	Scarab Central: World Scarabaeoidea
+UCB	NULL	AMNH	TTD	45897	Tri-Trophic TCN
+UCBME	UCBME	EMEC	EMEC	4158	Essig Museum of Entomology
+UCD	NULL	AMNH	BEE	13826	North American Bee Collections
+UCM	NULL	UCB	UCMC	80516	University of Colorado Museum of Natural History Entomology Collection
+UCMS	NULL	AMNH	BEE	21578	North American Bee Collections
+UCR	NULL	AMNH	TTD	80137	Tri-Trophic TCN
+UCRC	NULL	UNL	SCARAB	119	Scarab Central: World Scarabaeoidea
+UCSC	UCSC	EMEC	EMEC	137	Essig Museum of Entomology
+UDCC	NULL	AMNH	TTD	37107	Tri-Trophic TCN
+UFMG	NULL	AMNH	BEE	32	North American Bee Collections
+UFRGS	NULL	AMNH	TTD	9	Tri-Trophic TCN
+UFRJ	NULL	AMNH	TTD	1	Tri-Trophic TCN
+UFRRJ	NULL	AMNH	TTD	20	Tri-Trophic TCN
+UGENT	invertebrata	GBIF	GBIF_NOLOC	156	GBIF Extract without Location Information
+UIC	NULL	AMNH	BEE	220	North American Bee Collections
+UK	NULL	AMNH	TTD	43075	Tri-Trophic TCN
+UKYL_TCN 00021063	NULL	AMNH	TTD	1	Tri-Trophic TCN
+ULL	DZUL	GBIF	GBIF_NOLOC	42	GBIF Extract without Location Information
+UMA	NULL	AMNH	BEE	1162	North American Bee Collections
+UMAM	NULL	AMNH	TTD	6627	Tri-Trophic TCN
+UMMC	NULL	AMNH	PBI	193	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+UMRM	NULL	AMNH	PBI	174	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+UMSP	NULL	AMNH	TTD	527	Tri-Trophic TCN
+UNAB	NULL	AMNH	TTD	218	Tri-Trophic TCN
+UNAH	NULL	UNL	SCARAB	121	Scarab Central: World Scarabaeoidea
+UNHP	NULL	AMNH	BEE	5046	North American Bee Collections
+University of Alberta Museums	UASM	GBIF	GBIF_LOC	2969	GBIF Extract with Location Data
+University of Alberta Museums (UAM)	NULL	UAM	UASM	304203	University of Alberta Museums Entomology Collection (UASM)
+UNM	NULL	AMNH	TTD	14	Tri-Trophic TCN
+UNSM	NULL	UNL	SCARAB	2208	Scarab Central: World Scarabaeoidea
+UNSW	NULL	AMNH	TTD	2	Tri-Trophic TCN
+UPS	BOT	GBIF	GBIF_NOLOC	1	GBIF Extract without Location Information
+UQIC	NULL	AMNH	TTD	8	Tri-Trophic TCN
+URI	NULL	AMNH	TTD	78	Tri-Trophic TCN
+URIC	NULL	AMNH	BEE	13	North American Bee Collections
+urn:uuid:f0cec69a-853c-11e4-8259-0026552be7ea	NULL	AMNH	TTD	1	Tri-Trophic TCN
+USDA	NULL	AMNH	PBI	20	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+USFQ	NULL	AMNH	BEE	349	North American Bee Collections
+USFWS	NULL	AMNH	TTD	19	Tri-Trophic TCN
+USNM	NULL	UNL	SCARAB	18012	Scarab Central: World Scarabaeoidea
+USU	NULL	AMNH	TTD	412	Tri-Trophic TCN
+UTLA	NULL	UNL	SCARAB	140	Scarab Central: World Scarabaeoidea
+VIDA	NULL	UNL	SCARAB	18	Scarab Central: World Scarabaeoidea
+VTST	NULL	AMNH	BEE	245	North American Bee Collections
+WAM	ARACH	GBIF	GBIF_LOC	687	GBIF Extract with Location Data
+WAMP	NULL	AMNH	TTD	7	Tri-Trophic TCN
+WFBM	NULL	AMNH	TTD	3614	Tri-Trophic TCN
+Wildlife Sightings	Wildlife Sightings	GBIF	GBIF_LOC	32	GBIF Extract with Location Data
+WildlifeSightings.net	NULL	GBIF	GBIF_LOC	68	GBIF Extract with Location Data
+WIRC	NULL	AMNH	BEE	1119	North American Bee Collections
+WLNP	NULL	AMNH	PBI	1	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+WPU	NULL	AMNH	BEE	113	North American Bee Collections
+WSU	NULL	AMNH	TTD	221	Tri-Trophic TCN
+YCEM	SP	GBIF	GBIF_NOLOC	771	GBIF Extract without Location Information
+YPM	ENT	YPM	ENT	145	Yale Peabody Museum, Entomology Division
+ZISP	NULL	AMNH	TTD	1105	Tri-Trophic TCN
+ZMAN	NULL	AMNH	TTD	137	Tri-Trophic TCN
+ZMHB	NULL	AMNH	TTD	10	Tri-Trophic TCN
+ZMK	Arachnida, Myriapoda	GBIF	GBIF_NOLOC	31	GBIF Extract without Location Information
+ZMUC	Araneae	GBIF	GBIF_LOC	239	GBIF Extract with Location Data
+ZRC	NULL	AMNH	TTD	8	Tri-Trophic TCN
+ZSM	ZSMarthrovariacoll	GBIF	GBIF_NOLOC	1298	GBIF Extract without Location Information
