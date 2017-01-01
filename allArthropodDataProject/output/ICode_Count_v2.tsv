@@ -1,0 +1,1095 @@
+count(*)	DWC_InstitutionCode	DWC_CollectionCode	SCAN_InsitutionCode	SCAN_CollectionName
+11708	NULL	NULL	ABS	Archbold Biological Station Arthropod Collection
+264198	NULL	NULL	AMNH	North American Bee Collections
+25366	NULL	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+202252	NULL	NULL	AMNH	Tri-Trophic TCN
+4336	NULL	NULL	ANSP	Academy of Natural Sciences, Entomology Collection
+77131	NULL	NULL	ASU	Arizona State University Hasbrouck Insect Collection
+192	NULL	NULL	BLM	BLM Mother Lode Field Office: The Bees of Pine Hill Preserve
+88913	NULL	NULL	BYU	Brigham Young University Arthropod Museum
+593210	NULL	NULL	CAS	AntWeb
+162926	NULL	NULL	CAS	California Academy of Sciences Entomology
+91860	NULL	NULL	CSU	C.P. Gillette Museum of Arthropod Diversity
+5	NULL	NULL	CU	Clemson University Arthropod Collection
+568	NULL	NULL	DBG	Denver Botanic Gardens Collection of Arthropods
+128316	NULL	NULL	DMNS	Denver Museum of Nature & Science
+949	NULL	NULL	DUGWAY	Dugway Proving Ground Natural History Collection
+186153	NULL	NULL	EMEC	Essig Museum of Entomology
+1	NULL	NULL	EVG	Ed V Gage Collection
+119	NULL	NULL	FLMNH	Florida Museum of Natural History, McGuire Center for Lepidoptera and Biodiversity
+319539	NULL	NULL	FMNH	Field Museum of Natural History Collection of Insects, Arachnids, and Myriapods
+4194	NULL	NULL	GBIF	GBIF Extract with Location Data
+8	NULL	NULL	GBIF	GBIF Extract without Location Information
+577	NULL	NULL	GPSC	Gregory P. Setliff Collection - Kutztown University
+344730	NULL	NULL	iNaturalist	iNaturalist Research-grade Observations
+17367	NULL	NULL	KSU	K-State Museum of Entomological and Prairie Arthropod Research
+1279924	NULL	NULL	KU	University of Kansas Natural History Museum Entomology Division
+2056	NULL	NULL	MAJC	M. Andrew Johnston Collection
+182	NULL	NULL	MOD_AMNH	Moth Observations Database: American Museum of Natural History
+2847	NULL	NULL	MOD_CAS	Moth Observations Database: California Academy of Sciences
+1646	NULL	NULL	MOD_CDFA	Moth Observations Database: California Department of Food and Agriculture
+751	NULL	NULL	MOD_CNC	Moth Observations Database: Canadian National Collection
+25	NULL	NULL	MOD_CSUFC	Moth Observations Database: Colorado State University, Fort Collins
+4118	NULL	NULL	MOD_DMNS	Moth Observations Database: Denver Museum of Nature & Science
+2319	NULL	NULL	MOD_FMNH	Moth Observation Database: Field Museum of Natural History
+61	NULL	NULL	MOD_KSU	Moth Observation Database: Kansas State University
+4097	NULL	NULL	MOD_LACM	Moth Observations Database: LA County Museum of Natural History
+567	NULL	NULL	MOD_NMNH	Moth Observations Database: National Museum of Natural History
+63	NULL	NULL	MOD_PMJ	Moth Observations Database: Peter Jump Personal Collection
+315	NULL	NULL	MOD_PR	Moth Observations Database: Paul and Sandy Russel Personal Collection
+211	NULL	NULL	MOD_SBMNH	Moth Observation Database: Santa Barbara Museum of Natural History
+155	NULL	NULL	MOD_SDNHM	Moth Observations Database: San Diego Natural History Museum
+689	NULL	NULL	MOD_TED	Moth Observations Database: Tom Dimock Personal Collection
+10580	NULL	NULL	MOD_UCB	Moth Observations Database: UC Berkeley
+5145	NULL	NULL	MOD_UCD	Moth Observations Database: UC Davis
+235	NULL	NULL	MOD_UCONN	Moth Observations Database: University of Connecticut
+335	NULL	NULL	MOD_UCR	Moth Observations Database: UC Riverside
+49	NULL	NULL	MOD_WPC	Moth Observation Database: David L. Wikle Personal Collection
+96844	NULL	NULL	MSU	The Albert J. Cook Arthropod Research Collection
+43263	NULL	NULL	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+1055	NULL	NULL	NMK	National Museums of Kenya, Invertebrate Section
+81112	NULL	NULL	NMSU	New Mexico State Collection of Arthropods
+118520	NULL	NULL	OMNH	The Sam Noble Museum Department of Recent Invertebrates
+3281	NULL	NULL	PU	The Purdue Entomological Research Collection
+111092	NULL	NULL	SBMNH	Santa Barbara Museum of Natural History Entomology Collection
+4240	NULL	NULL	SDSU	SDSU Terrestrial Arthropods Collection
+4	NULL	NULL	TAMU	Texas A&M University Insect Collection
+173833	NULL	NULL	TTU	Texas Tech University - Invertebrate Zoology
+96005	NULL	NULL	UA	University of Arizona Insect Collection
+141	NULL	NULL	UCB	University of Colorado Museum of Natural History Entomology Collection
+11786	NULL	NULL	UCD	R. M.Bohart Museum of Entomology
+1403	NULL	NULL	UD	University of Delaware Insect Research Collection
+425	NULL	NULL	UDAF	Utah Department of Agriculture and Food Entomology Collection
+3721	NULL	NULL	UGCA	University of Georgia Collection of Arthropods
+124037	NULL	NULL	UHIM	University of Hawaii Insect Museum
+16860	NULL	NULL	UKY-HIC	Hymenoptera Institute Collection
+38715	NULL	NULL	UMNH	Entomology Collection at the Natural History Museum of Utah
+17580	NULL	NULL	UNL	Scarab Central: World Scarabaeoidea
+40564	NULL	NULL	UNM	Museum of Southwestern Biology, Division of Arthropods
+2538	NULL	NULL	USNM	United States National Museum, Entomology Collections
+14195	NULL	NULL	UTC	University of Tennessee at Chattanooga
+3030	NULL	NULL	UVM	University of Vermont Zadock Thompson Zoological Collection-Invertebrates
+3778	NULL	NULL	VPI	Virginia Polytechnic Institute and State University Insect Collection
+440	NULL	NULL	WICH	Wichita State University Collection
+656	NULL	NULL	WWU	Western Washington University Insect Collection
+215086	NULL	NULL	YPM	Yale Peabody Museum, Entomology Division
+1	NULL	1109	CAS	California Academy of Sciences Entomology
+6	NULL	4K	CAS	California Academy of Sciences Entomology
+4	NULL	6K	CAS	California Academy of Sciences Entomology
+3	NULL	80-63	CAS	California Academy of Sciences Entomology
+2	NULL	9605	CAS	California Academy of Sciences Entomology
+1	NULL	ABR	CSU	C.P. Gillette Museum of Arthropod Diversity
+30	NULL	AMNH	GBIF	GBIF Extract with Location Data
+1	NULL	AMNH	GBIF	GBIF Extract without Location Information
+18	NULL	AquaticAssoc	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	B. Armitage	CSU	C.P. Gillette Museum of Arthropod Diversity
+5	NULL	B.J.Armitage	CSU	C.P. Gillette Museum of Arthropod Diversity
+22	NULL	BCRA	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+1	NULL	BDH	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	BJ Armitage	CSU	C.P. Gillette Museum of Arthropod Diversity
+4	NULL	Brown,F.M.	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	BYUC	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	C-1062	CAS	California Academy of Sciences Entomology
+1	NULL	C-1070	CAS	California Academy of Sciences Entomology
+1	NULL	C-1080	CAS	California Academy of Sciences Entomology
+1	NULL	C-1340	CAS	California Academy of Sciences Entomology
+1	NULL	C-1515	CAS	California Academy of Sciences Entomology
+1	NULL	C-1611	CAS	California Academy of Sciences Entomology
+1	NULL	C-1645	CAS	California Academy of Sciences Entomology
+1	NULL	C-1645a	CAS	California Academy of Sciences Entomology
+2	NULL	C-2098	CAS	California Academy of Sciences Entomology
+1	NULL	C-2131	CAS	California Academy of Sciences Entomology
+1	NULL	C-2131a	CAS	California Academy of Sciences Entomology
+699	NULL	CACH	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+1962	NULL	CANY	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+6	NULL	CARE	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+2	NULL	CAS	GBIF	GBIF Extract with Location Data
+1	NULL	CASBZ02	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ03	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ04	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ05	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ06	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ08	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ09	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ10	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ11	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ12	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ13	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ14	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ15	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ16	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ17	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ18	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ21	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ22	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ23	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ24	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ25	CAS	California Academy of Sciences Entomology
+1	NULL	CASBZ26	CAS	California Academy of Sciences Entomology
+1	NULL	CDPHE	CSU	C.P. Gillette Museum of Arthropod Diversity
+3	NULL	Cline	CSU	C.P. Gillette Museum of Arthropod Diversity
+56	NULL	CNC	GBIF	GBIF Extract with Location Data
+13	NULL	COLM	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+2	NULL	CPAD	GBIF	GBIF Extract with Location Data
+15	NULL	Cryo	MCZ	Museum of Comparative Zoology, Harvard University
+2	NULL	CSUC, DNA	CSU	C.P. Gillette Museum of Arthropod Diversity
+2	NULL	CU-Museum	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	CUBoulder	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	D. Fronk	CSU	C.P. Gillette Museum of Arthropod Diversity
+13	NULL	D.E.Rees	CSU	C.P. Gillette Museum of Arthropod Diversity
+6	NULL	D.Rees	CSU	C.P. Gillette Museum of Arthropod Diversity
+32	NULL	DenverDEH	CSU	C.P. Gillette Museum of Arthropod Diversity
+382	NULL	DER	CSU	C.P. Gillette Museum of Arthropod Diversity
+3	NULL	DERP	CSU	C.P. Gillette Museum of Arthropod Diversity
+19	NULL	DINO	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+2	NULL	DMNS	GBIF	GBIF Extract with Location Data
+1	NULL	DNA (as noted by D. Ruiter)	CSU	C.P. Gillette Museum of Arthropod Diversity
+2	NULL	DNA (D.E.Ruiter gave for DNA sampling)	CSU	C.P. Gillette Museum of Arthropod Diversity
+2	NULL	Drees	CSU	C.P. Gillette Museum of Arthropod Diversity
+184364	NULL	ENT	LACM	Los Angeles County Museum Entomology Collection
+220254	NULL	Ent	MCZ	Museum of Comparative Zoology, Harvard University
+480140	NULL	ENTO	TAMU	Texas A&M University Insect Collection
+20	NULL	Flint	CSU	C.P. Gillette Museum of Arthropod Diversity
+26	NULL	FMNH	GBIF	GBIF Extract with Location Data
+17	NULL	Fronk	CSU	C.P. Gillette Museum of Arthropod Diversity
+424	NULL	GCRA	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+3	NULL	GDO501	CAS	California Academy of Sciences Entomology
+1	NULL	GFE	CSU	C.P. Gillette Museum of Arthropod Diversity
+70	NULL	GRCA	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+10	NULL	GRSA	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+740	NULL	Herp	MCZ	Museum of Comparative Zoology, Harvard University
+2	NULL	Howard	CSU	C.P. Gillette Museum of Arthropod Diversity
+5	NULL	IBPN	GBIF	GBIF Extract with Location Data
+31983	NULL	Ich	MCZ	Museum of Comparative Zoology, Harvard University
+231	NULL	INHS	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	INHS pinned	CSU	C.P. Gillette Museum of Arthropod Diversity
+657554	NULL	INSECT	INHS	Illinois Natural History Survey Insect Collection
+257280	NULL	Insect specimens	UAM	UAM Insect Collection
+11	NULL	Insects	FMNH	Field Museum of Natural History Collection of Insects, Arachnids, and Myriapods
+79	NULL	Insects	MPM	Milwaukee Public Museum, Invertebrate Zoology-Insect Collection
+100496	NULL	IP	MCZ	Museum of Comparative Zoology, Harvard University
+119921	NULL	IZ	MCZ	Museum of Comparative Zoology, Harvard University
+2	NULL	J.V. Ward	CSU	C.P. Gillette Museum of Arthropod Diversity
+3	NULL	L144	CAS	California Academy of Sciences Entomology
+6	NULL	LBP	GBIF	GBIF Extract with Location Data
+1	NULL	LFG	YPM	Yale Peabody Museum, Entomology Division
+13961	NULL	Mala	MCZ	Museum of Comparative Zoology, Harvard University
+21	NULL	Malicky	CSU	C.P. Gillette Museum of Arthropod Diversity
+15	NULL	Mamm	MCZ	Museum of Comparative Zoology, Harvard University
+14	NULL	MCH	GBIF	GBIF Extract with Location Data
+1	NULL	MCZ	CSU	C.P. Gillette Museum of Arthropod Diversity
+2	NULL	MCZC	CSU	C.P. Gillette Museum of Arthropod Diversity
+469	NULL	MEVE	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+386	NULL	Miller&Associates	CSU	C.P. Gillette Museum of Arthropod Diversity
+66	NULL	MOCA	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+123	NULL	MONA	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+1	NULL	Moulton	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	MSCU	MSU	The Albert J. Cook Arthropod Research Collection
+40	NULL	MsUC	MSU	The Albert J. Cook Arthropod Research Collection
+4	NULL	NCSM	GBIF	GBIF Extract with Location Data
+2	NULL	NHRS	GBIF	GBIF Extract with Location Data
+39	NULL	NMNH	CSU	C.P. Gillette Museum of Arthropod Diversity
+16	NULL	OLYM	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+12	NULL	Orn	MCZ	Museum of Comparative Zoology, Harvard University
+1	NULL	ORPI	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+1	NULL	PBM	CSU	C.P. Gillette Museum of Arthropod Diversity
+16	NULL	PeabodyMus	CSU	C.P. Gillette Museum of Arthropod Diversity
+2	NULL	PERC	CSU	C.P. Gillette Museum of Arthropod Diversity
+6709	NULL	PISP	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+2	NULL	PMNH	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	PSW14654	CAS	California Academy of Sciences Entomology
+1	NULL	PSW15440	CAS	California Academy of Sciences Entomology
+1	NULL	PSW15442	CAS	California Academy of Sciences Entomology
+1	NULL	PSW15443	CAS	California Academy of Sciences Entomology
+1	NULL	PSW15535	CAS	California Academy of Sciences Entomology
+1	NULL	PSW16733	CAS	California Academy of Sciences Entomology
+1	NULL	PSW16777-01	CAS	California Academy of Sciences Entomology
+1	NULL	PSW16779	CAS	California Academy of Sciences Entomology
+1	NULL	PSW16790	CAS	California Academy of Sciences Entomology
+1	NULL	PSW16791	CAS	California Academy of Sciences Entomology
+2	NULL	R.J.Lavigne	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	RINVRt	OMNH	The Sam Noble Museum Department of Recent Invertebrates
+9	NULL	ROM	CSU	C.P. Gillette Museum of Arthropod Diversity
+130	NULL	RWH	CSU	C.P. Gillette Museum of Arthropod Diversity
+102	NULL	RWHD	CSU	C.P. Gillette Museum of Arthropod Diversity
+8	NULL	S.J.Herrmann	CSU	C.P. Gillette Museum of Arthropod Diversity
+245	NULL	SAND	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+3	NULL	SJ Herrmann	CSU	C.P. Gillette Museum of Arthropod Diversity
+2	NULL	Snow Mus.	CSU	C.P. Gillette Museum of Arthropod Diversity
+3	NULL	Stop #75-10	CAS	California Academy of Sciences Entomology
+2	NULL	Stop #75-13	CAS	California Academy of Sciences Entomology
+5	NULL	Stop #75-5	CAS	California Academy of Sciences Entomology
+4	NULL	Stop #75-7	CAS	California Academy of Sciences Entomology
+6	NULL	Stop #75-8	CAS	California Academy of Sciences Entomology
+3	NULL	Stop #77-4	CAS	California Academy of Sciences Entomology
+4	NULL	Stop #79-3	CAS	California Academy of Sciences Entomology
+2	NULL	Stop #79-6	CAS	California Academy of Sciences Entomology
+18	NULL	Stop #80-25	CAS	California Academy of Sciences Entomology
+1	NULL	Stop #81-15	CAS	California Academy of Sciences Entomology
+2	NULL	Stop #81-22	CAS	California Academy of Sciences Entomology
+3	NULL	Stop #81-64	CAS	California Academy of Sciences Entomology
+1	NULL	T. Vshivkova	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	T.Vshivkova	CSU	C.P. Gillette Museum of Arthropod Diversity
+263	NULL	TONT	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+7	NULL	TTU-Z	GBIF	GBIF Extract with Location Data
+712	NULL	UCIS	EMEC	Essig Museum of Entomology
+13	NULL	UCM	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	UCMC	CSU	C.P. Gillette Museum of Arthropod Diversity
+13	NULL	UofC	CSU	C.P. Gillette Museum of Arthropod Diversity
+7	NULL	UofWyoming	CSU	C.P. Gillette Museum of Arthropod Diversity
+530	NULL	USGSNWQL	CSU	C.P. Gillette Museum of Arthropod Diversity
+4	NULL	USNM	CSU	C.P. Gillette Museum of Arthropod Diversity
+12	NULL	USNM	GBIF	GBIF Extract with Location Data
+1	NULL	W. Fronk	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	Wahle	CSU	C.P. Gillette Museum of Arthropod Diversity
+94	NULL	Ward	CSU	C.P. Gillette Museum of Arthropod Diversity
+1	NULL	Weaver	CSU	C.P. Gillette Museum of Arthropod Diversity
+3562	NULL	ZION	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+119	()	Insects	OSU	Ohio State C.A. Triplehorn Insect Collection
+1	6/19/16	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1	6/29/75	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1	8/1/02	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1	8/3/50	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1	AADC	ASAC_1180	GBIF	GBIF Extract without Location Information
+1	Abbott Coll.	NULL	UNL	Scarab Central: World Scarabaeoidea
+29	ABS	NULL	AMNH	Tri-Trophic TCN
+1	AJTT	AJN-INVERT	GBIF	GBIF Extract without Location Information
+315	AM	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+298	AM	NULL	AMNH	Tri-Trophic TCN
+109	AM	Arachnology	GBIF	GBIF Extract with Location Data
+180	AM	Arachnology	GBIF	GBIF Extract without Location Information
+4	AM	Entomology	GBIF	GBIF Extract without Location Information
+99	AMDC	NULL	AMNH	North American Bee Collections
+21	AMDC	NULL	AMNH	Tri-Trophic TCN
+90	AMNH	NULL	AMNH	North American Bee Collections
+188	AMNHTC	NULL	AMNH	North American Bee Collections
+1	AMNHTC	NULL	AMNH	Tri-Trophic TCN
+1	AMNH_ENT 00066326	NULL	AMNH	Tri-Trophic TCN
+1	AMNH_IZC 00176893	NULL	AMNH	Tri-Trophic TCN
+1	AMNH_IZC 00316072	NULL	AMNH	Tri-Trophic TCN
+118	ANIC	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1	ANIC	NULL	AMNH	Tri-Trophic TCN
+232	ANSP	NULL	AMNH	North American Bee Collections
+4411	ANSP	NULL	AMNH	Tri-Trophic TCN
+2	Anymals.org	user: 1975	GBIF	GBIF Extract with Location Data
+1	Anymals.org	user: 5717	GBIF	GBIF Extract with Location Data
+1	APN-AR	FUENTES	GBIF	GBIF Extract without Location Information
+5	ARC-PPRI	NCA	GBIF	GBIF Extract without Location Information
+2	ASCU	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+3	BCRC	NULL	UNL	Scarab Central: World Scarabaeoidea
+2643	BDBC	Banc de dades de biodiversitat de Catalunya-ArtroCat	GBIF	GBIF Extract without Location Information
+21	BDCJ	Insecta	GBIF	GBIF Extract without Location Information
+285	BDGC	NULL	AMNH	Tri-Trophic TCN
+19	BDUC	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+9864	Biodiversity Institute of Ontario	BIOUG	GBIF	GBIF Extract with Location Data
+55	BMNH	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1062	BMNH	NULL	AMNH	Tri-Trophic TCN
+16	Borror Laboratory of Bioacoustics, Ohio State University, Columb	Recordings	GBIF	GBIF Extract with Location Data
+60	BPBM	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+24602	BPBM	NULL	AMNH	Tri-Trophic TCN
+341	BPBM	BPBM	EMEC	Essig Museum of Entomology
+2	BPBM	MO	GBIF	GBIF Extract without Location Information
+250	BRFC	NULL	AMNH	North American Bee Collections
+1	BRFC	NULL	AMNH	Tri-Trophic TCN
+2994	BYU	NULL	AMNH	Tri-Trophic TCN
+10	BYUC	NULL	UNL	Scarab Central: World Scarabaeoidea
+38	C.A. Triplehorn Insect Collection, Ohio State University, Columb	Insects	GBIF	GBIF Extract with Location Data
+446292	C.A. Triplehorn Insect Collection, Ohio State University, Columb	Insects	OSU	Ohio State C.A. Triplehorn Insect Collection
+10724	CAES	NULL	AMNH	North American Bee Collections
+40	CAES	NULL	AMNH	Tri-Trophic TCN
+1979	CAS	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+21405	CAS	NULL	AMNH	Tri-Trophic TCN
+12734	CAS	ENT	EMEC	Essig Museum of Entomology
+4	CAS	ENT	GBIF	GBIF Extract with Location Data
+7	CBFC	NULL	AMNH	Tri-Trophic TCN
+144	CENTA	NULL	UNL	Scarab Central: World Scarabaeoidea
+4	CIB	NULL	AMNH	Tri-Trophic TCN
+12686	Cleveland Museum of Natural History, OH (CLEV)	Insects	CLEV	Cleveland Museum of Natural History Invertebrate Zoology Collection
+16	CMNH	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+15341	CMNH	NULL	AMNH	Tri-Trophic TCN
+28999	CNC	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+2157	CNC	NULL	AMNH	Tri-Trophic TCN
+54	CNDF	NULL	UNL	Scarab Central: World Scarabaeoidea
+233	CSCA	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+29748	CSCA	NULL	AMNH	Tri-Trophic TCN
+17035	CSCA	CSCA	EMEC	Essig Museum of Entomology
+15897	CSUC	NULL	AMNH	Tri-Trophic TCN
+215	CUAC	NULL	AMNH	Tri-Trophic TCN
+34529	CUIC	NULL	AMNH	North American Bee Collections
+230	CUIC	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+24237	CUIC	NULL	AMNH	Tri-Trophic TCN
+21	CUML	Sound/Film	GBIF	GBIF Extract with Location Data
+179	CUMNH	NULL	UCB	University of Colorado Museum of Natural History Entomology Collection
+569	CUMNH	UCM	GBIF	GBIF Extract with Location Data
+10	CUNI	NULL	AMNH	Tri-Trophic TCN
+285	CURLA	NULL	UNL	Scarab Central: World Scarabaeoidea
+1	DAR	NULL	AMNH	North American Bee Collections
+169	DAR	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+4	DAR	NULL	AMNH	Tri-Trophic TCN
+255	DART	NULL	AMNH	North American Bee Collections
+193	DCCC	NULL	UNL	Scarab Central: World Scarabaeoidea
+233	DEBU	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+58	DEI	NULL	AMNH	Tri-Trophic TCN
+1	Digital Bee Collections Network, 2014 (and updates). Version: 20	NULL	AMNH	North American Bee Collections
+1	DJB	DDB	GBIF	GBIF Extract with Location Data
+1077	DJB	DJB	GBIF	GBIF Extract with Location Data
+46	DJB	DJB	GBIF	GBIF Extract without Location Information
+1	DJB	NNW	GBIF	GBIF Extract with Location Data
+3	DJB	RGH	GBIF	GBIF Extract with Location Data
+5	DJB	RSM	GBIF	GBIF Extract with Location Data
+1102	DMNS	NULL	DMNS	Denver Museum of Nature & Science
+247	DPS	DPS	GBIF	GBIF Extract with Location Data
+21	DPS	DPS-FS	GBIF	GBIF Extract with Location Data
+122	DPS	DPS-MSC	GBIF	GBIF Extract with Location Data
+3	DZRJ	NULL	AMNH	Tri-Trophic TCN
+12	E	E	GBIF	GBIF Extract without Location Information
+20	EAPZ	NULL	AMNH	Tri-Trophic TCN
+8211	EAPZ	NULL	UNL	Scarab Central: World Scarabaeoidea
+114	EAUS	NULL	UNL	Scarab Central: World Scarabaeoidea
+50	EBUS	NULL	UNL	Scarab Central: World Scarabaeoidea
+1	ECW	Blind Lake Baseline Study	GBIF	GBIF Extract with Location Data
+136	ECW	Brewery Creek Mine Land Application Assessment 2002 and 2003	GBIF	GBIF Extract with Location Data
+40	ECW	Eman Cadet Camp Baseline Study	GBIF	GBIF Extract with Location Data
+25	ECW	Eman Fireweed Drive Baseline Study	GBIF	GBIF Extract with Location Data
+8	ECW	EP Coumpound Baseline Study	GBIF	GBIF Extract with Location Data
+11	ECW	EP Forest Baseline Study	GBIF	GBIF Extract with Location Data
+17	ECW	EP Impact Site Baseline Study	GBIF	GBIF Extract with Location Data
+50	ECW	Fish Lake Road Baseline Study	GBIF	GBIF Extract with Location Data
+6	ECW	Grainger Grab Samples	GBIF	GBIF Extract with Location Data
+1	ECW	Kloo Lake Samples	GBIF	GBIF Extract with Location Data
+4	ECW	LaBiche River Baseline Study	GBIF	GBIF Extract with Location Data
+26	ECW	Long Lake Road Baseline Study	GBIF	GBIF Extract with Location Data
+5	ECW	Misc. Grab Samples	GBIF	GBIF Extract with Location Data
+24	ECW	Wolf Creek Colored Tray Survey 2003	GBIF	GBIF Extract with Location Data
+12	ECW	Y2C2 Alaska Highway Survey 2001	GBIF	GBIF Extract with Location Data
+495	EM	Zoology	GBIF	GBIF Extract with Location Data
+9405	EM	Zoology	GBIF	GBIF Extract without Location Information
+3	EMAP_NCA	CA03	GBIF	GBIF Extract with Location Data
+2	EMAP_NCA	COL02	GBIF	GBIF Extract with Location Data
+1	EMAP_NCA	LA91_94	GBIF	GBIF Extract with Location Data
+1	EMAP_NCA	MAIA9798	GBIF	GBIF Extract with Location Data
+1211	EMEC	Arthropods	GBIF	GBIF Extract with Location Data
+1211	EMEC	EMEC	GBIF	GBIF Extract with Location Data
+8	EMEC	SCC	GBIF	GBIF Extract with Location Data
+71	ENA	NULL	UNL	Scarab Central: World Scarabaeoidea
+1236	ESNACIFOR	NULL	UNL	Scarab Central: World Scarabaeoidea
+19	ESUW	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+62	EUMJ	COBU	GBIF	GBIF Extract without Location Information
+65	EUMJ	COME	GBIF	GBIF Extract without Location Information
+2	EVDB	NULL	UNL	Scarab Central: World Scarabaeoidea
+3	FCAP	NULL	AMNH	Tri-Trophic TCN
+2	FCMNH	FCMNH	GBIF	GBIF Extract without Location Information
+57	FCNI	NULL	AMNH	Tri-Trophic TCN
+17	FETS	FETS_CEGN	GBIF	GBIF Extract without Location Information
+7	FIOC	NULL	AMNH	Tri-Trophic TCN
+69	FMIC	NULL	AMNH	North American Bee Collections
+11	FMNH	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1838	FMNH	NULL	AMNH	Tri-Trophic TCN
+1711	FMNH	Insects	GBIF	GBIF Extract with Location Data
+2074	FMNH	Insects	GBIF	GBIF Extract without Location Information
+257	FSCA	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+13928	FSCA	NULL	AMNH	Tri-Trophic TCN
+22	FUCSA	NULL	UNL	Scarab Central: World Scarabaeoidea
+20	FUPNAPIB	NULL	UNL	Scarab Central: World Scarabaeoidea
+1	GBR004	GBR	GBIF	GBIF Extract without Location Information
+1747	GSC	NULL	AMNH	North American Bee Collections
+1	GSC	NULL	AMNH	Tri-Trophic TCN
+4	GSFP	GSFP	EMEC	Essig Museum of Entomology
+1922	GWMP	NULL	AMNH	Tri-Trophic TCN
+137	HAC	RMH Spiders	GBIF	GBIF Extract with Location Data
+1	HAHC	NULL	UNL	Scarab Central: World Scarabaeoidea
+3	HCM	51	GBIF	GBIF Extract without Location Information
+7	HEISS	NULL	AMNH	Tri-Trophic TCN
+2	HNHM	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+322	HNHM	NULL	AMNH	Tri-Trophic TCN
+101	HOC	NULL	AMNH	North American Bee Collections
+7	HYO	ENT	GBIF	GBIF Extract without Location Information
+600	HZIC	NULL	AMNH	North American Bee Collections
+51	IAvH	NULL	AMNH	Tri-Trophic TCN
+87	IBUNAM	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+497	IBUNAM	NULL	AMNH	Tri-Trophic TCN
+1513	IBUNAM	CNAN	GBIF	GBIF Extract with Location Data
+82	IBUNAM	CNAN	GBIF	GBIF Extract without Location Information
+2	IBUNAM	CNAN Perdido	GBIF	GBIF Extract with Location Data
+9	IBUNAM	Loan0001	GBIF	GBIF Extract with Location Data
+10	IBUNAM	Loan0002	GBIF	GBIF Extract with Location Data
+3	IBUNAM	Loan0003	GBIF	GBIF Extract with Location Data
+3	IBUNAM	Loan0003	GBIF	GBIF Extract without Location Information
+148	ICN	NULL	AMNH	Tri-Trophic TCN
+16	IEXA	NULL	AMNH	Tri-Trophic TCN
+17	IMLA	NULL	AMNH	Tri-Trophic TCN
+4525	iNaturalist	Observations	GBIF	GBIF Extract with Location Data
+457	INB	Arachnida	GBIF	GBIF Extract with Location Data
+11	INB	Insecta	GBIF	GBIF Extract with Location Data
+1514	INBIO	NULL	AMNH	Tri-Trophic TCN
+131	INHS	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+274	INHS	NULL	AMNH	Tri-Trophic TCN
+50	INHS	Araneae	GBIF	GBIF Extract with Location Data
+8	INHS	Araneae	GBIF	GBIF Extract without Location Information
+174	INHS	Insect Collection	GBIF	GBIF Extract with Location Data
+8	INHS	Insect Collection	GBIF	GBIF Extract without Location Information
+209	INPA	NULL	AMNH	Tri-Trophic TCN
+2	Institute of Research for Development	arim	GBIF	GBIF Extract without Location Information
+382	ISNB	NULL	AMNH	Tri-Trophic TCN
+252	ISUI	NULL	AMNH	Tri-Trophic TCN
+1	JACM	IN64036	GBIF	GBIF Extract without Location Information
+1	JACM	IN64037	GBIF	GBIF Extract without Location Information
+1	JACM	IN64041	GBIF	GBIF Extract without Location Information
+1	JACM	IN64043	GBIF	GBIF Extract without Location Information
+1	JACM	IN64045	GBIF	GBIF Extract without Location Information
+1	JACM	IN7314	GBIF	GBIF Extract without Location Information
+1	JACM	IN8027	GBIF	GBIF Extract without Location Information
+1	JACM	IN8028	GBIF	GBIF Extract without Location Information
+2	JECC	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+2	JEWC	NULL	UNL	Scarab Central: World Scarabaeoidea
+4	JMAC	NULL	AMNH	Tri-Trophic TCN
+164	JML	NULL	AMNH	North American Bee Collections
+476	JNHM	SP-OB	GBIF	GBIF Extract without Location Information
+149	JSA	NULL	AMNH	North American Bee Collections
+5	JSANUS	NULL	AMNH	North American Bee Collections
+48	JSAOBS	NULL	AMNH	North American Bee Collections
+5587	JTP	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+2325	JTP	NULL	AMNH	Tri-Trophic TCN
+5	JWH	RC.001	GBIF	GBIF Extract with Location Data
+9	JWH	RC.002	GBIF	GBIF Extract with Location Data
+2	JWH	RC.004	GBIF	GBIF Extract with Location Data
+6	JWH	RC.005	GBIF	GBIF Extract with Location Data
+6	JWH	RC.007	GBIF	GBIF Extract with Location Data
+9	JWH	RC.008	GBIF	GBIF Extract with Location Data
+4	JWH	RC.010	GBIF	GBIF Extract with Location Data
+9	JWH	RC.011	GBIF	GBIF Extract with Location Data
+4	JWH	RC.012	GBIF	GBIF Extract with Location Data
+12	JWH	RC.013	GBIF	GBIF Extract with Location Data
+13	JWH	RC.014	GBIF	GBIF Extract with Location Data
+3	JWH	RC.015	GBIF	GBIF Extract with Location Data
+12	JWH	RC.016	GBIF	GBIF Extract with Location Data
+13	JWH	RC.017	GBIF	GBIF Extract with Location Data
+2	JWH	RC.018	GBIF	GBIF Extract with Location Data
+10	JWH	RC.019	GBIF	GBIF Extract with Location Data
+1	JWH	RC.020	GBIF	GBIF Extract with Location Data
+2	JWH	RC.021	GBIF	GBIF Extract with Location Data
+39	JWH	RC.022	GBIF	GBIF Extract with Location Data
+7	JWH	RC.023	GBIF	GBIF Extract with Location Data
+1	JWH	RC.024	GBIF	GBIF Extract with Location Data
+2	JWH	RC.025	GBIF	GBIF Extract with Location Data
+10	JWH	RC.026	GBIF	GBIF Extract with Location Data
+11	JWH	RC.027	GBIF	GBIF Extract with Location Data
+10	JWH	RC.028	GBIF	GBIF Extract with Location Data
+3	JWH	RC.029	GBIF	GBIF Extract with Location Data
+12	JWH	RC.030	GBIF	GBIF Extract with Location Data
+6	JWH	RC.031	GBIF	GBIF Extract with Location Data
+15	JWH	RC.032	GBIF	GBIF Extract with Location Data
+13	JWH	RC.033	GBIF	GBIF Extract with Location Data
+15	JWH	RC.034	GBIF	GBIF Extract with Location Data
+13	JWH	RC.035	GBIF	GBIF Extract with Location Data
+2	JWH	RC.036	GBIF	GBIF Extract with Location Data
+1	JWH	RC.037	GBIF	GBIF Extract with Location Data
+1	JWH	RC.038	GBIF	GBIF Extract with Location Data
+14	JWH	RC.039	GBIF	GBIF Extract with Location Data
+2	JWH	RC.040	GBIF	GBIF Extract with Location Data
+54	JWH	RC.041	GBIF	GBIF Extract with Location Data
+5	JWH	RC.042	GBIF	GBIF Extract with Location Data
+7	JWH	RC.043	GBIF	GBIF Extract with Location Data
+7	JWH	RC.044	GBIF	GBIF Extract with Location Data
+9	JWH	RC.045	GBIF	GBIF Extract with Location Data
+10	JWH	RC.046	GBIF	GBIF Extract with Location Data
+13	JWH	RC.047	GBIF	GBIF Extract with Location Data
+25	JWH	RC.048	GBIF	GBIF Extract with Location Data
+8	JWH	RC.049	GBIF	GBIF Extract with Location Data
+3	JWH	RC.050	GBIF	GBIF Extract with Location Data
+1	JWH	RC.051	GBIF	GBIF Extract with Location Data
+22	JWH	RC.052	GBIF	GBIF Extract with Location Data
+12	JWH	RC.053	GBIF	GBIF Extract with Location Data
+5	JWH	RC.054	GBIF	GBIF Extract with Location Data
+24	JWH	RC.055	GBIF	GBIF Extract with Location Data
+2	JWH	RC.056	GBIF	GBIF Extract with Location Data
+5	JWH	RC.057	GBIF	GBIF Extract with Location Data
+18	JWH	RC.058	GBIF	GBIF Extract with Location Data
+2	JWH	RC.059	GBIF	GBIF Extract with Location Data
+4	JWH	RC.060	GBIF	GBIF Extract with Location Data
+7	JWH	RC.061	GBIF	GBIF Extract with Location Data
+7	JWH	RC.062	GBIF	GBIF Extract with Location Data
+13	JWH	RC.063	GBIF	GBIF Extract with Location Data
+20	JWH	RC.064	GBIF	GBIF Extract with Location Data
+11	JWH	RC.066	GBIF	GBIF Extract with Location Data
+13	JWH	RC.067	GBIF	GBIF Extract with Location Data
+2	JWH	RC.068	GBIF	GBIF Extract with Location Data
+2	JWH	RC.069	GBIF	GBIF Extract with Location Data
+4	JWH	RC.070	GBIF	GBIF Extract with Location Data
+7	JWH	RC.071	GBIF	GBIF Extract with Location Data
+1	JWH	RC.073	GBIF	GBIF Extract with Location Data
+3	JWH	RC.074	GBIF	GBIF Extract with Location Data
+4	JWH	RC.075	GBIF	GBIF Extract with Location Data
+10	JWH	RC.076	GBIF	GBIF Extract with Location Data
+6	JWH	RC.077	GBIF	GBIF Extract with Location Data
+6	JWH	RC.078	GBIF	GBIF Extract with Location Data
+4	JWH	RC.080	GBIF	GBIF Extract with Location Data
+17	JWH	RC.082	GBIF	GBIF Extract with Location Data
+13	JWH	RC.083	GBIF	GBIF Extract with Location Data
+3	JWH	RC.084	GBIF	GBIF Extract with Location Data
+5	JWH	RC.085	GBIF	GBIF Extract with Location Data
+15	JWH	RC.086	GBIF	GBIF Extract with Location Data
+6	JWH	RC.087	GBIF	GBIF Extract with Location Data
+11	JWH	RC.088	GBIF	GBIF Extract with Location Data
+3	JWH	RC.089	GBIF	GBIF Extract with Location Data
+10	JWH	RC.092	GBIF	GBIF Extract with Location Data
+52	JWH	RC.093	GBIF	GBIF Extract with Location Data
+7	JWH	RC.094	GBIF	GBIF Extract with Location Data
+4	JWH	RC.095	GBIF	GBIF Extract with Location Data
+11	JWH	RC.096	GBIF	GBIF Extract with Location Data
+5	JWH	RC.097	GBIF	GBIF Extract with Location Data
+5	JWH	RC.098	GBIF	GBIF Extract with Location Data
+8	JWH	RC.099	GBIF	GBIF Extract with Location Data
+1	JWH	RC.102	GBIF	GBIF Extract with Location Data
+2	JWH	RC.103	GBIF	GBIF Extract with Location Data
+10	JWH	RC.104	GBIF	GBIF Extract with Location Data
+20	JWH	RC.105	GBIF	GBIF Extract with Location Data
+2	JWH	RC.106	GBIF	GBIF Extract with Location Data
+21	JWH	RC.107	GBIF	GBIF Extract with Location Data
+4	JWH	RC.111	GBIF	GBIF Extract with Location Data
+17	JWH	RC.112	GBIF	GBIF Extract with Location Data
+6	JWH	RC.113	GBIF	GBIF Extract with Location Data
+4	JWH	RC.114	GBIF	GBIF Extract with Location Data
+6	JWH	RC.117	GBIF	GBIF Extract with Location Data
+23	JWH	RC.119	GBIF	GBIF Extract with Location Data
+6	JWH	RC.121	GBIF	GBIF Extract with Location Data
+1	JWH	RC.123	GBIF	GBIF Extract with Location Data
+10	JWH	RC.125	GBIF	GBIF Extract with Location Data
+9	JWH	RC.126	GBIF	GBIF Extract with Location Data
+5	JWH	RC.127	GBIF	GBIF Extract with Location Data
+5	JWH	RC.128	GBIF	GBIF Extract with Location Data
+4	JWH	RC.129	GBIF	GBIF Extract with Location Data
+8	JWH	RC.130	GBIF	GBIF Extract with Location Data
+1	JWH	RC.131	GBIF	GBIF Extract with Location Data
+1	JWH	RC.132	GBIF	GBIF Extract with Location Data
+7	JWH	RC.133	GBIF	GBIF Extract with Location Data
+3	JWH	RC.134	GBIF	GBIF Extract with Location Data
+23	JWH	RC.135	GBIF	GBIF Extract with Location Data
+1	JWH	RC.136	GBIF	GBIF Extract with Location Data
+4	JWH	RC.137	GBIF	GBIF Extract with Location Data
+3	JWH	RC.138	GBIF	GBIF Extract with Location Data
+12	JWH	RC.140	GBIF	GBIF Extract with Location Data
+1	JWH	RC.141	GBIF	GBIF Extract with Location Data
+1	JWH	RC.142	GBIF	GBIF Extract with Location Data
+9	JWH	RC.144	GBIF	GBIF Extract with Location Data
+7	JWH	RC.147	GBIF	GBIF Extract with Location Data
+4	JWH	RC.148	GBIF	GBIF Extract with Location Data
+5	JWH	RC.150	GBIF	GBIF Extract with Location Data
+1	JWH	RC.153	GBIF	GBIF Extract with Location Data
+15	JWH	RC.154	GBIF	GBIF Extract with Location Data
+28	JWH	RC.157	GBIF	GBIF Extract with Location Data
+2	JWH	RC.158	GBIF	GBIF Extract with Location Data
+1	JWH	RC.161	GBIF	GBIF Extract with Location Data
+1	JWH	RC.166	GBIF	GBIF Extract with Location Data
+8	JWH	RC.167	GBIF	GBIF Extract with Location Data
+6	JWH	RC.168	GBIF	GBIF Extract with Location Data
+1	JWH	RC.169	GBIF	GBIF Extract with Location Data
+13	JWH	RC.172	GBIF	GBIF Extract with Location Data
+21	JWH	RC.173	GBIF	GBIF Extract with Location Data
+30	JWH	RC.174	GBIF	GBIF Extract with Location Data
+6	JWH	RC.175	GBIF	GBIF Extract with Location Data
+1	JWH	RC.177	GBIF	GBIF Extract with Location Data
+14	JWH	RC.178	GBIF	GBIF Extract with Location Data
+2	JWH	RC.179	GBIF	GBIF Extract with Location Data
+5	JWH	RC.180	GBIF	GBIF Extract with Location Data
+3	JWH	RC.181	GBIF	GBIF Extract with Location Data
+4	JWH	RC.183	GBIF	GBIF Extract with Location Data
+10	JWH	RC.186	GBIF	GBIF Extract with Location Data
+2	JWH	RC.192	GBIF	GBIF Extract with Location Data
+4	JWH	RC.194	GBIF	GBIF Extract with Location Data
+1	JWH	RC.195	GBIF	GBIF Extract with Location Data
+23	JWH	RC.197	GBIF	GBIF Extract with Location Data
+10	JWH	RC.200	GBIF	GBIF Extract with Location Data
+5	JWH	RC.201	GBIF	GBIF Extract with Location Data
+2	JWH	RC.202	GBIF	GBIF Extract with Location Data
+1	JWH	RC.203	GBIF	GBIF Extract with Location Data
+2	JWH	RC.205	GBIF	GBIF Extract with Location Data
+18	JWH	RC.207	GBIF	GBIF Extract with Location Data
+13	JWH	RC.208	GBIF	GBIF Extract with Location Data
+3	JWH	RC.210	GBIF	GBIF Extract with Location Data
+2	JWH	RC.211	GBIF	GBIF Extract with Location Data
+10	JWH	RC.212	GBIF	GBIF Extract with Location Data
+6	JWH	RC.213	GBIF	GBIF Extract with Location Data
+1	JWH	RC.215	GBIF	GBIF Extract with Location Data
+2	JWH	RC.216	GBIF	GBIF Extract with Location Data
+6	JWH	RC.220	GBIF	GBIF Extract with Location Data
+2	JWH	RC.222	GBIF	GBIF Extract with Location Data
+23	JWH	RC.223	GBIF	GBIF Extract with Location Data
+5	JWH	RC.224	GBIF	GBIF Extract with Location Data
+7	JWH	RC.225	GBIF	GBIF Extract with Location Data
+1	JWH	RC.226	GBIF	GBIF Extract with Location Data
+3	JWH	RC.229	GBIF	GBIF Extract with Location Data
+5	JWH	RC.232	GBIF	GBIF Extract with Location Data
+2	JWH	RC.233	GBIF	GBIF Extract with Location Data
+1	JWH	RC.234	GBIF	GBIF Extract with Location Data
+5	JWH	RC.235	GBIF	GBIF Extract with Location Data
+2	JWH	RC.236	GBIF	GBIF Extract with Location Data
+5	JWH	RC.239	GBIF	GBIF Extract with Location Data
+8	JWH	RC.240	GBIF	GBIF Extract with Location Data
+10	JWH	RC.242	GBIF	GBIF Extract with Location Data
+3	JWH	RC.243	GBIF	GBIF Extract with Location Data
+4	JWH	RC.244	GBIF	GBIF Extract with Location Data
+1	JWH	RC.247	GBIF	GBIF Extract with Location Data
+3	JWH	RC.248	GBIF	GBIF Extract with Location Data
+5	JWH	RC.249	GBIF	GBIF Extract with Location Data
+15	JWH	RC.250	GBIF	GBIF Extract with Location Data
+3	JWH	RC.251	GBIF	GBIF Extract with Location Data
+4	JWH	RC.253	GBIF	GBIF Extract with Location Data
+2	JWH	RC.256	GBIF	GBIF Extract with Location Data
+3	JWH	RC.258	GBIF	GBIF Extract with Location Data
+10	JWH	RC.260	GBIF	GBIF Extract with Location Data
+1	JWH	RC.261	GBIF	GBIF Extract with Location Data
+27	JWH	RC.263	GBIF	GBIF Extract with Location Data
+1	JWH	RC.265	GBIF	GBIF Extract with Location Data
+1	JWH	RC.266	GBIF	GBIF Extract with Location Data
+1	JWH	RC.267	GBIF	GBIF Extract with Location Data
+9	JWH	RC.269	GBIF	GBIF Extract with Location Data
+1	JWH	RC.271	GBIF	GBIF Extract with Location Data
+2	JWH	RC.272	GBIF	GBIF Extract with Location Data
+1	JWH	RC.277	GBIF	GBIF Extract with Location Data
+1	JWH	RC.278	GBIF	GBIF Extract with Location Data
+8	JWH	RC.279	GBIF	GBIF Extract with Location Data
+6	JWH	RC.283	GBIF	GBIF Extract with Location Data
+1	JWH	RC.284	GBIF	GBIF Extract with Location Data
+6	JWH	RC.285	GBIF	GBIF Extract with Location Data
+2	JWH	RC.287	GBIF	GBIF Extract with Location Data
+1	JWH	RC.288	GBIF	GBIF Extract with Location Data
+3	JWH	RC.289	GBIF	GBIF Extract with Location Data
+5	JWH	RC.290	GBIF	GBIF Extract with Location Data
+13	JWH	RC.291	GBIF	GBIF Extract with Location Data
+3	JWH	RC.293	GBIF	GBIF Extract with Location Data
+2	JWH	RC.297	GBIF	GBIF Extract with Location Data
+3	JWH	RC.301	GBIF	GBIF Extract with Location Data
+17	JWH	RC.303	GBIF	GBIF Extract with Location Data
+5	JWH	RC.304	GBIF	GBIF Extract with Location Data
+2	JWH	RC.305	GBIF	GBIF Extract with Location Data
+3	JWH	RC.306	GBIF	GBIF Extract with Location Data
+4	JWH	RC.307	GBIF	GBIF Extract with Location Data
+3	JWH	RC.308	GBIF	GBIF Extract with Location Data
+11	JWH	RC.309	GBIF	GBIF Extract with Location Data
+5	JWH	RC.310	GBIF	GBIF Extract with Location Data
+3	JWH	RC.313	GBIF	GBIF Extract with Location Data
+2	JWH	RC.315	GBIF	GBIF Extract with Location Data
+6	JWH	RC.316	GBIF	GBIF Extract with Location Data
+3	JWH	RC.318	GBIF	GBIF Extract with Location Data
+1	JWH	RC.319	GBIF	GBIF Extract with Location Data
+12	JWH	RC.320	GBIF	GBIF Extract with Location Data
+15	JWH	RC.322	GBIF	GBIF Extract with Location Data
+18	JWH	RC.323	GBIF	GBIF Extract with Location Data
+6	JWH	RC.325	GBIF	GBIF Extract with Location Data
+1	JWH	RC.326	GBIF	GBIF Extract with Location Data
+2	JWH	RC.327	GBIF	GBIF Extract with Location Data
+9	JWH	RC.328	GBIF	GBIF Extract with Location Data
+1	JWH	RC.330	GBIF	GBIF Extract with Location Data
+1	JWH	RC.331	GBIF	GBIF Extract with Location Data
+3	JWH	RC.333	GBIF	GBIF Extract with Location Data
+5	JWH	RC.335	GBIF	GBIF Extract with Location Data
+6	JWH	RC.336	GBIF	GBIF Extract with Location Data
+2	JWH	RC.337	GBIF	GBIF Extract with Location Data
+1	JWH	RC.338	GBIF	GBIF Extract with Location Data
+13	JWH	RC.339	GBIF	GBIF Extract with Location Data
+1	JWH	RC.342	GBIF	GBIF Extract with Location Data
+1	JWH	RC.344	GBIF	GBIF Extract with Location Data
+2	JWH	RC.345	GBIF	GBIF Extract with Location Data
+3	JWH	RC.347	GBIF	GBIF Extract with Location Data
+3	JWH	RC.348	GBIF	GBIF Extract with Location Data
+1	JWH	RC.349	GBIF	GBIF Extract with Location Data
+1	JWH	RC.350	GBIF	GBIF Extract with Location Data
+1	JWH	RC.351	GBIF	GBIF Extract with Location Data
+2	JWH	RC.352	GBIF	GBIF Extract with Location Data
+1	JWH	RC.353	GBIF	GBIF Extract with Location Data
+2	JWH	RC.354	GBIF	GBIF Extract with Location Data
+2	JWH	RC.361	GBIF	GBIF Extract with Location Data
+1	JWH	RC.366	GBIF	GBIF Extract with Location Data
+2	JWH	RC.369	GBIF	GBIF Extract with Location Data
+2	JWH	RC.371	GBIF	GBIF Extract with Location Data
+2	JWH	RC.373	GBIF	GBIF Extract with Location Data
+1	JWH	RC.374	GBIF	GBIF Extract with Location Data
+1	JWH	RC.375	GBIF	GBIF Extract with Location Data
+1	JWH	RC.376	GBIF	GBIF Extract with Location Data
+3	JWH	RC.378	GBIF	GBIF Extract with Location Data
+3	JWH	RC.381	GBIF	GBIF Extract with Location Data
+1	JWH	RC.384	GBIF	GBIF Extract with Location Data
+7	JWH	RC.386	GBIF	GBIF Extract with Location Data
+2	JWH	RC.387	GBIF	GBIF Extract with Location Data
+2	JWH	RC.388	GBIF	GBIF Extract with Location Data
+3	JWH	RC.389	GBIF	GBIF Extract with Location Data
+1	JWH	RC.390	GBIF	GBIF Extract with Location Data
+1	JWH	RC.391	GBIF	GBIF Extract with Location Data
+5	JWH	RC.392	GBIF	GBIF Extract with Location Data
+2	JWH	RC.393	GBIF	GBIF Extract with Location Data
+1	JWH	RC.394	GBIF	GBIF Extract with Location Data
+1	JWH	RC.395	GBIF	GBIF Extract with Location Data
+1	JWH	RC.396	GBIF	GBIF Extract with Location Data
+1	JWH	RC.397	GBIF	GBIF Extract with Location Data
+2	JWH	RC.400	GBIF	GBIF Extract with Location Data
+3	JWH	RC.405	GBIF	GBIF Extract with Location Data
+1	JWH	RC.407	GBIF	GBIF Extract with Location Data
+1	JWH	RC.408	GBIF	GBIF Extract with Location Data
+2	JWH	RC.409	GBIF	GBIF Extract with Location Data
+1	JWH	RC.410	GBIF	GBIF Extract with Location Data
+4	JWH	RC.411	GBIF	GBIF Extract with Location Data
+3	JWH	RC.412	GBIF	GBIF Extract with Location Data
+1	JWH	RC.413	GBIF	GBIF Extract with Location Data
+1	JWH	RC.414	GBIF	GBIF Extract with Location Data
+3	JWH	RC.415	GBIF	GBIF Extract with Location Data
+1	JWH	RC.416	GBIF	GBIF Extract with Location Data
+2	JWH	RC.417	GBIF	GBIF Extract with Location Data
+2	JWH	RC.418	GBIF	GBIF Extract with Location Data
+1	JWH	RC.419	GBIF	GBIF Extract with Location Data
+1	JWH	RC.420	GBIF	GBIF Extract with Location Data
+2	JWH	RC.421	GBIF	GBIF Extract with Location Data
+2	JWH	RC.422	GBIF	GBIF Extract with Location Data
+1	JWH	RC.426	GBIF	GBIF Extract with Location Data
+1	JWH	RC.427	GBIF	GBIF Extract with Location Data
+1	JWH	RC.428	GBIF	GBIF Extract with Location Data
+1	JWH	RC.429	GBIF	GBIF Extract with Location Data
+1	JWH	RC.430	GBIF	GBIF Extract with Location Data
+3	JWH	RC.431	GBIF	GBIF Extract with Location Data
+1	JWH	RC.432	GBIF	GBIF Extract with Location Data
+3	JWH	RC.434	GBIF	GBIF Extract with Location Data
+1	JWH	RC.435	GBIF	GBIF Extract with Location Data
+2	JWH	RC.437	GBIF	GBIF Extract with Location Data
+1	JWH	RC.438	GBIF	GBIF Extract with Location Data
+3	JWH	RC.439	GBIF	GBIF Extract with Location Data
+2	JWH	RC.440	GBIF	GBIF Extract with Location Data
+1	JWH	RC.441	GBIF	GBIF Extract with Location Data
+1	JWH	RC.442	GBIF	GBIF Extract with Location Data
+1	JWH	RC.443	GBIF	GBIF Extract with Location Data
+1	JWH	RC.445	GBIF	GBIF Extract with Location Data
+1	JWH	RC.448	GBIF	GBIF Extract with Location Data
+1	JWH	RC.449	GBIF	GBIF Extract with Location Data
+1	JWH	RC.450	GBIF	GBIF Extract with Location Data
+1	JWH	RC.451	GBIF	GBIF Extract with Location Data
+1	JWH	RC.452	GBIF	GBIF Extract with Location Data
+2	JWH	RC.453	GBIF	GBIF Extract with Location Data
+1	JWH	RC.454	GBIF	GBIF Extract with Location Data
+1	JWH	RC.455	GBIF	GBIF Extract with Location Data
+1	JWH	RC.456	GBIF	GBIF Extract with Location Data
+1	JWH	RC.458	GBIF	GBIF Extract with Location Data
+1	JWH	RC.459	GBIF	GBIF Extract with Location Data
+1	JWH	RC.461	GBIF	GBIF Extract with Location Data
+1	KAVE	NULL	AMNH	Tri-Trophic TCN
+14	KBIN	NULL	AMNH	Tri-Trophic TCN
+5	KCMI	KCMI	GBIF	GBIF Extract without Location Information
+1	Kentuky	NULL	UNL	Scarab Central: World Scarabaeoidea
+1	KIDR	MM	GBIF	GBIF Extract without Location Information
+44	KNWR	NULL	AMNH	Tri-Trophic TCN
+586	KNWR	Ento	GBIF	GBIF Extract with Location Data
+1679	KU	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1814	KU	NULL	AMNH	Tri-Trophic TCN
+10	KU	SEMC	GBIF	GBIF Extract with Location Data
+4	La Rue	NULL	UNL	Scarab Central: World Scarabaeoidea
+178	LACM	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1385	LACM	NULL	AMNH	Tri-Trophic TCN
+2408	LACM	ENT	EMEC	Essig Museum of Entomology
+1	Lago coll.	NULL	UNL	Scarab Central: World Scarabaeoidea
+1115	LBOB	NULL	AMNH	Tri-Trophic TCN
+4	LEGON-GC	GCinsects1	GBIF	GBIF Extract without Location Information
+1	LEHMAN	NULL	UNL	Scarab Central: World Scarabaeoidea
+131	León	NULL	UNL	Scarab Central: World Scarabaeoidea
+334	LI	Biologiezentrum Linz	GBIF	GBIF Extract without Location Information
+1	ligata	NULL	AMNH	Tri-Trophic TCN
+166	LSU	NULL	AMNH	Tri-Trophic TCN
+389	MACN	NULL	AMNH	Tri-Trophic TCN
+7	MACN	MACN-Ar	GBIF	GBIF Extract with Location Data
+3	MACN	MACN-Ar	GBIF	GBIF Extract without Location Information
+5	MADUG	MADUG-IV	GBIF	GBIF Extract with Location Data
+1	Maes Coll	NULL	UNL	Scarab Central: World Scarabaeoidea
+4115	Maes Coll.	NULL	UNL	Scarab Central: World Scarabaeoidea
+102	Managua	NULL	UNL	Scarab Central: World Scarabaeoidea
+4	Mankins	NULL	UNL	Scarab Central: World Scarabaeoidea
+1493	McGill University	LEMQ	GBIF	GBIF Extract with Location Data
+15	McGill University	LEMQ	GBIF	GBIF Extract without Location Information
+8	MCNZ	NULL	AMNH	Tri-Trophic TCN
+10	MCZ	Cryo	GBIF	GBIF Extract with Location Data
+17903	MCZ	IZ	GBIF	GBIF Extract with Location Data
+5	MCZ	IZ	GBIF	GBIF Extract without Location Information
+1	MCZ	Mala	GBIF	GBIF Extract with Location Data
+34	Meesters Coll.	NULL	UNL	Scarab Central: World Scarabaeoidea
+309	MEFLG	NULL	AMNH	Tri-Trophic TCN
+56349	MEMU	NULL	AMNH	Tri-Trophic TCN
+1	MEUV	NULL	AMNH	Tri-Trophic TCN
+1	MfN	Heteroptera Collection	GBIF	GBIF Extract without Location Information
+43	MfN	MfN - Fossil invertebrates III	GBIF	GBIF Extract without Location Information
+1	MHNCM	MHNCM	GBIF	GBIF Extract with Location Data
+1605	MHNES	NULL	UNL	Scarab Central: World Scarabaeoidea
+361	MHNG	NULL	AMNH	Tri-Trophic TCN
+3	MIZPAN	Aphidoidea Collection	GBIF	GBIF Extract without Location Information
+5398	MIZPAN	Araneae Collection	GBIF	GBIF Extract without Location Information
+4	MIZPAN	Bird Collection of Museum and Institute of Zoology PAS	GBIF	GBIF Extract without Location Information
+104	MMRL	NULL	UNL	Scarab Central: World Scarabaeoidea
+744	MMWVU	NULL	AMNH	North American Bee Collections
+11	MNHN	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+488	MNHN	NULL	AMNH	Tri-Trophic TCN
+2	MNHN	AR	GBIF	GBIF Extract with Location Data
+1	MNHN	MNHN	GBIF	GBIF Extract without Location Information
+1	MNHNL	Recorder database	GBIF	GBIF Extract without Location Information
+1	MNHW	Collection of Heteroptera	GBIF	GBIF Extract without Location Information
+226	MNRJ	NULL	AMNH	Tri-Trophic TCN
+11731	MPEG	ARA	GBIF	GBIF Extract without Location Information
+197	MRAC	NULL	AMNH	Tri-Trophic TCN
+41	MSU	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1	MTEC	NULL	AMNH	Tri-Trophic TCN
+44	MUSM	NULL	AMNH	Tri-Trophic TCN
+150	MVY	NULL	AMNH	North American Bee Collections
+16	MZH	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+74	MZH	NULL	AMNH	Tri-Trophic TCN
+1	MZH	Virtala.www_araneae	GBIF	GBIF Extract without Location Information
+1	MZNA	MZ	GBIF	GBIF Extract with Location Data
+225	MZSP	NULL	AMNH	Tri-Trophic TCN
+1	National Museum of the Czech Republic	NM	GBIF	GBIF Extract without Location Information
+41	naturgucker	naturgucker	GBIF	GBIF Extract with Location Data
+15	NAUF	NULL	AMNH	Tri-Trophic TCN
+2	NAUF	B	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+1648	NAUF	GEWA	NAUF	Colorado Plateau Museum of Arthropod Biodiversity
+103	NCSU	NULL	AMNH	North American Bee Collections
+90	NCSU	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+116024	NCSU	NULL	AMNH	Tri-Trophic TCN
+72	NDBC	NULL	AMNH	North American Bee Collections
+472	NEMU	NULL	AMNH	North American Bee Collections
+10	NHMW	NULL	AMNH	Tri-Trophic TCN
+4	NHRS	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+29	NHRS	NULL	AMNH	Tri-Trophic TCN
+6	NIAES	SUGI	GBIF	GBIF Extract without Location Information
+22	NIC	NULL	UNL	Scarab Central: World Scarabaeoidea
+1	NMLS	NULL	AMNH	North American Bee Collections
+3	NMPC	NULL	AMNH	Tri-Trophic TCN
+304	NMSU-EPPWS	Arth	GBIF	GBIF Extract without Location Information
+1	NOAA	1997 EMAP Carolinian Province	GBIF	GBIF Extract with Location Data
+1	NOAA/HML	May River Study	GBIF	GBIF Extract with Location Data
+15	NRM	NHRS	GBIF	GBIF Extract without Location Information
+53	NSBC	NULL	AMNH	North American Bee Collections
+2596	NSMK	EN-SP	GBIF	GBIF Extract without Location Information
+2486	NSMK	SP	GBIF	GBIF Extract without Location Information
+255	NSMK	SP-OB	GBIF	GBIF Extract without Location Information
+86	NSULA	NSULA	GBIF	GBIF Extract with Location Data
+6	NSULA	NSULA	GBIF	GBIF Extract without Location Information
+44	NTSRV	AL-NHP	GBIF	GBIF Extract without Location Information
+7	NTSRV	CA-NHP	GBIF	GBIF Extract without Location Information
+4	NTSRV	CT-NHP	GBIF	GBIF Extract without Location Information
+86	NTSRV	FL-NHP	GBIF	GBIF Extract without Location Information
+2	NTSRV	HI-NHP	GBIF	GBIF Extract without Location Information
+26	NTSRV	IN-NHP	GBIF	GBIF Extract without Location Information
+2	NTSRV	MD-NHP	GBIF	GBIF Extract without Location Information
+24	NTSRV	MN-NHP	GBIF	GBIF Extract without Location Information
+17	NTSRV	NC-NHP	GBIF	GBIF Extract without Location Information
+2	NTSRV	ON-CDC	GBIF	GBIF Extract without Location Information
+2	NTSRV	PA-NHP	GBIF	GBIF Extract without Location Information
+17	NTSRV	TN-NHP	GBIF	GBIF Extract without Location Information
+36	NTSRV	TV-NHP	GBIF	GBIF Extract without Location Information
+13	NTSRV	VA-NHP	GBIF	GBIF Extract without Location Information
+2	NTSRV	WI-NHP	GBIF	GBIF Extract without Location Information
+41	NTSRV	WV-NHP	GBIF	GBIF Extract without Location Information
+99	NYBG	NULL	AMNH	North American Bee Collections
+5360	NYSM	NULL	AMNH	North American Bee Collections
+16	NYSM	NULL	AMNH	Tri-Trophic TCN
+170	ODA	NULL	AMNH	Tri-Trophic TCN
+2	Ohio State University Acarology Laboratory, Columbus, OH (OSAL)	Mites	GBIF	GBIF Extract with Location Data
+113	OMC	OMC	EMEC	Essig Museum of Entomology
+2773	OMNH	OMNH_TA	GBIF	GBIF Extract without Location Information
+536	OMNH	RINVRT	GBIF	GBIF Extract with Location Data
+241	OMNH	RINVRT	GBIF	GBIF Extract without Location Information
+2	OMPIM	OMPIM	GBIF	GBIF Extract without Location Information
+25	Ontario	NULL	UNL	Scarab Central: World Scarabaeoidea
+8	OSAC	NULL	AMNH	North American Bee Collections
+549	OSAC	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+133100	OSAC	NULL	AMNH	Tri-Trophic TCN
+420	OSAC	HYPENA_01	OSU	Oregon State Arthropod Collection
+457	OSAC	OSAC	EMEC	Essig Museum of Entomology
+43	OSEC	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+96	OSEC	NULL	AMNH	Tri-Trophic TCN
+7	OSUC	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1	PBDB	20768	GBIF	GBIF Extract with Location Data
+16	PBDB	21978	GBIF	GBIF Extract with Location Data
+1	PBDB	23174	GBIF	GBIF Extract with Location Data
+1	PBDB	34900	GBIF	GBIF Extract with Location Data
+45	PBDB	34966	GBIF	GBIF Extract with Location Data
+1	PBDB	77218	GBIF	GBIF Extract with Location Data
+1	PBDB	84413	GBIF	GBIF Extract with Location Data
+1	PBDB	84415	GBIF	GBIF Extract with Location Data
+1	PBDB	84417	GBIF	GBIF Extract with Location Data
+1	PBDB	84420	GBIF	GBIF Extract with Location Data
+1	PBDB	84421	GBIF	GBIF Extract with Location Data
+1	PBDB	84422	GBIF	GBIF Extract with Location Data
+1	PBDB	84425	GBIF	GBIF Extract with Location Data
+1	PBDB	84430	GBIF	GBIF Extract with Location Data
+1	PBDB	84432	GBIF	GBIF Extract with Location Data
+1	PBDB	84433	GBIF	GBIF Extract with Location Data
+1518	PDA	NULL	AMNH	Tri-Trophic TCN
+24	PGC	NULL	AMNH	North American Bee Collections
+456	PKPC	PKPC	EMEC	Essig Museum of Entomology
+2	Plants, herbivores, and parasitoids: A model system for the stud	NULL	AMNH	Tri-Trophic TCN
+1	POL003	Seed collection â€“ dead seeds for evaluation and observati	GBIF	GBIF Extract without Location Information
+1	PSC	NULL	UNL	Scarab Central: World Scarabaeoidea
+59	PSCC	NULL	UNL	Scarab Central: World Scarabaeoidea
+16	PURC	NULL	AMNH	Tri-Trophic TCN
+72	QCAZ	NULL	AMNH	North American Bee Collections
+2	QCAZ	NULL	AMNH	Tri-Trophic TCN
+1	QDPI	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+2	QDPI	NULL	AMNH	Tri-Trophic TCN
+25	QM	NULL	AMNH	Tri-Trophic TCN
+13	R. Cavey	NULL	UNL	Scarab Central: World Scarabaeoidea
+5	RBCM	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1494	RBINS	Arachnofauna	GBIF	GBIF Extract without Location Information
+2	RCC	NULL	UNL	Scarab Central: World Scarabaeoidea
+51	RDCC	NULL	UNL	Scarab Central: World Scarabaeoidea
+1845	RMBL	NULL	AMNH	North American Bee Collections
+1	RMNH	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1036	RMNH	NULL	AMNH	Tri-Trophic TCN
+4	RMNH	ACA	GBIF	GBIF Extract without Location Information
+14	Roatan	NULL	UNL	Scarab Central: World Scarabaeoidea
+659	Royal Belgian Institute of natural Sciences	Collection GÃ©nÃ©rale Araneae	GBIF	GBIF Extract without Location Information
+1	Royal Belgian Institute of natural Sciences	Collection Voyage de S. A. R. le Prince LÃ©opold (1929)	GBIF	GBIF Extract without Location Information
+1	Royal Belgian Institute of natural Sciences	Collection Xylobiontes KBIN	GBIF	GBIF Extract without Location Information
+5	Royal Belgian Institute of natural Sciences	General Araneae Collection	GBIF	GBIF Extract without Location Information
+6979	RUAC	NULL	AMNH	North American Bee Collections
+4	S	S-Vascular	GBIF	GBIF Extract without Location Information
+2	Saltin Coll.	NULL	UNL	Scarab Central: World Scarabaeoidea
+46	SAMA	NULL	AMNH	Tri-Trophic TCN
+211	SBMNH	ENT	EMEC	Essig Museum of Entomology
+3	SBMNH	SBMNH-ENT	GBIF	GBIF Extract with Location Data
+553	SCC	Arthropods	GBIF	GBIF Extract with Location Data
+634	SCC	SCC	EMEC	Essig Museum of Entomology
+553	SCC	SCC	GBIF	GBIF Extract with Location Data
+76	SDNH	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+513	SDNH	NULL	AMNH	Tri-Trophic TCN
+357	SDNHM	SDNHM	EMEC	Essig Museum of Entomology
+1	SEAA	NULL	UNL	Scarab Central: World Scarabaeoidea
+3	SEAN	NULL	UNL	Scarab Central: World Scarabaeoidea
+22	SEMC	NULL	UNL	Scarab Central: World Scarabaeoidea
+190	SEMUBCCOL	SEMUBCCOL	EMEC	Essig Museum of Entomology
+21	SFVS	NULL	AMNH	Tri-Trophic TCN
+277	SIIS	NULL	AMNH	North American Bee Collections
+27340	SIIS	NULL	AMNH	Tri-Trophic TCN
+2	Skelley	NULL	UNL	Scarab Central: World Scarabaeoidea
+11	SLIC	NULL	AMNH	North American Bee Collections
+18	SMF	Collection Arachnology	GBIF	GBIF Extract with Location Data
+11216	SMF	Collection Arachnology	GBIF	GBIF Extract without Location Information
+507	SMF	Collection Bernstein	GBIF	GBIF Extract without Location Information
+4034	SMNG	Collection Arachnologie	GBIF	GBIF Extract without Location Information
+2458	SMNK	SMNKspidercoll	GBIF	GBIF Extract without Location Information
+151	SNHM	NULL	AMNH	Tri-Trophic TCN
+24	SNSD	Collection Arachnida	GBIF	GBIF Extract without Location Information
+405	South African Museum	Ent	GBIF	GBIF Extract without Location Information
+1	STRI	NULL	AMNH	Tri-Trophic TCN
+2	STRI	NULL	UNL	Scarab Central: World Scarabaeoidea
+520	SWRS	NULL	AMNH	North American Bee Collections
+13498	TAMU	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+3429	TAMU	NULL	AMNH	Tri-Trophic TCN
+1	TAMU	NULL	UNL	Scarab Central: World Scarabaeoidea
+3	TAU	NULL	AMNH	Tri-Trophic TCN
+7	The Stuart M. Fullerton Collection of Arthropods at the Universi	Arthropods	GBIF	GBIF Extract with Location Data
+1	Tingidae	NULL	AMNH	Tri-Trophic TCN
+54	TOYA	Ar	GBIF	GBIF Extract without Location Information
+1	Tri-Trophic Thematic Collection Network, 2014 (and updates). Ver	NULL	AMNH	Tri-Trophic TCN
+1376	TTRSNHM	TTRSLEP	TTRSNHM (25625)	Tall Timbers Research Station Natural History Museum
+125	TTU	NULL	AMNH	Tri-Trophic TCN
+92	Turnbow Coll.	NULL	UNL	Scarab Central: World Scarabaeoidea
+4	UA	AQUATICS	GBIF	GBIF Extract with Location Data
+1	UA	AQUATICS	GBIF	GBIF Extract without Location Information
+1	UA	UASM COLLECTION	GBIF	GBIF Extract with Location Data
+1	UAlig	NULL	UA	University of Arizona Insect Collection
+58	UAM	NULL	AMNH	Tri-Trophic TCN
+10	UASM	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+402	UASM	UASM-Caribou-2003	GBIF	GBIF Extract with Location Data
+225	UASM	UASM-ColinLake-2002	GBIF	GBIF Extract with Location Data
+124	UASM	UASM-LakeAthabasca	GBIF	GBIF Extract with Location Data
+15	UAZ	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+209	UAZ	NULL	AMNH	Tri-Trophic TCN
+101	UBC	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+6	UBC	NULL	AMNH	Tri-Trophic TCN
+4	UC Davis	NULL	UNL	Scarab Central: World Scarabaeoidea
+2186	UCB	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+43711	UCB	NULL	AMNH	Tri-Trophic TCN
+4158	UCBME	UCBME	EMEC	Essig Museum of Entomology
+11652	UCD	NULL	AMNH	North American Bee Collections
+319	UCD	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1855	UCD	NULL	AMNH	Tri-Trophic TCN
+80516	UCM	NULL	UCB	University of Colorado Museum of Natural History Entomology Collection
+21567	UCMS	NULL	AMNH	North American Bee Collections
+11	UCMS	NULL	AMNH	Tri-Trophic TCN
+2072	UCR	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+78065	UCR	NULL	AMNH	Tri-Trophic TCN
+46	UCRC	NULL	UNL	Scarab Central: World Scarabaeoidea
+73	UCRC	ENT	EMEC	Essig Museum of Entomology
+137	UCSC	UCSC	EMEC	Essig Museum of Entomology
+158	UDCC	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+36949	UDCC	NULL	AMNH	Tri-Trophic TCN
+32	UFMG	NULL	AMNH	North American Bee Collections
+9	UFRGS	NULL	AMNH	Tri-Trophic TCN
+1	UFRJ	NULL	AMNH	Tri-Trophic TCN
+20	UFRRJ	NULL	AMNH	Tri-Trophic TCN
+156	UGENT	invertebrata	GBIF	GBIF Extract without Location Information
+220	UIC	NULL	AMNH	North American Bee Collections
+43075	UK	NULL	AMNH	Tri-Trophic TCN
+1	UKYL_TCN 00021063	NULL	AMNH	Tri-Trophic TCN
+42	ULL	DZUL	GBIF	GBIF Extract without Location Information
+1109	UMA	NULL	AMNH	North American Bee Collections
+53	UMA	NULL	AMNH	Tri-Trophic TCN
+6627	UMAM	NULL	AMNH	Tri-Trophic TCN
+193	UMMC	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+174	UMRM	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+79	UMSP	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+448	UMSP	NULL	AMNH	Tri-Trophic TCN
+218	UNAB	NULL	AMNH	Tri-Trophic TCN
+121	UNAH	NULL	UNL	Scarab Central: World Scarabaeoidea
+4252	UNHP	NULL	AMNH	North American Bee Collections
+28	UNHP	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+766	UNHP	NULL	AMNH	Tri-Trophic TCN
+2	University of Alberta Museums	NULL	UAM	University of Alberta Museums Entomology Collection (UASM)
+2967	University of Alberta Museums	UASM	GBIF	GBIF Extract with Location Data
+304203	University of Alberta Museums (UAM)	NULL	UAM	University of Alberta Museums Entomology Collection (UASM)
+14	UNM	NULL	AMNH	Tri-Trophic TCN
+2208	UNSM	NULL	UNL	Scarab Central: World Scarabaeoidea
+2	UNSW	NULL	AMNH	Tri-Trophic TCN
+1	UPS	BOT	GBIF	GBIF Extract without Location Information
+8	UQIC	NULL	AMNH	Tri-Trophic TCN
+78	URI	NULL	AMNH	Tri-Trophic TCN
+13	URIC	NULL	AMNH	North American Bee Collections
+1	urn:uuid:f0cec69a-853c-11e4-8259-0026552be7ea	NULL	AMNH	Tri-Trophic TCN
+20	USDA	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+349	USFQ	NULL	AMNH	North American Bee Collections
+19	USFWS	NULL	AMNH	Tri-Trophic TCN
+347	USNM	NULL	AMNH	North American Bee Collections
+8582	USNM	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+8006	USNM	NULL	AMNH	Tri-Trophic TCN
+1048	USNM	NULL	UNL	Scarab Central: World Scarabaeoidea
+29	USNM	Entomology	GBIF	GBIF Extract with Location Data
+302	USU	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+110	USU	NULL	AMNH	Tri-Trophic TCN
+140	UTLA	NULL	UNL	Scarab Central: World Scarabaeoidea
+18	VIDA	NULL	UNL	Scarab Central: World Scarabaeoidea
+245	VTST	NULL	AMNH	North American Bee Collections
+52	WAM	ARACH	GBIF	GBIF Extract with Location Data
+635	WAM	ARACH	GBIF	GBIF Extract without Location Information
+7	WAMP	NULL	AMNH	Tri-Trophic TCN
+326	WFBM	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1140	WFBM	NULL	AMNH	Tri-Trophic TCN
+2148	WFBM	NULL	UI	William F. Barr Entomological Museum
+32	Wildlife Sightings	Wildlife Sightings	GBIF	GBIF Extract with Location Data
+68	WildlifeSightings.net	NULL	GBIF	GBIF Extract with Location Data
+1	WIRC	NULL	AMNH	North American Bee Collections
+80	WIRC	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+1038	WIRC	NULL	AMNH	Tri-Trophic TCN
+1	WLNP	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+113	WPU	NULL	AMNH	North American Bee Collections
+44	WSU	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+177	WSU	NULL	AMNH	Tri-Trophic TCN
+771	YCEM	SP	GBIF	GBIF Extract without Location Information
+31	YPM	NULL	AMNH	North American Bee Collections
+8	YPM	ENT	YPM	Yale Peabody Museum, Entomology Division
+106	YPM	IP	GBIF	GBIF Extract with Location Data
+1021	ZISP	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+84	ZISP	NULL	AMNH	Tri-Trophic TCN
+6	ZMAN	NULL	AMNH	Plant Bug Planetary Biodiversity Inventory Project PBI: Phytophagous Insects as a Model Group for Documenting Planetary Biodiversity (Insecta: Heterop
+131	ZMAN	NULL	AMNH	Tri-Trophic TCN
+10	ZMHB	NULL	AMNH	Tri-Trophic TCN
+31	ZMK	Arachnida, Myriapoda	GBIF	GBIF Extract without Location Information
+22	ZMUC	NULL	AMNH	Tri-Trophic TCN
+105	ZMUC	Arachnida	GBIF	GBIF Extract without Location Information
+111	ZMUC	Araneae	GBIF	GBIF Extract with Location Data
+1	ZMUC	Coleoptera	GBIF	GBIF Extract without Location Information
+8	ZRC	NULL	AMNH	Tri-Trophic TCN
+255	ZSM	NULL	AMNH	Tri-Trophic TCN
+1043	ZSM	ZSMarthrovariacoll	GBIF	GBIF Extract without Location Information
