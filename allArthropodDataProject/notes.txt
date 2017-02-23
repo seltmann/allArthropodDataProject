@@ -273,7 +273,13 @@ echo "select count(*), omoccurrencesNEW.InstitutionCode as DWC_InstitutionCode, 
 echo "select count(*), InstitutionCode as DWC_InstitutionCode, CollectionCode as DWC_CollectionCode from omoccurrencesNEW where omoccurrencesNEW.collid not in (select collid from omcollections) group by InstitutionCode,CollectionCode;" | mysql -u seltmann -p -D scandata > ICode_Count_noCollid.tsv
 
 January 25, 2016
-#omoccurrencesRAW is the raw data from SCAN
+#omoccurrencesRAW is the raw data from SCAN at this date
 rename table omoccurrencesNEW to omoccurrencesRAW; 
 echo "select InstitutionCode,family,count(*) from omoccurrencesALL where country like '%Mexico%' group by family,InstitutionCode;" | mysql -u seltmann -p -D scandata > mexicoInstitutionCodeCounts.tsv
+
+February 22, 2016
+#reloading data that combines GBIF data and all of SCAN data 
+#Data cleaning occurred following compiled_scripts.sql only
+#Drop databases from scandata on server omoccurrencesALL, omoccurrencesRAW because the new dataset includes this data plus more data from Mexico.
+
 
