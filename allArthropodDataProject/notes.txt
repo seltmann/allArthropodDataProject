@@ -280,6 +280,13 @@ echo "select InstitutionCode,family,count(*) from omoccurrencesALL where country
 February 22, 2016
 #reloading data that combines GBIF data and all of SCAN data 
 #Data cleaning occurred following compiled_scripts.sql only
-#Drop databases from scandata on server omoccurrencesALL, omoccurrencesRAW because the new dataset includes this data plus more data from Mexico.
+#Drop databases from scandata on server omoccurrencesALL, omoccurrencesRAW (10155914) because the new dataset includes this data plus more data from Mexico.
+#loaded new data in omoccurrences table. Looks like new dataset has institution code already fixed.
+
+select count(*), catalogNumber from omoccurrences where catalogNumber > 2;
+select count(*) from omoccurrences where occurrenceID in (Select occurrenceID from omoccurrences);
+select catalognumber, locality, dbpk from omoccurrences where dbpk in (Select dbpk from omoccurrences) order by catalogNumber;
+
+
 
 
