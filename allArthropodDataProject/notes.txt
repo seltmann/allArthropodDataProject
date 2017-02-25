@@ -272,12 +272,12 @@ echo "select count(*), omoccurrencesNEW.InstitutionCode as DWC_InstitutionCode, 
 
 echo "select count(*), InstitutionCode as DWC_InstitutionCode, CollectionCode as DWC_CollectionCode from omoccurrencesNEW where omoccurrencesNEW.collid not in (select collid from omcollections) group by InstitutionCode,CollectionCode;" | mysql -u seltmann -p -D scandata > ICode_Count_noCollid.tsv
 
-January 25, 2016
+January 25, 2017
 #omoccurrencesRAW is the raw data from SCAN at this date
 rename table omoccurrencesNEW to omoccurrencesRAW; 
 echo "select InstitutionCode,family,count(*) from omoccurrencesALL where country like '%Mexico%' group by family,InstitutionCode;" | mysql -u seltmann -p -D scandata > mexicoInstitutionCodeCounts.tsv
 
-February 22, 2016
+February 22, 2017
 #reloading data that combines GBIF data and all of SCAN data 
 #Data cleaning occurred following compiled_scripts.sql only
 #Drop databases from scandata on server omoccurrencesALL, omoccurrencesRAW (10155914) because the new dataset includes this data plus more data from Mexico.
@@ -286,6 +286,31 @@ February 22, 2016
 select count(*), catalogNumber from omoccurrences where catalogNumber > 2;
 select count(*) from omoccurrences where occurrenceID in (Select occurrenceID from omoccurrences);
 select catalognumber, locality, dbpk from omoccurrences where dbpk in (Select dbpk from omoccurrences) order by catalogNumber;
+
+February 24, 2017
+#look for duplicate catalogNumber
+SELECT catalogNumber, locality, genus, specificEpithet, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1;
+SELECT catalogNumber, locality, COUNT(*) c FROM omoccurrences GROUP BY catalogNumber, locality HAVING c > 1;
+
+0 duplicate occid
+642245 with catalog number is NULL
+1048984 have duplicate catalog numbers where the catalog numbers contain both letters and numbers (presumably institutionCode + number)
+656510 are *strong* duplicates where catalog numbers, genus, species, and locality are all the same - I plan on deleting these
+1087415 are duplicates where catalog number and locality are the same
+
+SELECT catalogNumber FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' limit 10;
+
+select distinct country, stateProvince from omoccurrences order by country;
+update omoccurrences set country='USA' where stateProvince='Virginia';
+update omoccurrences set country='USA' where stateProvince='Texas';
+update omoccurrences set country='Mexico' where stateProvince='Queretaro';
+update omoccurrences set country='USA' where stateProvince='Ohio';
+update omoccurrences set country='USA' where stateProvince='New Hampshire';
+update omoccurrences set country='USA' where stateProvince='Alaska';
+update omoccurrences set country='Canada' where stateProvince='Northwest Territories';
+update omoccurrences set country='USA' where stateProvince='Baja California Norte';
+update omoccurrences set country='USA' where stateProvince='Baja California Norte';
+
 
 
 
