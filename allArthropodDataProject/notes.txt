@@ -259,7 +259,34 @@ December 29, 2016
 omoccurrences.sql omoccurrencesALL.sql from dump of SCAN today. This only includes some GBIF spider records that were not on SCAN and are likely duplicates. GBIF data is on SCAN, but effort is made to get the data from the original collection, not from GBIF. 
 
 
-echo "select omoccurrences.InstitutionCode,count(*),omcollections.CollectionName from omoccurrences join omcollections on omcollections.CollID = omoccurrences.CollID group by InstitutionCode;" | mysql -u seltmann -p -D scandata > institutionsAll.tsv
+echo "select omoccurrences.InstitutionCode,count(*),omcollections.CollectionName from omoccurrences join omcollections on omcollections.CollID = omoccurrences.CollID where (omcollections.InstitutionCode !='GBIF' and omcollections.InstitutionCode not like 'MOD_%' and omcollections.InstitutionCode !='iNaturalist') group by omoccurrences.InstitutionCode;" | mysql -u seltmann -p -D scandata > institutionsAll-Name.tsv
 
-echo "select omoccurrencesNA.InstitutionCode,count(*),omcollections.CollectionName from omoccurrencesNA join omcollections on omcollections.CollID = omoccurrencesNA.CollID group by InstitutionCode;" | mysql -u seltmann -p -D scandata > institutionsNA.tsv
+echo "select omoccurrences.InstitutionCode,count(*) from omoccurrences join omcollections on omcollections.CollID = omoccurrences.CollID where (country ='Canada' or country ='USA' or country ='Mexico') and (omcollections.InstitutionCode !='GBIF' and omcollections.InstitutionCode not like 'MOD_%' and omcollections.InstitutionCode !='iNaturalist') group by omoccurrences.InstitutionCode;" | mysql -u seltmann -p -D scandata > institutionsNA.tsv
+
+echo "select omoccurrencesNA.InstitutionCode,omoccurrencesNA.CollectionCode,omcollections.InstitutionCode,omcollections.CollectionCode,count(*),omcollections.CollectionName from omoccurrencesNA join omcollections on omcollections.CollID = omoccurrencesNA.CollID group by omoccurrencesNA.InstitutionCode;" | mysql -u seltmann -p -D scandata > institutionsNA.tsv
+
+#scripts below showed complete institution code counts and reviled data that do not have institution codes associated with them
+echo "select count(*), omoccurrencesNEW.InstitutionCode as DWC_InstitutionCode, omoccurrencesNEW.CollectionCode as DWC_CollectionCode, omcollections.InstitutionCode as SCAN_InsitutionCode, omcollections.CollectionName as SCAN_CollectionName from omoccurrencesNEW join omcollections on omcollections.CollID = omoccurrencesNEW.CollID group by omoccurrencesNEW.InstitutionCode,omoccurrencesNEW.CollectionCode,omcollections.InstitutionCode,omcollections.CollectionName;" | mysql -u seltmann -p -D scandata > ICode_Count_v2.tsv
+
+echo "select count(*), omoccurrencesNEW.InstitutionCode as DWC_InstitutionCode, omoccurrencesNEW.CollectionCode as DWC_CollectionCode, omcollections.InstitutionCode as SCAN_InsitutionCode, omcollections.CollectionName as SCAN_CollectionName from omoccurrencesNEW join omcollections on omcollections.CollID = omoccurrencesNEW.CollID group by (omoccurrencesNEW.InstitutionCode,omoccurrencesNEW.CollectionCode,omcollections.InstitutionCode,omcollections.CollectionName);" | mysql -u seltmann -p -D scandata > ICode_Count_v2.tsv
+
+echo "select count(*), InstitutionCode as DWC_InstitutionCode, CollectionCode as DWC_CollectionCode from omoccurrencesNEW where omoccurrencesNEW.collid not in (select collid from omcollections) group by InstitutionCode,CollectionCode;" | mysql -u seltmann -p -D scandata > ICode_Count_noCollid.tsv
+
+January 25, 2016
+#omoccurrencesRAW is the raw data from SCAN at this date
+rename table omoccurrencesNEW to omoccurrencesRAW; 
+echo "select InstitutionCode,family,count(*) from omoccurrencesALL where country like '%Mexico%' group by family,InstitutionCode;" | mysql -u seltmann -p -D scandata > mexicoInstitutionCodeCounts.tsv
+
+February 22, 2016
+#reloading data that combines GBIF data and all of SCAN data 
+#Data cleaning occurred following compiled_scripts.sql only
+#Drop databases from scandata on server omoccurrencesALL, omoccurrencesRAW (10155914) because the new dataset includes this data plus more data from Mexico.
+#loaded new data in omoccurrences table. Looks like new dataset has institution code already fixed.
+
+select count(*), catalogNumber from omoccurrences where catalogNumber > 2;
+select count(*) from omoccurrences where occurrenceID in (Select occurrenceID from omoccurrences);
+select catalognumber, locality, dbpk from omoccurrences where dbpk in (Select dbpk from omoccurrences) order by catalogNumber;
+
+
+
 
