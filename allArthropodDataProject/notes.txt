@@ -301,16 +301,15 @@ SELECT catalogNumber, locality, COUNT(*) c FROM omoccurrences GROUP BY catalogNu
 SELECT catalogNumber FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' limit 10;
 
 select distinct country, stateProvince from omoccurrences order by country;
-update omoccurrences set country='USA' where stateProvince='Virginia';
-update omoccurrences set country='USA' where stateProvince='Texas';
-update omoccurrences set country='Mexico' where stateProvince='Queretaro';
-update omoccurrences set country='USA' where stateProvince='Ohio';
-update omoccurrences set country='USA' where stateProvince='New Hampshire';
-update omoccurrences set country='USA' where stateProvince='Alaska';
-update omoccurrences set country='Canada' where stateProvince='Northwest Territories';
-update omoccurrences set country='USA' where stateProvince='Baja California Norte';
-update omoccurrences set country='USA' where stateProvince='Baja California Norte';
 
+February 28, 2016
+#488,288 with country and stateProvence both being NULL. Delete or fix?
+echo "select collid, institutionCode,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where country='UNKNOWN_NULL' and stateProvince = 'UNKNOWN_NULL' order by collid" | mysql -u seltmann -p -D scandata > nullCountryStateProvince.tsv 
+
+#642,246 records without a catalogNumber
+echo "select collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet, country, stateProvince, locality, decimalLongitude, decimalLatitude  from omoccurrences where catalogNumber is NULL order by collid" | mysql -u seltmann -p -D scandata > nullCatalogNumber.tsv 
+select count(*) from omoccurrences where catalogNumber is NULL and collid is NULL; 375452
+select count(*) from omoccurrences where catalogNumber is NULL and collid ="120"; 172462
 
 
 
