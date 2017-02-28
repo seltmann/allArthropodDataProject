@@ -6,8 +6,8 @@
 import MySQLdb
 import sys
 
-moduleName = input('/raid/scratch/seltmann/allArthropodDataProject/includes.py')
-import_module(moduleName)
+#moduleName = input('/raid/scratch/seltmann/allArthropodDataProject/includes.py')
+#import_module(moduleName)
 
 #add date to file export
 from datetime import date
