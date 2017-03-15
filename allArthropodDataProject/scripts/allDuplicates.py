@@ -14,7 +14,7 @@ now = date.today()
 #sys.path.insert(0, '/raid/scratch/seltmann/allArthropodDataProject/includes.py')
 #import includes
 
-connect = MySQLdb.connect("127.0.0.1", user="seltmann", passwd="SK970jn..", db="scandata" )
+connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="" )
 
 cursor = connect.cursor ()
 
