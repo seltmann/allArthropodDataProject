@@ -10,22 +10,17 @@ import sys
 from datetime import date
 now = date.today()
 
-#connection information from mysql
-#sys.path.insert(0, '/raid/scratch/seltmann/allArthropodDataProject/includes.py')
-#import includes
-
-connect = MySQLdb.connect("127.0.0.1", user="seltmann", passwd="SK970jn..", db="scandata" )
-
+connect = MySQLdb.connect("", user="", passwd="", db="" )
 cursor = connect.cursor ()
 
 #define an outfile
-outfilename = "allDuplicatesNum_%s.tsv" % now
+outfilename = "allDuplicatesAlpha_%s.tsv" % now
 outfile = open(outfilename, 'w')
 outfile.write('select occid \t collid \t institutionCode \t catalogNumber \t otherCatalogNumbers \t family \t genus \t specificEpithet \t country \t stateProvince \t municipality \t locality \t decimalLongitude \t decimalLatitude \n')
 
 
 def Duplicates():
-	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1;""")
+	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1 limit 10;""")
 	data = cursor.fetchall()
 	for x in data:
 		catalogNumber = str(x[0])
@@ -34,7 +29,7 @@ def Duplicates():
 		specificEpithet = str(x[3])
 		print catalogNumber
 
-		sql = """select occid, collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where catalogNumber=\"%s\" and locality=%s and genus=\"%s\" and specificEpithet=\"%s\";""" % (catalogNumber,locality,genus,specificEpithet)
+		sql = """select occid, collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where catalogNumber=\"%s\" and locality=\"%s\" and genus=\"%s\" and specificEpithet=\"%s\";""" % (catalogNumber,locality,genus,specificEpithet)
 		print sql
 		cursor.execute(sql)
 		data = cursor.fetchall()
