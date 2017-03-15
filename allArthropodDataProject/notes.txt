@@ -290,6 +290,8 @@ select catalognumber, locality, dbpk from omoccurrences where dbpk in (Select db
 February 24, 2017
 #look for duplicate catalogNumber
 SELECT catalogNumber, locality, genus, specificEpithet, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1;
+SELECT institutionCode,catalogNumber, locality, genus, specificEpithet, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '^[0-9]*$' GROUP BY institutionCode,catalogNumber, locality, genus, specificEpithet HAVING c > 1;
+
 SELECT catalogNumber, locality, COUNT(*) c FROM omoccurrences GROUP BY catalogNumber, locality HAVING c > 1;
 
 0 duplicate occid
@@ -298,18 +300,20 @@ SELECT catalogNumber, locality, COUNT(*) c FROM omoccurrences GROUP BY catalogNu
 656510 are *strong* duplicates where catalog numbers, genus, species, and locality are all the same - I plan on deleting these
 1087415 are duplicates where catalog number and locality are the same
 
-SELECT catalogNumber FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' limit 10;
+SELECT count(*) from omoccurrences WHERE catalogNumber REGEXP '^[0-9]*$'
 
 select distinct country, stateProvince from omoccurrences order by country;
 
+
 February 28, 2016
-#488,288 with country and stateProvence both being NULL. Delete or fix?
+#488,288 with country and stateProvence both being NULL. Delete or fix? Vote to delete
 echo "select collid, institutionCode,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where country='UNKNOWN_NULL' and stateProvince = 'UNKNOWN_NULL' order by collid" | mysql -u seltmann -p -D scandata > nullCountryStateProvince.tsv 
 
-#642,246 records without a catalogNumber
+#642,246 records without a catalogNumber; vote to delete
 echo "select collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet, country, stateProvince, locality, decimalLongitude, decimalLatitude  from omoccurrences where catalogNumber is NULL order by collid" | mysql -u seltmann -p -D scandata > nullCatalogNumber.tsv 
 select count(*) from omoccurrences where catalogNumber is NULL and collid is NULL; 375452
 select count(*) from omoccurrences where catalogNumber is NULL and collid ="120"; 172462
+
 
 
 
