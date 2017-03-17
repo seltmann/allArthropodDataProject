@@ -1,12 +1,13 @@
 DROP TABLE IF EXISTS `taxonomy`;
-CREATE TABLE `taxonomy` ('
-  `id` int('10') NOT NULL','
-  `name` varchar('45') DEFAULT NULL','
-  `valid` varchar('45') DEFAULT NULL','
-  `blank` varchar('45') DEFAULT NULL','
-  `parentID` varchar('150') DEFAULT NULL','
-  `altID` varchar('100') DEFAULT NULL','
-  `rank` varchar('100') DEFAULT NULL
+
+CREATE TABLE `taxonomy` (
+  `id` int(10) NOT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  `valid` varchar(45) DEFAULT NULL,
+  `blank` varchar(45) DEFAULT NULL,
+  `parentID` varchar(150) DEFAULT NULL,
+  `altID` varchar(100) DEFAULT NULL,
+  `rank` varchar(100) DEFAULT NULL
 ') ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 BEGIN;
