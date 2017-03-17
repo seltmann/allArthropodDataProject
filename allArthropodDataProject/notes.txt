@@ -314,6 +314,15 @@ echo "select collid, institutionCode, catalogNumber, otherCatalogNumbers, family
 select count(*) from omoccurrences where catalogNumber is NULL and collid is NULL; 375452
 select count(*) from omoccurrences where catalogNumber is NULL and collid ="120"; 172462
 
+March 15, 2017
+#181712 records have 999999 as catalogNumber <- to delete
+#642245 catalog numbers are NULL <- to delete
+
+March 16, 2016
+#1372106 Alpha dups
+#Backup before tackling dups
+CREATE TABLE omoccurrencesBackup AS SELECT * FROM omoccurrences;
+
 
 
 
