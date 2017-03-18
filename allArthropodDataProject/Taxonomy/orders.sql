@@ -1,536 +1,535 @@
-name	name
-Grylloblattidae	Grylloblattodea
-Anisembiidae	Embioptera
-Teratembiidae	Embioptera
-Oligotomidae	Embioptera
-Zorotypidae	Zoraptera
-Protoxenidae	Strepsiptera
-Cretostylopidae	Strepsiptera
-Boreidae	Mecoptera
-Meropeidae	Mecoptera
-Panorpidae	Mecoptera
-Bittacidae	Mecoptera
-Panorpodidae	Mecoptera
-Apteropanorpidae	Mecoptera
-Choristidae	Mecoptera
-Nannochoristidae	Mecoptera
-Eomeropidae	Mecoptera
-Sialidae	Megaloptera
-Corydalidae	Megaloptera
-Pulicidae	Siphonaptera
-Rhopalopsyllidae	Siphonaptera
-Vermipsyllidae	Siphonaptera
-Hystrichopsyllidae	Siphonaptera
-Ischnopsyllidae	Siphonaptera
-Leptopsyllidae	Siphonaptera
-Ceratophyllidae	Siphonaptera
-Schendylidae	Geophilomorpha
-Geophilidae	Geophilomorpha
-Aphilodontidae	Geophilomorpha
-Ballophilidae	Geophilomorpha
-Dignathodontidae	Geophilomorpha
-Gonibregmatidae	Geophilomorpha
-Himantariidae	Geophilomorpha
-Linotaeniidae	Geophilomorpha
-Macronicophilidae	Geophilomorpha
-Mecistocephalidae	Geophilomorpha
-Neogeophilidae	Geophilomorpha
-Oryidae	Geophilomorpha
-Glomeridae	Glomerida
-Pachybolidae	Spirobolida
-Spirobolidae	Spirobolida
-Floridobolidae	Spirobolida
-Messicobolidae	Spirobolida
-Allopocockiidae	Spirobolida
-Typhlobolellidae	Spirobolida
-Atopetholidae	Spirobolida
-Spirobolellidae	Spirobolida
-Rhinocricidae	Spirobolida
-Pseudospirobolellidae	Spirobolida
-Trigoniulidae	Spirobolida
-Cambalopsidae	Spirostreptida
-Hirudisomatidae	Polyzoniida
-Polyzoniidae	Polyzoniida
-Siphonotidae	Polyzoniida
-Platydesmidae	Platydesmida
-Andrognathidae	Platydesmida
-Millotauropodidae	Pauropodina
-Pauropodidae	Pauropodina
-Afrauropodidae	Pauropodina
-Brachypauropodidae	Pauropodina
-Paranebaliidae	Leptostraca
-Nebaliopsididae	Leptostraca
-Nebaliidae	Leptostraca
-Lithobiidae	Lithobiomorpha
-Henicopidae	Lithobiomorpha
-Glomeridesmidae	Glomeridesmida
-Stemmiulidae	Stemmiulida
-Siphoniulidae	Siphoniulida
-Siphonophoridae	Siphonophorida
-Siphonorhinidae	Siphonophorida
-Abacionidae	Callipodida
-Schizopetalidae	Callipodida
-Brachycytheridae	Podocopida
-Progonocytheridae	Podocopida
-Godzilliidae	Nectiopoda
-Speleonectidae	Nectiopoda
-Macrochironidae	Poecilostomatoida
-Lubbockiidae	Poecilostomatoida
-Kelleriidae	Poecilostomatoida
-Anchimolgidae	Poecilostomatoida
-Anomoclausiidae	Poecilostomatoida
-Antheacheridae	Poecilostomatoida
-Anthessiidae	Poecilostomatoida
-Catiniidae	Poecilostomatoida
-Chitonophilidae	Poecilostomatoida
-Corallovexiidae	Poecilostomatoida
-Echiurophilidae	Poecilostomatoida
-Entobiidae	Poecilostomatoida
-Erebonasteridae	Poecilostomatoida
-Gastrodelphyidae	Poecilostomatoida
-Herpyllobiidae	Poecilostomatoida
-Intramolgidae	Poecilostomatoida
-Lamippidae	Poecilostomatoida
-Lernaeosoleidae	Poecilostomatoida
-Mesoglicolidae	Poecilostomatoida
-Micrallectidae	Poecilostomatoida
-Myicolidae	Poecilostomatoida
-Mytilicolidae	Poecilostomatoida
-Nereicolidae	Poecilostomatoida
-Nucellicolidae	Poecilostomatoida
-Octopicolidae	Poecilostomatoida
-Paralubbockiidae	Poecilostomatoida
-Pharodidae	Poecilostomatoida
-Philoblennidae	Poecilostomatoida
-Phyllodicolidae	Poecilostomatoida
-Polyankylidae	Poecilostomatoida
-Saccopsidae	Poecilostomatoida
-Serpulidicolidae	Poecilostomatoida
-Shiinoidae	Poecilostomatoida
-Splanchnotrophidae	Poecilostomatoida
-Synapticolidae	Poecilostomatoida
-Synaptiphilidae	Poecilostomatoida
-Taeniacanthidae	Poecilostomatoida
-Tegobomolochidae	Poecilostomatoida
-Telsidae	Poecilostomatoida
-Thamnomolgidae	Poecilostomatoida
-Vahiniidae	Poecilostomatoida
-Ventriculinidae	Poecilostomatoida
-Xarifiidae	Poecilostomatoida
-Xenocoelomatidae	Poecilostomatoida
-Oncaeidae	Poecilostomatoida
-Corycaeidae	Poecilostomatoida
-Ergasilidae	Poecilostomatoida
-Clausiidae	Poecilostomatoida
-Eunicicolidae	Poecilostomatoida
-Sapphirinidae	Poecilostomatoida
-Lichomolgidae	Poecilostomatoida
-Sabelliphilidae	Poecilostomatoida
-Urocopiidae	Poecilostomatoida
-Pseudanthessiidae	Poecilostomatoida
-Rhynchomolgidae	Poecilostomatoida
-Bomolochidae	Poecilostomatoida
-Tuccidae	Poecilostomatoida
-Clausidiidae	Poecilostomatoida
-Philichthyidae	Poecilostomatoida
-Chondracanthidae	Poecilostomatoida
-Spiophanicolidae	Poecilostomatoida
-Lernanthropidae	Siphonostomatoida
-Micropontiidae	Siphonostomatoida
-Hatschekiidae	Siphonostomatoida
-Archidactylinidae	Siphonostomatoida
-Brychiopontiidae	Siphonostomatoida
-Calverocheridae	Siphonostomatoida
-Codobidae	Siphonostomatoida
-Coralliomyzontidae	Siphonostomatoida
-Dichelinidae	Siphonostomatoida
-Dinopontiidae	Siphonostomatoida
-Dirivultidae	Siphonostomatoida
-Ecbathyriontidae	Siphonostomatoida
-Entomolepididae	Siphonostomatoida
-Hyponeoidae	Siphonostomatoida
-Kroyeriidae	Siphonostomatoida
-Megapontiidae	Siphonostomatoida
-Nanaspididae	Siphonostomatoida
-Nicothoidae	Siphonostomatoida
-Scottomyzontidae	Siphonostomatoida
-Sponginticolidae	Siphonostomatoida
-Spongiocnizontidae	Siphonostomatoida
-Stellicomitidae	Siphonostomatoida
-Tanypleuridae	Siphonostomatoida
-Melinnacheridae	Siphonostomatoida
-Rataniidae	Siphonostomatoida
-Pontoeciellidae	Siphonostomatoida
-Artotrogidae	Siphonostomatoida
-Cancerillidae	Siphonostomatoida
-Asterocheridae	Siphonostomatoida
-Caligidae	Siphonostomatoida
-Cecropidae	Siphonostomatoida
-Dissonidae	Siphonostomatoida
-Euryphoridae	Siphonostomatoida
-Pandaridae	Siphonostomatoida
-Trebiidae	Siphonostomatoida
-Dichelesthiidae	Siphonostomatoida
-Eudactylinidae	Siphonostomatoida
-Pseudocycnidae	Siphonostomatoida
-Pennellidae	Siphonostomatoida
-Lernaeopodidae	Siphonostomatoida
-Naobranchiidae	Siphonostomatoida
-Sphyriidae	Siphonostomatoida
-Palpophriidae	Misophrioida
-Speleophriidae	Misophrioida
-Misophriidae	Misophrioida
-Mormonillidae	Mormonilloida
-Platycopiidae	Platycopioida
-Gelyellidae	Gelyelloida
-Mantophasmatidae	Mantophasmatodea
-Tanzaniophasmatidae	Mantophasmatodea
-Austrophasmatidae	Mantophasmatodea
-Synagogidae	Laurida
-Lauridae	Laurida
-Petrarcidae	Laurida
-Ascothoracidae	Dendrogastrida
-Ctenosculidae	Dendrogastrida
-Dendrogastridae	Dendrogastrida
-Cephalobaenidae	Cephalobaenida
-Reighardiidae	Cephalobaenida
-Armilliferidae	Porocephalida
-Diesingidae	Porocephalida
-Linguatulidae	Porocephalida
-Porocephalidae	Porocephalida
-Sambonidae	Porocephalida
-Subtriquetridae	Porocephalida
-Sebekidae	Porocephalida
-Bathynellidae	Bathynellacea
-Parabathynellidae	Bathynellacea
-Hirsutiidae	Mictacea
-Mictocarididae	Mictacea
-Amphionididae	Amphionidacea
-Tesnusocarididae	Enantiopoda
-Meinertellidae	Archaeognatha
-Machilidae	Archaeognatha
-Phasmatidae	Phasmida
-Pseudophasmatidae	Phasmida
-Diapheromeridae	Phasmida
-Timematidae	Phasmida
-Lepidotrichidae	Zygentoma
-Nicoletiidae	Zygentoma
-Lepismatidae	Zygentoma
-Ammotrechidae	Solifugae
-Ceromidae	Solifugae
-Daesiidae	Solifugae
-Eremobatidae	Solifugae
-Galeodidae	Solifugae
-Gylippidae	Solifugae
-Hexisopodidae	Solifugae
-Karschiidae	Solifugae
-Melanoblossiidae	Solifugae
-Mummuciidae	Solifugae
-Rhagodidae	Solifugae
-Solpugidae	Solifugae
-Raphidiidae	Raphidioptera
-Inocelliidae	Raphidioptera
-Opilioacaridae	Opilioacarida
-Bothriuridae	Scorpiones
-Chaerilidae	Scorpiones
-Diplocentridae	Scorpiones
-Euscorpiidae	Scorpiones
-Heteroscorpionidae	Scorpiones
-Ischnuridae	Scorpiones
-Iuridae	Scorpiones
-Microcharmidae	Scorpiones
-Pseudochactidae	Scorpiones
-Scorpionidae	Scorpiones
-Scorpiopidae	Scorpiones
-Superstitioniidae	Scorpiones
-Troglotayosicidae	Scorpiones
-Vaejovidae	Scorpiones
-Chactidae	Scorpiones
-Buthidae	Scorpiones
-Pisauridae	Araneae
-Gnaphosidae	Araneae
-Leptonetidae	Araneae
-Araneidae	Araneae
-Theridiidae	Araneae
-Linyphiidae	Araneae
-Actinopodidae	Araneae
-Anapidae	Araneae
-Antrodiaetidae	Araneae
-Archaeidae	Araneae
-Atypidae	Araneae
-Austrochilidae	Araneae
-Barychelidae	Araneae
-Caponiidae	Araneae
-Ctenizidae	Araneae
-Cyatholipidae	Araneae
-Cyrtaucheniidae	Araneae
-Deinopidae	Araneae
-Diguetidae	Araneae
-Dipluridae	Araneae
-Drymusidae	Araneae
-Dysderidae	Araneae
-Eresidae	Araneae
-Filistatidae	Araneae
-Gradungulidae	Araneae
-Hersiliidae	Araneae
-Hexathelidae	Araneae
-Holarchaeidae	Araneae
-Huttoniidae	Araneae
-Hypochilidae	Araneae
-Idiopidae	Araneae
-Liphistiidae	Araneae
-Lycosidae	Araneae
-Malkaridae	Araneae
-Mecicobothriidae	Araneae
-Mecysmaucheniidae	Araneae
-Micropholcommatidae	Araneae
-Microstigmatidae	Araneae
-Migidae	Araneae
-Mimetidae	Araneae
-Mysmenidae	Araneae
-Nemesiidae	Araneae
-Nephilidae	Araneae
-Nesticidae	Araneae
-Ochyroceratidae	Araneae
-Oecobiidae	Araneae
-Oonopidae	Araneae
-Orsolobidae	Araneae
-Palpimanidae	Araneae
-Pararchaeidae	Araneae
-Paratropididae	Araneae
-Periegopidae	Araneae
-Pholcidae	Araneae
-Pimoidae	Araneae
-Plectreuridae	Araneae
-Scytodidae	Araneae
-Segestriidae	Araneae
-Sicariidae	Araneae
-Sinopimoidae	Araneae
-Stenochilidae	Araneae
-Symphytognathidae	Araneae
-Synaphridae	Araneae
-Synotaxidae	Araneae
-Telemidae	Araneae
-Tetrablemmidae	Araneae
-Tetragnathidae	Araneae
-Theraphosidae	Araneae
-Theridiosomatidae	Araneae
-Uloboridae	Araneae
-Agelenidae	Araneae
-Amaurobiidae	Araneae
-Ammoxenidae	Araneae
-Amphinectidae	Araneae
-Anyphaenidae	Araneae
-Chummidae	Araneae
-Cithaeronidae	Araneae
-Clubionidae	Araneae
-Corinnidae	Araneae
-Ctenidae	Araneae
-Cybaeidae	Araneae
-Cycloctenidae	Araneae
-Desidae	Araneae
-Dictynidae	Araneae
-Gallieniellidae	Araneae
-Hahniidae	Araneae
-Homalonychidae	Araneae
-Lamponidae	Araneae
-Liocranidae	Araneae
-Miturgidae	Araneae
-Nicodamidae	Araneae
-Oxyopidae	Araneae
-Philodromidae	Araneae
-Phyxelididae	Araneae
-Prodidomidae	Araneae
-Psechridae	Araneae
-Salticidae	Araneae
-Selenopidae	Araneae
-Senoculidae	Araneae
-Sparassidae	Araneae
-Stiphidiidae	Araneae
-Tengellidae	Araneae
-Thomisidae	Araneae
-Titanoecidae	Araneae
-Trechaleidae	Araneae
-Trochanteriidae	Araneae
-Zodariidae	Araneae
-Zoridae	Araneae
-Zorocratidae	Araneae
-Zoropsidae	Araneae
-Trogloraptoridae	Araneae
-Nymphonidae	Pantopoda
-Pallenidae	Pantopoda
-Colossendeidae	Pantopoda
-Ammotheidae	Pantopoda
-Tanystylidae	Pantopoda
-Phoxichilidiidae	Pantopoda
-Endeidae	Pantopoda
-Pycnogonidae	Pantopoda
-Callipallenidae	Pantopoda
-Hutchinsoniellidae	Brachypoda
-Triopsidae	Notostraca
-Punciidae	Platycopida
-Derocheilocarididae	Mystacocaridida
-Scolecitrichidae	Calanoida
-Metridinidae	Calanoida
-Clausocalanidae	Calanoida
-Boholinidae	Calanoida
-Discoidae	Calanoida
-Epacteriscidae	Calanoida
-Fosshageniidae	Calanoida
-Hyperbionychidae	Calanoida
-Mecynoceridae	Calanoida
-Mesaiokeratidae	Calanoida
-Nullosetigeridae	Calanoida
-Parkiidae	Calanoida
-Rhincalanidae	Calanoida
-Ridgewayiidae	Calanoida
-Ryocalanidae	Calanoida
-Sulcanidae	Calanoida
-Calanidae	Calanoida
-Megacalanidae	Calanoida
-Eucalanidae	Calanoida
-Paracalanidae	Calanoida
-Spinocalanidae	Calanoida
-Aetideidae	Calanoida
-Euchaetidae	Calanoida
-Phaennidae	Calanoida
-Diaixidae	Calanoida
-Stephidae	Calanoida
-Tharybidae	Calanoida
-Pseudocyclopidae	Calanoida
-Centropagidae	Calanoida
-Diaptomidae	Calanoida
-Pseudodiaptomidae	Calanoida
-Temoridae	Calanoida
-Lucicutiidae	Calanoida
-Heterorhabdidae	Calanoida
-Augaptilidae	Calanoida
-Arietellidae	Calanoida
-Pseudocyclopiidae	Calanoida
-Candaciidae	Calanoida
-Pontellidae	Calanoida
-Bathypontiidae	Calanoida
-Acartiidae	Calanoida
-Tortanidae	Calanoida
-Parapontellidae	Calanoida
-Adenopleurellidae	Harpacticoida
-Ambunguipedidae	Harpacticoida
-Argestidae	Harpacticoida
-Cancrincolidae	Harpacticoida
-Cletopsyllidae	Harpacticoida
-Cristacoxidae	Harpacticoida
-Euterpinidae	Harpacticoida
-Hamondiidae	Harpacticoida
-Huntemanniidae	Harpacticoida
-Laophontopsidae	Harpacticoida
-Latiremidae	Harpacticoida
-Leptastacidae	Harpacticoida
-Leptopontiidae	Harpacticoida
-Normanellidae	Harpacticoida
-Novocriniidae	Harpacticoida
-Orthopsyllidae	Harpacticoida
-Pseudotachidiidae	Harpacticoida
-Rhizothricidae	Harpacticoida
-Rotundiclipeidae	Harpacticoida
-Styracothoracidae	Harpacticoida
-Superornatiremidae	Harpacticoida
-Tetragonicipitidae	Harpacticoida
-Thompsonulidae	Harpacticoida
-Balaenophilidae	Harpacticoida
-Tegastidae	Harpacticoida
-Porcellidiidae	Harpacticoida
-Longipediidae	Harpacticoida
-Canuellidae	Harpacticoida
-Phyllognathopodidae	Harpacticoida
-Chappuisiidae	Harpacticoida
-Darcythompsoniidae	Harpacticoida
-Ectinosomatidae	Harpacticoida
-Harpacticidae	Harpacticoida
-Peltidiidae	Harpacticoida
-Clytemnestridae	Harpacticoida
-Tisbidae	Harpacticoida
-Tachidiidae	Harpacticoida
-Laophontidae	Harpacticoida
-Metidae	Harpacticoida
-Cylindropsyllidae	Harpacticoida
-Ameiridae	Harpacticoida
-Parastenocarididae	Harpacticoida
-Aegisthidae	Harpacticoida
-Cerviniidae	Harpacticoida
-Neobradyidae	Harpacticoida
-Louriniidae	Harpacticoida
-Paramesochridae	Harpacticoida
-Ancorabolidae	Harpacticoida
-Cletodidae	Harpacticoida
-Diosaccidae	Harpacticoida
-Canthocamptidae	Harpacticoida
-Miraciidae	Harpacticoida
-Thalestridae	Harpacticoida
-Parastenheliidae	Harpacticoida
-Archinotodelphyidae	Cyclopoida
-Chordeumiidae	Cyclopoida
-Cucumaricolidae	Cyclopoida
-Fratiidae	Cyclopoida
-Mantridae	Cyclopoida
-Ozmanidae	Cyclopoida
-Speleoithonidae	Cyclopoida
-Psammocyclopinidae	Cyclopoida
-Cyclopidae	Cyclopoida
-Oithonidae	Cyclopoida
-Cyclopinidae	Cyclopoida
-Grandiunguidae	Cyclopoida
-Notodelphyidae	Cyclopoida
-Buproridae	Cyclopoida
-Ascidicolidae	Cyclopoida
-Thaumatopsyllidae	Cyclopoida
-Catlaphilidae	Cyclopoida
-Lernaeidae	Cyclopoida
-Monstrillidae	Monstrilloida
-Argulidae	Arguloida
-Lithoglyptidae	Pygophora
-Cryptophialidae	Pygophora
-Zapfellidae	Pygophora
-Trypetesidae	Apygophora
-Peltogastridae	Kentrogonida
-Sacculinidae	Kentrogonida
-Lernaeodiscidae	Kentrogonida
-Duplorbidae	Akentrogonida
-Mycetomorphidae	Akentrogonida
-Polysaccidae	Akentrogonida
-Thompsoniidae	Akentrogonida
-Clistosaccidae	Akentrogonida
-Chthamalophilidae	Akentrogonida
-Anaspididae	Anaspidacea
-Koonungidae	Anaspidacea
-Psammaspididae	Anaspidacea
-Stygocarididae	Anaspidacea
-Halosbaenidae	Thermosbaenacea
-Monodellidae	Thermosbaenacea
-Tulumellidae	Thermosbaenacea
-Thermosbaenidae	Thermosbaenacea
-Spelaeogriphidae	Spelaeogriphacea
-Lophogastridae	Lophogastrida
-Eucopiidae	Lophogastrida
-Mysidae	Mysida
-Petalophthalmidae	Mysida
-Lepidomysidae	Mysida
-Stygiomysidae	Mysida
-Gynodiastylidae	Cumacea
-Ceratocumatidae	Cumacea
-Lampropidae	Cumacea
-Leuconidae	Cumacea
-Diastylidae	Cumacea
-Pseudocumatidae	Cumacea
-Nannastacidae	Cumacea
-Bodotriidae	Cumacea
-Scutigeridae	Scutigeromorpha
-Pselliodidae	Scutigeromorpha
-Scutigerinidae	Scutigeromorpha
-Craterostigmidae	Craterostigmomorpha
-Cryptopidae	Scolopendromorpha
-Mimopidae	Scolopendromorpha
-Plutoniumidae	Scolopendromorpha
-Scolopendridae	Scolopendromorpha
-Scolopocryptopidae	Scolopendromorpha
-Bentheuphausiidae	Euphausiacea
-Euphausiidae	Euphausiacea
+Update omoccurrences set `order`='Grylloblattidae' where family='Grylloblattodea';
+Update omoccurrences set `order`='Anisembiidae' where family='Embioptera';
+Update omoccurrences set `order`='Teratembiidae' where family='Embioptera';
+Update omoccurrences set `order`='Oligotomidae' where family='Embioptera';
+Update omoccurrences set `order`='Zorotypidae' where family='Zoraptera';
+Update omoccurrences set `order`='Protoxenidae' where family='Strepsiptera';
+Update omoccurrences set `order`='Cretostylopidae' where family='Strepsiptera';
+Update omoccurrences set `order`='Boreidae' where family='Mecoptera';
+Update omoccurrences set `order`='Meropeidae' where family='Mecoptera';
+Update omoccurrences set `order`='Panorpidae' where family='Mecoptera';
+Update omoccurrences set `order`='Bittacidae' where family='Mecoptera';
+Update omoccurrences set `order`='Panorpodidae' where family='Mecoptera';
+Update omoccurrences set `order`='Apteropanorpidae' where family='Mecoptera';
+Update omoccurrences set `order`='Choristidae' where family='Mecoptera';
+Update omoccurrences set `order`='Nannochoristidae' where family='Mecoptera';
+Update omoccurrences set `order`='Eomeropidae' where family='Mecoptera';
+Update omoccurrences set `order`='Sialidae' where family='Megaloptera';
+Update omoccurrences set `order`='Corydalidae' where family='Megaloptera';
+Update omoccurrences set `order`='Pulicidae' where family='Siphonaptera';
+Update omoccurrences set `order`='Rhopalopsyllidae' where family='Siphonaptera';
+Update omoccurrences set `order`='Vermipsyllidae' where family='Siphonaptera';
+Update omoccurrences set `order`='Hystrichopsyllidae' where family='Siphonaptera';
+Update omoccurrences set `order`='Ischnopsyllidae' where family='Siphonaptera';
+Update omoccurrences set `order`='Leptopsyllidae' where family='Siphonaptera';
+Update omoccurrences set `order`='Ceratophyllidae' where family='Siphonaptera';
+Update omoccurrences set `order`='Schendylidae' where family='Geophilomorpha';
+Update omoccurrences set `order`='Geophilidae' where family='Geophilomorpha';
+Update omoccurrences set `order`='Aphilodontidae' where family='Geophilomorpha';
+Update omoccurrences set `order`='Ballophilidae' where family='Geophilomorpha';
+Update omoccurrences set `order`='Dignathodontidae' where family='Geophilomorpha';
+Update omoccurrences set `order`='Gonibregmatidae' where family='Geophilomorpha';
+Update omoccurrences set `order`='Himantariidae' where family='Geophilomorpha';
+Update omoccurrences set `order`='Linotaeniidae' where family='Geophilomorpha';
+Update omoccurrences set `order`='Macronicophilidae' where family='Geophilomorpha';
+Update omoccurrences set `order`='Mecistocephalidae' where family='Geophilomorpha';
+Update omoccurrences set `order`='Neogeophilidae' where family='Geophilomorpha';
+Update omoccurrences set `order`='Oryidae' where family='Geophilomorpha';
+Update omoccurrences set `order`='Glomeridae' where family='Glomerida';
+Update omoccurrences set `order`='Pachybolidae' where family='Spirobolida';
+Update omoccurrences set `order`='Spirobolidae' where family='Spirobolida';
+Update omoccurrences set `order`='Floridobolidae' where family='Spirobolida';
+Update omoccurrences set `order`='Messicobolidae' where family='Spirobolida';
+Update omoccurrences set `order`='Allopocockiidae' where family='Spirobolida';
+Update omoccurrences set `order`='Typhlobolellidae' where family='Spirobolida';
+Update omoccurrences set `order`='Atopetholidae' where family='Spirobolida';
+Update omoccurrences set `order`='Spirobolellidae' where family='Spirobolida';
+Update omoccurrences set `order`='Rhinocricidae' where family='Spirobolida';
+Update omoccurrences set `order`='Pseudospirobolellidae' where family='Spirobolida';
+Update omoccurrences set `order`='Trigoniulidae' where family='Spirobolida';
+Update omoccurrences set `order`='Cambalopsidae' where family='Spirostreptida';
+Update omoccurrences set `order`='Hirudisomatidae' where family='Polyzoniida';
+Update omoccurrences set `order`='Polyzoniidae' where family='Polyzoniida';
+Update omoccurrences set `order`='Siphonotidae' where family='Polyzoniida';
+Update omoccurrences set `order`='Platydesmidae' where family='Platydesmida';
+Update omoccurrences set `order`='Andrognathidae' where family='Platydesmida';
+Update omoccurrences set `order`='Millotauropodidae' where family='Pauropodina';
+Update omoccurrences set `order`='Pauropodidae' where family='Pauropodina';
+Update omoccurrences set `order`='Afrauropodidae' where family='Pauropodina';
+Update omoccurrences set `order`='Brachypauropodidae' where family='Pauropodina';
+Update omoccurrences set `order`='Paranebaliidae' where family='Leptostraca';
+Update omoccurrences set `order`='Nebaliopsididae' where family='Leptostraca';
+Update omoccurrences set `order`='Nebaliidae' where family='Leptostraca';
+Update omoccurrences set `order`='Lithobiidae' where family='Lithobiomorpha';
+Update omoccurrences set `order`='Henicopidae' where family='Lithobiomorpha';
+Update omoccurrences set `order`='Glomeridesmidae' where family='Glomeridesmida';
+Update omoccurrences set `order`='Stemmiulidae' where family='Stemmiulida';
+Update omoccurrences set `order`='Siphoniulidae' where family='Siphoniulida';
+Update omoccurrences set `order`='Siphonophoridae' where family='Siphonophorida';
+Update omoccurrences set `order`='Siphonorhinidae' where family='Siphonophorida';
+Update omoccurrences set `order`='Abacionidae' where family='Callipodida';
+Update omoccurrences set `order`='Schizopetalidae' where family='Callipodida';
+Update omoccurrences set `order`='Brachycytheridae' where family='Podocopida';
+Update omoccurrences set `order`='Progonocytheridae' where family='Podocopida';
+Update omoccurrences set `order`='Godzilliidae' where family='Nectiopoda';
+Update omoccurrences set `order`='Speleonectidae' where family='Nectiopoda';
+Update omoccurrences set `order`='Macrochironidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Lubbockiidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Kelleriidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Anchimolgidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Anomoclausiidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Antheacheridae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Anthessiidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Catiniidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Chitonophilidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Corallovexiidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Echiurophilidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Entobiidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Erebonasteridae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Gastrodelphyidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Herpyllobiidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Intramolgidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Lamippidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Lernaeosoleidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Mesoglicolidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Micrallectidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Myicolidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Mytilicolidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Nereicolidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Nucellicolidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Octopicolidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Paralubbockiidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Pharodidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Philoblennidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Phyllodicolidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Polyankylidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Saccopsidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Serpulidicolidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Shiinoidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Splanchnotrophidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Synapticolidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Synaptiphilidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Taeniacanthidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Tegobomolochidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Telsidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Thamnomolgidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Vahiniidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Ventriculinidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Xarifiidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Xenocoelomatidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Oncaeidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Corycaeidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Ergasilidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Clausiidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Eunicicolidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Sapphirinidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Lichomolgidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Sabelliphilidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Urocopiidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Pseudanthessiidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Rhynchomolgidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Bomolochidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Tuccidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Clausidiidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Philichthyidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Chondracanthidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Spiophanicolidae' where family='Poecilostomatoida';
+Update omoccurrences set `order`='Lernanthropidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Micropontiidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Hatschekiidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Archidactylinidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Brychiopontiidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Calverocheridae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Codobidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Coralliomyzontidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Dichelinidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Dinopontiidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Dirivultidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Ecbathyriontidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Entomolepididae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Hyponeoidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Kroyeriidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Megapontiidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Nanaspididae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Nicothoidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Scottomyzontidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Sponginticolidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Spongiocnizontidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Stellicomitidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Tanypleuridae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Melinnacheridae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Rataniidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Pontoeciellidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Artotrogidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Cancerillidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Asterocheridae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Caligidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Cecropidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Dissonidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Euryphoridae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Pandaridae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Trebiidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Dichelesthiidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Eudactylinidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Pseudocycnidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Pennellidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Lernaeopodidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Naobranchiidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Sphyriidae' where family='Siphonostomatoida';
+Update omoccurrences set `order`='Palpophriidae' where family='Misophrioida';
+Update omoccurrences set `order`='Speleophriidae' where family='Misophrioida';
+Update omoccurrences set `order`='Misophriidae' where family='Misophrioida';
+Update omoccurrences set `order`='Mormonillidae' where family='Mormonilloida';
+Update omoccurrences set `order`='Platycopiidae' where family='Platycopioida';
+Update omoccurrences set `order`='Gelyellidae' where family='Gelyelloida';
+Update omoccurrences set `order`='Mantophasmatidae' where family='Mantophasmatodea';
+Update omoccurrences set `order`='Tanzaniophasmatidae' where family='Mantophasmatodea';
+Update omoccurrences set `order`='Austrophasmatidae' where family='Mantophasmatodea';
+Update omoccurrences set `order`='Synagogidae' where family='Laurida';
+Update omoccurrences set `order`='Lauridae' where family='Laurida';
+Update omoccurrences set `order`='Petrarcidae' where family='Laurida';
+Update omoccurrences set `order`='Ascothoracidae' where family='Dendrogastrida';
+Update omoccurrences set `order`='Ctenosculidae' where family='Dendrogastrida';
+Update omoccurrences set `order`='Dendrogastridae' where family='Dendrogastrida';
+Update omoccurrences set `order`='Cephalobaenidae' where family='Cephalobaenida';
+Update omoccurrences set `order`='Reighardiidae' where family='Cephalobaenida';
+Update omoccurrences set `order`='Armilliferidae' where family='Porocephalida';
+Update omoccurrences set `order`='Diesingidae' where family='Porocephalida';
+Update omoccurrences set `order`='Linguatulidae' where family='Porocephalida';
+Update omoccurrences set `order`='Porocephalidae' where family='Porocephalida';
+Update omoccurrences set `order`='Sambonidae' where family='Porocephalida';
+Update omoccurrences set `order`='Subtriquetridae' where family='Porocephalida';
+Update omoccurrences set `order`='Sebekidae' where family='Porocephalida';
+Update omoccurrences set `order`='Bathynellidae' where family='Bathynellacea';
+Update omoccurrences set `order`='Parabathynellidae' where family='Bathynellacea';
+Update omoccurrences set `order`='Hirsutiidae' where family='Mictacea';
+Update omoccurrences set `order`='Mictocarididae' where family='Mictacea';
+Update omoccurrences set `order`='Amphionididae' where family='Amphionidacea';
+Update omoccurrences set `order`='Tesnusocarididae' where family='Enantiopoda';
+Update omoccurrences set `order`='Meinertellidae' where family='Archaeognatha';
+Update omoccurrences set `order`='Machilidae' where family='Archaeognatha';
+Update omoccurrences set `order`='Phasmatidae' where family='Phasmida';
+Update omoccurrences set `order`='Pseudophasmatidae' where family='Phasmida';
+Update omoccurrences set `order`='Diapheromeridae' where family='Phasmida';
+Update omoccurrences set `order`='Timematidae' where family='Phasmida';
+Update omoccurrences set `order`='Lepidotrichidae' where family='Zygentoma';
+Update omoccurrences set `order`='Nicoletiidae' where family='Zygentoma';
+Update omoccurrences set `order`='Lepismatidae' where family='Zygentoma';
+Update omoccurrences set `order`='Ammotrechidae' where family='Solifugae';
+Update omoccurrences set `order`='Ceromidae' where family='Solifugae';
+Update omoccurrences set `order`='Daesiidae' where family='Solifugae';
+Update omoccurrences set `order`='Eremobatidae' where family='Solifugae';
+Update omoccurrences set `order`='Galeodidae' where family='Solifugae';
+Update omoccurrences set `order`='Gylippidae' where family='Solifugae';
+Update omoccurrences set `order`='Hexisopodidae' where family='Solifugae';
+Update omoccurrences set `order`='Karschiidae' where family='Solifugae';
+Update omoccurrences set `order`='Melanoblossiidae' where family='Solifugae';
+Update omoccurrences set `order`='Mummuciidae' where family='Solifugae';
+Update omoccurrences set `order`='Rhagodidae' where family='Solifugae';
+Update omoccurrences set `order`='Solpugidae' where family='Solifugae';
+Update omoccurrences set `order`='Raphidiidae' where family='Raphidioptera';
+Update omoccurrences set `order`='Inocelliidae' where family='Raphidioptera';
+Update omoccurrences set `order`='Opilioacaridae' where family='Opilioacarida';
+Update omoccurrences set `order`='Bothriuridae' where family='Scorpiones';
+Update omoccurrences set `order`='Chaerilidae' where family='Scorpiones';
+Update omoccurrences set `order`='Diplocentridae' where family='Scorpiones';
+Update omoccurrences set `order`='Euscorpiidae' where family='Scorpiones';
+Update omoccurrences set `order`='Heteroscorpionidae' where family='Scorpiones';
+Update omoccurrences set `order`='Ischnuridae' where family='Scorpiones';
+Update omoccurrences set `order`='Iuridae' where family='Scorpiones';
+Update omoccurrences set `order`='Microcharmidae' where family='Scorpiones';
+Update omoccurrences set `order`='Pseudochactidae' where family='Scorpiones';
+Update omoccurrences set `order`='Scorpionidae' where family='Scorpiones';
+Update omoccurrences set `order`='Scorpiopidae' where family='Scorpiones';
+Update omoccurrences set `order`='Superstitioniidae' where family='Scorpiones';
+Update omoccurrences set `order`='Troglotayosicidae' where family='Scorpiones';
+Update omoccurrences set `order`='Vaejovidae' where family='Scorpiones';
+Update omoccurrences set `order`='Chactidae' where family='Scorpiones';
+Update omoccurrences set `order`='Buthidae' where family='Scorpiones';
+Update omoccurrences set `order`='Pisauridae' where family='Araneae';
+Update omoccurrences set `order`='Gnaphosidae' where family='Araneae';
+Update omoccurrences set `order`='Leptonetidae' where family='Araneae';
+Update omoccurrences set `order`='Araneidae' where family='Araneae';
+Update omoccurrences set `order`='Theridiidae' where family='Araneae';
+Update omoccurrences set `order`='Linyphiidae' where family='Araneae';
+Update omoccurrences set `order`='Actinopodidae' where family='Araneae';
+Update omoccurrences set `order`='Anapidae' where family='Araneae';
+Update omoccurrences set `order`='Antrodiaetidae' where family='Araneae';
+Update omoccurrences set `order`='Archaeidae' where family='Araneae';
+Update omoccurrences set `order`='Atypidae' where family='Araneae';
+Update omoccurrences set `order`='Austrochilidae' where family='Araneae';
+Update omoccurrences set `order`='Barychelidae' where family='Araneae';
+Update omoccurrences set `order`='Caponiidae' where family='Araneae';
+Update omoccurrences set `order`='Ctenizidae' where family='Araneae';
+Update omoccurrences set `order`='Cyatholipidae' where family='Araneae';
+Update omoccurrences set `order`='Cyrtaucheniidae' where family='Araneae';
+Update omoccurrences set `order`='Deinopidae' where family='Araneae';
+Update omoccurrences set `order`='Diguetidae' where family='Araneae';
+Update omoccurrences set `order`='Dipluridae' where family='Araneae';
+Update omoccurrences set `order`='Drymusidae' where family='Araneae';
+Update omoccurrences set `order`='Dysderidae' where family='Araneae';
+Update omoccurrences set `order`='Eresidae' where family='Araneae';
+Update omoccurrences set `order`='Filistatidae' where family='Araneae';
+Update omoccurrences set `order`='Gradungulidae' where family='Araneae';
+Update omoccurrences set `order`='Hersiliidae' where family='Araneae';
+Update omoccurrences set `order`='Hexathelidae' where family='Araneae';
+Update omoccurrences set `order`='Holarchaeidae' where family='Araneae';
+Update omoccurrences set `order`='Huttoniidae' where family='Araneae';
+Update omoccurrences set `order`='Hypochilidae' where family='Araneae';
+Update omoccurrences set `order`='Idiopidae' where family='Araneae';
+Update omoccurrences set `order`='Liphistiidae' where family='Araneae';
+Update omoccurrences set `order`='Lycosidae' where family='Araneae';
+Update omoccurrences set `order`='Malkaridae' where family='Araneae';
+Update omoccurrences set `order`='Mecicobothriidae' where family='Araneae';
+Update omoccurrences set `order`='Mecysmaucheniidae' where family='Araneae';
+Update omoccurrences set `order`='Micropholcommatidae' where family='Araneae';
+Update omoccurrences set `order`='Microstigmatidae' where family='Araneae';
+Update omoccurrences set `order`='Migidae' where family='Araneae';
+Update omoccurrences set `order`='Mimetidae' where family='Araneae';
+Update omoccurrences set `order`='Mysmenidae' where family='Araneae';
+Update omoccurrences set `order`='Nemesiidae' where family='Araneae';
+Update omoccurrences set `order`='Nephilidae' where family='Araneae';
+Update omoccurrences set `order`='Nesticidae' where family='Araneae';
+Update omoccurrences set `order`='Ochyroceratidae' where family='Araneae';
+Update omoccurrences set `order`='Oecobiidae' where family='Araneae';
+Update omoccurrences set `order`='Oonopidae' where family='Araneae';
+Update omoccurrences set `order`='Orsolobidae' where family='Araneae';
+Update omoccurrences set `order`='Palpimanidae' where family='Araneae';
+Update omoccurrences set `order`='Pararchaeidae' where family='Araneae';
+Update omoccurrences set `order`='Paratropididae' where family='Araneae';
+Update omoccurrences set `order`='Periegopidae' where family='Araneae';
+Update omoccurrences set `order`='Pholcidae' where family='Araneae';
+Update omoccurrences set `order`='Pimoidae' where family='Araneae';
+Update omoccurrences set `order`='Plectreuridae' where family='Araneae';
+Update omoccurrences set `order`='Scytodidae' where family='Araneae';
+Update omoccurrences set `order`='Segestriidae' where family='Araneae';
+Update omoccurrences set `order`='Sicariidae' where family='Araneae';
+Update omoccurrences set `order`='Sinopimoidae' where family='Araneae';
+Update omoccurrences set `order`='Stenochilidae' where family='Araneae';
+Update omoccurrences set `order`='Symphytognathidae' where family='Araneae';
+Update omoccurrences set `order`='Synaphridae' where family='Araneae';
+Update omoccurrences set `order`='Synotaxidae' where family='Araneae';
+Update omoccurrences set `order`='Telemidae' where family='Araneae';
+Update omoccurrences set `order`='Tetrablemmidae' where family='Araneae';
+Update omoccurrences set `order`='Tetragnathidae' where family='Araneae';
+Update omoccurrences set `order`='Theraphosidae' where family='Araneae';
+Update omoccurrences set `order`='Theridiosomatidae' where family='Araneae';
+Update omoccurrences set `order`='Uloboridae' where family='Araneae';
+Update omoccurrences set `order`='Agelenidae' where family='Araneae';
+Update omoccurrences set `order`='Amaurobiidae' where family='Araneae';
+Update omoccurrences set `order`='Ammoxenidae' where family='Araneae';
+Update omoccurrences set `order`='Amphinectidae' where family='Araneae';
+Update omoccurrences set `order`='Anyphaenidae' where family='Araneae';
+Update omoccurrences set `order`='Chummidae' where family='Araneae';
+Update omoccurrences set `order`='Cithaeronidae' where family='Araneae';
+Update omoccurrences set `order`='Clubionidae' where family='Araneae';
+Update omoccurrences set `order`='Corinnidae' where family='Araneae';
+Update omoccurrences set `order`='Ctenidae' where family='Araneae';
+Update omoccurrences set `order`='Cybaeidae' where family='Araneae';
+Update omoccurrences set `order`='Cycloctenidae' where family='Araneae';
+Update omoccurrences set `order`='Desidae' where family='Araneae';
+Update omoccurrences set `order`='Dictynidae' where family='Araneae';
+Update omoccurrences set `order`='Gallieniellidae' where family='Araneae';
+Update omoccurrences set `order`='Hahniidae' where family='Araneae';
+Update omoccurrences set `order`='Homalonychidae' where family='Araneae';
+Update omoccurrences set `order`='Lamponidae' where family='Araneae';
+Update omoccurrences set `order`='Liocranidae' where family='Araneae';
+Update omoccurrences set `order`='Miturgidae' where family='Araneae';
+Update omoccurrences set `order`='Nicodamidae' where family='Araneae';
+Update omoccurrences set `order`='Oxyopidae' where family='Araneae';
+Update omoccurrences set `order`='Philodromidae' where family='Araneae';
+Update omoccurrences set `order`='Phyxelididae' where family='Araneae';
+Update omoccurrences set `order`='Prodidomidae' where family='Araneae';
+Update omoccurrences set `order`='Psechridae' where family='Araneae';
+Update omoccurrences set `order`='Salticidae' where family='Araneae';
+Update omoccurrences set `order`='Selenopidae' where family='Araneae';
+Update omoccurrences set `order`='Senoculidae' where family='Araneae';
+Update omoccurrences set `order`='Sparassidae' where family='Araneae';
+Update omoccurrences set `order`='Stiphidiidae' where family='Araneae';
+Update omoccurrences set `order`='Tengellidae' where family='Araneae';
+Update omoccurrences set `order`='Thomisidae' where family='Araneae';
+Update omoccurrences set `order`='Titanoecidae' where family='Araneae';
+Update omoccurrences set `order`='Trechaleidae' where family='Araneae';
+Update omoccurrences set `order`='Trochanteriidae' where family='Araneae';
+Update omoccurrences set `order`='Zodariidae' where family='Araneae';
+Update omoccurrences set `order`='Zoridae' where family='Araneae';
+Update omoccurrences set `order`='Zorocratidae' where family='Araneae';
+Update omoccurrences set `order`='Zoropsidae' where family='Araneae';
+Update omoccurrences set `order`='Trogloraptoridae' where family='Araneae';
+Update omoccurrences set `order`='Nymphonidae' where family='Pantopoda';
+Update omoccurrences set `order`='Pallenidae' where family='Pantopoda';
+Update omoccurrences set `order`='Colossendeidae' where family='Pantopoda';
+Update omoccurrences set `order`='Ammotheidae' where family='Pantopoda';
+Update omoccurrences set `order`='Tanystylidae' where family='Pantopoda';
+Update omoccurrences set `order`='Phoxichilidiidae' where family='Pantopoda';
+Update omoccurrences set `order`='Endeidae' where family='Pantopoda';
+Update omoccurrences set `order`='Pycnogonidae' where family='Pantopoda';
+Update omoccurrences set `order`='Callipallenidae' where family='Pantopoda';
+Update omoccurrences set `order`='Hutchinsoniellidae' where family='Brachypoda';
+Update omoccurrences set `order`='Triopsidae' where family='Notostraca';
+Update omoccurrences set `order`='Punciidae' where family='Platycopida';
+Update omoccurrences set `order`='Derocheilocarididae' where family='Mystacocaridida';
+Update omoccurrences set `order`='Scolecitrichidae' where family='Calanoida';
+Update omoccurrences set `order`='Metridinidae' where family='Calanoida';
+Update omoccurrences set `order`='Clausocalanidae' where family='Calanoida';
+Update omoccurrences set `order`='Boholinidae' where family='Calanoida';
+Update omoccurrences set `order`='Discoidae' where family='Calanoida';
+Update omoccurrences set `order`='Epacteriscidae' where family='Calanoida';
+Update omoccurrences set `order`='Fosshageniidae' where family='Calanoida';
+Update omoccurrences set `order`='Hyperbionychidae' where family='Calanoida';
+Update omoccurrences set `order`='Mecynoceridae' where family='Calanoida';
+Update omoccurrences set `order`='Mesaiokeratidae' where family='Calanoida';
+Update omoccurrences set `order`='Nullosetigeridae' where family='Calanoida';
+Update omoccurrences set `order`='Parkiidae' where family='Calanoida';
+Update omoccurrences set `order`='Rhincalanidae' where family='Calanoida';
+Update omoccurrences set `order`='Ridgewayiidae' where family='Calanoida';
+Update omoccurrences set `order`='Ryocalanidae' where family='Calanoida';
+Update omoccurrences set `order`='Sulcanidae' where family='Calanoida';
+Update omoccurrences set `order`='Calanidae' where family='Calanoida';
+Update omoccurrences set `order`='Megacalanidae' where family='Calanoida';
+Update omoccurrences set `order`='Eucalanidae' where family='Calanoida';
+Update omoccurrences set `order`='Paracalanidae' where family='Calanoida';
+Update omoccurrences set `order`='Spinocalanidae' where family='Calanoida';
+Update omoccurrences set `order`='Aetideidae' where family='Calanoida';
+Update omoccurrences set `order`='Euchaetidae' where family='Calanoida';
+Update omoccurrences set `order`='Phaennidae' where family='Calanoida';
+Update omoccurrences set `order`='Diaixidae' where family='Calanoida';
+Update omoccurrences set `order`='Stephidae' where family='Calanoida';
+Update omoccurrences set `order`='Tharybidae' where family='Calanoida';
+Update omoccurrences set `order`='Pseudocyclopidae' where family='Calanoida';
+Update omoccurrences set `order`='Centropagidae' where family='Calanoida';
+Update omoccurrences set `order`='Diaptomidae' where family='Calanoida';
+Update omoccurrences set `order`='Pseudodiaptomidae' where family='Calanoida';
+Update omoccurrences set `order`='Temoridae' where family='Calanoida';
+Update omoccurrences set `order`='Lucicutiidae' where family='Calanoida';
+Update omoccurrences set `order`='Heterorhabdidae' where family='Calanoida';
+Update omoccurrences set `order`='Augaptilidae' where family='Calanoida';
+Update omoccurrences set `order`='Arietellidae' where family='Calanoida';
+Update omoccurrences set `order`='Pseudocyclopiidae' where family='Calanoida';
+Update omoccurrences set `order`='Candaciidae' where family='Calanoida';
+Update omoccurrences set `order`='Pontellidae' where family='Calanoida';
+Update omoccurrences set `order`='Bathypontiidae' where family='Calanoida';
+Update omoccurrences set `order`='Acartiidae' where family='Calanoida';
+Update omoccurrences set `order`='Tortanidae' where family='Calanoida';
+Update omoccurrences set `order`='Parapontellidae' where family='Calanoida';
+Update omoccurrences set `order`='Adenopleurellidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Ambunguipedidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Argestidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Cancrincolidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Cletopsyllidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Cristacoxidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Euterpinidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Hamondiidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Huntemanniidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Laophontopsidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Latiremidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Leptastacidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Leptopontiidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Normanellidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Novocriniidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Orthopsyllidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Pseudotachidiidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Rhizothricidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Rotundiclipeidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Styracothoracidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Superornatiremidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Tetragonicipitidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Thompsonulidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Balaenophilidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Tegastidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Porcellidiidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Longipediidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Canuellidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Phyllognathopodidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Chappuisiidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Darcythompsoniidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Ectinosomatidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Harpacticidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Peltidiidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Clytemnestridae' where family='Harpacticoida';
+Update omoccurrences set `order`='Tisbidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Tachidiidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Laophontidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Metidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Cylindropsyllidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Ameiridae' where family='Harpacticoida';
+Update omoccurrences set `order`='Parastenocarididae' where family='Harpacticoida';
+Update omoccurrences set `order`='Aegisthidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Cerviniidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Neobradyidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Louriniidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Paramesochridae' where family='Harpacticoida';
+Update omoccurrences set `order`='Ancorabolidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Cletodidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Diosaccidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Canthocamptidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Miraciidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Thalestridae' where family='Harpacticoida';
+Update omoccurrences set `order`='Parastenheliidae' where family='Harpacticoida';
+Update omoccurrences set `order`='Archinotodelphyidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Chordeumiidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Cucumaricolidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Fratiidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Mantridae' where family='Cyclopoida';
+Update omoccurrences set `order`='Ozmanidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Speleoithonidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Psammocyclopinidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Cyclopidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Oithonidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Cyclopinidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Grandiunguidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Notodelphyidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Buproridae' where family='Cyclopoida';
+Update omoccurrences set `order`='Ascidicolidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Thaumatopsyllidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Catlaphilidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Lernaeidae' where family='Cyclopoida';
+Update omoccurrences set `order`='Monstrillidae' where family='Monstrilloida';
+Update omoccurrences set `order`='Argulidae' where family='Arguloida';
+Update omoccurrences set `order`='Lithoglyptidae' where family='Pygophora';
+Update omoccurrences set `order`='Cryptophialidae' where family='Pygophora';
+Update omoccurrences set `order`='Zapfellidae' where family='Pygophora';
+Update omoccurrences set `order`='Trypetesidae' where family='Apygophora';
+Update omoccurrences set `order`='Peltogastridae' where family='Kentrogonida';
+Update omoccurrences set `order`='Sacculinidae' where family='Kentrogonida';
+Update omoccurrences set `order`='Lernaeodiscidae' where family='Kentrogonida';
+Update omoccurrences set `order`='Duplorbidae' where family='Akentrogonida';
+Update omoccurrences set `order`='Mycetomorphidae' where family='Akentrogonida';
+Update omoccurrences set `order`='Polysaccidae' where family='Akentrogonida';
+Update omoccurrences set `order`='Thompsoniidae' where family='Akentrogonida';
+Update omoccurrences set `order`='Clistosaccidae' where family='Akentrogonida';
+Update omoccurrences set `order`='Chthamalophilidae' where family='Akentrogonida';
+Update omoccurrences set `order`='Anaspididae' where family='Anaspidacea';
+Update omoccurrences set `order`='Koonungidae' where family='Anaspidacea';
+Update omoccurrences set `order`='Psammaspididae' where family='Anaspidacea';
+Update omoccurrences set `order`='Stygocarididae' where family='Anaspidacea';
+Update omoccurrences set `order`='Halosbaenidae' where family='Thermosbaenacea';
+Update omoccurrences set `order`='Monodellidae' where family='Thermosbaenacea';
+Update omoccurrences set `order`='Tulumellidae' where family='Thermosbaenacea';
+Update omoccurrences set `order`='Thermosbaenidae' where family='Thermosbaenacea';
+Update omoccurrences set `order`='Spelaeogriphidae' where family='Spelaeogriphacea';
+Update omoccurrences set `order`='Lophogastridae' where family='Lophogastrida';
+Update omoccurrences set `order`='Eucopiidae' where family='Lophogastrida';
+Update omoccurrences set `order`='Mysidae' where family='Mysida';
+Update omoccurrences set `order`='Petalophthalmidae' where family='Mysida';
+Update omoccurrences set `order`='Lepidomysidae' where family='Mysida';
+Update omoccurrences set `order`='Stygiomysidae' where family='Mysida';
+Update omoccurrences set `order`='Gynodiastylidae' where family='Cumacea';
+Update omoccurrences set `order`='Ceratocumatidae' where family='Cumacea';
+Update omoccurrences set `order`='Lampropidae' where family='Cumacea';
+Update omoccurrences set `order`='Leuconidae' where family='Cumacea';
+Update omoccurrences set `order`='Diastylidae' where family='Cumacea';
+Update omoccurrences set `order`='Pseudocumatidae' where family='Cumacea';
+Update omoccurrences set `order`='Nannastacidae' where family='Cumacea';
+Update omoccurrences set `order`='Bodotriidae' where family='Cumacea';
+Update omoccurrences set `order`='Scutigeridae' where family='Scutigeromorpha';
+Update omoccurrences set `order`='Pselliodidae' where family='Scutigeromorpha';
+Update omoccurrences set `order`='Scutigerinidae' where family='Scutigeromorpha';
+Update omoccurrences set `order`='Craterostigmidae' where family='Craterostigmomorpha';
+Update omoccurrences set `order`='Cryptopidae' where family='Scolopendromorpha';
+Update omoccurrences set `order`='Mimopidae' where family='Scolopendromorpha';
+Update omoccurrences set `order`='Plutoniumidae' where family='Scolopendromorpha';
+Update omoccurrences set `order`='Scolopendridae' where family='Scolopendromorpha';
+Update omoccurrences set `order`='Scolopocryptopidae' where family='Scolopendromorpha';
+Update omoccurrences set `order`='Bentheuphausiidae' where family='Euphausiacea';
+Update omoccurrences set `order`='Euphausiidae' where family='Euphausiacea';
