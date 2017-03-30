@@ -1,4 +1,4 @@
-### New notes file for 2016 analysis of arthropod biodiversity data
+Bruce Marlin### New notes file for 2016 analysis of arthropod biodiversity data
 
 - initial download and cleaning of GBIF and SCAN data done by Ben Brandt. 
 
@@ -322,6 +322,15 @@ March 16, 2016
 #1372106 Alpha dups
 #Backup before tackling dups
 CREATE TABLE omoccurrencesBackup AS SELECT * FROM omoccurrences;
+
+#start to look at families:
+echo "select distinct family from omoccurrences;" | mysql -u seltmann -p -D scandata > distinctFamilies.tsv 
+
+#Created a taxonomy table from ITIS and included an order column in omoccurrences
+
+echo "select t1.name,t2.name from taxonomy t1 join taxonomy t2 on t2.id=t1.parentID where t1.rank='140' and t2.rank='100';" | mysql -u seltmann -p -D scandata > orders.tsv
+#select omoccurrences.occid, omoccurrences.family from omoccurrences where `omoccurrences`.family not in (select `omoccurrencesBackup`.family from omoccurrencesBackup);
+delete from omoccurrences where occid > 31245377;
 
 
 
