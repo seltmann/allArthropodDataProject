@@ -309,7 +309,7 @@ February 28, 2016
 #488,288 with country and stateProvence both being NULL. Delete or fix? Vote to delete
 echo "select collid, institutionCode,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where country='UNKNOWN_NULL' and stateProvince = 'UNKNOWN_NULL' order by collid" | mysql -u seltmann -p -D scandata > nullCountryStateProvince.tsv 
 
-#642,246 records without a catalogNumber; vote to delete
+#642,246 records without a catalogNumber; vote to delete <====DELETE
 echo "select collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet, country, stateProvince, locality, decimalLongitude, decimalLatitude  from omoccurrences where catalogNumber is NULL order by collid" | mysql -u seltmann -p -D scandata > nullCatalogNumber.tsv 
 select count(*) from omoccurrences where catalogNumber is NULL and collid is NULL; 375452
 select count(*) from omoccurrences where catalogNumber is NULL and collid ="120"; 172462
@@ -342,16 +342,18 @@ SELECT concat(catalogNumber, locality, genus, specificEpithet), COUNT(*) c FROM 
 
 Delete from omoccurrences where concat(catalogNumber, locality, genus, specificEpithet) and catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1 limit 10
 
-DELETE FROM omoccurrencesBackup
-LEFT OUTER JOIN (
-   SELECT MIN(occid) as occid, catalogNumber, locality, genus, specificEpithet
-   FROM omoccurrencesBackup 
-   GROUP BY catalogNumber, locality, genus, specificEpithet
-) as KeepRows ON
-   omoccurrences.RowId = omoccurrences.RowId
-WHERE
-   catalogNumber REGEXP '[a-z]' limit 10;
+March 31, 2017
+#This keeps those with minimum id because the ones with minimum id seem to be the most accurate. 
+echo "Select * from dups where occid not in (SELECT MIN(occid) FROM dups GROUP BY catalogNumber);" | mysql -u seltmann -p -D scandata > dupsToDelete.tsv 
 
+
+DELETE DATA
+#724017 duplicates deleted <===DELETE
+#642,246 records without a catalogNumber; vote to delete <====DELETE
+#642245 catalog numbers are NULL <- to delete
+Numerical occurrences
+
+Starting number before deleting: 12347785
 
 
 

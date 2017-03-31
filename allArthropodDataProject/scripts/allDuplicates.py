@@ -58,7 +58,7 @@ sys.exit()
 #sort -k 4 file.txt
 #awk '{outfile=sprintf("file%02d.txt",NR/100000+1);print > outfile}' yourfile
 
-#/usr/bin/python allDuplicates.py
+#/usr/bin/python allDuplicates-v2.py
 
 #cursor.execute ("""SELECT catalogNumber, institutionCode, locality, genus, specificEpithet, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '^[0-9]*$' GROUP BY institutionCode,catalogNumber, locality, genus, specificEpithet HAVING c > 1 order by institutionCode,catalogNumber;""")
 #sql = """select occid, collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where catalogNumber=\"%s\" and institutionCode=\"%s\" and locality=\"%s\" and genus=\"%s\" and specificEpithet=\"%s\";""" % (catalogNumber,institutionCode,locality,genus,specificEpithet)
