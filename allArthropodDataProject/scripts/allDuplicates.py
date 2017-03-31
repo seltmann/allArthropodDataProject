@@ -14,31 +14,35 @@ connect = MySQLdb.connect("", user="", passwd="", db="" )
 cursor = connect.cursor ()
 
 #define an outfile
-outfilename = "allDuplicatesAlpha_%s.tsv" % now
-outfile = open(outfilename, 'w')
-outfile.write('select occid \t collid \t institutionCode \t catalogNumber \t otherCatalogNumbers \t family \t genus \t specificEpithet \t country \t stateProvince \t municipality \t locality \t decimalLongitude \t decimalLatitude \n')
+#outfilename = "allDuplicatesAlpha_%s.tsv" % now
+#outfile = open(outfilename, 'w')
+#outfile.write('select occid \t collid \t institutionCode \t catalogNumber \t otherCatalogNumbers \t family \t genus \t specificEpithet \t country \t stateProvince \t municipality \t locality \t decimalLongitude \t decimalLatitude \n')
 
 
 def Duplicates():
-	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1 limit 10;""")
+	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, occid, family, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1 limit 10;""")
 	data = cursor.fetchall()
 	for x in data:
 		catalogNumber = str(x[0])
 		locality = str(x[1])
 		genus = str(x[2])
 		specificEpithet = str(x[3])
+		occid = str(x[4])
+		family = str(x[5])
 		print catalogNumber
 
-		sql = """select occid, collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where catalogNumber=\"%s\" and locality=\"%s\" and genus=\"%s\" and specificEpithet=\"%s\";""" % (catalogNumber,locality,genus,specificEpithet)
+		#sql = """select occid, collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where catalogNumber=\"%s\" and locality=\"%s\" and genus=\"%s\" and specificEpithet=\"%s\";""" % (catalogNumber,locality,genus,specificEpithet)
+		sql = """insert into `dups` (occid, catalogNumber, family, genus, specificEpithet,locality) values (occid=\"%s\", catalogNumber=\"%s\",family=\"%s\",genus=\"%s\",specificEpithet=\"%s\,locality=\"%s\)";""" % (occid,catalogNumber,locality,genus,specificEpithet)
+
 		print sql
 		cursor.execute(sql)
-		data = cursor.fetchall()
+		#data = cursor.fetchall()
 		a = "Executed: %s" % catalogNumber + "\n"
 		print a
 		#outfile.write(a)
-		for x in data:
-			b = "\t ".join([str(c) for c in x]) + "\n"
-			outfile.write(b)
+		#for x in data:
+		#	b = "\t ".join([str(c) for c in x]) + "\n"
+		#	outfile.write(b)
 		#outfile.write('\n')
 				
 Duplicates()

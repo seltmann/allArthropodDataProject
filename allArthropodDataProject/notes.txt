@@ -333,6 +333,25 @@ echo "select t1.name,t2.name from taxonomy t1 join taxonomy t2 on t2.id=t1.paren
 delete from omoccurrences where occid > 31245377;
 
 
+March 30, 2017 
+#delete of alpha duplicates
+#delete those with min because those added from gbif were added last
+
+
+SELECT concat(catalogNumber, locality, genus, specificEpithet), COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1 limit 10
+
+Delete from omoccurrences where concat(catalogNumber, locality, genus, specificEpithet) and catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1 limit 10
+
+DELETE FROM omoccurrencesBackup
+LEFT OUTER JOIN (
+   SELECT MIN(occid) as occid, catalogNumber, locality, genus, specificEpithet
+   FROM omoccurrencesBackup 
+   GROUP BY catalogNumber, locality, genus, specificEpithet
+) as KeepRows ON
+   omoccurrences.RowId = omoccurrences.RowId
+WHERE
+   catalogNumber REGEXP '[a-z]' limit 10;
+
 
 
 
