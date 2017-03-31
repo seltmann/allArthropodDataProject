@@ -345,15 +345,34 @@ Delete from omoccurrences where concat(catalogNumber, locality, genus, specificE
 March 31, 2017
 #This keeps those with minimum id because the ones with minimum id seem to be the most accurate. 
 echo "Select * from dups where occid not in (SELECT MIN(occid) FROM dups GROUP BY catalogNumber);" | mysql -u seltmann -p -D scandata > dupsToDelete.tsv 
+awk '{print $1,$4,$6,$7,$8,$12}' allDuplicatesAlpha_2017-03-16.tsv > allDuplicatesAlpha_2017-03-16-filtered.tsv
+awk '{print $1}' dupsToDelete.tsv > deleteDupsOccid.tsv
 
 
 DELETE DATA
-#724017 duplicates deleted <===DELETE
-#642,246 records without a catalogNumber; vote to delete <====DELETE
-#642245 catalog numbers are NULL <- to delete
-Numerical occurrences
+Starting number before deleting: 12,347,785<==== STARTING NUMBER of records in omoccurrences
 
-Starting number before deleting: 12347785
+#724017 duplicates deleted <===DELETE
+After delete total is 11,623,769
+
+#19036 catalog numbers with NA
+delete from omoccurrences where catalogNumber ='NA';
+After delete total is 11623536
+
+delete from omoccurrences where catalogNumber ='999999';
+After delete total is 11,441,824
+
+Numerical occurrences
+After delete total is 11441771
+
+#642245 catalog numbers are NULL <- to delete
+delete from omoccurrences where catalogNumber is null;
+After delete total is 10799526
+
+
+
+
+
 
 
 
