@@ -369,8 +369,25 @@ After delete total is 11441771
 delete from omoccurrences where catalogNumber is null;
 After delete total is 10799526
 
+April 4, 2017
+Checking to see if we have specimens in the GBIF records from Canada that were not in SCAN. Canadynsis IPT data on spreadsheet Canada_idigbio_March16 2017_occurrence.xlsx in dropbox. We have 938933 records, Neil calculated that entire IPT has 1,323,271
 
 
+April 6, 2017
+Basis of Record:
+Unknown - 714819
+FossilSpecimen - 44795
+LivingSpecimen - 4
+Observation - 204221
+PreservedSpecimen - 9835687
+echo "select institutionCode,collectionCode,collid, count(*) from omoccurrences where basisOfRecord ='UNKNOWN' group by institutionCode, collectionCode, collid;" | mysql -u seltmann -p -D scandata > Unknown.tsv 
+
+Taxonomy - placing orders in table
+echo "select t1.name,t3.name from taxonomy t1 join taxonomy t2 on t2.id=t1.parentID join taxonomy t3 on t3.id=t2.parentID where t3.rank='100' and t1.rank='140';" | mysql -u seltmann -p -D scandata > orders_2.tsv
+
+echo "select t1.name,t4.name from taxonomy t1 join taxonomy t2 on t2.id=t1.parentID join taxonomy t3 on t3.id=t2.parentID join taxonomy t4 on t4.id=t3.parentID where t4.rank='100' and t1.rank='140';" | mysql -u seltmann -p -D scandata > orders_3.tsv
+
+echo "select t1.name,t5.name from taxonomy t1 join taxonomy t2 on t2.id=t1.parentID join taxonomy t3 on t3.id=t2.parentID join taxonomy t4 on t4.id=t3.parentID join taxonomy t5 on t5.id=t4.parentID where t5.rank='100' and t1.rank='140';" | mysql -u seltmann -p -D scandata > orders_4.tsv
 
 
 
