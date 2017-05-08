@@ -389,6 +389,12 @@ echo "select t1.name,t4.name from taxonomy t1 join taxonomy t2 on t2.id=t1.paren
 
 echo "select t1.name,t5.name from taxonomy t1 join taxonomy t2 on t2.id=t1.parentID join taxonomy t3 on t3.id=t2.parentID join taxonomy t4 on t4.id=t3.parentID join taxonomy t5 on t5.id=t4.parentID where t5.rank='100' and t1.rank='140';" | mysql -u seltmann -p -D scandata > orders_4.tsv
 
+echo "select family, count(*) from omoccurrences where `order` is null group by family;" | mysql -u seltmann -p -D scandata > familyOrder.tsv
+
+ALTER TABLE `omoccurrences` CHANGE `order` `familyOrder` VARCHAR(255);
+
+
+
 
 
 
