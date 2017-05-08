@@ -395,6 +395,25 @@ ALTER TABLE `omoccurrences` CHANGE `order` `familyOrder` VARCHAR(255);
 
 
 
+May 8, 2017
+New data received from Canadian collections. Looking for duplicates. TODO:
+Incorporate new records (had added field)
+Rerun all cleaning scripts
+rerun taxonomy
+
+Another problem is that sci name needs to be split into genus and species
+
+#insert values from one mysql table into another with auto-increment
+ALTER TABLE `omcanada` ADD `familyOrder` VARCHAR(255) AFTER family;
+Set the occid value for all in omcanada to null
+INSERT INTO omoccurrences  (SELECT * FROM omcanada);
+
+
+Truncate dups table and rerun the Duplicates.py script. 1345197 values removed.
+
+/usr/bin/python allDuplicates_v2.py
+
+
 
 
 
