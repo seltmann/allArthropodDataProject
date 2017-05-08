@@ -20,7 +20,7 @@ cursor = connect.cursor ()
 
 
 def Duplicates():
-	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, occid, family, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1 limit 10;""")
+	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, occid, family, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1;""")
 	data = cursor.fetchall()
 	for x in data:
 		catalogNumber = str(x[0])
@@ -29,16 +29,16 @@ def Duplicates():
 		specificEpithet = str(x[3])
 		occid = str(x[4])
 		family = str(x[5])
-		print catalogNumber
+		#print catalogNumber
 
 		#sql = """select occid, collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where catalogNumber=\"%s\" and locality=\"%s\" and genus=\"%s\" and specificEpithet=\"%s\";""" % (catalogNumber,locality,genus,specificEpithet)
 		sql = """insert into `dups` (occid, catalogNumber, family, genus, specificEpithet, locality) values (\"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\");""" % (occid,catalogNumber,family,genus,specificEpithet,locality)
 
-		print sql
+		#print sql
 		cursor.execute(sql)
 		#data = cursor.fetchall()
-		a = "Executed: %s" % catalogNumber + "\n"
-		print a
+		#a = "Executed: %s" % catalogNumber + "\n"
+		#print a
 		#outfile.write(a)
 		#for x in data:
 		#	b = "\t ".join([str(c) for c in x]) + "\n"
