@@ -11,7 +11,7 @@ from datetime import date
 now = date.today()
 
 connect = MySQLdb.connect("", user="", passwd="", db="" )
-cursor = connect.cursor ()
+cursor = connect.cursor()
 
 #define an outfile
 #outfilename = "allDuplicatesAlpha_%s.tsv" % now
@@ -32,10 +32,10 @@ def Duplicates():
 		#print catalogNumber
 
 		#sql = """select occid, collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where catalogNumber=\"%s\" and locality=\"%s\" and genus=\"%s\" and specificEpithet=\"%s\";""" % (catalogNumber,locality,genus,specificEpithet)
-		sql = """insert into `dups` (occid, catalogNumber, family, genus, specificEpithet, locality) values (\"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\");""" % (occid,catalogNumber,family,genus,specificEpithet,locality)
+		cursor.execute("""insert into `dups` (occid, catalogNumber, family, genus, specificEpithet, locality) values (\"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\");""" % (occid,catalogNumber,family,genus,specificEpithet,locality))
 
-		#print sql
-		cursor.execute(sql)
+		print sql
+		#cursor.execute(sql)
 		#data = cursor.fetchall()
 		#a = "Executed: %s" % catalogNumber + "\n"
 		#print a
