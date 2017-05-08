@@ -32,7 +32,7 @@ def Duplicates():
 		print catalogNumber
 
 		#sql = """select occid, collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where catalogNumber=\"%s\" and locality=\"%s\" and genus=\"%s\" and specificEpithet=\"%s\";""" % (catalogNumber,locality,genus,specificEpithet)
-		sql = """insert into `dups` (occid, catalogNumber, family, genus, specificEpithet,locality) values (occid=\"%s\", catalogNumber=\"%s\",family=\"%s\",genus=\"%s\",specificEpithet=\"%s\,locality=\"%s\)""" % (occid,catalogNumber,locality,genus,specificEpithet)
+		sql = """insert into `dups` (occid, catalogNumber, family, genus, specificEpithet,locality) values (occid=\"%s\", catalogNumber=\"%s\",family=\"%s\",genus=\"%s\",specificEpithet=\"%s\,locality=\"%s\)""" % (occid,catalogNumber,family,genus,specificEpithet,locality)
 
 		print sql
 		cursor.execute(sql)
