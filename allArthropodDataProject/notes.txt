@@ -413,6 +413,8 @@ Truncate dups table and rerun the Duplicates.py script. 1345197 values removed.
 
 /usr/bin/python allDuplicates_v2.py
 
+echo "SELECT catalogNumber, locality, genus, specificEpithet, occid, family, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1;" | mysql -u seltmann -p -D scandata > newDuplicates.tsv
+
 
 
 

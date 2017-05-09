@@ -31,6 +31,9 @@ def Duplicates():
 		family = str(x[5])
 		print catalogNumber
 
+Duplicates()
+
+
 		#sql = """select occid, collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where catalogNumber=\"%s\" and locality=\"%s\" and genus=\"%s\" and specificEpithet=\"%s\";""" % (catalogNumber,locality,genus,specificEpithet)
 		sql = """insert into `dups` (occid, catalogNumber, family, genus, specificEpithet, locality) values (%s,%s,%s,%s,%s,%s);""" % (occid,catalogNumber,family,genus,specificEpithet,locality)
 		cursor.execute(sql)
@@ -45,7 +48,6 @@ def Duplicates():
 		#	outfile.write(b)
 		#outfile.write('\n')
 				
-Duplicates()
 
 #close all connections
 cursor.close()
@@ -66,5 +68,5 @@ sys.exit()
 #cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1;""")
 #sql = """select occid, collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where catalogNumber=\"%s\" and locality=\"%s\" and genus=\"%s\" and specificEpithet=\"%s\";""" % (catalogNumber,locality,genus,specificEpithet)
 
-#SELECT REPLACE(locality, '\"', '') from omoccurrences where catalogNumber="BBSL175528";
+#SELECT REPLACE(locality, '\'', '') from omoccurrences;
 #UPDATE  omoccurrences set locality = REPLACE(%, '\"', '') where catalogNumber="BBSL175528";
