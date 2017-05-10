@@ -20,7 +20,7 @@ cursor = connect.cursor()
 
 
 def Duplicates():
-	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, occid, family, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1;""")
+	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, occid, family, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1 limit 10;""")
 	data = cursor.fetchall()
 	for x in data:
 		catalogNumber = str(x[0])
@@ -30,9 +30,6 @@ def Duplicates():
 		occid = str(x[4])
 		family = str(x[5])
 		print catalogNumber
-
-Duplicates()
-
 
 		#sql = """select occid, collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where catalogNumber=\"%s\" and locality=\"%s\" and genus=\"%s\" and specificEpithet=\"%s\";""" % (catalogNumber,locality,genus,specificEpithet)
 		sql = """insert into `dups` (occid, catalogNumber, family, genus, specificEpithet, locality) values (%s,%s,%s,%s,%s,%s);""" % (occid,catalogNumber,family,genus,specificEpithet,locality)
@@ -48,6 +45,8 @@ Duplicates()
 		#	outfile.write(b)
 		#outfile.write('\n')
 				
+
+Duplicates()
 
 #close all connections
 cursor.close()
