@@ -10,7 +10,7 @@ import sys
 from datetime import date
 now = date.today()
 
-connect = MySQLdb.connect("", user="", passwd="", db="" )
+connect = MySQLdb.connect("localhost", user="", passwd="", db="" )
 cursor = connect.cursor()
 
 #define an outfile
