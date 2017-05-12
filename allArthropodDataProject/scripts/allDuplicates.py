@@ -19,7 +19,7 @@ cursor = connect.cursor()
 #outfile.write('select occid \t collid \t institutionCode \t catalogNumber \t otherCatalogNumbers \t family \t genus \t specificEpithet \t country \t stateProvince \t municipality \t locality \t decimalLongitude \t decimalLatitude \n')
 
 #insert statement moved out
-def InsertMysql(family,genus,specificEpithet):
+def InsertMysql(occid,catalogNumber,family,genus,specificEpithet,locality):
 	try:
 		cursor.execute ("""insert into `dups` (occid, catalogNumber, family, genus, specificEpithet, locality) values (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\");"""% (occid,catalogNumber,family,genus,specificEpithet,locality)
 		connect.commit()
