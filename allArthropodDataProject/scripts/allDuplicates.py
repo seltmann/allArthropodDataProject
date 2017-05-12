@@ -38,7 +38,7 @@ def Duplicates():
 		occid = str(x[4])
 		family = str(x[5])
 		print catalogNumber
-		InsertMysql(catalogNumber,locality,genus)
+		InsertMysql(occid,catalogNumber,family,genus,specificEpithet,locality)
 
 		print sql
 		#data = cursor.fetchall()
