@@ -10,7 +10,7 @@ import sys
 from datetime import date
 now = date.today()
 
-connect = MySQLdb.connect("", user="", passwd="", db="" )
+connect = MySQLdb.connect("localhost", user="", passwd="", db="" )
 cursor = connect.cursor()
 
 #define an outfile
@@ -18,27 +18,35 @@ cursor = connect.cursor()
 #outfile = open(outfilename, 'w')
 #outfile.write('select occid \t collid \t institutionCode \t catalogNumber \t otherCatalogNumbers \t family \t genus \t specificEpithet \t country \t stateProvince \t municipality \t locality \t decimalLongitude \t decimalLatitude \n')
 
-
-def Duplicates():
-	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, occid, family, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1;""")
+#insert statement moved out
+def InsertMysql(occid, catalogNumber,family,genus,specificEpithet,locality):
+	try:
+		cursor.execute ("""insert into `dups` (occid, catalogNumber, family, genus, specificEpithet, locality) values (\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\")"""% (occid,catalogNumber,family,genus,specificEpithet,locality))
+		connect.commit()
+	except:
+		connect.rollback()
+		
+def allDuplicates(catalogNumber):
+	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, family, occid FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' and catalogNumber=""" +  "'" + catalogNumber + "'")
 	data = cursor.fetchall()
 	for x in data:
 		catalogNumber = str(x[0])
 		locality = str(x[1])
 		genus = str(x[2])
 		specificEpithet = str(x[3])
-		occid = str(x[4])
-		family = str(x[5])
-		print catalogNumber
+		family = str(x[4])
+		occid = x[5]
+		InsertMysql(occid, catalogNumber,family,genus,specificEpithet,locality)
+	
 
-Duplicates()
+def Duplicates():
+	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1""")
+	data = cursor.fetchall()
+	for x in data:
+		catalogNumber = str(x[0])
+		allDuplicates(catalogNumber)
 
-
-		#sql = """select occid, collid, institutionCode, catalogNumber, otherCatalogNumbers, family, genus, specificEpithet,country, stateProvince, municipality, locality, decimalLongitude, decimalLatitude from omoccurrences where catalogNumber=\"%s\" and locality=\"%s\" and genus=\"%s\" and specificEpithet=\"%s\";""" % (catalogNumber,locality,genus,specificEpithet)
-		sql = """insert into `dups` (occid, catalogNumber, family, genus, specificEpithet, locality) values (%s,%s,%s,%s,%s,%s);""" % (occid,catalogNumber,family,genus,specificEpithet,locality)
-		cursor.execute(sql)
-
-		print sql
+#print statement
 		#data = cursor.fetchall()
 		#a = "Executed: %s" % catalogNumber + "\n"
 		#print a
@@ -48,6 +56,8 @@ Duplicates()
 		#	outfile.write(b)
 		#outfile.write('\n')
 				
+
+Duplicates()
 
 #close all connections
 cursor.close()
