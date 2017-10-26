@@ -415,8 +415,12 @@ Truncate dups table and rerun the Duplicates.py script. 1345197 values removed.
 
 echo "SELECT catalogNumber, locality, genus, specificEpithet, occid, family, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber, locality, genus, specificEpithet HAVING c > 1;" | mysql -u seltmann -p -D scandata > newDuplicates.tsv
 
+#October 25
+Order rank is 100
 
+echo "select distinct family from omoccurrences where familyOrder is NULL;" | mysql -u seltmann -p -D scandata > familyOrderNULL.tsv
 
+Series of updates to familyOrder and family. Deleted all others that could not find family information.
 
 
 
