@@ -6,13 +6,9 @@
 import MySQLdb
 import sys
 import os
+import storage
 
-def include(filename):
-    if os.path.exists(filename): 
-        execfile(filename)
-print conn
-
-include('../../includes.py')
+conn = storage.connect()
 
 #add date to file export
 from datetime import date
