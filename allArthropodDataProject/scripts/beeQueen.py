@@ -26,10 +26,10 @@ now = date.today()
 outfilename = "specimenDataBee_%s.tsv" % now
 outfile = open(outfilename, 'w')
 
-cursor = connect.cursor()
+cur = connect.cursor()
 
 def insectList():
-	cursor.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen';""")
+	cur.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen';""")
 	data = cursor.fetchall()
 	for x in data:
 		name = x[0]
