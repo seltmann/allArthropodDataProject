@@ -9,7 +9,7 @@ import os
 import ConfigParser
 import MySQLdb.cursors
 
-config = configparser.ConfigParser()
+config = ConfigParser.ConfigParser()
 config.read('config.ini')
 
 def connect():
