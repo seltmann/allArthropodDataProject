@@ -11,3 +11,5 @@ allArthropodDataProject/scripts/allDuplicates_v2.py
 omcanada.sql
 omoccurrences_2017-02-15.sql
 allArthropodDataProject/dataUpdates/duplicates/
+config.ini
+storage.py
