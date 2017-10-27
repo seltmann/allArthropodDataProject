@@ -6,7 +6,7 @@
 import MySQLdb
 import sys
 import os
-import configparser
+import ConfigParser
 import MySQLdb.cursors
 
 config = configparser.ConfigParser()
