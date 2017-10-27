@@ -20,7 +20,7 @@ outfile = open(outfilename, 'w')
 from datetime import date
 now = date.today()
 
-cursor = connect.cursor ()
+cursor = connect.cursor()
 
 def insectList():
 	cursor.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen';""")
