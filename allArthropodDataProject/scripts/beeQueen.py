@@ -7,10 +7,9 @@ import MySQLdb
 import sys
 import os
 import ConfigParser
-import MySQLdb.cursors
 
 config = ConfigParser.ConfigParser()
-config.read('config.ini')
+config.read('../config.ini')
 
 cur = MySQLdb.connect(host = config['mysqlDB']['host'],
                            user = config['mysqlDB']['user'],
