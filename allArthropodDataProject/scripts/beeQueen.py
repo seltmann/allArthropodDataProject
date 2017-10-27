@@ -8,6 +8,10 @@ import sys
 import os
 os.system("python ../../includes.py")
 
+#add date to file export
+from datetime import date
+now = date.today()
+
 #define an outfile
 outfilename = "specimenDataBee_%s.tsv" % now
 outfile = open(outfilename, 'w')
