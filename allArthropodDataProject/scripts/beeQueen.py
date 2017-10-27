@@ -7,7 +7,12 @@ import MySQLdb
 import sys
 import os
 
-exec(compile(open('../../includes.py').read()))
+def include(filename):
+    if os.path.exists(filename): 
+        execfile(filename)
+
+
+include('../../includes.py')
 
 #add date to file export
 from datetime import date
