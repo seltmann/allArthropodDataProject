@@ -22,9 +22,7 @@ now = date.today()
 outfilename = "specimenDataBee_%s.tsv" % now
 outfile = open(outfilename, 'w')
 
-#add date to file export
-from datetime import date
-now = date.today()
+cursor = connect.cursor()
 
 def insectList():
 	cursor.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen';""")
