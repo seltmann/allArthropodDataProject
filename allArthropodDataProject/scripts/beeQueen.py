@@ -12,11 +12,11 @@ import MySQLdb.cursors
 config = ConfigParser.ConfigParser()
 config.read('config.ini')
 
-def connect():
-    return MySQLdb.connect(host = config['mysqlDB']['host'],
+cur = MySQLdb.connect(host = config['mysqlDB']['host'],
                            user = config['mysqlDB']['user'],
                            passwd = config['mysqlDB']['pass'],
                            db = config['mysqlDB']['db'])
+                           
 
 #add date to file export
 from datetime import date
@@ -25,8 +25,6 @@ now = date.today()
 #define an outfile
 outfilename = "specimenDataBee_%s.tsv" % now
 outfile = open(outfilename, 'w')
-
-cur = connect()
 
 def insectList():
 	cur.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen';""")
