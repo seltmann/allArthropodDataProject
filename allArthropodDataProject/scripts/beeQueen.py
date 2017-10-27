@@ -6,9 +6,17 @@
 import MySQLdb
 import sys
 import os
-import storage
+import configparser
+import MySQLdb.cursors
 
-conn = storage.connect()
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+def connect():
+    return MySQLdb.connect(host = config['mysqlDB']['host'],
+                           user = config['mysqlDB']['user'],
+                           passwd = config['mysqlDB']['pass'],
+                           db = config['mysqlDB']['db'])
 
 #add date to file export
 from datetime import date
