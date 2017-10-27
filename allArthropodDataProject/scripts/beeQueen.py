@@ -6,8 +6,8 @@
 import MySQLdb
 import sys
 import os
-x = os.system("python ../../includes.py")
-import x
+
+exec(compile(open('../../includes.py').read()))
 
 #add date to file export
 from datetime import date
