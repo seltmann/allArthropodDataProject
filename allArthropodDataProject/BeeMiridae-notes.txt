@@ -1,0 +1,43 @@
+#Updates for BEE and Miridae data
+
+select count(*) from omoccurrences where decimalLatitude is not null and (family='Andrenidae' or family='Apidae' or family='Colletidae' or family='Halictidae' or family='Megachilidae' or family='Melittidae');
+
+select count(*) from omoccurrences where family='Miridae' and collid='106' and ownerInstitutionCode='American Museum of Natural Histo';
+
+update omoccurrences set sex="Female_Queen" where sex="Female (Queen)";
+update omoccurrences set sex="Female_Queen" where sex="queen";
+update omoccurrences set sex="Female_Queen" where sex="Adult Female queen";
+update omoccurrences set sex="Female_Queen" where sex="adult female - alate queen";
+update omoccurrences set sex="Female_Queen" where lifeStage='adult (queen)';
+update omoccurrences set sex="Female_Queen" where lifeStage='adult queen';
+
+update omoccurrences set sex="Female_Queen" where lifeStage='queen';
+
+
+update omoccurrences set lifeStage='Adult' where lifeStage='adult (queen)';
+update omoccurrences set lifeStage='Adult' where lifeStage='adult queen';
+update omoccurrences set lifeStage='Adult' where lifeStage='adult female - alate queen';
+
+update omoccurrences set lifeStage='Adult' where lifeStage='queen';
+
+delete from omoccurrences where lifeStage='queen' and sex='male';
+delete from omoccurrences where lifeStage='queen' and sex='undetermined';
+
+select distinct sex from omoccurrences where family='Andrenidae' or family='Apidae' or family='Colletidae' or family='Halictidae' or family='Megachilidae' or family='Melittidae';
+
+
+select distinct Family from omoccurrences where sex="Female_Queen";
+
+
+select distinct year, family, genus, specificEpithet, sciname, scientificName, institutionCode, eventDate, decimalLatitude, decimalLongitude, associatedTaxa from omoccurrences where family='Apidae' limit 10;
+
+select distinct family, sciname from omoccurrences where family='Apidae' and sex="Female_Queen" and sciname !='Bombus' and sciname !='Bombus suckleyi ?';
+
+update omoccurrences set sciname='Bombus balteatus' where sciname='Bombus (Alpinobombus) balteatus';
+update omoccurrences set sciname='Bombus flavifrons' where sciname='Bombus (Pyrobombus) flavifrons';
+update omoccurrences set sciname='Bombus sylvicola' where sciname='Bombus (Pyrobombus) sylvicola';
+
+update omoccurrences set sciname='Bombus sylvicola' where sciname='Bombus (Pyrobombus) sylvicola';
+
+
+select distinct year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?';

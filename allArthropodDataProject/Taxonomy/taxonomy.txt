@@ -1,0 +1,76 @@
+#taxonomy cleaning continued
+#October 25
+
+delete from omoccurrences where familyOrder is NULL and family is NULL;
+#5440 records
+
+delete from omoccurrences where family like 'Belemnites%';
+#1 record
+
+delete from omoccurrences where family like 'Acrididaehttp://symbiota4.acis.ufl.edu/scan/portal';
+#1record
+
+delete from omoccurrences where family like 'Bulimina\td%';
+#1 record
+
+
+select t1.name,t1.rank,t2.name, t2.rank from taxonomy t1 join taxonomy t2 on t2.id=t1.parentID where t1.name='Zygoptera' and t2.rank='100';
+echo "source familyOrderNULL.tsv;" | mysql -u seltmann -p -D scandata > familyOrderNULL-output.txt
+#than use output to update familyOrder
+
+update omoccurrences set familyOrder="Calanoida" where family="Acartiidae";
+update omoccurrences set familyOrder="Araneae" where family="Agelenidae";	
+update omoccurrences set familyOrder="Araneae" where family="Amaurobiidae";	
+update omoccurrences set familyOrder="Araneae" where family="Antrodiaetidae";	
+update omoccurrences set familyOrder="Araneae" where family="Anyphaenidae";	
+update omoccurrences set familyOrder="Araneae" where family="Araneidae";	
+update omoccurrences set familyOrder="Mecoptera" where family="Bittacidae";	
+update omoccurrences set familyOrder="Mecoptera" where family="Boreidae";	
+update omoccurrences set familyOrder="Siphonaptera" where family="Ceratophyllidae";	
+update omoccurrences set familyOrder="Araneae" where family="Clubionidae";	
+update omoccurrences set familyOrder="Araneae" where family="Corinnidae";	
+update omoccurrences set familyOrder="Megaloptera" where family="Corydalidae";	
+update omoccurrences set familyOrder="Araneae" where family="Cybaeidae";	
+update omoccurrences set familyOrder="Cyclopoida" where family="Cyclopidae";	
+update omoccurrences set familyOrder="Phasmida" where family="Diapheromeridae";	
+update omoccurrences set familyOrder="Calanoida" where family="Diaptomidae";	
+update omoccurrences set familyOrder="Araneae" where family="Dictynidae";	
+update omoccurrences set familyOrder="Araneae" where family="Dysderidae";	
+update omoccurrences set familyOrder="Geophilomorpha" where family="Geophilidae";	
+update omoccurrences set familyOrder="Araneae" where family="Gnaphosidae";	
+update omoccurrences set familyOrder="Grylloblattodea" where family="Grylloblattidae";	
+update omoccurrences set familyOrder="Araneae" where family="Hahniidae";	
+update omoccurrences set familyOrder="Lithobiomorpha" where family="Henicopidae";	
+update omoccurrences set familyOrder="Polyzoniida" where family="Hirudisomatidae";	
+update omoccurrences set familyOrder="Siphonaptera" where family="Hystrichopsyllidae";	
+update omoccurrences set familyOrder="Raphidioptera" where family="Inocelliidae";	
+update omoccurrences set familyOrder="Geophilomorpha" where family="Linotaeniidae";	
+update omoccurrences set familyOrder="Araneae" where family="Linyphiidae";	
+update omoccurrences set familyOrder="Araneae" where family="Liocranidae";	
+update omoccurrences set familyOrder="Lithobiomorpha" where family="Lithobiidae";	
+update omoccurrences set familyOrder="Araneae" where family="Lycosidae";	
+update omoccurrences set familyOrder="Archaeognatha" where family="Machilidae";	
+update omoccurrences set familyOrder="Mecoptera" where family="Meropeidae";	
+update omoccurrences set familyOrder="Araneae" where family="Mimetidae";	
+update omoccurrences set familyOrder="Araneae" where family="Miturgidae";	
+update omoccurrences set familyOrder="Araneae" where family="Nesticidae";	
+update omoccurrences set familyOrder="Araneae" where family="Oxyopidae";	
+update omoccurrences set familyOrder="Mecoptera" where family="Panorpidae";	
+update omoccurrences set familyOrder="Araneae" where family="Philodromidae";	
+update omoccurrences set familyOrder="Araneae" where family="Pholcidae";	
+update omoccurrences set familyOrder="Araneae" where family="Pimoidae";	
+update omoccurrences set familyOrder="Araneae" where family="Pisauridae";	
+update omoccurrences set familyOrder="Polyzoniida" where family="Polyzoniidae";	
+update omoccurrences set familyOrder="Raphidioptera" where family="Raphidiidae";	
+update omoccurrences set familyOrder="Araneae" where family="Salticidae";	
+update omoccurrences set familyOrder="Geophilomorpha" where family="Schendylidae";	
+update omoccurrences set familyOrder="Araneae" where family="Segestriidae";	
+update omoccurrences set familyOrder="Megaloptera" where family="Sialidae";	
+update omoccurrences set familyOrder="Araneae" where family="Telemidae";	
+update omoccurrences set familyOrder="Araneae" where family="Tetragnathidae";	
+update omoccurrences set familyOrder="Araneae" where family="Theridiidae";	
+update omoccurrences set familyOrder="Araneae" where family="Theridiosomatidae";	
+update omoccurrences set familyOrder="Araneae" where family="Thomisidae";	
+update omoccurrences set familyOrder="Araneae" where family="Titanoecidae";	
+update omoccurrences set familyOrder="Araneae" where family="Uloboridae";
+
