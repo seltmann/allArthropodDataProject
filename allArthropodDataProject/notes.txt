@@ -422,5 +422,6 @@ echo "select distinct family from omoccurrences where familyOrder is NULL;" | my
 
 Series of updates to familyOrder and family. Deleted all others that could not find family information.
 
+echo "source familyOrderNULL.tsv;" | mysql -u seltmann -p -D scandata > familyOrderNULL-output.txt
 
 
