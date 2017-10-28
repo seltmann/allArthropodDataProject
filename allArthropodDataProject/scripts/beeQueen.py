@@ -25,7 +25,7 @@ from datetime import date
 now = date.today()
 
 #define an outfile
-outfilename = "specimenDataBee_%s.tsv" % now
+outfilename = "../output/specimenDataBee_%s.tsv" % now
 outfile = open(outfilename, 'w')
 
 def insectList():
@@ -33,14 +33,13 @@ def insectList():
 	data = cursor.fetchall()
 	for x in data:
 		name = x[0]
-		print name
-
+		#print name
         cursor.execute ("""select distinct year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where decimalLatitude !='0.0000' and sciname =""" +  "'" + name + "'")
-        data = cursor.fetchall()
+        bees = cursor.fetchall()
         a = "Executed: %s" % name + "\n"
         print a
         outfile.write(a)
-        for x in data:
+        for x in bees:
             b = "\t ".join([str(c) for c in x]) + "\n"
             outfile.write(b)
         outfile.write('\n')
