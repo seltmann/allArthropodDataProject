@@ -15,7 +15,7 @@ hostname = config.get('mysqlDB', 'host')
 password = config.get('mysqlDB','password')
 database = config.get('mysqlDB','db')
 
-quotes = "\""
+quotes = '"'
 connect = MySQLdb.connect("127.0.0.1", user= quotes + username + quotes, passwd=password + quotes, db=quotes + database + quotes)
 cursor = connect.cursor()
 
