@@ -33,9 +33,8 @@ def insectList():
 	cursor.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen';""")
 	data = cursor.fetchall()
 	for x in data:
-		name = x[0]
-        print name
-        allInsects(name)
+        print x
+        allInsects(x)
         
 #get all records whose scientific name match that list
 def allInsects(name):
