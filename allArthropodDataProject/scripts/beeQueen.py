@@ -39,11 +39,11 @@ def insectList():
         data = cursor.fetchall()
         a = "Executed: %s" % name + "\n"
         print a
-        # outfile.write(a)
-        # for x in data:
-        #     b = "\t ".join([str(c) for c in x]) + "\n"
-        #     outfile.write(b)
-        # outfile.write('\n')
+        outfile.write(a)
+        for x in data:
+            b = "\t ".join([str(c) for c in x]) + "\n"
+            outfile.write(b)
+        outfile.write('\n')
 				
 insectList()	
 
