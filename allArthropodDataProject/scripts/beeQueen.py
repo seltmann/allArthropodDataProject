@@ -17,6 +17,8 @@ database = config.get('mysqlDB','db')
 
 quotes = """
 connect = MySQLdb.connect("127.0.0.1", user= quotes + username + quotes, passwd=quotes + password + quotes, db=quotes + database + quotes)
+"""
+
 cursor = connect.cursor()
 
 #add date to file export
@@ -26,7 +28,7 @@ now = date.today()
 #define an outfile
 outfilename = "specimenDataBee_%s.tsv" % now
 outfile = open(outfilename, 'w')
-"""
+
 def insectList():
 	cursor.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen';""")
 	data = cursor.fetchall()
