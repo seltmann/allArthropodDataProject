@@ -34,6 +34,7 @@ def insectList():
 	data = cursor.fetchall()
 	for x in data:
 		name = x[0]
+        print name
         allInsects(name)
         
 #get all records whose scientific name match that list
@@ -41,8 +42,6 @@ def allInsects(name):
         cursor.execute ("""select distinct year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where decimalLatitude !='0.0000' and sciname =""" +  "'" + name + "'")
         bees = cursor.fetchall()
         for x in bees:
-            a = "Executed: %s" % x + "\n"
-            print a
             b = "\t ".join([str(c) for c in x]) + "\n"
             outfile.write(b)   
         outfile.write('\n')
