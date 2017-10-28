@@ -26,7 +26,7 @@ outfile = open(outfilename, 'w')
 
 
 def GeoCoordinated():
-	cursor.execute ("""select distinct family, genus, specificEpithet, decimalLatitude,decimalLongitude from omoccurrences where decimalLatitude !='0.0000' and specificEpithet !='UNKNOWN_NULL'""")
+	cursor.execute ("""select distinct family, genus, specificEpithet, decimalLatitude,decimalLongitude from omoccurrences where decimalLatitude !='0.0000' and specificEpithet !='UNKNOWN_NULL' limit 10""")
 	data = cursor.fetchall()
 	for x in data:
 		b = "\t ".join([str(c) for c in x]) + "\n"
