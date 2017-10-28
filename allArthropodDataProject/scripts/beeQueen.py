@@ -15,8 +15,7 @@ hostname = config.get('mysqlDB', 'host')
 password = config.get('mysqlDB','password')
 database = config.get('mysqlDB','db')
 
-quotes = '"'
-connect = MySQLdb.connect("127.0.0.1", user= quotes + username + quotes, passwd=password + quotes, db=quotes + database + quotes)
+connect = MySQLdb.connect("127.0.0.1", user= """ + username + """, passwd=""" + password + """, db=""" + database + """)
 cursor = connect.cursor()
 
 #add date to file export
