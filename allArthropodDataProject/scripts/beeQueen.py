@@ -28,12 +28,16 @@ now = date.today()
 outfilename = "../output/specimenDataBee_%s.tsv" % now
 outfile = open(outfilename, 'w')
 
+#define a criteria for a list of insects
 def insectList():
 	cursor.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen';""")
 	data = cursor.fetchall()
 	for x in data:
 		name = x[0]
-		#print name
+        allInsects(name)
+        
+#get all records whose scientific name match that list
+def allInsects(name)
         cursor.execute ("""select distinct year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where decimalLatitude !='0.0000' and sciname =""" +  "'" + name + "'")
         bees = cursor.fetchall()
         a = "Executed: %s" % name + "\n"
@@ -43,7 +47,8 @@ def insectList():
             b = "\t ".join([str(c) for c in x]) + "\n"
             outfile.write(b)
         outfile.write('\n')
-				
+	
+    			
 insectList()	
 
 

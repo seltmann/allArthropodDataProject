@@ -13,11 +13,6 @@ now = date.today()
 connect = MySQLdb.connect("localhost", user="", passwd="", db="" )
 cursor = connect.cursor()
 
-#define an outfile
-#outfilename = "allDuplicatesAlpha_%s.tsv" % now
-#outfile = open(outfilename, 'w')
-#outfile.write('select occid \t collid \t institutionCode \t catalogNumber \t otherCatalogNumbers \t family \t genus \t specificEpithet \t country \t stateProvince \t municipality \t locality \t decimalLongitude \t decimalLatitude \n')
-
 #insert statement moved out
 def InsertMysql(occid, catalogNumber,family,genus,specificEpithet,locality):
 	try:
@@ -45,17 +40,6 @@ def Duplicates():
 	for x in data:
 		catalogNumber = str(x[0])
 		allDuplicates(catalogNumber)
-
-#print statement
-		#data = cursor.fetchall()
-		#a = "Executed: %s" % catalogNumber + "\n"
-		#print a
-		#outfile.write(a)
-		#for x in data:
-		#	b = "\t ".join([str(c) for c in x]) + "\n"
-		#	outfile.write(b)
-		#outfile.write('\n')
-				
 
 Duplicates()
 
