@@ -8,6 +8,7 @@ import sys
 import os
 import ConfigParser
 
+#connection from config file with configparser
 config = ConfigParser.ConfigParser()
 config.read('../config.ini')
 username = config.get('mysqlDB', 'user')
@@ -15,8 +16,8 @@ hostname = config.get('mysqlDB', 'host')
 password = config.get('mysqlDB','password')
 database = config.get('mysqlDB','db')
 
+#connection to mysql
 connect = MySQLdb.connect("localhost", user= username, passwd=password, db=database)
-
 cursor = connect.cursor()
 
 #add date to file export
@@ -34,10 +35,10 @@ def insectList():
 		name = x[0]
 		print name
 
-        # cursor.execute ("""select distinct year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where decimalLatitude !='0.0000' and sciname =""" +  "'" + name + "'")
-        # data = cursor.fetchall()
-        # a = "Executed: %s" % name + "\n"
-        # print a
+        cursor.execute ("""select distinct year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where decimalLatitude !='0.0000' and sciname =""" +  "'" + name + "'")
+        data = cursor.fetchall()
+        a = "Executed: %s" % name + "\n"
+        print a
         # outfile.write(a)
         # for x in data:
         #     b = "\t ".join([str(c) for c in x]) + "\n"
