@@ -31,18 +31,20 @@ outfile = open(outfilename, 'w')
 #define a criteria for a list of insects
 def insectList():
 	cursor.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen';""")
-	data = cursor.fetchall()
-	for x in data:
-        allInsects(x)
+    data = cursor.fetchall()
+        for x in data:
+            b = "\t ".join([str(c) for c in x]) + "\n"
+            outfile.write(b)
+        outfile.write('\n')
         
 #get all records whose scientific name match that list
-def allInsects(name):
-        cursor.execute ("""select distinct year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where decimalLatitude !='0.0000' and sciname =""" +  "'" + name + "'")
-        bees = cursor.fetchall()
-        for x in bees:
-            b = "\t ".join([str(c) for c in x]) + "\n"
-            outfile.write(b)   
-        outfile.write('\n')
+# def allInsects(name):
+#         cursor.execute ("""select distinct year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where decimalLatitude !='0.0000' and sciname =""" +  "'" + name + "'")
+#         bees = cursor.fetchall()
+#         for x in bees:
+#             b = "\t ".join([str(c) for c in x]) + "\n"
+#             outfile.write(b)
+#         outfile.write('\n')
 	
     			
 insectList()	
