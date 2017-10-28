@@ -10,13 +10,13 @@ import ConfigParser
 
 config = ConfigParser.ConfigParser()
 config.read('../config.ini')
-username = config.get('mysqlDB', 'user')
-hostname = config.get('mysqlDB', 'host')
-password = config.get('mysqlDB','pass')
-database = config.get('mysqlDB','db')
+username = config.get('mysqlDB', user)
+hostname = config.get('mysqlDB', host)
+password = config.get('mysqlDB', pass)
+database = config.get('mysqlDB', db)
 
 quotes = '"'
-connect = MySQLdb.connect("127.0.0.1", user= quotes + username + quotes, passwd=quotes + password + quotes, db=quotes + database + quotes)
+connect = MySQLdb.connect("127.0.0.1", user= quotes + username + quotes, passwd=password + quotes, db=quotes + database + quotes)
 cursor = connect.cursor()
 
 #add date to file export
