@@ -37,7 +37,7 @@ def insectList():
         allInsects(name)
         
 #get all records whose scientific name match that list
-def allInsects(name)
+def allInsects(name):
         cursor.execute ("""select distinct year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where decimalLatitude !='0.0000' and sciname =""" +  "'" + name + "'")
         bees = cursor.fetchall()
         a = "Executed: %s" % name + "\n"
