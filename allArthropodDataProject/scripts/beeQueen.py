@@ -11,11 +11,11 @@ import ConfigParser
 config = ConfigParser.ConfigParser()
 config.read('../config.ini')
 username = config.get('mysqlDB', 'user')
-host = config.get('mysqlDB', 'host')
+hostname = config.get('mysqlDB', 'host')
 password = config.get('mysqlDB','pass')
 database = config.get('mysqlDB','db')
 
-connect = MySQLdb.connect(host, user=username, passwd=password, db=database)
+connect = MySQLdb.connect(user=username, passwd=password, db=database)
 cursor = connect.cursor()
 
 #add date to file export
