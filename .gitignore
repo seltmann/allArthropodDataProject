@@ -4,12 +4,10 @@ data/*
 includes.py
 .DS_Store
 scandata20170215/
-scandata_122816/
-allArthropodDataProject/output/nullCatalogNumber.tsv
-allArthropodDataProject/output/
-allArthropodDataProject/scripts/allDuplicates_v2.py
+scandata_122816*
+allArthropodDataProject/output/*
 omcanada.sql
 omoccurrences_2017-02-15.sql
 allArthropodDataProject/dataUpdates/duplicates/
 config.ini
-storage.py
+output/*
