@@ -61,7 +61,7 @@ def AllBugList():
         
 #get all records whose scientific name match
 def allInsects(name):
-    cursor.execute ("""select distinct year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where decimalLatitude !='0.0000' and sciname =""" +  "'" + name + "'")
+    cursor.execute ("""select year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where decimalLatitude !='0.0000' and sciname =""" +  "'" + name + "'")
     bees = cursor.fetchall()
     for x in bees:
         b = "\t ".join([str(c) for c in x]) + "\n"
