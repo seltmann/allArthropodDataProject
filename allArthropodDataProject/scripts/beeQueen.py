@@ -25,19 +25,41 @@ from datetime import date
 now = date.today()
 
 #define an outfile
-outfilename = "../output/specimenDataBee_%s.tsv" % now
+outfilename = "../output/specimenData_Bug_%s.tsv" % now
 outfile = open(outfilename, 'w')
 
-#define a criteria for a list of insects
-def insectList():
-    cursor.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen' and eventDate is not null;""")
+#define a criteria for a list of insects. List groups are defining different datasets
+# def QueenBeeList():
+#     cursor.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen';""")
+#     data = cursor.fetchall()
+#     for x in data:
+#         name=x[0]
+#         allInsects(name)
+
+# def AllBeeList():
+#     #outfilename = "../output/specimenData_allBee_%s.tsv" % now
+#     #all bees from AMNH project
+#     #177,058 messy scientific names
+#     #12117312 records
+#     cursor.execute ("""select distinct sciname from omoccurrences where collid='45' and family != 'UNKNOWN_NULL' or family !='Crabronidae' or family != 'Sphecidae';""")
+#     data = cursor.fetchall()
+#     for x in data:
+#         name=x[0]
+#         allInsects(name)
+        
+def AllBugList():
+    #outfilename = "../output/specimenData_Bug_%s.tsv" % now
+    #all PlantBugs from AMNH project
+    #1780 distinct scientific names
+    #1644 distinct associatedTaxa
+    #178291 data records
+    cursor.execute ("""select distinct sciname from omoccurrences where family='Miridae' and collid='93';""")
     data = cursor.fetchall()
     for x in data:
         name=x[0]
-        allInsects(name)
+        allInsects(name)            
         
-        
-#get all records whose scientific name match that list
+#get all records whose scientific name match
 def allInsects(name):
     cursor.execute ("""select distinct year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where decimalLatitude !='0.0000' and sciname =""" +  "'" + name + "'")
     bees = cursor.fetchall()
