@@ -25,16 +25,17 @@ from datetime import date
 now = date.today()
 
 #define an outfile
-outfilename = "../output/specimenData_Bug_%s.tsv" % now
+outfilename = "../output/specimenDataBee_%s.tsv" % now
 outfile = open(outfilename, 'w')
 
 #define a criteria for a list of insects. List groups are defining different datasets
-# def QueenBeeList():
-#     cursor.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen';""")
-#     data = cursor.fetchall()
-#     for x in data:
-#         name=x[0]
-#         allInsects(name)
+
+def QueenBeeList():
+    cursor.execute ("""select distinct sciname from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?' and sex='Female_Queen';""")
+    data = cursor.fetchall()
+    for x in data:
+        name=x[0]
+        allInsects(name)
 
 # def AllBeeList():
 #     #outfilename = "../output/specimenData_allBee_%s.tsv" % now
@@ -69,7 +70,7 @@ def allInsects(name):
     outfile.write('\n')
 	
     			
-AllBugList()	
+QueenBeeList()	
 
 
 #close all connections
