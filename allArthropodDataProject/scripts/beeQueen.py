@@ -69,7 +69,7 @@ def allInsects(name):
     outfile.write('\n')
 	
     			
-insectList()	
+AllBugList()	
 
 
 #close all connections
