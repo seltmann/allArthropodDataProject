@@ -3,17 +3,23 @@
 # import the MySQLdb and sys modules
 # katja seltmann April 16, 2013 to run on arthropod data in scan symbiota database
 
-#run ExecuteMysql first
 
 import MySQLdb
 import sys
+import os
+import ConfigParser
 
-#connection information from mysql
+#connection from config file with configparser
+config = ConfigParser.ConfigParser()
+config.read('../config.ini')
+username = config.get('mysqlDB', 'user')
+hostname = config.get('mysqlDB', 'host')
+password = config.get('mysqlDB','password')
+database = config.get('mysqlDB','db')
 
-#test database
-#connect = MySQLdb.connect("", user="", passwd="", db="")
-
-cursor = connect.cursor ()
+#connection to mysql
+connect = MySQLdb.connect("localhost", user= username, passwd=password, db=database)
+cursor = connect.cursor()
 
 
 def InsertMysql(family,genus,specificEpithet):

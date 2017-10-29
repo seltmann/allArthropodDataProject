@@ -5,20 +5,25 @@
 
 import MySQLdb
 import sys
-import /raid/scratch/seltmann/allArthropodDataProject/includes.py
+import os
+import ConfigParser
+
+#connection from config file with configparser
+config = ConfigParser.ConfigParser()
+config.read('../config.ini')
+username = config.get('mysqlDB', 'user')
+hostname = config.get('mysqlDB', 'host')
+password = config.get('mysqlDB','password')
+database = config.get('mysqlDB','db')
+
+#connection to mysql
+connect = MySQLdb.connect("localhost", user= username, passwd=password, db=database)
+cursor = connect.cursor()
 
 #add date to file export
 from datetime import date
 now = date.today()
 
-#connection information from mysql
-#main database
-#connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="" )
-
-#test database
-#connect = MySQLdb.connect("127.0.0.1", user="", passwd="", db="" )
-
-cursor = connect.cursor ()
 
 #define an outfile
 outfilename = "geocoordState_%s.tsv" % now
