@@ -1,9 +1,15 @@
-delete from omoccurrences where catalogNumber is null;
-delete from omoccurrences where catalogNumber ='UNKNOWN_NULL';
-update omoccurrences set genus = replace(genus, "'", '');
-update omoccurrences set genus = replace(genus, '"', '');
-update omoccurrences set genus = replace(specificEpithet, "'", '');
-update omoccurrences set genus = replace(specificEpithet, '"', '');
+#delete from omoccurrences where catalogNumber is null;
+#delete from omoccurrences where catalogNumber ='UNKNOWN_NULL';
+#update omoccurrences set genus = replace(genus, "'", '');
+#update omoccurrences set genus = replace(genus, '"', '');
+
+UPDATE omoccurrences t1 INNER JOIN omoccurrencesBackupOct25 t2 ON t1.occid = t2.occid SET t1.genus = t2.genus
+UPDATE omoccurrences t1 INNER JOIN omoccurrencesBackupOct25 t2 ON t1.occid = t2.occid SET t1.sciname = t2.sciname
+UPDATE omoccurrences t1 INNER JOIN omoccurrencesBackupOct25 t2 ON t1.occid = t2.occid SET t1.specificEpithet = t2.specificEpithet
+
+
+update omoccurrences set specificEpithet = replace(specificEpithet, "'", '');
+update omoccurrences set specificEpithet = replace(specificEpithet, '"', '');
 
 #update scinames
 update omoccurrences set sciname = concat(genus) where sciname is null and (specificEpithet = 'UNKNOWN_NULL' or specificEpithet is null);

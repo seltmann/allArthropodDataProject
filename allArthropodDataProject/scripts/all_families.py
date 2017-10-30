@@ -66,6 +66,6 @@ sys.exit()
 # CREATE TABLE `familyOrder` (
 #   `occid` int(10) NOT NULL AUTO_INCREMENT,
 #   `family` varchar(255) DEFAULT NULL,
-#   `order` varchar(255) DEFAULT NULL,
+#   `Forder` varchar(255) DEFAULT NULL,
 #   PRIMARY KEY (`occid`) USING BTREE
 # ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

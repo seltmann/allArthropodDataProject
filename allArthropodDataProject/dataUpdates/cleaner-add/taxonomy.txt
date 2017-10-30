@@ -2837,8 +2837,8 @@
 # delete from omoccurrences where catalogNumber ='UNKNOWN_NULL';
 # update omoccurrences set genus = replace(genus, "'", '');
 # update omoccurrences set genus = replace(genus, '"', '');
-# update omoccurrences set genus = replace(specificEpithet, "'", '');
-# update omoccurrences set genus = replace(specificEpithet, '"', '');
+# update omoccurrences set specificEpithet = replace(specificEpithet, "'", '');
+# update omoccurrences set specificEpithet = replace(specificEpithet, '"', '');
 #
 # #update scinames
 # update omoccurrences set sciname = concat(genus) where sciname is null and (specificEpithet = 'UNKNOWN_NULL' or specificEpithet is null);
