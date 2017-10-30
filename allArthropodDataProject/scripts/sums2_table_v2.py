@@ -22,7 +22,7 @@ cursor = connect.cursor()
 
 def InsertMysql(sciname):
 	try:
-		cursor.execute ("""INSERT INTO sums2 (occid,sciname,georeferenced) VALUES(NULL,"%s",NULL);"""% (sciname))
+		cursor.execute ("""INSERT INTO GeoSums (occid,sciname,georeferenced) VALUES(NULL,"%s",NULL);"""% (sciname))
 		connect.commit()
 	except:
 		connect.rollback()
@@ -35,7 +35,7 @@ def SciName():
 		InsertMysql(sciname)
 
 def Georeferenced():
-	cursor.execute ("""select occid,sciname from sums2 where georeferenced is NULL""")
+	cursor.execute ("""select occid,sciname from GeoSums where georeferenced is NULL""")
 	data = cursor.fetchall()
 	for x in data:
 		sciname = x[1]
@@ -46,13 +46,13 @@ def Georeferenced():
 		local = data[0]
 		if data:
 			try:
-				cursor.execute ("""update sums2 set georeferenced = '%s' where occid = '%s';"""% (local,occid))
+				cursor.execute ("""update GeoSums set georeferenced = '%s' where occid = '%s';"""% (local,occid))
 				connect.commit()
 			except:
 				connect.rollback()
                 
 def GeoRound():
-	cursor.execute ("""select occid,sciname from sums2 where georeferenced is NULL""")
+	cursor.execute ("""select occid,sciname from GeoSums where georeferenced is NULL""")
 	data = cursor.fetchall()
 	for x in data:
 		sciname = x[1]
@@ -63,7 +63,7 @@ def GeoRound():
 		local = data[0]
 		if data:
 			try:
-				cursor.execute ("""update sums2 set geoRound = '%s' where occid = '%s';"""% (local,occid))
+				cursor.execute ("""update GeoSums set geoRound = '%s' where occid = '%s';"""% (local,occid))
 				connect.commit()
 			except:
 				connect.rollback()                
