@@ -28,7 +28,7 @@ def InsertMysql(sciname):
 		connect.rollback()
 
 def SciName():
-	cursor.execute ("""select distinct sciname from omoccurrences where specificEpithet != 'UNKNOWN_NULL' limit 1""")
+	cursor.execute ("""select distinct sciname from omoccurrences where specificEpithet != 'UNKNOWN_NULL' and occid='20067418'""")
 	data = cursor.fetchall()
 	for x in data:
 		sciname = x[0]
