@@ -1,15 +1,20 @@
 delete from omoccurrences where catalogNumber is null;
 delete from omoccurrences where catalogNumber ='UNKNOWN_NULL';
+update omoccurrences set genus = replace(genus, "'", '') limit 1;
+update omoccurrences set genus = replace(genus, '"', '')  limit 1;
+update omoccurrences set genus = replace(specificEpithet, "'", '') limit 1;
+update omoccurrences set genus = replace(specificEpithet, '"', '')  limit 1;
 
 #update scinames
 update omoccurrences set sciname = concat(genus) where sciname is null and (specificEpithet = 'UNKNOWN_NULL' or specificEpithet is null)  limit 1;
 
 update omoccurrences set sciname = concat(genus, ' ', specificEpithet) where sciname is null and (specificEpithet != 'UNKNOWN_NULL' or specificEpithet is not null)  limit 1;
 
-update omoccurrences set sciname = TRIM(sciname)  limit 1;
+
 
 update omoccurrences set sciname = replace(sciname, "'", '') limit 1;
 update omoccurrences set sciname = replace(sciname, '"', '')  limit 1;
+update omoccurrences set sciname = TRIM(sciname)  limit 1;
 
 
 
