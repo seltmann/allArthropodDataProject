@@ -2837,6 +2837,9 @@ update omoccurrencesESA set genus = replace(genus, "'", '');
 update omoccurrencesESA set genus = replace(genus, '"', '');
 update omoccurrencesESA set specificEpithet = replace(specificEpithet, "'", '');
 update omoccurrencesESA set specificEpithet = replace(specificEpithet, '"', '');
+update omoccurrencesESA set specificEpithet = TRIM(specificEpithet);
+update omoccurrencesESA set genus = TRIM(genus);
+
 
 #update sciname field for those records that do not have genus and species information 
 update omoccurrencesESA set sciname = concat(genus) where sciname is null and (specificEpithet = 'UNKNOWN_NULL' or specificEpithet is null);
