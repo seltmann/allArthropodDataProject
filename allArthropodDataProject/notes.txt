@@ -460,9 +460,19 @@ SELECT COUNT(*) cnt, catalogNumber FROM omoccurrences WHERE catalogNumber REGEXP
 #12347785 records from first backup
 #10799526 march 31 backup
 #scan statistics
+14,373,909 specimen records
+11,350,724 (79%) georeferenced
+1,425,335 (10%) imaged
+8,395,580 (58%) identified to species
+4,251 families
+40,267 genera
+221,890 species
+228,206 total taxa (including subsp. and var.)
 
 #cleaning from OCT25ESA_new.txt
 #database omoccurrencesESA
+
+
 
  
 
