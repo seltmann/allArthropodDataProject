@@ -2664,20 +2664,6 @@ delete from omoccurrencesESA where country="Zaire";
 # Update omoccurrencesESA set familyOrder='Psocodea' where family='Stenopsocidae';
 # Update omoccurrencesESA set familyOrder='Psocodea' where family='Amphipsocidae';
 # Update omoccurrencesESA set familyOrder='Psocodea' where family='Dasydemellidae';
-#
-# delete from omoccurrencesESA where familyOrder is NULL and family is NULL;
-# #5440 records deleted
-#
-# delete from omoccurrencesESA where family like 'Belemnites%';
-# #1 record deleted
-#
-# delete from omoccurrencesESA where family like 'Acrididaehttp://symbiota4.acis.ufl.edu/scan/portal';
-# #1record deleted
-#
-# delete from omoccurrencesESA where family like 'Bulimina\td%';
-# #1 record deleted
-#
-#
 # update omoccurrencesESA set familyOrder="Calanoida" where family="Acartiidae";
 # update omoccurrencesESA set familyOrder="Araneae" where family="Agelenidae";
 # update omoccurrencesESA set familyOrder="Araneae" where family="Amaurobiidae";
@@ -2799,7 +2785,6 @@ delete from omoccurrencesESA where country="Zaire";
 # update omoccurrencesESA set familyOrder='Trilobata' where family='Asaphidae';
 # update omoccurrencesESA set familyOrder='Hymenoptera' where family='Hymenoptera';
 # update omoccurrencesESA set family='Histeridae' where family='Histeridae ';
-# update omoccurrencesESA set familyOrder='Coleoptera' where family='Histeridae';
 # update omoccurrencesESA set familyOrder='Hemiptera' where family='Hemiptera';
 # update omoccurrencesESA set familyOrder='Acariformes' where family='Harpirhynchidae';
 # update omoccurrencesESA set familyOrder='Astigmata' where family='Glycyphagidae';
@@ -2850,24 +2835,26 @@ delete from omoccurrencesESA where country="Zaire";
 # update omoccurrencesESA set familyOrder='Amphipoda' where family='Acanthonotozomatidae';
 # update omoccurrencesESA set familyOrder='Hemiptera' where family='Acanloniidae';
 # update omoccurrencesESA set familyOrder='Phasmatodea' where family='Timematidae';
-# update omoccurrencesESA set familyOrder='Orthoptera' where family='Tettigoniidae';
-# update omoccurrencesESA set familyOrder='Diptera' where family='Sciaridae';
-# update omoccurrencesESA set familyOrder='Coleoptera' where family='Scarabaeidae';
 # update omoccurrencesESA set familyOrder='Psocoptera' where family='Psocidae';
-# update omoccurrencesESA set familyOrder='Diptera' where family='phoridae';
-# update omoccurrencesESA set familyOrder='Lepidoptera' where family='Noctuidae';
-# update omoccurrencesESA set familyOrder='Hymenoptera' where family='Megachilidae';
 # update omoccurrencesESA set familyOrder='Coleoptera' where family='Histeridae ';
 # update omoccurrencesESA set familyOrder='Eurypterida' where family='Eurypterida';
 # update omoccurrencesESA set familyOrder='Lepidoptera' where family='Erebiidae';
-# update omoccurrencesESA set familyOrder='Lepidoptera' where family='Erebidae';
-# update omoccurrencesESA set familyOrder='Lepidoptera' where family='Drepanidae';
-# update omoccurrencesESA set familyOrder='Coleoptera' where family='correct';
-# update omoccurrencesESA set familyOrder='Coleoptera' where family='Carabidae';
-# update omoccurrencesESA set familyOrder='Hymenoptera' where family='Apidae';
-# update omoccurrencesESA set familyOrder='Hymenoptera' where family='Andrenidae';
-# update omoccurrencesESA set familyOrder='Hemiptera' where family='Acanaloniidae';
-# update omoccurrencesESA set familyOrder='Hymenoptera' where family='Roproniidae';
+
+
+#
+# delete from omoccurrencesESA where familyOrder is NULL and family is NULL;
+# #5440 records deleted
+#
+# delete from omoccurrencesESA where family like 'Belemnites%';
+# #1 record deleted
+#
+# delete from omoccurrencesESA where family like 'Acrididaehttp://symbiota4.acis.ufl.edu/scan/portal';
+# #1record deleted
+#
+# delete from omoccurrencesESA where family like 'Bulimina\td%';
+# #1 record deleted
+#
+
 #
 # # delete from omoccurrencesESA where genus ='UNKNOWN_NULL' and scientificName is null and sciname is null and family ='UNKNOWN_NULL';
 # # #247419 records
