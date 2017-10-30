@@ -2846,14 +2846,13 @@ update omoccurrencesESA set genus = TRIM(genus);
 
 
 #update sciname field for those records that do not have genus and species information 
-update omoccurrencesESA set sciname = concat(genus) where sciname is null or sciname= 'UNKNOWN_NULL' and (specificEpithet = 'UNKNOWN_NULL' or specificEpithet is null);
+update omoccurrencesESA set sciname = concat(genus) where (sciname is null OR sciname='UNKNOWN_NULL') AND (genus is not null AND genus!='UNKNOWN_NULL') AND (specificEpithet is null OR specificEpithet='UNKNOWN_NULL');
 
-update omoccurrencesESA set sciname = concat(genus, ' ', specificEpithet) where sciname is null or sciname= 'UNKNOWN_NULL' and (specificEpithet != 'UNKNOWN_NULL' or specificEpithet is not null);
+update omoccurrencesESA set sciname = concat(genus, ' ', specificEpithet) where (sciname is null OR sciname= 'UNKNOWN_NULL') AND (specificEpithet != 'UNKNOWN_NULL' AND specificEpithet is not null) AND (genus is not null AND genus != 'UNKNOWN_NULL');
 
 #trim scinames
 update omoccurrencesESA set sciname = replace(sciname, "'", '');
 update omoccurrencesESA set sciname = replace(sciname, '"', '');
 update omoccurrencesESA set sciname = TRIM(sciname);
-
 
 
