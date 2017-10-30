@@ -33,7 +33,7 @@ def InsertMysql(occid, catalogNumber,family,genus,specificEpithet,locality):
 		connect.rollback()
 		
 def allDuplicates(catalogNumber):
-	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, family, occid FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' and catalogNumber=""" +  "'" + catalogNumber + "'")
+	cursor.execute ("""SELECT catalogNumber, locality, genus, specificEpithet, family, occid FROM omoccurrencesESA WHERE catalogNumber=""" +  "'" + catalogNumber + "'")
 	data = cursor.fetchall()
 	for x in data:
 		catalogNumber = str(x[0])
@@ -46,7 +46,7 @@ def allDuplicates(catalogNumber):
 	
 
 def Duplicates():
-	cursor.execute ("""SELECT COUNT(*) cnt, catalogNumber FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber HAVING cnt > 1""")
+	cursor.execute ("""SELECT COUNT(*) cnt, catalogNumber FROM omoccurrencesESA WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber HAVING cnt > 1""")
 	data = cursor.fetchall()
 	for x in data:
 		catalogNumber = str(x[1])
