@@ -28,7 +28,7 @@ def InsertMysql(sciname):
 		connect.rollback()
 
 def SciName():
-	cursor.execute ("""select distinct sciname from omoccurrences where specificEpithet != 'UNKNOWN_NULL'""")
+	cursor.execute ("""select distinct sciname from omoccurrences where specificEpithet != 'UNKNOWN_NULL' limit 1""")
 	data = cursor.fetchall()
 	for x in data:
 		sciname = x[0]
@@ -69,8 +69,8 @@ def GeoRound():
 				connect.rollback()                
 
 SciName()
-#Georeferenced()
-#GeoRound()
+Georeferenced()
+GeoRound()
 connect.close()
 
 
