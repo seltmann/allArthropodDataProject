@@ -29,12 +29,22 @@ now = date.today()
 outfilename = "allFamilies_%s.tsv" % now
 outfile = open(outfilename, 'w')
 
+#insert statement moved out
+def InsertMysql(family, Forder):
+	try:
+		cursor.execute ("""insert into `familyOrder` (occid, family, Forder) values (NULL,\"%s\",\"%s\")"""% (occid,family,Forder))
+		connect.commit()
+	except:
+		connect.rollback()
 
 def orderFind(family):
-	cursor.execute ("""SELECT familyOrder, family FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' and family=""" +  "'" + family + "'")
+	cursor.execute ("""SELECT distinct familyOrder, family FROM omoccurrences WHERE family=""" +  "'" + family + "'")
 	data = cursor.fetchall()
 	for x in data:
 		b = "\t ".join([str(c) for c in x]) + "\n"
+        family = str(x[1])
+        Forder = str(x[0])
+        InsertMysql(family, Forder)
 		outfile.write(b)
 	outfile.write('\n')
     
@@ -51,3 +61,11 @@ familyFind()
 cursor.close()
 connect.close()
 sys.exit()
+
+# DROP TABLE IF EXISTS `familyOrder`;
+# CREATE TABLE `familyOrder` (
+#   `occid` int(10) NOT NULL AUTO_INCREMENT,
+#   `family` varchar(255) DEFAULT NULL,
+#   `order` varchar(255) DEFAULT NULL,
+#   PRIMARY KEY (`occid`) USING BTREE
+# ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
