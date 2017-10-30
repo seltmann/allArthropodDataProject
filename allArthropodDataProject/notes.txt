@@ -443,3 +443,6 @@ update omoccurrences set sciname = concat(genus) where family='UNKNOWN_NULL' and
 update omoccurrences set sciname = concat(genus, ' ', specificEpithet) where family='UNKNOWN_NULL' and sciname is null and (specificEpithet != 'UNKNOWN_NULL' or specificEpithet is not null);
 
 select distinct family, familyOrder, genus, specificEpithet, scientificName from omoccurrences where sciname is null or sciname ='UNKNOWN_NULL';
+
+<----todo
+echo "select distinct t1.familyOrder, t1.family, t2.familyOrder, t2.family from omoccurrences as t1 join omoccurrences as t2 on t1.family=t2.family where t1.familyOrder is NULL and (t1.familyOrder != t2.familyOrder);" | mysql -u seltmann -p -D scandata > familyOrderMatch.tsv
