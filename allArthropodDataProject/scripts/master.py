@@ -43,7 +43,7 @@ def ExecuteMysql(line):
 		outfile.write('\n')
 	
 #open and iterate through commands, can add to this list
-infilename = '../dataUpdates/cleaner-add/OCT25ESA_new.txt'
+infilename = 'master.txt'
 infile = open(infilename, 'r')
 	
 for line in infile:
@@ -54,3 +54,5 @@ for line in infile:
 cursor.close()
 connect.close()
 sys.exit()
+
+#nohup python master.py &
