@@ -22,7 +22,7 @@ cursor = connect.cursor()
 
 def InsertMysql(sciname):
 	try:
-		cursor.execute ("""INSERT INTO GeoSums (occid,sciname,georeferenced) VALUES(NULL,"%s",NULL);"""% (sciname))
+		cursor.execute ("""INSERT INTO GeoSums (occid,sciname,georeferenced,geoRound) VALUES(NULL,"%s",NULL,NULL);"""% (sciname))
 		connect.commit()
 	except:
 		connect.rollback()
