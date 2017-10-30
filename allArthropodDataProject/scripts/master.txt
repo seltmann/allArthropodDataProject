@@ -1,7 +1,7 @@
 delete from omoccurrences where catalogNumber is null;
 delete from omoccurrences where catalogNumber ='UNKNOWN_NULL';
 
-DELETE n1 FROM omoccurrences n1, omoccurrences n2 WHERE n1.occid < n2.occid AND n1.catalogNumber = n2.catalogNumber and catalogNumber REGEXP '[a-z]' and n1.catalogNumber='0481-SIPHO';
+DELETE n1 FROM omoccurrences n1, omoccurrences n2 WHERE n1.occid < n2.occid AND n1.catalogNumber = n2.catalogNumber and n1.catalogNumber REGEXP '[a-z]' and n1.catalogNumber='0481-SIPHO';
 
 #update scinames
 update omoccurrences set sciname = concat(genus) where sciname is null and (specificEpithet = 'UNKNOWN_NULL' or specificEpithet is null)  limit 1;
