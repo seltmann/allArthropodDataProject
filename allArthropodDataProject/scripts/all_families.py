@@ -26,19 +26,26 @@ now = date.today()
 
 
 #define an outfile
-outfilename = "geocoordAll_%s.tsv" % now
+outfilename = "allFamilies_%s.tsv" % now
 outfile = open(outfilename, 'w')
 
 
-def GeoCoordinated():
-	cursor.execute ("""select distinct family, genus, specificEpithet, decimalLatitude,decimalLongitude from omoccurrences where decimalLatitude !='0.0000' and specificEpithet !='UNKNOWN_NULL' limit 10""")
+def orderFind(family):
+	cursor.execute ("""SELECT familyOrder, family FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' and family=""" +  "'" + family + "'")
 	data = cursor.fetchall()
 	for x in data:
 		b = "\t ".join([str(c) for c in x]) + "\n"
 		outfile.write(b)
 	outfile.write('\n')
+    
+def familyFind():
+	cursor.execute ("""select distinct family from omoccurrences where familyOrder is null""")
+	data = cursor.fetchall()
+	for x in data:
+		family = str(x[1])
+		orderFind(family)
 				
-GeoCoordinated()	
+familyFind()	
 
 #close all connections
 cursor.close()
