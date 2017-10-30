@@ -1,16 +1,15 @@
-select count(*) from omoccurrences;
-# null values where from GBIF, not scan
-select count(*) from omoccurrences where collid is null;
-select count(*) from omoccurrences where collid is not null;
-select count(*) from omoccurrences where decimalLatitude !='0.0000';
-select count(distinct locality,county,stateProvince,municipality,decimalLatitude,decimalLongitude) as localities from omoccurrences;
-select count(distinct decimalLatitude,decimalLongitude) as localities from omoccurrences where decimalLatitude != '0.0000';
-select count(occid) from omoccurrences where decimalLatitude = '0.0000' and locality = 'UNKNOWN_NULL' and county = 'UNKNOWN_NULL' and stateProvince = 'UNKNOWN_NULL' and county = 'UNKNOWN_NULL' and municipality = 'UNKNOWN_NULL';
-select count(occid) from omoccurrences where decimalLatitude != '0.0000' and locality = 'UNKNOWN_NULL' and county = 'UNKNOWN_NULL' and stateProvince ='UNKNOWN_NULL' and county ='UNKNOWN_NULL' and municipality = 'UNKNOWN_NULL';
-select count(distinct family) from omoccurrences;
-select count(*) from omoccurrences where family = 'UNKNOWN_NULL';
-select family,count(occid) from omoccurrences group by family order by family;
-select family,count(occid),count(distinct genus,specificEpithet) as specificEpithet, count(distinct locality,county,stateProvince,municipality, year,month,day,decimalLatitude,decimalLongitude) as colevent,count(distinct locality,county,stateProvince,municipality,decimalLatitude,decimalLongitude) as localities from omoccurrences where specificEpithet != 'UNKNOWN_NULL' group by family order by family;
-select family, count(distinct locality,county,stateProvince,municipality,year,month,day,decimalLatitude,decimalLongitude) as colevent, count(distinct locality,county,stateProvince,municipality,decimalLatitude,decimalLongitude) as localities from omoccurrences where specificEpithet != 'UNKNOWN_NULL' and decimalLatitude != '0.0000' group by family order by family;
-select country,stateProvince,count(occid),count(distinct genus,specificEpithet) as specificEpithet, count(distinct locality,county,stateProvince,municipality,year,month,day,decimalLatitude,decimalLongitude) as colevent,count(distinct locality,county,stateProvince,municipality,decimalLatitude,decimalLongitude) as localities from omoccurrences where specificEpithet !='UNKNOWN_NULL' group by stateProvince order by country,stateProvince;
-select country,stateProvince, count(distinct locality,county,stateProvince,municipality,year,month,day,decimalLatitude,decimalLongitude) as colevent, count(distinct decimalLatitude,decimalLongitude) as localities from omoccurrences where specificEpithet !='UNKNOWN_NULL' and decimalLatitude != '0.0000' group by stateProvince order by country,stateProvince;
+delete from omoccurrences where catalogNumber is null;
+delete from omoccurrences where catalogNumber ='UNKNOWN_NULL';
+
+DELETE n1 FROM omoccurrences n1, omoccurrences n2 WHERE n1.occid < n2.occid AND n1.catalogNumber = n2.catalogNumber;
+
+#update scinames
+update omoccurrences set sciname = concat(genus) where sciname is null and (specificEpithet = 'UNKNOWN_NULL' or specificEpithet is null);
+
+update omoccurrences set sciname = concat(genus, ' ', specificEpithet) where sciname is null and (specificEpithet != 'UNKNOWN_NULL' or specificEpithet is not null);
+
+update omoccurrences set sciname = TRIM(sciname);
+
+update omoccurrences set sciname = replace(sciname, ',', '');
+update omoccurrences set sciname = replace(sciname, "'", '') where occid='20067418';
+update omoccurrences set sciname = replace(sciname, '"', '');
