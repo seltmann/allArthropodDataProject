@@ -41,3 +41,5 @@ update omoccurrences set sciname='Bombus sylvicola' where sciname='Bombus (Pyrob
 
 
 select distinct year, sciname, eventDate,decimalLatitude,decimalLongitude,associatedTaxa,sex from omoccurrences where family='Apidae' and sciname !='Bombus' and sciname !='Bombus suckleyi ?';
+
+# need csv output where year, species, date of collection, lat, long, sex, associatedTaxa

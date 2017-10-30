@@ -424,4 +424,22 @@ Series of updates to familyOrder and family. Deleted all others that could not f
 
 echo "source familyOrderNULL.tsv;" | mysql -u seltmann -p -D scandata > familyOrderNULL-output.txt
 
+#find out how order is set for other families with same name
+select distinct t1.familyOrder, t1.family, t2.familyOrder, t2.family from omoccurrences as t1 join omoccurrences as t2 on t1.family=t2.family where t1.familyOrder is NULL;
 
+echo "select distinct t1.familyOrder, t1.family, t2.familyOrder, t2.family from omoccurrences as t1 join omoccurrences as t2 on t1.family=t2.family where t1.familyOrder is NULL and (t1.familyOrder != t2.familyOrder) limit 1;" | mysql -u seltmann -p -D scandata > familyOrderMatch.tsv
+-----------------
+#family is 891,088 where family is null
+#select count(*) from omoccurrences where genus ='UNKNOWN_NULL' and scientificName is null and sciname is null and family ='UNKNOWN_NULL';
+delete from omoccurrences where genus ='UNKNOWN_NULL' and scientificName is null and sciname is null and family ='UNKNOWN_NULL';
+#247,419 records have no scientific name information. Deleted
+
+#select distinct genus, specificEpithet, scientificName from omoccurrences where sciname is null and family='UNKNOWN_NULL';
+#384
+
+
+update omoccurrences set sciname = concat(genus) where family='UNKNOWN_NULL' and sciname is null and (specificEpithet = 'UNKNOWN_NULL' or specificEpithet is null);
+
+update omoccurrences set sciname = concat(genus, ' ', specificEpithet) where family='UNKNOWN_NULL' and sciname is null and (specificEpithet != 'UNKNOWN_NULL' or specificEpithet is not null);
+
+select distint family, order, genus, specificEpithet, scientificName where sciname is null or sciname ='UNKNOWN_NULL';
