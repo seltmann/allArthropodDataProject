@@ -14,6 +14,7 @@ update omoccurrences set sciname = replace(sciname, ',', '')  limit 1;
 update omoccurrences set sciname = replace(sciname, "'", '') where occid='20067418'  limit 1;
 update omoccurrences set sciname = replace(sciname, '"', '')  limit 1;
 
-select distinct t1.familyOrder, t1.family, t2.familyOrder, t2.family from omoccurrences as t1 join omoccurrences as t2 on t1.family=t2.family where t1.familyOrder is NULL and (t1.familyOrder != t2.familyOrder) limit 1;
-
 SELECT catalogNumber, COUNT(*) c FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber HAVING c > 1 limit 1;
+
+# select distinct t1.familyOrder, t1.family, t2.familyOrder, t2.family from omoccurrences as t1 join omoccurrences as t2 on t1.family=t2.family where t1.familyOrder is NULL and (t1.familyOrder != t2.familyOrder) limit 1;
+
