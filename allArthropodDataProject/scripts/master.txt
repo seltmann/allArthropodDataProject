@@ -8,8 +8,7 @@ update omoccurrences set sciname = concat(genus, ' ', specificEpithet) where sci
 
 update omoccurrences set sciname = TRIM(sciname)  limit 1;
 
-update omoccurrences set sciname = replace(sciname, ',', '')  limit 1;
-update omoccurrences set sciname = replace(sciname, "'", '') where occid='20067418'  limit 1;
+update omoccurrences set sciname = replace(sciname, "'", '') limit 1;
 update omoccurrences set sciname = replace(sciname, '"', '')  limit 1;
 
 
