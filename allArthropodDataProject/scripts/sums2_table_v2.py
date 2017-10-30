@@ -68,8 +68,8 @@ def GeoRound():
 			except:
 				connect.rollback()                
 
-SciName()
-#Georeferenced()
+#SciName()
+Georeferenced()
 #GeoRound()
 connect.close()
 
