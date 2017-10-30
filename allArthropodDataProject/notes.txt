@@ -455,6 +455,17 @@ echo "select distinct t1.familyOrder, t1.family, t2.familyOrder, t2.family from 
 
 SELECT COUNT(*) cnt, catalogNumber FROM omoccurrences WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber HAVING cnt > 1
 
+####################start of ESA meeting 
+#12122757 records to start October 25 backup (includes new mexico and canada)
+#12347785 records from first backup
+#10799526 march 31 backup
+#scan statistics
+
+#cleaning from OCT25ESA_new.txt
+#database omoccurrencesESA
+
+ 
+
 
 
 

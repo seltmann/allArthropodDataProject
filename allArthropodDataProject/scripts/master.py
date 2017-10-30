@@ -43,7 +43,7 @@ def ExecuteMysql(line):
 		outfile.write('\n')
 	
 #open and iterate through commands, can add to this list
-infilename = '../dataUpdates/cleaner-add/taxonomyESA.txt'
+infilename = '../dataUpdates/cleaner-add/OCT25ESA_new.txt'
 infile = open(infilename, 'r')
 	
 for line in infile:

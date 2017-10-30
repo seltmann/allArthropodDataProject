@@ -2824,13 +2824,17 @@ update omoccurrencesESA set familyOrder='Diptera' where family='Phoridae';
 update omoccurrencesESA set familyOrder='Hymenoptera' where family='Roproniidae';
 
 delete from omoccurrencesESA where genus ='UNKNOWN_NULL' and scientificName is null and sciname is null and family ='UNKNOWN_NULL';
+#247419 records
 
 update omoccurrencesESA set sciname = TRIM(sciname);
 update omoccurrencesESA set specificEpithet ='UNKNOWN_NULL' where specificEpithet ='NA';
 
 #get rid of null catalogNumbers
 delete from omoccurrencesESA where catalogNumber is null;
+#1057
+
 delete from omoccurrencesESA where catalogNumber ='UNKNOWN_NULL';
+#0
 
 #clean up special characters in genus and species
 update omoccurrencesESA set genus = replace(genus, "'", '');
@@ -2842,9 +2846,9 @@ update omoccurrencesESA set genus = TRIM(genus);
 
 
 #update sciname field for those records that do not have genus and species information 
-update omoccurrencesESA set sciname = concat(genus) where sciname is null and (specificEpithet = 'UNKNOWN_NULL' or specificEpithet is null);
+update omoccurrencesESA set sciname = concat(genus) where sciname is null or sciname= 'UNKNOWN_NULL' and (specificEpithet = 'UNKNOWN_NULL' or specificEpithet is null);
 
-update omoccurrencesESA set sciname = concat(genus, ' ', specificEpithet) where sciname is null and (specificEpithet != 'UNKNOWN_NULL' or specificEpithet is not null);
+update omoccurrencesESA set sciname = concat(genus, ' ', specificEpithet) where sciname is null or sciname= 'UNKNOWN_NULL' and (specificEpithet != 'UNKNOWN_NULL' or specificEpithet is not null);
 
 #trim scinames
 update omoccurrencesESA set sciname = replace(sciname, "'", '');
