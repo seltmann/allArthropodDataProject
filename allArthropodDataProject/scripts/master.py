@@ -26,7 +26,7 @@ now = date.today()
 
 
 #define an outfile
-outfilename = "stats_%s.tsv" % now
+outfilename = "statsV2_%s.tsv" % now
 outfile = open(outfilename, 'w')
 
 #function to execute mysql commands one at a time
