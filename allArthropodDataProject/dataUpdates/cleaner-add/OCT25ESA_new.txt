@@ -2672,7 +2672,6 @@ update omoccurrencesESA set familyOrder='Coleoptera' where family='Melolonthidae
 update omoccurrencesESA set familyOrder='Hemiptera' where family='Corimelaenidae';
 update omoccurrencesESA set familyOrder='Odonata' where family='Cordullidae';
 update omoccurrencesESA set familyOrder='Coleoptera' where family='Colydiidae';
-update omoccurrencesESA set familyOrder='Coleoptera' where family='Coleoptera';
 update omoccurrencesESA set familyOrder='Coleoptera' where family='Cicindelidae';
 update omoccurrencesESA set familyOrder='Trilobata' where family='Cheiruridae';
 update omoccurrencesESA set familyOrder='Coleoptera' where family='Cetoniidae';
@@ -2789,7 +2788,6 @@ update omoccurrencesESA set familyOrder='Coleoptera' where family='correct';
 update omoccurrencesESA set familyOrder='Hemiptera' where family='Corimelaenidae';
 update omoccurrencesESA set familyOrder='Odonata' where family='Cordullidae';
 update omoccurrencesESA set familyOrder='Coleoptera' where family='Colydiidae';
-update omoccurrencesESA set familyOrder='Coleoptera' where family='Coleoptera';
 update omoccurrencesESA set familyOrder='Coleoptera' where family='Cicindelidae';
 update omoccurrencesESA set familyOrder='Trilobata' where family='Cheiruridae';
 update omoccurrencesESA set familyOrder='Coleoptera' where family='Cetoniidae';
