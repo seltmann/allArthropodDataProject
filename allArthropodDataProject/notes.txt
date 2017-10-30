@@ -446,6 +446,10 @@ select distinct family, familyOrder, genus, specificEpithet, scientificName from
 
 #11868838 records
 
+update omoccurrences set sciname = replace(sciname, ',', '');
+update omoccurrences set sciname = replace(sciname, "'", '') where occid='20067418';
+update omoccurrences set sciname = replace(sciname, '"', '');
+
 <----todo
 echo "select distinct t1.familyOrder, t1.family, t2.familyOrder, t2.family from omoccurrences as t1 join omoccurrences as t2 on t1.family=t2.family where t1.familyOrder is NULL and (t1.familyOrder != t2.familyOrder);" | mysql -u seltmann -p -D scandata > familyOrderMatch.tsv
 
