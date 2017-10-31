@@ -4,14 +4,11 @@
 -- Table structure for table `sums`
 --
  
-DROP TABLE IF EXISTS `sums2`;
-CREATE TABLE `sums2` (
-  `occid` int(10) NOT NULL AUTO_INCREMENT,
-  `family` varchar(255) DEFAULT NULL,
-  `scientificName` varchar(255) DEFAULT NULL,
-  `genus` varchar(255) DEFAULT NULL,
-  `specificEpithet` varchar(255) DEFAULT NULL,
-  `coleventsLat` int(10) DEFAULT NULL,
-  `georeferenced` int(10) DEFAULT NULL,
-  PRIMARY KEY (`occid`) USING BTREE
+DROP TABLE IF EXISTS `dups`;
+CREATE TABLE `dups` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `occid` int(10) DEFAULT NULL,
+  `catalogNumber` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
