@@ -156,23 +156,23 @@
 
 
 # # update families
-# # update omoccurrencesESA set family='Timematidae' where family='Timemidae';
-# # update omoccurrencesESA set family='Sciaridae' where family='Scaridae';
-# # update omoccurrencesESA set family='Scarabaeidae' where family='Dynastidae';
-# # update omoccurrencesESA set family='Tettigoniidae' where family='Conocephalidae';
-# # update omoccurrencesESA set family='Psocidae' where family='Psocidiidae';
-# # update omoccurrencesESA set family='Phoridae' where family='Photidae';
-# # update omoccurrencesESA set family='Noctuidae' where family='Pantheidae';
-# # update omoccurrencesESA set family='Megachilidae' where family='Megachildae';
-# # update omoccurrencesESA set family='Erebidae' where family='Erebiidae';
-# # update omoccurrencesESA set family='Drepanidae' where family='Thyatiridae';
-# # update omoccurrencesESA set family='' where family='Diptera';
-# # update omoccurrencesESA set family='Apidae' where family='Anthophoridae';
-# # update omoccurrencesESA set family='Apidae' where family='Apidiae';
-# # update omoccurrencesESA set family='Andrenidae' where family='Oxaeidae';
-# # update omoccurrencesESA set family='Acanaloniidae' where family='Acanloniidae';
-# # update omoccurrencesESA set family='Scarabaeidae' where family='Aphodiidae';
-# # update omoccurrencesESA set family='Phoridae' where family='phoridae';
+# update omoccurrencesESA set family='Timematidae' where family='Timemidae';
+# update omoccurrencesESA set family='Sciaridae' where family='Scaridae';
+# update omoccurrencesESA set family='Scarabaeidae' where family='Dynastidae';
+# update omoccurrencesESA set family='Tettigoniidae' where family='Conocephalidae';
+# update omoccurrencesESA set family='Psocidae' where family='Psocidiidae';
+# update omoccurrencesESA set family='Phoridae' where family='Photidae';
+# update omoccurrencesESA set family='Noctuidae' where family='Pantheidae';
+# update omoccurrencesESA set family='Megachilidae' where family='Megachildae';
+# update omoccurrencesESA set family='Erebidae' where family='Erebiidae';
+# update omoccurrencesESA set family='Drepanidae' where family='Thyatiridae';
+# update omoccurrencesESA set family='' where family='Diptera';
+# update omoccurrencesESA set family='Apidae' where family='Anthophoridae';
+# update omoccurrencesESA set family='Apidae' where family='Apidiae';
+# update omoccurrencesESA set family='Andrenidae' where family='Oxaeidae';
+# update omoccurrencesESA set family='Acanaloniidae' where family='Acanloniidae';
+# update omoccurrencesESA set family='Scarabaeidae' where family='Aphodiidae';
+# update omoccurrencesESA set family='Phoridae' where family='phoridae';
 #
 #
 # #update of orders for families
@@ -2897,5 +2897,5 @@
 # # update omoccurrencesESA set sciname = TRIM(sciname);
 
 
-
+delete from omoccurrencesESA where catalogNumber='0097-SIPHO' and occid = max(occid);
 

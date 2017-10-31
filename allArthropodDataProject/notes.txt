@@ -475,9 +475,13 @@ select count(*) cnt, max(occid),catalogNumber FROM omoccurrencesESA WHERE catalo
 echo "SELECT COUNT(*) cnt, max(occid), catalogNumber FROM omoccurrencesESA WHERE catalogNumber REGEXP '[a-z]' GROUP BY catalogNumber HAVING cnt > 2;" | mysql -u seltmann -p -D scandata > duplicateCatalogNumbers_v2.tsv
 
 #dealing with duplicates so that the table is smaller
-#DELETE FROM omoccurrencesESA USING omoccurrencesESA, dups WHERE omoccurrencesESA.occid=dups.occid
+#DELETE FROM TableOne USING TableOne, dups WHERE TableOne.occid=dups.occid
 
+#845755 have associatedTaxa
+select count(*), family from omoccurrencesESA where associatedTaxa is not null group by family;
 
+echo "select count(*), family from omoccurrencesESA where associatedTaxa is not null group by family;" | mysql -u seltmann -p -D scandata > family_associatedTaxa.tsv
 
+echo "select familyOrder, family from omoccurrencesESA where associatedTaxa is not null group by family,familyOrder;" | mysql -u seltmann -p -D scandata > familyOrder_associatedTaxa.tsv
 
 
