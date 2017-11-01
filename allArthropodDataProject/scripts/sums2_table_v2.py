@@ -22,17 +22,37 @@ cursor = connect.cursor()
 
 def InsertMysql(sciname):
 	try:
-		cursor.execute ("""INSERT INTO GeoSums (occid,sciname,georeferenced,geoRound) VALUES(NULL,"%s",NULL,NULL);"""% (sciname))
+		cursor.execute ("""INSERT INTO GeoSums (occid,fOrder,rank,sciname,georeferenced,geoRound) VALUES(NULL,NULL,NULL,"%s",NULL,NULL);"""% (sciname))
 		connect.commit()
 	except:
 		connect.rollback()
 
 def SciName():
-	cursor.execute ("""select distinct sciname from omoccurrences where specificEpithet != 'UNKNOWN_NULL' and occid='20067418'""")
+	cursor.execute ("""select distinct sciname from omoccurrencesESA""")
 	data = cursor.fetchall()
 	for x in data:
 		sciname = x[0]
 		InsertMysql(sciname)
+        
+def GetOrder():
+	cursor.execute ("""select occid,sciname from GeoSums where family is NULL""")
+	data = cursor.fetchall()
+	for x in data:
+		sciname = x[1]
+		occid = str(x[0])
+
+		cursor.execute ("""select family from omoccurrencesESA where sciname=""" +  "'" + sciname + "'")
+		data = cursor.fetchone()
+        if data:
+            try:
+                local = str(data[0])
+                cursor.execute ("""update GeoSums set family = '%s' where occid = '%s';"""% (local,occid))
+                connect.commit()
+            except:
+                connect.rollback()
+                
+def Family():
+    	cursor.execute ("""update GeoSums join omoccurrencesESA set GeoSums.family=omoccurrencesESA.family where GeoSum.sciname=omoccurrencesESA.sciname;""")
 
 def Georeferenced():
 	cursor.execute ("""select occid,sciname from GeoSums where georeferenced is NULL""")
@@ -41,7 +61,7 @@ def Georeferenced():
 		sciname = x[1]
 		occid = str(x[0])
 
-		cursor.execute ("""select count(distinct decimalLatitude,decimalLongitude) from omoccurrences where decimalLatitude != '0.0000' and sciname=""" +  "'" + sciname + "'")
+		cursor.execute ("""select count(distinct decimalLatitude,decimalLongitude) from omoccurrencesESA where sciname=""" +  "'" + sciname + "'")
 		data = cursor.fetchone()
 		local = data[0]
 		if data:
@@ -52,13 +72,13 @@ def Georeferenced():
 				connect.rollback()
                 
 def GeoRound():
-	cursor.execute ("""select occid,sciname from GeoSums where georeferenced is NULL""")
+	cursor.execute ("""select occid,sciname from GeoSums where geoRound is NULL""")
 	data = cursor.fetchall()
 	for x in data:
 		sciname = x[1]
 		occid = str(x[0])
 
-		cursor.execute ("""select count(distinct round(decimalLatitude,4),round(decimalLongitude,4)) from omoccurrences where decimalLatitude != '0.0000' and sciname=""" +  "'" + sciname + "'")
+		cursor.execute ("""select count(distinct round(decimalLatitude,4),round(decimalLongitude,4)) from omoccurrencesESA where decimalLatitude is not null and sciname=""" +  "'" + sciname + "'")
 		data = cursor.fetchone()
 		local = data[0]
 		if data:
@@ -69,11 +89,12 @@ def GeoRound():
 				connect.rollback()                
 
 #SciName()
-Georeferenced()
-#GeoRound()
-connect.close()
+#Georeferenced()
+GeoRound()
+#GetOrder()
+#connect.close()
 
-
+#update GeoSums join omoccurrencesESA set GeoSums.family=omoccurrencesESA.family where GeoSums.sciname=omoccurrencesESA.sciname;
 		
 # DROP TABLE IF EXISTS `GeoSums`;
 # CREATE TABLE `GeoSums` (
