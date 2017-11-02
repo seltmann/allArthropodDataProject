@@ -35,7 +35,7 @@ def SciName():
 		InsertMysql(sciname)
         
 def GetOrder():
-	cursor.execute ("""select occid,sciname from GeoSumsName where family is NULL""")
+	cursor.execute ("""select occid,sciname from geoSumsName where family is NULL""")
 	data = cursor.fetchall()
 	for x in data:
 		sciname = x[1]
@@ -46,13 +46,13 @@ def GetOrder():
         if data:
             try:
                 local = str(data[0])
-                cursor.execute ("""update GeoSumsName set family = '%s' where occid = '%s';"""% (local,occid))
+                cursor.execute ("""update geoSumsName set family = '%s' where occid = '%s';"""% (local,occid))
                 connect.commit()
             except:
                 connect.rollback()
                 
-def Family():
-    	cursor.execute ("""update GeoSums join omoccurrencesESA set GeoSums.family=omoccurrencesESA.family where GeoSum.sciname=omoccurrencesESA.sciname;""")
+#def Family():
+    	#cursor.execute ("""update GeoSums join omoccurrencesESA set GeoSums.family=omoccurrencesESA.family where GeoSum.sciname=omoccurrencesESA.sciname;""")
 
 def Georeferenced():
 	cursor.execute ("""select occid,sciname from GeoSums where georeferenced is NULL""")
