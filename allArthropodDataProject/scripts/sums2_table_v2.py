@@ -35,18 +35,18 @@ def SciName():
 		InsertMysql(sciname)
         
 def GetOrder():
-	cursor.execute ("""select occid,sciname from GeoSums where family is NULL""")
+	cursor.execute ("""select occid,sciname from GeoSumsName where family is NULL""")
 	data = cursor.fetchall()
 	for x in data:
 		sciname = x[1]
 		occid = str(x[0])
 
-		cursor.execute ("""select family from omoccurrencesESA where sciname=""" +  "'" + sciname + "'")
+		cursor.execute ("""select family from omoccurrencesESA where sciname=""" +  "'" + sciname + "'" + """ limit 1""")
 		data = cursor.fetchone()
         if data:
             try:
                 local = str(data[0])
-                cursor.execute ("""update GeoSums set family = '%s' where occid = '%s';"""% (local,occid))
+                cursor.execute ("""update GeoSumsName set family = '%s' where occid = '%s';"""% (local,occid))
                 connect.commit()
             except:
                 connect.rollback()
@@ -90,8 +90,8 @@ def GeoRound():
 
 #SciName()
 #Georeferenced()
-GeoRound()
-#GetOrder()
+#GeoRound()
+GetOrder()
 #connect.close()
 
 #update GeoSums join omoccurrencesESA set GeoSums.family=omoccurrencesESA.family where GeoSums.sciname=omoccurrencesESA.sciname;
